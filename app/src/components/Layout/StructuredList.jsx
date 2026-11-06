@@ -26,7 +26,6 @@ export function ProjectList({ items, cards = false }) {
                   <span className="value">{orgLabel(p.organization)}</span>
                   {p.language && (
                     <span className="value rb-lang">
-                      <i className="rb-lang-dot" aria-hidden="true" />
                       {p.language}
                     </span>
                   )}

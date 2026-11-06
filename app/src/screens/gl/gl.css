@@ -212,7 +212,7 @@
 .gl-crow-line { padding: var(--krds-number-4) var(--krds-number-6); }
 .gl-crow .rb-avatar.is-32, .gl-cbar .rb-avatar.is-32 { border-radius: var(--krds-radius-max); }
 .gl-crow .gl-ref-name a { font-weight: var(--rb-fw-current); }
-.gl-crow .rb-pill, .gl-chip, .gl-badge { display: inline-flex; align-items: center; gap: var(--krds-gap-2); padding: 0 var(--krds-number-5); border: 0; border-radius: var(--krds-radius-max); background: var(--layout-divider); color: var(--krds-color-text-basic); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); text-decoration: none; }
+.gl-crow .rb-pill, .gl-chip, .gl-badge { display: inline-flex; align-items: center; gap: var(--krds-gap-2); padding: 0 var(--krds-number-5); border: 0; border-radius: var(--krds-radius-medium3); background: var(--layout-divider); color: var(--krds-color-text-basic); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); text-decoration: none; }
 .gl-badge.is-primary { background: var(--rb-status-primary); color: var(--krds-color-text-inverse); }
 .gl-filled { background: var(--layout-divider); }
 .gl-ref-row { background: var(--layout-raised-bg); }

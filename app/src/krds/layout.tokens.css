@@ -303,7 +303,7 @@ html.rb-font-large {
   --rb-lh-17: 2.8rem;
 }
 
-@media (max-width: 1279px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-md); } }
+/* 중간 1279 구간 제거: 1023 / 767 공식 구간만 사용한다. */
 @media (max-width: 1023px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x); } }
 @media (max-width: 767px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-sm); --rb-gutter: var(--layout-container-pad-x-sm); } }
 @media (max-width: 1023px) {

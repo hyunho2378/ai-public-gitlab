@@ -13,7 +13,7 @@
 .rb-pf-info { display: flex; flex-direction: column; gap: var(--krds-gap-4); }
 .rb-pf-info-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--krds-gap-3); font-size: var(--rb-step-15); line-height: var(--rb-lh-15); }
 .rb-pf-info-list a { color: var(--krds-color-text-basic); }
-.rb-pf-act-icon { flex: none; display: inline-flex; align-items: center; justify-content: center; width: var(--krds-size-height-5); height: var(--krds-size-height-5); border-radius: var(--krds-radius-max); background: var(--layout-raised-bg); color: var(--layout-text-subtle); }
+.rb-pf-act-icon { flex: none; display: inline-flex; align-items: center; justify-content: center; width: var(--krds-size-height-5); height: var(--krds-size-height-5); border-radius: var(--krds-radius-medium3); background: var(--layout-raised-bg); color: var(--layout-text-subtle); }
 .rb-pf-act-icon .rb-icon { width: var(--krds-size-height-3); height: var(--krds-size-height-3); }
 
 /* 활동 달력: 52주, 칸 12(1023 이하 10) 정수 고정, 사이 2, 모서리 2(알약 아님). 열보다 넓으면 가로로 넘긴다(Figma activity-calendar와 같은 값) */

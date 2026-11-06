@@ -19,18 +19,18 @@
 /* 탭 줄: 폭이 모자라면 KRDS 탭 그대로 가로 스크롤, 스크롤 막대를 보여 넘치는 탭이 있음을 알린다 */
 .rb-repo-top .rb-tabs { overflow-x: auto; scrollbar-width: thin; }
 .rb-repo-top .rb-tabs::-webkit-scrollbar { display: block; height: var(--krds-number-3); }
-.rb-repo-top .rb-tabs::-webkit-scrollbar-thumb { background: var(--krds-color-border-gray); border-radius: var(--krds-radius-max); }
+.rb-repo-top .rb-tabs::-webkit-scrollbar-thumb { background: var(--krds-color-border-gray); border-radius: var(--krds-radius-medium3); }
 .rb-repo-top .rb-tabs .tab ul { overflow: visible; }
 /* GitLab 배치: 왼쪽 프로젝트 메뉴 + 본문. 1280 이상에서 메뉴 표시, 그 아래는 탭 줄 */
 .rb-repo-cols { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--krds-gap-7); }
 .rb-repo-content { display: flex; flex-direction: column; gap: var(--krds-gap-5); min-width: 0; }
-@media (min-width: 1024px) {
+@media (width > 1023px) {
   /* Figma: 오른쪽 정보 영역이 맨 위(브레드크럼 줄)부터 시작한다 */
   }
 @media (max-width: 1023px) {
   /* D-17 2장: 1024 미만은 정보 영역이 본문 위로 올라온다 */
   }
-@media (min-width: 1280px) {
+@media (width > 1023px) {
   .rb-repo-top .rb-tabs { display: none; }
 }
 .rb-side-project { display: flex; align-items: center; gap: var(--krds-gap-3); padding: var(--krds-padding-3) var(--krds-padding-4); min-width: 0; }
@@ -133,17 +133,17 @@
 .rb-info-extra { display: flex; flex-direction: column; gap: var(--krds-gap-3); }
 .rb-info-extra h3 { margin: 0; }
 .rb-lang { display: flex; flex-direction: column; gap: var(--krds-gap-2); width: 100%; }
-.rb-lang-bar { display: flex; width: 100%; height: var(--rb-lang-bar-h); border-radius: var(--krds-radius-max); overflow: hidden; gap: var(--krds-number-1); }
+.rb-lang-bar { display: flex; width: 100%; height: var(--rb-lang-bar-h); border-radius: var(--krds-radius-medium3); overflow: hidden; gap: var(--krds-number-1); }
 .rb-lang-bar > span { display: block; min-width: var(--krds-number-2); }
 .rb-lang-list { display: flex; flex-wrap: wrap; gap: var(--krds-gap-1) var(--krds-gap-4); list-style: none; margin: 0; padding: 0; font-size: var(--krds-font-size-body-xsmall); line-height: var(--rb-lh-13); }
 .rb-lang-list li { display: inline-flex; align-items: center; gap: var(--krds-gap-2); }
-.rb-lang-list i { display: inline-block; width: var(--krds-number-5); height: var(--krds-number-5); border-radius: var(--krds-radius-max); }
+.rb-lang-list i { display: inline-block; width: var(--krds-number-5); height: var(--krds-number-5); border-radius: var(--krds-radius-medium3); }
 .rb-branch-btn .rb-icon { flex: none; }
 
 /* D-21 7장: 필터 막대와 목록 16, 제목과 탭 16 */
 .rb-x-tabs + .rb-x-filter, .rb-x-filter + * { margin-top: calc(var(--rb-filter-gap) - var(--rb-rhythm)); }
 /* 공공 깃랩 02: 프로젝트 정보 열은 스크롤해도 화면에 남는다 */
-@media (min-width: 1024px) {
+@media (width > 1023px) {
   .rb-repo-main.has-info > .rb-repo-info { position: sticky; top: calc(var(--rb-header-h) + var(--rb-masthead-h) + var(--rb-top-extra) + var(--rb-panel-pad-y)); }
 }
 .rb-card-ai { margin-inline-start: var(--krds-gap-2); color: var(--krds-color-text-subtle); font-size: var(--krds-font-size-body-xsmall); }

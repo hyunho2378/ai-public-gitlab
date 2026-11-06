@@ -51,3 +51,5 @@
 | globalMenu, profileMenu, projectMenu, Sidebar | `app/src/components/Navigation/Sidebar.jsx` | gitlab-sidebar, sidebar-nav | `gitlab-sidebar`, `sidebar-nav` | signedIn | app/App.jsx |
 | Steps | `app/src/components/Navigation/StepIndicator.jsx` | 호출부 전달 / 내부 부품 | 미등록(실제 Figma 확인 필요) | labels, current, label | screens/P07_Usage.jsx, screens/P09_Publish.jsx |
 | CommitDialog | `app/src/components/Write/CommitDialog.jsx` | 호출부 전달 / 내부 부품 | 미등록(실제 Figma 확인 필요) | open, onClose, defaultMessage, branch, onSubmit, submitLabel | screens/P23_Write.jsx |
+
+| HistoryButton | `app/src/components/Action/HistoryButton.jsx` | history / arrow-down | history-button (실물 미확인) | label, onClick | 프로젝트 / 그룹 / 작업 항목 목록 |

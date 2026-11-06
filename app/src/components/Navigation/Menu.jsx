@@ -74,7 +74,7 @@ export function Menu({ label, button, btnClass = 'krds-btn small tertiary', btnP
       >
         {button}
         {/* 공공 깃랩 드롭다운 꺾쇠 = chevron-down(Figma arrow-down). 아이콘 부품으로 그려 대조 이름이 같게 */}
-        {toggle ? <span className="ico-toggle rb-toggle-ico" aria-hidden="true"><Icon name="arrow-down" /></span> : null}
+        {toggle && !btnClass.includes('rb-iconbtn') ? <span className="ico-toggle rb-toggle-ico" aria-hidden="true"><Icon name="arrow-down" /></span> : null}
       </button>
       {open || leaving ? (
         <div ref={panel} className={`rb-menu ${panelClass}${leaving && !open ? ' is-leaving' : ''}`} aria-hidden={leaving && !open ? true : undefined} role="menu" aria-label={label} style={pos ? { left: pos.left, top: pos.top, maxHeight: pos.maxHeight } : { left: 0, top: 0, visibility: 'hidden' }}>
