@@ -96,7 +96,7 @@
   "side": "코드",
   "target": 437,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -110,7 +110,7 @@
   "side": "코드",
   "target": 528,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -209,7 +209,7 @@
   "side": "코드",
   "target": 437,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -223,7 +223,7 @@
   "side": "코드",
   "target": 528,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -322,7 +322,7 @@
   "side": "코드",
   "target": 437,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -336,7 +336,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -350,7 +350,7 @@
   "side": "코드",
   "target": 528,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -364,7 +364,7 @@
   "side": "코드",
   "target": 599,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -463,7 +463,7 @@
   "side": "코드",
   "target": 437,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -477,7 +477,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -491,7 +491,7 @@
   "side": "코드",
   "target": 528,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -505,7 +505,7 @@
   "side": "코드",
   "target": 599,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -604,7 +604,7 @@
   "side": "코드",
   "target": 437,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -618,7 +618,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -632,7 +632,7 @@
   "side": "코드",
   "target": 528,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -646,7 +646,7 @@
   "side": "코드",
   "target": 599,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -745,7 +745,7 @@
   "side": "코드",
   "target": 437,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -759,7 +759,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -773,7 +773,7 @@
   "side": "코드",
   "target": 528,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -787,7 +787,7 @@
   "side": "코드",
   "target": 599,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -998,7 +998,7 @@
   "side": "코드",
   "target": 509,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -1120,7 +1120,7 @@
   "side": "코드",
   "target": 161,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -1358,7 +1358,7 @@
   "side": "코드",
   "target": 509,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -1480,7 +1480,7 @@
   "side": "코드",
   "target": 161,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -1603,7 +1603,7 @@
   "side": "코드",
   "target": 69,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1617,7 +1617,7 @@
   "side": "코드",
   "target": 320,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1631,7 +1631,7 @@
   "side": "코드",
   "target": 69,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1645,7 +1645,7 @@
   "side": "코드",
   "target": 397,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1659,7 +1659,7 @@
   "side": "코드",
   "target": 69,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1673,7 +1673,7 @@
   "side": "코드",
   "target": 509,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1687,7 +1687,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -1783,7 +1783,7 @@
   "side": "코드",
   "target": 69,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1797,7 +1797,7 @@
   "side": "코드",
   "target": 320,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1811,7 +1811,7 @@
   "side": "코드",
   "target": 69,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1825,7 +1825,7 @@
   "side": "코드",
   "target": 397,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1839,7 +1839,7 @@
   "side": "코드",
   "target": 69,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1853,7 +1853,7 @@
   "side": "코드",
   "target": 509,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -1867,7 +1867,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -5390,7 +5390,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "text",
@@ -5418,7 +5418,7 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -5432,7 +5432,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -5453,7 +5453,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -5504,7 +5504,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "text",
@@ -5532,7 +5532,7 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -5546,7 +5546,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -5567,7 +5567,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -5618,7 +5618,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "text",
@@ -5646,7 +5646,7 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -5660,7 +5660,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -5674,7 +5674,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -5695,7 +5695,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -5746,7 +5746,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "text",
@@ -5774,7 +5774,7 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -5788,7 +5788,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -5802,7 +5802,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -5823,7 +5823,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -5874,7 +5874,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "text",
@@ -5902,7 +5902,7 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -5916,7 +5916,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -5930,7 +5930,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -5951,7 +5951,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -6002,7 +6002,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "text",
@@ -6030,7 +6030,7 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -6044,7 +6044,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -6058,7 +6058,7 @@
   "side": "코드",
   "target": 91,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -6079,7 +6079,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -6130,7 +6130,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -6186,7 +6186,7 @@
   "side": "코드",
   "target": 412,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6227,7 +6227,7 @@
   "side": "코드",
   "target": 529,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -6241,7 +6241,7 @@
   "side": "코드",
   "target": 161,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6282,7 +6282,7 @@
   "side": "코드",
   "target": 189,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6323,7 +6323,7 @@
   "side": "코드",
   "target": 189,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6445,7 +6445,7 @@
   "side": "코드",
   "target": 95,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6493,7 +6493,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -6544,7 +6544,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -6600,7 +6600,7 @@
   "side": "코드",
   "target": 412,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6641,7 +6641,7 @@
   "side": "코드",
   "target": 529,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -6655,7 +6655,7 @@
   "side": "코드",
   "target": 161,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6696,7 +6696,7 @@
   "side": "코드",
   "target": 189,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6737,7 +6737,7 @@
   "side": "코드",
   "target": 189,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6859,7 +6859,7 @@
   "side": "코드",
   "target": 95,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "icon",
@@ -6907,7 +6907,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -6958,7 +6958,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "text",
@@ -6986,7 +6986,7 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -7007,7 +7007,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -7058,7 +7058,7 @@
    "h": 48
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "text",
@@ -7086,7 +7086,7 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -7107,7 +7107,7 @@
    "h": 32
   },
   "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-code",
@@ -7862,7 +7862,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -7933,7 +7933,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -8231,7 +8231,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -8302,7 +8302,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -8600,7 +8600,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -8671,7 +8671,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -8969,7 +8969,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -9040,7 +9040,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -9338,7 +9338,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -9409,7 +9409,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -9707,7 +9707,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -9778,7 +9778,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -10076,7 +10076,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -10147,7 +10147,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -10445,7 +10445,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -10516,7 +10516,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -10814,7 +10814,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -10885,7 +10885,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",
@@ -11183,7 +11183,7 @@
    "h": 33
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "box",
@@ -11254,7 +11254,7 @@
    "h": 40
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
-  "implementation": "미수정"
+  "implementation": "공통 원인 코드 반영 / 공식 재측정 및 잔차 확인 대기"
  },
  {
   "kind": "only-figma",

@@ -1073,3 +1073,11 @@
 | R-27 | 360 | Signed-in | tabs | y | 365 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
 | R-27 | 768 | Guest | tabs | only-code | Figma에 없는 미지정 요소 제거 또는 기존 Figma 요소에 이름표 통합 | UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md |
 | R-27 | 768 | Signed-in | tabs | y | 351 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+
+## 실행1
+
+project-row h40/y28: 실제 API903/1140과 스냅샷의 설명이 같고 CRLF 뒤 문장이 있었다. cleanDescription의 split(줄바꿈)[0]가 원인이었다. 공통 함수만 고쳐 전체 설명을 보존하고 2줄 말줄임은 그대로 둔다. 고정 높이를 넣지 않았다.
+
+탭40 중 G-01/G-04에 해당하는20개 Figma에만 후보는 기존 탭2개를 공통 ProjectStateTabs로 추출하며 이름표 tabs로 맞췄다. 나머지20개 탭 후보는 미수정이다. G-01 filter-search10, G-04 search10도 기존 요소 이름표만 연결했다.
+
+이108개 후보는 코드 원인 반영 상태이며 공식 원장 해소 수가 아니다. 원장1031개 전체 완료가 아니다.
