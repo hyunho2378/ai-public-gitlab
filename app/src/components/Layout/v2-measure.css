@@ -387,3 +387,14 @@ html[data-krds-mode="light"] #root .rb-gbar-search {
   border-color: var(--layout-panel-border);
   color: var(--krds-color-text-basic);
 }
+
+/* M-8: 실제 탐색 행의 프로젝트/공개 아이콘은 모바일에도 남긴다. */
+@media (max-width: 767px) {
+  #root .rb-prow { grid-template-columns: auto auto minmax(0, 1fr) auto; }
+  #root .rb-prow > .rb-icon { display: block; }
+  #root .rb-prow-main { grid-column: 3; grid-row: 1; }
+  #root .rb-prow-side { grid-column: 3; grid-row: 2; }
+  #root .rb-prow > .krds-drop-wrap { grid-column: 4; grid-row: 1; }
+  #root .rb-taskfind .rb-prow-title .rb-icon { flex-shrink: 0; }
+  #root .rb-taskfind .rb-prow-title a { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+}
