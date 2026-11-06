@@ -1,164 +1,173 @@
 # M-8 원인 판정표
 
-기준 원장2240건, 원인158개를 누락 없이 싣는다. **미판정은 확정 판정으로 위장하지 않고 [blocked]로 남긴다.** 이 표는 전체 판정 완료본이 아니다. 기존 판정은 담당 문서 근거를 인용하며 직접 캡처를 새로 검증한 것으로 쓰지 않는다.
+부모 확정 일괄 판정 기준을 적용한다. 158개 원인/2240개 차이 전부 고칠 쪽을 정했다. **판정 완료와 코드 수정 완료는 별개다.** 화면/폭별 정답값은 M8_decision_rows.json에 보존한다. 캡처 수치가 문서화되지 않은 세부 속성은 Figma 기준으로 분류했으며 이미지에서 수치를 새로 측정했다고 주장하지 않는다.
 
-| 원인 | 건수 | 고칠 쪽 | 정답값 / 상태 | 근거 파일 |
+| 원인 | 건수 | 고칠 쪽(건수) | 정답값 | 근거 파일 |
 |---|---:|---|---|---|
-| 코드에만 · group-row | 200 | Figma | UX/gitlab_compare/40_그룹_실제대우리_1440.png 왼쪽(실제 공공 깃랩)에 그룹 행(아바타, 이름, 통계, 점 세 개)이 있고 Figma G-04에는 group-row 요소가 없다. 실측 있음 → Figma에 행 추가·이름표 | UX/audit_v3/M8_owner_D21.md |
-| 문구 · page-head | 44 | 보류 | [blocked] G-06 제목 '내 작업' 대 '내 프로젝트'는 원장 pending: 사용자 캡처 대기(실제 /dashboard/projects, 로그인 필요) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · project-row · h | 40 | Figma | 코드 설명 최대 폭 704는 실측으로 기록(커밋 5830de2). 줄 수와 행 높이는 폭에서 결정되므로 Figma 행(91/119) 줄 수를 704 기준으로 다시 계산 | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · tabs | 40 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 아이콘 · project-row | 38 | 코드 | 모바일 project 아이콘 숨김 제거. 공개 globe flex 축소 방지. 원본 탐색 캡처를 직접 열어 확인 | UX/gitlab_compare/01_탐색_프로젝트목록_1440.png; app/src/components/Layout/repo.css |
-| 위치/크기 · sidebar-nav · w | 36 | Figma | 스크롤 발생213 / 미발생224(UX/17 목록 폭은 실제 스크롤바만큼 감소) | UX/17_사이드바_실측.md 1절 |
-| 위치/크기 · filter-search · x | 36 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · section-title · y | 35 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · login-card · h | 32 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 문구 · login-card | 30 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · login-fact | 30 | 미판정 | [blocked] UX/gitlab_compare/46_로그인_1440.png 실제 로그인엔 '비밀번호 미수집, 로그인은 공공 저장소에서 처리' 문구가 없는 덧붙임. 로그인 2열 유지 결정(UX/13_공공깃랩_화면_대조표.md 78행) 안의 덧붙임이라 Figma가 정답(규칙 2)이면 코드에 추가 | UX/audit_v3/M8_owner_D21.md |
-| 문구 · commit-bar | 30 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 모서리·안쪽·간격 · readme | 30 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · project-row · y | 28 | Figma | 위 project-row h 차이가 아래 행 y에 누적된 값. h를 고치면 같이 해소 | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · gl-filter · y | 26 | Figma | UX/audit_v3/M7_to_figma.md·M7_C_resolution.md: D-21 조작 32 적용으로 코드 쪽은 처리됨. 남은 차이는 Figma 전달 항목 | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · page-head · h | 25 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 모서리·안쪽·간격 · page-head | 25 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · section-title · w | 25 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · sidebar-nav · h | 24 | 미판정 / A-02 4건 매핑 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 문구 · section-title | 24 | 미판정 | [blocked] G-06 Signed-in 등 문구 차이 24건: 실측 캡처 없음 | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · main · y | 23 | Figma / A-02 10건 매핑 | 코드는 전 화면 main y 81로 같고(560개 중 이 항목 차이는 A-02·G-12에만), Figma 121은 A-02·G-12에 breadcrumb 줄을 따로 둔 구조. 공통 판 구조(breadcrumb y 81 일치)에 Figma가 맞춘다 | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · section-title | 22 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · filter-search · y | 22 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 모서리·안쪽·간격 · global-search | 22 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 코드에만 · page-head | 21 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · results | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · search-clear · x | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · project-info | 20 | 미판정 / A-02 10건 매핑 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · toolbar | 20 | 미판정 / A-02 10건 매핑 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · commit-bar | 20 | 미판정 / A-02 10건 매핑 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · file-table | 20 | 미판정 / A-02 10건 매핑 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · readme | 20 | 미판정 / A-02 10건 매핑 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · filter-search | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · gl-tabs | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 아이콘 · gl-filter | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · tabbar | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · notice-block · x | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · notice-block · w | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · profile-event | 20 | Figma | G-12 360 변형만 profile-event가 없다(1440·768 Figma는 같은 요소 있음, 코드 1440·768 차이 0). 같은 Figma 안의 360 변형 누락 | UX/audit_v3/M8_owner_D21.md |
-| 아이콘 · commit-bar | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · file-table · h | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 색 · gl-filter · text | 20 | 미판정 | [blocked] 화면별 실측/결정 교차 확인 미완료 | [blocked] 근거 대조 미완료 |
-| Figma에만 · header | 20 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · login-divider · h | 18 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · commit-bar · y | 18 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · gl-filter · h | 16 | Figma | UX/audit_v3/M7_to_figma.md·M7_C_resolution.md: D-21 조작 32, PC 65, 모바일 105 확정. Figma 모바일 2건 전달 | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · page-head · w | 16 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · file-table · y | 16 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · gl-tabs · h | 16 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · tabs · y | 15 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · section-title · x | 14 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 순서 · (화면) | 13 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · filters | 12 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · footer · x | 12 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · footer · w | 12 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · login-notice · y | 12 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · login-logo · y | 12 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · notice-block · y | 12 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · task-search · h | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 문구 · task-search | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 모서리·안쪽·간격 · task-search | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · breadcrumb | 10 | 측정 매핑 오류 | A-02 실제 홈 + AI 소개 카드 경로로 재측정 | code_plan/figma_name_map.json; app/src/screens/P16_Code.jsx |
-| Figma에만 · intro-card | 10 | 측정 매핑 오류 | A-02 실제 홈 + AI 소개 카드 경로로 재측정 | code_plan/figma_name_map.json; app/src/screens/P16_Code.jsx |
-| 문구 · gl-filter | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · extra-field-filter | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · search | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 문구 · login-field | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · login-field | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · project-info · y | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · project-info · h | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 문구 · toolbar | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 아이콘 · toolbar | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 아이콘 · file-table | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · readme · h | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 아이콘 · readme | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · intro-card · h | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 문구 · intro-card | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 모서리·안쪽·간격 · intro-card | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · repo-actions | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · extra-reuse | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · extra-field | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · language-bar | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · preview · y | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · preview · h | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 아이콘 · preview | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 모서리·안쪽·간격 · gl-filter | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · diff-area · y | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · diff-area · h | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 아이콘 · diff-area | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · diff-file · y | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · diff-file · h | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 아이콘 · diff-file | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · filter-clear · x | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 색 · filter-clear · stroke | 10 | 미판정 | [blocked] 화면별 실측/결정 교차 확인 미완료 | [blocked] 근거 대조 미완료 |
-| 모서리·안쪽·간격 · filter-clear | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 모서리·안쪽·간격 · filter-display | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 모서리·안쪽·간격 · filter-settings | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 모서리·안쪽·간격 · filter-expand | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · gl-tabs · w | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 코드에만 · filter-search | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · code-button · x | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · code-button · y | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · code-button · w | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| Figma에만 · repo-tabs | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 색 · footer · fill | 10 | 미판정 | [blocked] 화면별 실측/결정 교차 확인 미완료 | [blocked] 근거 대조 미완료 |
-| 위치/크기 · body · y | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · main · w | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · global-search · x | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · global-search · y | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · global-search · h | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 코드에만 · system-band | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 코드에만 · topbar | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 코드에만 · breadcrumb | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| Figma에만 · steps | 10 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · login-field · y | 9 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · main · x | 9 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 색 · search-filter · fill | 8 | 미판정 | [blocked] 화면별 실측/결정 교차 확인 미완료 | [blocked] 근거 대조 미완료 |
-| 아이콘 · gitlab-sidebar | 8 | 미판정 / A-02 4건 매핑 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 아이콘 · sidebar-nav | 8 | 미판정 / A-02 4건 매핑 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · section-title · h | 7 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · toolbar · y | 6 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · commit-bar · h | 6 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · diff-file · x | 6 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · diff-file · w | 6 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · global-search · w | 6 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 문구 · global-search | 6 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 글자 속성 · global-search | 6 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| Figma에만 · repo-path | 6 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 코드에만 · checks | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · checks · y | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 위치/크기 · checks · h | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 문구 · checks | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 모서리·안쪽·간격 · checks | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 아이콘 · checks | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · project-row | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| Figma에만 · comment-editor | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 글자 속성 · main | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 코드에만 · tabs | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 문구 · tabs | 5 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 문구 · gitlab-sidebar | 4 | 측정 매핑 오류 | A-02 실제 홈 + AI 소개 카드 경로로 재측정 | code_plan/figma_name_map.json; app/src/screens/P16_Code.jsx |
-| 위치/크기 · sidebar-nav · y | 4 | 측정 매핑 오류 | A-02 실제 홈 + AI 소개 카드 경로로 재측정 | code_plan/figma_name_map.json; app/src/screens/P16_Code.jsx |
-| 문구 · sidebar-nav | 4 | 측정 매핑 오류 | A-02 실제 홈 + AI 소개 카드 경로로 재측정 | code_plan/figma_name_map.json; app/src/screens/P16_Code.jsx |
-| 글자 속성 · section-title | 4 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 색 · section-title · text | 4 | 미판정 | [blocked] 화면별 실측/결정 교차 확인 미완료 | [blocked] 근거 대조 미완료 |
-| 코드에만 · gitlab-sidebar | 4 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 코드에만 · sidebar-nav | 4 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 아이콘 · task-search | 2 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 문구 · breadcrumb | 2 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 모서리·안쪽·간격 · diff-area | 2 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · tabs · h | 2 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 글자 속성 · page-head | 2 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 위치/크기 · gl-tabs · y | 2 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_C.md |
-| 색 · page-head · text | 1 | 미판정 | [blocked] 화면별 실측/결정 교차 확인 미완료 | [blocked] 근거 대조 미완료 |
-| 모서리·안쪽·간격 · login-card | 1 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · profile-head | 1 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · profile-activity | 1 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · activity-calendar | 1 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
-| 코드에만 · profile-info | 1 | 미판정 | [blocked] 실측 파일과 대조하지 못했다(원인 묶음 158개 중 이 묶음은 이번에 판정하지 않음) | UX/audit_v3/M8_owner_D21.md |
+| 코드에만 · group-row | 200 | Figma 200 | 캡처에 있는 기존 기능: Figma에 코드 부품/이름표 추가 | UX/handson/gitlab/40_탐색_그룹.png; UX/14_팀기능_배치.md |
+| 문구 · page-head | 44 | Figma 44 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 위치/크기 · project-row · h | 40 | 코드 40 | 91 / 161 / 69 / 119 / 189 / 95 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| Figma에만 · tabs | 40 | 코드 40 | {"x":40,"y":199,"w":944,"h":40} / {"x":296,"y":199,"w":1088,"h":40} / {"x":480,"y":199,"w":1200,"h":40} / {"x":16,"y":213,"w":328,"h":40} / {"x":32,"y":199,"w":704,"h":40} / {"x":40,"y":173,"w":160,"h":48} / {"x":296,"y":173,"w":160,"h":48} / {"x":480,"y":173,"w":160,"h":48} / {"x":16,"y":197,"w":160,"h":48} / {"x":32,"y":173,"w":160,"h":48} / {"x":40,"y":173,"w":944,"h":33} / {"x":296,"y":173,"w":1088,"h":33} / {"x":480,"y":173,"w":1200,"h":33} / {"x":16,"y":165,"w":328,"h":33} / {"x":32,"y":173,"w":704,"h":33} / {"x":40,"y":217,"w":944,"h":40} / {"x":296,"y":217,"w":1088,"h":40} / {"x":480,"y":217,"w":1200,"h":40} / {"x":16,"y":191,"w":328,"h":88} / {"x":32,"y":217,"w":704,"h":40} / {"x":40,"y":173,"w":944,"h":40} / {"x":296,"y":173,"w":1088,"h":40} / {"x":480,"y":173,"w":1200,"h":40} / {"x":16,"y":165,"w":328,"h":40} / {"x":32,"y":173,"w":704,"h":40} | UX/audit_v3/capture_map.md; code_plan/figma_full.json; UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json; UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json |
+| 아이콘 · project-row | 38 | 코드 38 | project/globe/fork/star/merge-request/issues/ellipsis-vertical;모바일 숨김 제거 완료 | UX/gitlab_compare/01_탐색_프로젝트목록_1440.png |
+| 위치/크기 · sidebar-nav · w | 36 | Figma 36 | 목록224−실제 스크롤바폭(현재213);사이드바240/접힘44 | UX/17_사이드바_실측.md; D-16 |
+| 위치/크기 · filter-search · x | 36 | 코드 36 | 867 / 1267 / 1563 / 295 / 619 / 778 / 1178 / 1474 / 530 / 796 / 1196 / 1492 / 156 / 548 / 809 / 1209 / 1505 / 561 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · section-title · y | 35 | 코드 35 | 169 / 161 / 243 / 137 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · login-card · h | 32 | Figma 32 | 사용자 확정 로그인 배치 유지:2열 묶음 중앙,왼쪽 공지/로고,모바일 세로 쌓기 | UX/07 7절; UX/gitlab_compare/v3/README.md 13절 |
+| 문구 · login-card | 30 | Figma 30 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| Figma에만 · login-fact | 30 | Figma 30 | D-12 확정: 현재 코드 안내/로고 왼쪽 열 가운데/공지·폼 배치 유지. 추가 상태의 없는 안내를 임의 삽입하지 않음 | D-12; UX/07 7절; app/scripts/audit-login-logo.mjs |
+| 문구 · commit-bar | 30 | Figma 30 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 모서리·안쪽·간격 · readme | 30 | 코드 30 | 모서리 0→8 / 안쪽 16 16 16 16→0 0 0 0 / 간격 12→0 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · project-row · y | 28 | 코드 28 | 437 / 528 / 599 / 509 / 320 / 397 / 412 / 529 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · gl-filter · y | 26 | 코드 26 | 245 / 206 / 198 / 170 / 282 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · page-head · h | 25 | 코드 25 | 44 / 36 / 111 / 32 / 76 / 72 / 56 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 모서리·안쪽·간격 · page-head | 25 | 코드 25 | 안쪽 0 0 4 0→0 0 0 0 / 간격 8→16 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · section-title · w | 25 | 코드 25 | 944 / 1088 / 1200 / 328 / 704 / 960 / 312 / 720 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · sidebar-nav · h | 24 | 측정 매핑 오류 4 / Figma 20 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / UX/17: 접힘/펼침 항목수 기반 Hug;피치32,화면 안 스크롤 | UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16 |
+| 문구 · section-title | 24 | Figma 24 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 위치/크기 · main · y | 23 | 측정 매핑 오류 10 / Figma 13 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | UX/audit_v3/M8_mapping.md; D-21 7-1/7-2; D-20; UX/07 7절 |
+| Figma에만 · section-title | 22 | 코드 22 | {"x":1088,"y":241,"w":30,"h":26} / {"x":32,"y":989,"w":30,"h":26} / {"x":40,"y":520,"w":944,"h":28} / {"x":40,"y":955,"w":944,"h":28} / {"x":296,"y":520,"w":1088,"h":28} / {"x":296,"y":955,"w":1088,"h":28} / {"x":480,"y":520,"w":1200,"h":28} / {"x":480,"y":955,"w":1200,"h":28} / {"x":16,"y":530,"w":328,"h":56} / {"x":16,"y":975,"w":328,"h":28} / {"x":32,"y":520,"w":704,"h":28} / {"x":32,"y":955,"w":704,"h":28} | UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json |
+| 위치/크기 · filter-search · y | 22 | 코드 22 | 194 / 187 / 287 / 299 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 모서리·안쪽·간격 · global-search | 22 | Figma 22 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 코드에만 · page-head | 21 | Figma 21 | 캡처에 있는 기존 기능: Figma에 코드 부품/이름표 추가 | UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md |
+| Figma에만 · results | 20 | 측정 매핑 오류 20 | 기존 DOM에 이름표 추가. 새 기능/겹친 상자 생성 금지 | app/src/screens/P02_Search.jsx; app/src/components/Help/RunSteps.jsx; app/src/screens/gl/parts.jsx |
+| 위치/크기 · search-clear · x | 20 | 코드 20 | 883 / 1219 / 1459 / 243 / 635 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| Figma에만 · project-info | 20 | 측정 매핑 오류 10 / 코드 10 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / {"x":688,"y":121,"w":296,"h":698} / {"x":1088,"y":121,"w":296,"h":698} / {"x":1384,"y":121,"w":296,"h":698} / {"x":16,"y":225,"w":328,"h":652} / {"x":32,"y":185,"w":704,"h":630} | UX/audit_v3/M8_mapping.md; UX/audit_v3/capture_map.md; code_plan/figma_full.json |
+| Figma에만 · toolbar | 20 | 측정 매핑 오류 10 / 코드 10 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / {"x":40,"y":185,"w":624,"h":32} / {"x":296,"y":185,"w":768,"h":32} / {"x":480,"y":185,"w":880,"h":32} / {"x":16,"y":893,"w":328,"h":72} / {"x":32,"y":831,"w":704,"h":32} | UX/audit_v3/M8_mapping.md; UX/audit_v3/capture_map.md; code_plan/figma_full.json |
+| Figma에만 · commit-bar | 20 | 측정 매핑 오류 10 / 코드 10 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / {"x":40,"y":233,"w":624,"h":66} / {"x":296,"y":233,"w":768,"h":66} / {"x":480,"y":233,"w":880,"h":66} / {"x":16,"y":981,"w":328,"h":66} / {"x":32,"y":879,"w":704,"h":66} | UX/audit_v3/M8_mapping.md; UX/audit_v3/capture_map.md; code_plan/figma_full.json |
+| Figma에만 · file-table | 20 | 측정 매핑 오류 10 / 코드 10 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / {"x":40,"y":315,"w":624,"h":1262} / {"x":296,"y":315,"w":768,"h":1262} / {"x":480,"y":315,"w":880,"h":1262} / {"x":16,"y":1063,"w":328,"h":1219} / {"x":32,"y":961,"w":704,"h":1262} | UX/audit_v3/M8_mapping.md; UX/audit_v3/capture_map.md; code_plan/figma_full.json |
+| Figma에만 · readme | 20 | 측정 매핑 오류 10 / 코드 10 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / {"x":40,"y":1593,"w":624,"h":6176} / {"x":296,"y":1593,"w":768,"h":5640} / {"x":480,"y":1593,"w":880,"h":5464} / {"x":16,"y":2298,"w":328,"h":9104} / {"x":32,"y":2239,"w":704,"h":5842} | UX/audit_v3/M8_mapping.md; UX/audit_v3/capture_map.md; code_plan/figma_full.json |
+| Figma에만 · filter-search | 20 | 코드 10 / 측정 매핑 오류 10 | {"x":603,"y":238,"w":32,"h":32} / {"x":1003,"y":238,"w":32,"h":32} / {"x":1299,"y":238,"w":32,"h":32} / {"x":295,"y":269,"w":32,"h":32} / {"x":355,"y":238,"w":32,"h":32} / 기존 DOM에 이름표 추가. 새 기능/겹친 상자 생성 금지 | UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; code_plan/figma_full.json; app/src/screens/P02_Search.jsx; app/src/components/Help/RunSteps.jsx; app/src/screens/gl/parts.jsx |
+| 코드에만 · gl-tabs | 20 | Figma 20 | 캡처에 있는 기존 기능: Figma에 코드 부품/이름표 추가 | UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/40_탐색_그룹.png; UX/14_팀기능_배치.md |
+| 아이콘 · gl-filter | 20 | 코드 20 | ["arrow-down","search"] / ["arrow-down","history","search"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| Figma에만 · tabbar | 20 | 코드 20 | {"x":40,"y":203,"w":26,"h":2} / {"x":90,"y":203,"w":39,"h":2} / {"x":296,"y":203,"w":26,"h":2} / {"x":346,"y":203,"w":39,"h":2} / {"x":480,"y":203,"w":26,"h":2} / {"x":530,"y":203,"w":39,"h":2} / {"x":16,"y":195,"w":26,"h":2} / {"x":66,"y":195,"w":39,"h":2} / {"x":32,"y":203,"w":26,"h":2} / {"x":82,"y":203,"w":39,"h":2} | UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json |
+| 위치/크기 · notice-block · x | 20 | Figma 20 | 사용자 확정 로그인 배치 유지:2열 묶음 중앙,왼쪽 공지/로고,모바일 세로 쌓기 | UX/07 7절; UX/gitlab_compare/v3/README.md 13절 |
+| 위치/크기 · notice-block · w | 20 | Figma 20 | 사용자 확정 로그인 배치 유지:2열 묶음 중앙,왼쪽 공지/로고,모바일 세로 쌓기 | UX/07 7절; UX/gitlab_compare/v3/README.md 13절 |
+| 코드에만 · profile-event | 20 | Figma 20 | 새 프로필은 실제 자료 길이에 맞춘 기존 코드 구조;1440/768/360 상태 이름표 동기화 | code_plan/measured_G-12_codeonly.json; UX/handson/gitlab/48_그룹_사용자페이지.png |
+| 아이콘 · commit-bar | 20 | 코드 20 | ["copy","ellipsis-horizontal"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · file-table · h | 20 | 코드 20 | 1262 / 1219 / 926 / 883 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 색 · gl-filter · text | 20 | Figma 20 | D-15 회색 면/원색 강조,현재 코드 KRDS 토큰 | D-15; D-07; UX/gitlab_compare/v2/measure.md 1절 |
+| Figma에만 · header | 20 | Figma 20 | D-21 세로 사이드바+상단 바 틀로 통일. 폐기된 repo-tabs/header 틀 제거 | D-21 1장; UX/handson/README.md 0절 |
+| 위치/크기 · login-divider · h | 18 | Figma 18 | 사용자 확정 로그인 배치 유지:2열 묶음 중앙,왼쪽 공지/로고,모바일 세로 쌓기 | UX/07 7절; UX/gitlab_compare/v3/README.md 13절 |
+| 위치/크기 · commit-bar · y | 18 | 코드 18 | 233 / 225 / 217 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · gl-filter · h | 16 | 코드 16 | 159 / 73 / 119 / 65 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · page-head · w | 16 | 코드 16 | 944 / 1088 / 1200 / 704 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · file-table · y | 16 | 코드 16 | 315 / 307 / 299 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · gl-tabs · h | 16 | 코드 16 | 49 / 145 / 97 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · tabs · y | 15 | 코드 15 | 191 / 221 / 243 / 351 / 365 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · section-title · x | 14 | 코드 14 | 40 / 296 / 480 / 16 / 32 / 24 / 240 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 순서 · (화면) | 13 | 코드 13 | system-band > body > login-divider > login-card > login-notice > login-logo > login-field > notice-block > footer / system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > sidebar-nav > main > footer / system-band > topbar > global-search > body > content-panel > breadcrumb > main > project-info > toolbar > commit-bar > file-table > intro-card > readme > footer / system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > file-table > intro- | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| Figma에만 · filters | 12 | 측정 매핑 오류 12 | 기존 DOM에 이름표 추가. 새 기능/겹친 상자 생성 금지 | app/src/screens/P02_Search.jsx; app/src/components/Help/RunSteps.jsx; app/src/screens/gl/parts.jsx |
+| 위치/크기 · footer · x | 12 | Figma 12 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 위치/크기 · footer · w | 12 | Figma 12 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 위치/크기 · login-notice · y | 12 | Figma 12 | 사용자 확정 로그인 배치 유지:2열 묶음 중앙,왼쪽 공지/로고,모바일 세로 쌓기 | UX/07 7절; UX/gitlab_compare/v3/README.md 13절 |
+| 위치/크기 · login-logo · y | 12 | Figma 12 | 사용자 확정 로그인 배치 유지:2열 묶음 중앙,왼쪽 공지/로고,모바일 세로 쌓기 | UX/07 7절; UX/gitlab_compare/v3/README.md 13절 |
+| 위치/크기 · notice-block · y | 12 | Figma 12 | 사용자 확정 로그인 배치 유지:2열 묶음 중앙,왼쪽 공지/로고,모바일 세로 쌓기 | UX/07 7절; UX/gitlab_compare/v3/README.md 13절 |
+| 위치/크기 · task-search · h | 10 | 코드 10 | 248 / 284 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 문구 · task-search | 10 | Figma 10 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 모서리·안쪽·간격 · task-search | 10 | 코드 10 | 안쪽 0 0 0 0→0 0 8 0 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| Figma에만 · breadcrumb | 10 | 측정 매핑 오류 10 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc | UX/audit_v3/M8_mapping.md |
+| Figma에만 · intro-card | 10 | 측정 매핑 오류 10 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc | UX/audit_v3/M8_mapping.md |
+| 문구 · gl-filter | 10 | Figma 10 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 코드에만 · extra-field-filter | 10 | Figma 10 | UX/14 지정 자리의 기존 코드 부품 추가 | UX/14_팀기능_배치.md 1/3절 |
+| Figma에만 · search | 10 | 코드 10 | {"x":56,"y":223,"w":799,"h":40} / {"x":312,"y":223,"w":943,"h":40} / {"x":496,"y":223,"w":1055,"h":40} / {"x":32,"y":215,"w":183,"h":40} / {"x":48,"y":223,"w":559,"h":40} | UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json |
+| 문구 · login-field | 10 | Figma 10 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 코드에만 · login-field | 10 | 코드 10 | Figma에 없는 미지정 요소 제거 또는 기존 Figma 요소에 이름표 통합 | UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md |
+| 위치/크기 · project-info · y | 10 | 코드 10 | 121 / 225 / 185 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · project-info · h | 10 | 코드 10 | 792 / 746 / 724 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 문구 · toolbar | 10 | Figma 10 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 아이콘 · toolbar | 10 | 코드 10 | ["arrow-down","branch","ellipsis-vertical"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 아이콘 · file-table | 10 | 코드 10 | ["folder","icon-file/git","icon-file/markdown"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · readme · h | 10 | 코드 10 | 6176 / 5640 / 5464 / 9104 / 5842 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 아이콘 · readme | 10 | 코드 10 | ["bell","copy"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · intro-card · h | 10 | 코드 10 | 172 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 문구 · intro-card | 10 | Figma 10 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 모서리·안쪽·간격 · intro-card | 10 | 코드 10 | 안쪽 0 0 0 0→12 0 0 0 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 코드에만 · repo-actions | 10 | Figma 10 | 캡처에 있는 기존 기능: Figma에 코드 부품/이름표 추가 | UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md |
+| 코드에만 · extra-reuse | 10 | Figma 10 | UX/14 지정 자리의 기존 코드 부품 추가 | UX/14_팀기능_배치.md 1/3절 |
+| 코드에만 · extra-field | 10 | Figma 10 | UX/14 지정 자리의 기존 코드 부품 추가 | UX/14_팀기능_배치.md 1/3절 |
+| 코드에만 · language-bar | 10 | Figma 10 | 캡처에 있는 기존 기능: Figma에 코드 부품/이름표 추가 | UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md |
+| 위치/크기 · preview · y | 10 | 코드 10 | 364 / 426 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · preview · h | 10 | 코드 10 | 5256 / 5054 / 4922 / 9050 / 5788 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 아이콘 · preview | 10 | 코드 10 | ["bell","copy"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 모서리·안쪽·간격 · gl-filter | 10 | 코드 10 | 간격 8→0 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · diff-area · y | 10 | 코드 10 | 525 / 593 / 549 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · diff-area · h | 10 | 코드 10 | 1389 / 1239 / 1419 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 아이콘 · diff-area | 10 | 코드 10 | ["expand-less","expand-more"] / ["expand-less","expand-more","icon-file/json","icon-file/markdown","icon-file/nodejs"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · diff-file · y | 10 | 코드 10 | 525 / 593 / 549 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · diff-file · h | 10 | 코드 10 | 723 / 735 / 753 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 아이콘 · diff-file | 10 | 코드 10 | ["expand-less"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · filter-clear · x | 10 | 코드 10 | 835 / 1235 / 1531 / 263 / 587 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 색 · filter-clear · stroke | 10 | Figma 10 | D-15 회색 면/원색 강조,현재 코드 KRDS 토큰 | D-15; D-07; UX/gitlab_compare/v2/measure.md 1절 |
+| 모서리·안쪽·간격 · filter-clear | 10 | 코드 10 | 모서리 0→8 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 모서리·안쪽·간격 · filter-display | 10 | 코드 10 | 모서리 0→8 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 모서리·안쪽·간격 · filter-settings | 10 | 코드 10 | 모서리 0→8 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 모서리·안쪽·간격 · filter-expand | 10 | 코드 10 | 모서리 0→8 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · gl-tabs · w | 10 | 코드 10 | 309 / 385 / 381 / 437 / 1 / 189 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 코드에만 · filter-search | 10 | Figma 10 | 캡처에 있는 기존 기능: Figma에 코드 부품/이름표 추가 | UX/handson/gitlab/26_라벨.png; UX/14_팀기능_배치.md |
+| 위치/크기 · code-button · x | 10 | 코드 10 | 922 / 1322 / 1618 / 282 / 674 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · code-button · y | 10 | 코드 10 | 125 / 137 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · code-button · w | 10 | 코드 10 | 62 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| Figma에만 · repo-tabs | 10 | Figma 10 | D-21 세로 사이드바+상단 바 틀로 통일. 폐기된 repo-tabs/header 틀 제거 | D-21 1장; UX/handson/README.md 0절 |
+| 색 · footer · fill | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 위치/크기 · body · y | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 위치/크기 · main · w | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 위치/크기 · global-search · x | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 위치/크기 · global-search · y | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 위치/크기 · global-search · h | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 코드에만 · system-band | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 코드에만 · topbar | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 코드에만 · breadcrumb | 10 | Figma 10 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| Figma에만 · steps | 10 | 측정 매핑 오류 10 | 기존 DOM에 이름표 추가. 새 기능/겹친 상자 생성 금지 | app/src/screens/P02_Search.jsx; app/src/components/Help/RunSteps.jsx; app/src/screens/gl/parts.jsx |
+| 위치/크기 · login-field · y | 9 | 코드 9 | 497 / 587 / 149 / 473 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · main · x | 9 | Figma 9 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 색 · search-filter · fill | 8 | Figma 8 | D-15 회색 면/원색 강조,현재 코드 KRDS 토큰 | D-15; D-07; UX/gitlab_compare/v2/measure.md 1절 |
+| 아이콘 · gitlab-sidebar | 8 | 측정 매핑 오류 4 / Figma 4 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / UX/17: 접힘/펼침 항목수 기반 Hug;피치32,화면 안 스크롤 | UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16 |
+| 아이콘 · sidebar-nav | 8 | 측정 매핑 오류 4 / Figma 4 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc / UX/17: 접힘/펼침 항목수 기반 Hug;피치32,화면 안 스크롤 | UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16 |
+| 위치/크기 · section-title · h | 7 | 코드 7 | 2 / 40 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · toolbar · y | 6 | 코드 6 | 185 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · commit-bar · h | 6 | 코드 6 | 66 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · diff-file · x | 6 | 코드 6 | 40 / 580 / 764 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · diff-file · w | 6 | 코드 6 | 944 / 804 / 916 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · global-search · w | 6 | Figma 6 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 문구 · global-search | 6 | Figma 6 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 글자 속성 · global-search | 6 | Figma 6 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| Figma에만 · repo-path | 6 | Figma 6 | D-21 세로 사이드바+상단 바 틀로 통일. 폐기된 repo-tabs/header 틀 제거 | D-21 1장; UX/handson/README.md 0절 |
+| 코드에만 · checks | 5 | Figma 5 | UX/14 지정 자리의 기존 코드 부품 추가 | UX/14_팀기능_배치.md 1/3절 |
+| 위치/크기 · checks · y | 5 | 코드 5 | 277 / 313 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · checks · h | 5 | 코드 5 | 589 / 1245 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 문구 · checks | 5 | Figma 5 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 모서리·안쪽·간격 · checks | 5 | 코드 5 | 간격 0→20 / 간격 0→12 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 아이콘 · checks | 5 | 코드 5 | ["check-circle"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| Figma에만 · project-row | 5 | 사용자 확인 5 | 로그인 내 작업 목록의 실제 데이터와 캡처1건 필요 | UX/audit_v3/parity_ledger.md pending |
+| Figma에만 · comment-editor | 5 | 코드 5 | {"x":40,"y":717,"w":944,"h":122} / {"x":296,"y":717,"w":808,"h":122} / {"x":480,"y":717,"w":920,"h":122} / {"x":16,"y":1115,"w":328,"h":122} / {"x":32,"y":801,"w":704,"h":122} | UX/handson/gitlab/20_이슈목록.png; code_plan/figma_full.json |
+| 글자 속성 · main | 5 | Figma 5 | 공통 틀 D-21:바깥8/안쪽48·32·24·16/최대1200,현재 코드 측정값. 로그인은 확정2열 배치 유지 | D-21 7-1/7-2; D-20; UX/07 7절 |
+| 코드에만 · tabs | 5 | 코드 5 | Figma에 없는 미지정 요소 제거 또는 기존 Figma 요소에 이름표 통합 | UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md |
+| 문구 · tabs | 5 | Figma 5 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 문구 · gitlab-sidebar | 4 | 측정 매핑 오류 4 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc | UX/audit_v3/M8_mapping.md |
+| 위치/크기 · sidebar-nav · y | 4 | 측정 매핑 오류 4 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc | UX/audit_v3/M8_mapping.md |
+| 문구 · sidebar-nav | 4 | 측정 매핑 오류 4 | 홈 + AI 소개 카드 /projects/150?fixture=kordoc | UX/audit_v3/M8_mapping.md |
+| 글자 속성 · section-title | 4 | Figma 4 | D-16 KRDS 글자 단계와 짝수 행간. 현재 코드 글자 토큰 | D-16; UX/07 4절 |
+| 색 · section-title · text | 4 | 코드 4 | #ffffff color/text/inverse-static | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 코드에만 · gitlab-sidebar | 4 | Figma 4 | UX/17: 접힘/펼침 항목수 기반 Hug;피치32,화면 안 스크롤 | UX/17_사이드바_실측.md; D-16 |
+| 코드에만 · sidebar-nav | 4 | Figma 4 | UX/17: 접힘/펼침 항목수 기반 Hug;피치32,화면 안 스크롤 | UX/17_사이드바_실측.md; D-16 |
+| 아이콘 · task-search | 2 | 코드 2 | ["ellipsis-vertical","fork","globe","issues","merge-request","project","star"] | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 문구 · breadcrumb | 2 | Figma 2 | copy/ko.js,ui.js,gl.js,work.js의 현재 문구 / 사용자 원문·상대시간은 같은 자료 기준으로 재생성 | UX/07_밀도_문구_기준.md 5/10/11/13절; D-19 |
+| 모서리·안쪽·간격 · diff-area | 2 | 코드 2 | 간격 24→16 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 위치/크기 · tabs · h | 2 | 코드 2 | 104 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 글자 속성 · page-head | 2 | Figma 2 | D-16 KRDS 글자 단계와 짝수 행간. 현재 코드 글자 토큰 | D-16; UX/07 4절 |
+| 위치/크기 · gl-tabs · y | 2 | 코드 2 | 233 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 색 · page-head · text | 1 | 코드 1 | #1e2124 color/text/basic | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
+| 모서리·안쪽·간격 · login-card | 1 | Figma 1 | 사용자 확정 로그인 배치 유지:2열 묶음 중앙,왼쪽 공지/로고,모바일 세로 쌓기 | UX/07 7절; UX/gitlab_compare/v3/README.md 13절 |
+| 코드에만 · profile-head | 1 | Figma 1 | 새 프로필은 실제 자료 길이에 맞춘 기존 코드 구조;1440/768/360 상태 이름표 동기화 | code_plan/measured_G-12_codeonly.json; UX/handson/gitlab/48_그룹_사용자페이지.png |
+| 코드에만 · profile-activity | 1 | Figma 1 | 새 프로필은 실제 자료 길이에 맞춘 기존 코드 구조;1440/768/360 상태 이름표 동기화 | code_plan/measured_G-12_codeonly.json; UX/handson/gitlab/48_그룹_사용자페이지.png |
+| 코드에만 · activity-calendar | 1 | Figma 1 | 새 프로필은 실제 자료 길이에 맞춘 기존 코드 구조;1440/768/360 상태 이름표 동기화 | code_plan/measured_G-12_codeonly.json; UX/handson/gitlab/48_그룹_사용자페이지.png |
+| 코드에만 · profile-info | 1 | Figma 1 | 새 프로필은 실제 자료 길이에 맞춘 기존 코드 구조;1440/768/360 상태 이름표 동기화 | code_plan/measured_G-12_codeonly.json; UX/handson/gitlab/48_그룹_사용자페이지.png |
+
+## 실행 상태
+
+- 측정 매핑156건: A-02 경로104건(기존 커밋), 기존 DOM 이름표52건(results20/filters12/steps10/filter-search10)을 연결했다. 기능이나 모양은 바꾸지 않았다. 전체 공식 재측정 전이므로 해소 수로 확정하지 않는다.
+- 코드1069건 중 project-row 아이콘38건은 1f7eba9에서 반영했다. 나머지1031건은 M8_code_queue.md와 JSON에 미수정으로 남는다. 판정 완료와 구현 완료를 혼동하지 않는다.
+- Figma1010건은 M8_to_figma.md에 화면·폭·요소·속성·정답을 전달했다.
+- 사용자 확인5행은 G-06 로그인 목록 한 사안이다(M8_user_checks.md).
+- 로그인 안내30건은 부모의 D-12 확정에 따라 Figma로 돌렸다. 로그인 코드 두 파일은 바꾸지 않았다.
+- 회귀: 검색/따라하기/추가 로그인 상태의1440·360 총10조합, 가로 넘침0/빈main0/pageerror0. 검사 JSON은 세션tmp M8-bulk-check.json. 이 JSON의 로그인 안내1회 표시는 임시 삽입 검증 당시 기록이므로 최종 코드 증거로 쓰지 않는다. 임시 삽입은 전부 원복했다. 최종 로그인은 audit-login-logo와 login-inspect로 따로 재검사한다.
