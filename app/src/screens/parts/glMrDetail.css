@@ -50,3 +50,8 @@
 .gl-code-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); padding: 0 var(--krds-gap-3); border-radius: var(--krds-gap-2); gap: var(--krds-gap-2); display: inline-flex; align-items: center; }
 
 #root .krds-btn.small.gl-code-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); padding: 0 var(--krds-gap-3); border-radius: var(--krds-gap-2); gap: var(--krds-gap-2); }
+
+/* M-8 MR 제목줄: Figma와 같은 gap8, 내용 높이 가운데. 긴 제목은 모바일 두 줄로 읽힌다. */
+.gl-mr-titlerow { align-items: center; gap: var(--krds-number-5); }
+#root .rb-main .gl-mr-titlerow[data-figma="page-head"] > .gl-mr-h1 { flex: 1 1 auto; min-width: 0; white-space: normal; overflow: visible; text-overflow: clip; }
+.gl-mr-titlerow > .krds-drop-wrap { flex: none; }
