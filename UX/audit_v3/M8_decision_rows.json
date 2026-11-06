@@ -16990,7 +16990,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -17001,7 +17002,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -17012,7 +17014,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -17339,7 +17342,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -17350,7 +17354,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -17361,7 +17366,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -17688,7 +17694,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -17699,7 +17706,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -17710,7 +17718,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -18037,7 +18046,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -18048,7 +18058,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -18059,7 +18070,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -18386,7 +18398,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -18397,7 +18410,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -18408,7 +18422,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -18735,7 +18750,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -18746,7 +18762,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -18757,7 +18774,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -19057,7 +19075,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -19068,7 +19087,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -19079,7 +19099,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -19367,7 +19388,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -19378,7 +19400,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -19389,7 +19412,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -19662,7 +19686,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -19673,7 +19698,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -19684,7 +19710,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -19957,7 +19984,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -19968,7 +19996,8 @@
   "side": "코드",
   "target": "안쪽 16 16 16 16→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "shape",
@@ -19979,7 +20008,8 @@
   "side": "코드",
   "target": "간격 12→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "7150bbd"
  },
  {
   "kind": "icon",
@@ -24454,7 +24484,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24506,7 +24537,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24558,7 +24590,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24610,7 +24643,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24662,7 +24696,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24714,7 +24749,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24766,7 +24802,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24818,7 +24855,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24870,7 +24908,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -24922,7 +24961,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -25052,7 +25092,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25063,7 +25104,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25074,7 +25116,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25085,7 +25128,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25096,7 +25140,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25107,7 +25152,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25118,7 +25164,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25129,7 +25176,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25140,7 +25188,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -25165,7 +25214,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25176,7 +25226,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25187,7 +25238,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -25212,7 +25264,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25223,7 +25276,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25234,7 +25288,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -25259,7 +25314,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25270,7 +25326,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25281,7 +25338,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -25306,7 +25364,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25317,7 +25376,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25328,7 +25388,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25339,7 +25400,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25350,7 +25412,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25361,7 +25424,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25372,7 +25436,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25383,7 +25448,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25394,7 +25460,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25405,7 +25472,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25416,7 +25484,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "shape",
@@ -25427,7 +25496,8 @@
   "side": "코드",
   "target": "모서리 0→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "28e1b9a"
  },
  {
   "kind": "box",
@@ -26098,7 +26168,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26140,7 +26211,8 @@
   "side": "코드",
   "target": 125,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26165,7 +26237,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26207,7 +26280,8 @@
   "side": "코드",
   "target": 125,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26232,7 +26306,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26274,7 +26349,8 @@
   "side": "코드",
   "target": 125,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26299,7 +26375,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26341,7 +26418,8 @@
   "side": "코드",
   "target": 125,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26366,7 +26444,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26408,7 +26487,8 @@
   "side": "코드",
   "target": 125,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26433,7 +26513,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26475,7 +26556,8 @@
   "side": "코드",
   "target": 125,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26503,7 +26585,8 @@
   "side": "코드",
   "target": 72,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "shape",
@@ -26514,7 +26597,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26556,7 +26640,8 @@
   "side": "코드",
   "target": 137,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26584,7 +26669,8 @@
   "side": "코드",
   "target": 72,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "shape",
@@ -26595,7 +26681,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26637,7 +26724,8 @@
   "side": "코드",
   "target": 137,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26662,7 +26750,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26704,7 +26793,8 @@
   "side": "코드",
   "target": 125,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26729,7 +26819,8 @@
   "side": "코드",
   "target": "간격 8→16",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",
@@ -26771,7 +26862,8 @@
   "side": "코드",
   "target": 125,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(재측정 대기)",
+  "implementationCommit": "5959a6e"
  },
  {
   "kind": "box",

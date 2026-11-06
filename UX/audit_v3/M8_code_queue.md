@@ -2,6 +2,8 @@
 
 판정 목록이며 수정 완료 목록이 아니다.
 
+실행 상태: 코드 공통 수정 후보 누적200건, 미수정831건. 후보를 해소 건수로 계산하지 않는다. 공식 전체 재측정 전이다. 상세는 M8_execution.md와 M8_decision_rows.json을 본다.
+
 | 화면 | 폭 | 인증 | 요소 | 속성 | 정답값 | 근거 |
 |---|---:|---|---|---|---|---|
 | A-01 | 1024 | Guest | search-clear | x | 883 | code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma) |
