@@ -2475,6 +2475,33 @@
     "roles": [],
     "variantsInCode": {}
    }
+  },
+  {
+   "screen": "G-12",
+   "figmaSet": "G-12 User profile",
+   "oldName": "G-12 User profile",
+   "nodeId": "11328:46959",
+   "route": "/users/chrisryugj",
+   "figmaBoxes": [],
+   "variants": 3,
+   "variantProps": [
+    "Breakpoint"
+   ],
+   "sidebarCurrent": [],
+   "code": {
+    "path": "/users/chrisryugj",
+    "query": {},
+    "breakpoints": [
+     1440,
+     768,
+     360
+    ],
+    "auth": [
+     "Guest"
+    ],
+    "roles": [],
+    "variantsInCode": {}
+   }
   }
  ],
  "boxes": {

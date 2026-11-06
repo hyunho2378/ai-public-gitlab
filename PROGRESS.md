@@ -430,3 +430,26 @@ project-row 분포: y 102 = A-01 42 · G-01 36 · G-02 24 / h 80 = G-01 48 · A-
 새로 생긴 원인(5건 이상): 문구 system-band 550, 코드에만 group-row 200, breadcrumb x 62, page-head x 46, project-row x 38, project-row w 38, Figma에만 breadcrumb 10, gl-filter x 10, gl-filter w 10, gl-tabs x 6, 문구 checks 5. 없어진 원인: 없음.
 대표 값: system-band 코드 '( 프로젝트 현황판 )' 대 Figma '( 프로젝트 현황판 axboard.aigov.go.kr )'. A-01 1024 Guest main·footer·breadcrumb x Figma 40 대 코드 56, main·footer w Figma 944 대 코드 912
 담당별 작업 목록: UX/audit_v3/M7_owner_D21.md, UX/audit_v3/M7_owner_C.md
+
+## 측정 라운드 M-8(11. 7. 08:07, M): 공식 합 2,240(이전 M-7 3,403, -1,163), 새 허용 0건, 563개(560 + G-12 3폭)
+코드 ffdbc40, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-07 07:51(598 변형, 파일 안 generated 필드는 2026-11-01 그대로). G-12는 code_plan/figma_name_map.json에 항목 추가(1440·768·360 Guest, /users/chrisryugj). D-01은 요청 범위 밖이라 측정하지 않음
+담당: D21 1,389(-679) · C2 496(-244) · C1 355(-240)
+| 순위 | 원인 | 건수 | M-7 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 코드에만 group-row | 200 | 200 | 0 | D21 |
+| 2 | 문구 page-head | 44 | 44 | 0 | D21 30, C1 10, C2 4 |
+| 3 | 위치/크기 project-row h | 40 | 40 | 0 | D21 |
+| 4 | Figma에만 tabs | 40 | 40 | 0 | D21 |
+| 5 | 아이콘 project-row | 38 | 38 | 0 | D21 |
+| 6 | 위치/크기 sidebar-nav w | 36 | 36 | 0 | C1 12, C2 24 |
+| 7 | 위치/크기 filter-search x | 36 | 38 | -2 | C2 |
+| 8 | 위치/크기 section-title y | 35 | 35 | 0 | D21 10, C1 20, C2 5 |
+| 9 | 위치/크기 login-card h | 32 | 26 | +6 | D21 |
+| 10 | 문구 login-card | 30 | 30 | 0 | D21 |
+새로 생긴 원인(5건 이상): 코드에만 profile-event 20(G-12 360). 없어진 원인: 문구 system-band 550, 위치 breadcrumb x 62, project-row x 38·w 38, page-head x 46, gl-filter x·w 각 10, 모서리 commit-bar 40, gl-tabs x 6.
+확인 사항
+- R-01 360 마크다운(readme) 높이: Figma 9104 대 코드 6234로 다르다(차 2,870). R-01 1440도 Figma 5640 대 코드 5495(차 145). 모서리 0→8, 안쪽 16 대 0, 간격 12 대 0 차이도 R-01 30건
+- A-02 360·1440: 코드 측정에 readme가 없고(Figma에만 readme h 9104/5640), A-02 1024도 project-info·toolbar·commit-bar·file-table·readme·breadcrumb·intro-card가 Figma에만 있다. 코드 A-02 측정 경로 /projects/150/about에는 section-title·main·footer만 있어 Figma A-02(프로젝트 홈 + AI 소개 카드 구조)와 다른 화면을 재고 있을 가능성이 크다. 이 경로 확인이 필요하다
+- G-08 로그인 제목: Figma '로그인'(24 Bold)과 코드 로그인 카드 첫 글자가 같아 G-08 제목 문구 차이 0건. 실제 공공 깃랩 로그인(UX/gitlab_compare/46_로그인_1440.png)에는 큰 제목이 없고, 로그인 2열 유지는 사용자 결정(UX/13 78행). 차이는 G-08b(실패)·G-08c(2단계) 문구와 높이에 있다: G-08b Figma '아이디 또는 비밀번호가 맞지 않습니다. 다시 입력해 주세요.' 대 코드 '아이디/비밀번호 확인, 5회 오류 시 잠금', G-08c login-card h Figma 366 대 코드 338
+- G-12: 1440·768·360 모두 대조에 포함. main y Figma 121 대 코드 81, Figma에만 section-title(1440·768), 코드에만 page-head·profile-event(360)
+고칠 쪽 확정: UX/audit_v3/M8_owner_D21.md, M8_owner_C.md에 원인마다 적었다. 이번에 판정한 묶음은 일부(D21 건수 기준 Figma 325·코드 38·보류 30·미판정 996, C 건수 기준 Figma 64·보류 14·미판정 773)이고 나머지는 실측 캡처와 대조가 필요한 미판정이다
