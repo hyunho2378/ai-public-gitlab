@@ -263,3 +263,20 @@
 #root .gl-page > .gl-tabs + * { margin-top: calc((var(--rb-section-gap) + var(--krds-number-4)) * -1); }
 #root .gl-page > .gl-intro + * { margin-top: calc(var(--krds-number-6) - var(--rb-section-gap)); }
 #root .gl-page > .gl-head + .gl-intro { margin-top: calc(var(--krds-number-4) - var(--rb-section-gap)); }
+
+/* M-7 R-02: 실측 padding 자료 없음. Figma 11067:964807 commit-bar padding12/gap12를 적용한다. */
+#root .rb-commit-bar { padding: var(--krds-number-7); gap: var(--krds-number-7); }
+/* M-7 R-05: Figma 11067:1007492 page-head 안쪽8/0/8/0, 간격12.
+   제목줄 버튼은 32로 맞춰 위 안쪽을 늘려도 PC 전체 높이49를 유지한다. */
+#root .gl-commit-head { padding-top: var(--krds-number-5); gap: var(--krds-number-7); }
+#root .gl-commit-head .krds-btn { min-height: var(--layout-filter-control-h); height: var(--layout-filter-control-h); }
+/* M-7 R-04: Figma 11067:1043507 제목줄 아래8. 다른 목록 사이 간격은 바꾸지 않는다. */
+#root .gl-pagehead + .gl-bar.is-bare { margin-top: calc(var(--krds-number-5) - var(--rb-section-gap)); }
+/* M-7 R-08: D-21 7-2 필터 안쪽16 + 조작32 + 위 선1 =65.
+   원본 small 버튼40이 74를 만들던 원인만 이 화면에서 보정한다. */
+#root .gl-tags-filter { border-width: var(--krds-border-width-static-regular) 0 0; }
+#root .gl-tags-filter .krds-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+@media (max-width: 767px) {
+  #root .gl-tags-filter { flex-wrap: wrap; }
+  #root .gl-tags-filter > .gl-filter-field { flex-basis: 100%; }
+}
