@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // KRDS는 legend를 화면에서 숨긴다(.krds 공통). 화면 낭독용 legend와 눈에 보이는 제목을 함께 둔다.
 export function FieldsetTitle({ children, className = 'krds-text-body-small-bold' }) {
   return (

@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // D-22 토스트: 작업 결과 알림(복사 등)을 오른쪽 아래에 4초 보인다. 어디서나 toast('문구')로 부른다. 화면 낭독기에는 role=status로 읽힌다.
 import { useEffect, useState } from 'react';
 

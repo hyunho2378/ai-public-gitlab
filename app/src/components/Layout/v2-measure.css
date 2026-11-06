@@ -30,7 +30,7 @@ html body, html body #root, #root .rb-shell, #root .rb-gbar, #root .rb-side, #ro
 #root .rb-prow-desc, #root .rb-prow-stat, #root .rb-prow-time, #root .rb-prow-topics .rb-subtle { color: var(--layout-text-subtle); }
 #root .rb-prow-topics { margin-top: calc(var(--layout-topic-gap) - var(--krds-gap-1)); gap: var(--layout-topic-gap); }
 #root .rb-prow-topics .krds-tag-wrap { display: inline-flex; flex-wrap: wrap; gap: var(--layout-topic-gap); }
-#root .rb-prow-topics .rb-topic, #root .rb-topic { display: inline-flex; align-items: center; height: var(--rb-lh-13); min-height: 0; padding: 0 var(--krds-number-5); border: 0; border-radius: var(--krds-radius-max); background: var(--layout-topic-bg); color: var(--layout-topic-text); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); font-weight: var(--krds-font-weight-regular); }
+#root .rb-prow-topics .rb-topic, #root .rb-topic { display: inline-flex; align-items: center; height: var(--rb-lh-13); min-height: 0; padding: 0 var(--krds-number-5); border: 0; border-radius: var(--krds-radius-medium3); background: var(--layout-topic-bg); color: var(--layout-topic-text); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); font-weight: var(--krds-font-weight-regular); }
 
 /* 4. 머리글자 타일: 둥근 사각형(4), 원색 50 7색, 흰 글자 */
 #root .rb-avatar.is-letter { border-radius: var(--krds-radius-small2); color: var(--layout-tone-text); font-weight: var(--krds-font-weight-regular); }
@@ -212,7 +212,7 @@ html body, html body #root, #root .rb-shell, #root .rb-gbar, #root .rb-side, #ro
 #root .rb-box-list { border-radius: var(--krds-radius-medium3); background: var(--layout-panel-bg); overflow: hidden; }
 #root .rb-box-row:hover { background: var(--layout-raised-bg); }
 /* 스니펫 빈 상태: 지름 96 회색 원(gray-80) 안 아이콘 48, 아래 19 굵게 */
-#root .rb-empty-art { display: inline-flex; align-items: center; justify-content: center; width: var(--krds-number-21); height: var(--krds-number-21); border-radius: var(--krds-radius-max); background: var(--layout-head-bg); color: var(--layout-text-subtle); }
+#root .rb-empty-art { display: inline-flex; align-items: center; justify-content: center; width: var(--krds-number-21); height: var(--krds-number-21); border-radius: var(--krds-radius-medium3); background: var(--layout-head-bg); color: var(--layout-text-subtle); }
 #root .rb-empty-art .rb-icon { width: var(--krds-number-16); height: var(--krds-number-16); }
 #root .rb-empty-title { margin: 0; font-size: var(--layout-title-section); line-height: var(--layout-title-section-lh); font-weight: var(--krds-font-weight-bold); }
 

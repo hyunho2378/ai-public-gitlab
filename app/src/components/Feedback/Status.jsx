@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // 데이터 상태 표시. Loading은 KRDS spinner, Error는 KRDS 오류 안내 구조.
 import { phrase } from '../Help/Phrase';
 import { t } from '../../copy/ko';

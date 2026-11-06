@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // D-22 2장 단축키: '?'로 여는 단축키 목록 대화상자(KRDS modal). Esc로 닫고, 초점은 연 자리로 돌아간다.
 import { useEffect, useRef } from 'react';
 import { u } from '../../copy/ui';

@@ -1,3 +1,4 @@
+// Figma: activity-calendar → activity-calendar
 // 활동 달력(공공 GitLab 사용자 프로필 '활동' 그대로): 52주 x 7일, 칸 하나 = 하루, 진할수록 활동이 많음.
 // 달 이름은 위(끝 2주는 넘침 방지로 비움), 요일(월, 수, 금)은 왼쪽에 고정, 범례는 왼쪽 아래, 설명은 오른쪽 아래. 색은 layout.tokens.css --layout-cal-0~4
 import { useEffect, useRef } from 'react';

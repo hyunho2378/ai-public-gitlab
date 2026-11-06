@@ -199,15 +199,15 @@
   --layout-repo-title-lh: var(--layout-title-project-lh);
   /* v2 색 층(공공 깃랩 rgb → 가장 가까운 KRDS gray 단계). 바깥(세로 바, 상단 바) 5,5,6 → gray-100, 판 24,23,29 → gray-95, 판 테두리 58,56,63 → gray-80,
      필터 막대와 현재 항목 40,39,45 → gray-90, 필터 위 선과 행 구분선 76,75,81 → gray-70, 주제 알약 164,163,168 → gray-30(글자 24,23,29 → gray-95), 보조 글자 191,191,195 → gray-20 */
-  --layout-shell-bg: var(--krds-color-light-gray-100);
-  --layout-panel-bg: var(--krds-color-light-gray-95);
-  --layout-panel-border: var(--krds-color-light-gray-80);
-  --layout-raised-bg: var(--krds-color-light-gray-90);
-  --layout-head-bg: var(--krds-color-light-gray-80);
-  --layout-divider: var(--krds-color-light-gray-70);
-  --layout-topic-bg: var(--krds-color-light-gray-30);
+  --layout-shell-bg: var(--krds-color-light-gray-5);
+  --layout-panel-bg: var(--krds-color-light-gray-0);
+  --layout-panel-border: var(--krds-color-light-gray-20);
+  --layout-raised-bg: var(--krds-color-light-gray-10);
+  --layout-head-bg: var(--krds-color-light-gray-20);
+  --layout-divider: var(--krds-color-light-gray-30);
+  --layout-topic-bg: var(--krds-color-light-gray-20);
   --layout-topic-text: var(--krds-color-light-gray-95);
-  --layout-text-subtle: var(--krds-color-light-gray-20);
+  --layout-text-subtle: var(--krds-color-light-gray-70);
   /* 머리글자 타일 7색: KRDS 원색 50 + 흰 글자(대비 계산은 UX/gitlab_compare/v2/measure.md 5절) */
   --layout-tone-0: var(--krds-color-light-primary-50);
   --layout-tone-1: var(--krds-color-light-success-50);
@@ -332,4 +332,17 @@ html[data-krds-mode="dark"], html[data-krds-mode="high-contrast"] {
 
 @media (max-width: 1023px) {
   :root { --layout-cal-cell: 1rem; }
+}
+
+/* D-01: 어두운 화면의 고정 회색 층은 어두운 모드에만 적용한다. 밝은 모드의 글자와 면 대비를 보장한다. */
+html[data-krds-mode="dark"], html[data-krds-mode="high-contrast"] {
+  --layout-shell-bg: var(--krds-color-light-gray-100);
+  --layout-panel-bg: var(--krds-color-light-gray-95);
+  --layout-panel-border: var(--krds-color-light-gray-80);
+  --layout-raised-bg: var(--krds-color-light-gray-90);
+  --layout-head-bg: var(--krds-color-light-gray-80);
+  --layout-divider: var(--krds-color-light-gray-70);
+  --layout-topic-bg: var(--krds-color-light-gray-30);
+  --layout-topic-text: var(--krds-color-light-gray-95);
+  --layout-text-subtle: var(--krds-color-light-gray-20);
 }

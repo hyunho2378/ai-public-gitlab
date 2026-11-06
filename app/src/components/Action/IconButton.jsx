@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // 아이콘 단독 버튼 공통 부품(UX-007). 크기는 짝수 두 가지: small 32x32(아이콘 20), medium 40x40(아이콘 24).
 // 가운데 정렬은 inline-flex + center, 아이콘은 display block, 글자는 sr-only로 접근성 이름만 둔다. 호버/눌림은 회색 면, 초점은 바깥 outline.
 import { Link } from 'react-router-dom';

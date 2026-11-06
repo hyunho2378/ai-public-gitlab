@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // 내려받기 메뉴. GitHub Code 버튼과 같은 자리. 공통 Menu 부품을 쓴다(UX-007 12장).
 import { useState } from 'react';
 import { t } from '../../copy/ko';

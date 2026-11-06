@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // GitHub 목록 구조: 검색칸, 상태 전환(개수 표시)과 정렬이 한 줄인 머리, 그 아래 구분선 행. 이슈와 변경 제안 목록이 함께 쓴다.
 import { u } from '../../copy/ui';
 import { Icon } from './Icon';

@@ -1,3 +1,4 @@
+// Figma: page-head, repo-actions, extra-reuse, main → page-head, repo-actions, extra-reuse, main
 // 프로젝트 안 공통 머리: 브레드크럼, 이름, 기관, 탭. 프로젝트 자료를 한 번 불러와 하위 화면에 넘긴다.
 import { iconBtnClass } from '../Action/IconButton';
 import { newWindow } from './newWindow';

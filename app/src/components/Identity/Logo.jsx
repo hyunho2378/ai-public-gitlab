@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // 공공 깃랩 로고(app/public/brand/gitlab-logo.svg와 같은 도형). 색은 로고 고유색(#E24329 #FC6D26 #FCA326), KRDS 팔레트 규칙의 예외.
 // 이름은 곁의 링크가 가진다. 로고 자체는 장식이라 스크린 리더에서 뺀다.
 export function Logo({ size }) {

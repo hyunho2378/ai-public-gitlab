@@ -1,3 +1,4 @@
+// Figma: global-search, topbar → global-search, topbar
 // D-08 전역 틀. 공공 깃랩(gitlab.aigov.go.kr) 상단 바 배치를 그대로 따른다.
 // 왼쪽: 사이드바 여닫기, 로고와 서비스명, "탐색" / 가운데: 검색 또는 이동(단축키 /) / 오른쪽: 화면 설정, 등록, 로그인 또는 내 계정.
 // 부품과 값은 KRDS만 쓴다.

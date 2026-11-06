@@ -1,3 +1,4 @@
+// Figma: language-bar, project-info, extra-field, intro-card → language-bar, project-info, extra-field, intro-card
 // D-21 6장 프로젝트 홈 오른쪽 '프로젝트 정보' 열(공공 깃랩 02 그대로, 상시).
 // 설명(4줄 더보기), 주제, 언어 막대, 개수 목록(아이콘 + 굵은 숫자 + 이름), README·라이선스·변경 로그, 생성 날짜.
 // 덧붙임은 맨 아래 '사용 전 확인' 묶음 하나(라벨/값 세로 쌍 4개 + 더보기, UX/14 3-2).
