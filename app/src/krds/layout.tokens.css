@@ -221,6 +221,20 @@
   --layout-gutter: var(--krds-number-10);
   --layout-section-gap: var(--krds-number-10);
   --layout-info-col: calc(var(--krds-number-12) * 9 + var(--krds-number-5));
+  /* G-12 사용자 프로필(공공 GitLab 캡처 70): 아바타 96, 활동 달력 칸 12, 사이 2, 달 이름 줄 20 */
+  --layout-profile-avatar: calc(var(--krds-number-12) * 3);
+  --layout-cal-cell: 1.2rem;
+  --layout-cal-gap: var(--krds-gap-1);
+  --layout-cal-month-h: var(--krds-size-height-3);
+  /* 칸은 열 폭에 맞춰 늘고 줄며, 칸 10 아래로는 줄지 않고 가로로 넘긴다(52주 x 12 = 약 620) */
+  --layout-cal-min-w: calc(var(--krds-number-12) * 20);
+  --layout-profile-avatar-sm: calc(var(--krds-number-12) * 2);
+  /* 활동 단계 색: 0은 회색 면, 1~4는 KRDS 주색 단계(밝은 화면은 진할수록 많음) */
+  --layout-cal-0: var(--krds-color-light-gray-10);
+  --layout-cal-1: var(--krds-color-light-primary-20);
+  --layout-cal-2: var(--krds-color-light-primary-40);
+  --layout-cal-3: var(--krds-color-light-primary-50);
+  --layout-cal-4: var(--krds-color-light-primary-70);
   /* 앱 안 이름(위 값을 그대로 가리킨다) */
   --rb-container-w: var(--layout-container-max);
   --rb-gbar-pad-x: var(--layout-topbar-pad-x);
@@ -307,3 +321,12 @@ html.rb-font-large {
 html.rb-reduce-motion { --rb-motion-fast: 0ms; --rb-motion-base: 0ms; --rb-motion-slow: 0ms; --rb-tip-delay: 0ms; }
 
 html.rb-snap-on { --rb-top-extra: var(--krds-number-10); }
+
+/* 어두운 화면과 선명한 화면: 바탕이 어두우므로 밝을수록 많음(공공 GitLab 어두운 화면 달력과 같은 방향) */
+html[data-krds-mode="dark"], html[data-krds-mode="high-contrast"] {
+  --layout-cal-0: var(--layout-raised-bg);
+  --layout-cal-1: var(--krds-color-light-primary-80);
+  --layout-cal-2: var(--krds-color-light-primary-60);
+  --layout-cal-3: var(--krds-color-light-primary-40);
+  --layout-cal-4: var(--krds-color-light-primary-20);
+}

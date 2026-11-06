@@ -121,7 +121,8 @@ export function ProjectFrame({ screenId, tab, tabLabel, crumbs, data, children, 
   const docTitle = deepLabel ? `${deepLabel}: ${ownerProject}` : `${ownerProject}: ${clip(cleanDescription(project.description) || '')}`.replace(/: $/, '');
   // D-21: 판 안 맨 위 경로 '만든 곳 / 이름 / 화면'(공공 깃랩 그대로)
   const path = [
-    [organizationOf(project), `/search?q=${encodeURIComponent(organizationOf(project) || '')}`],
+    // 만든 곳이 사람이면 그 사람 프로필(G-12, 공공 깃랩과 같다), 그룹이면 검색
+    [organizationOf(project), project.namespace?.kind === 'user' && project.namespace?.path ? `/users/${encodeURIComponent(project.namespace.path)}` : `/search?q=${encodeURIComponent(organizationOf(project) || '')}`],
     [project.name, crumbs?.length || tabLabel ? `/projects/${data.id}` : null],
     ...(crumbs?.length && !hideCrumbs ? crumbs : tabLabel ? [[tabLabel, null]] : []),
   ];

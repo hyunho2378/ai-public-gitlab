@@ -119,6 +119,7 @@ export const u = {
   // D-21 전역 틀: 공공 깃랩 화면 말 그대로
   Sys_band: "AI 정부 실험실 공공 GitLab 저장소",
   Sys_bandBoard: "프로젝트 현황판",
+  // 프로젝트 현황판 원본 주소(VITE_DASHBOARD_URL이 없을 때 쓰는 기본값)
   Sys_bandBoardUrl: "axboard.aigov.go.kr",
   G_explore: "탐색",
   G_project: "프로젝트",

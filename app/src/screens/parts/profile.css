@@ -1,0 +1,44 @@
+/* G-12 사용자 프로필(공공 GitLab 캡처 70 배치). 값은 KRDS, layout 변수만 */
+.rb-pf { display: flex; flex-direction: column; gap: var(--krds-gap-7); }
+.rb-pf-head { display: flex; align-items: center; gap: var(--krds-gap-5); }
+.rb-avatar.rb-pf-avatar { flex: none; object-fit: cover; width: var(--layout-profile-avatar); height: var(--layout-profile-avatar); border-radius: var(--krds-radius-max); font-size: var(--krds-font-size-heading-medium); }
+.rb-pf-name { display: flex; flex-direction: column; gap: var(--krds-gap-1); min-width: 0; }
+.rb-pf-title { margin: 0; white-space: normal; overflow: visible; overflow-wrap: anywhere; font-size: var(--layout-title-page); line-height: var(--layout-title-page-lh); font-weight: var(--krds-font-weight-bold); color: var(--krds-color-text-bolder); text-wrap: balance; }
+.rb-pf-name p { margin: 0; font-size: var(--rb-step-17); line-height: var(--rb-lh-17); }
+.rb-pf-main { display: flex; flex-direction: column; gap: var(--krds-gap-5); min-width: 0; }
+.rb-pf-sec-head { display: flex; justify-content: space-between; align-items: baseline; gap: var(--krds-gap-5); margin-bottom: var(--krds-gap-4); }
+.rb-pf-sec-head h2, .rb-pf-info h2, .rb-pf-list-title { margin: 0; font-size: var(--rb-step-17); line-height: var(--rb-lh-17); font-weight: var(--krds-font-weight-bold); color: var(--krds-color-text-bolder); }
+.rb-pf-sec-head a { font-size: var(--rb-step-15); line-height: var(--rb-lh-15); color: var(--krds-color-link-default); text-decoration: none; }
+.rb-pf-list-title { margin-bottom: var(--krds-gap-4); }
+.rb-pf-info { display: flex; flex-direction: column; gap: var(--krds-gap-4); }
+.rb-pf-info-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--krds-gap-3); font-size: var(--rb-step-15); line-height: var(--rb-lh-15); }
+.rb-pf-info-list a { color: var(--krds-color-text-basic); }
+.rb-pf-act-icon { flex: none; display: inline-flex; align-items: center; justify-content: center; width: var(--krds-size-height-5); height: var(--krds-size-height-5); border-radius: var(--krds-radius-max); background: var(--layout-raised-bg); color: var(--layout-text-subtle); }
+.rb-pf-act-icon .rb-icon { width: var(--krds-size-height-3); height: var(--krds-size-height-3); }
+
+/* 활동 달력: 52주, 칸 12, 사이 2, 모서리 2(알약 아님). 본문 열(1440에서 약 750)에 맞는 폭 */
+.rb-cal { display: flex; flex-direction: column; gap: var(--krds-gap-4); }
+.rb-cal-scroll { overflow-x: auto; }
+.rb-cal-grid { display: grid; grid-auto-flow: column; grid-template-rows: auto repeat(7, auto); grid-template-columns: auto repeat(52, minmax(0, 1fr)); gap: var(--layout-cal-gap); min-width: var(--layout-cal-min-w); align-items: center; }
+.rb-cal-month { height: var(--layout-cal-month-h); line-height: var(--layout-cal-month-h); font-size: var(--rb-step-13); color: var(--layout-text-subtle); white-space: nowrap; overflow: visible; min-width: 0; }
+.rb-cal-dow { font-size: var(--rb-step-13); line-height: 1; color: var(--layout-text-subtle); padding-right: var(--krds-gap-2); }
+/* 좁은 화면에서 가로로 넘겨도 요일은 왼쪽에 남는다 */
+.rb-cal-month:first-child, .rb-cal-dow { position: sticky; left: 0; z-index: 1; background: var(--layout-panel-bg); }
+.rb-cal-day { display: block; width: 100%; aspect-ratio: 1; border-radius: var(--krds-radius-xsmall2); background: var(--layout-cal-0); }
+.rb-cal-day.is-future { background: none; }
+.rb-cal-day.lv-1 { background: var(--layout-cal-1); }
+.rb-cal-day.lv-2 { background: var(--layout-cal-2); }
+.rb-cal-day.lv-3 { background: var(--layout-cal-3); }
+.rb-cal-day.lv-4 { background: var(--layout-cal-4); }
+.rb-cal-foot { display: flex; justify-content: space-between; align-items: center; gap: var(--krds-gap-5); flex-wrap: wrap; }
+.rb-cal-legend .rb-cal-day { width: var(--layout-cal-cell); }
+.rb-cal-legend { display: flex; align-items: center; gap: var(--krds-gap-2); margin: 0; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--layout-text-subtle); }
+.rb-cal-caption { margin: 0; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--layout-text-subtle); }
+
+@media (max-width: 767px) {
+  .rb-avatar.rb-pf-avatar { width: var(--layout-profile-avatar-sm); height: var(--layout-profile-avatar-sm); }
+  .rb-pf-title { font-size: var(--layout-title-page-sm); line-height: var(--layout-title-page-sm-lh); }
+}
+
+/* 사람 이름은 자르지 않는다(글 길이 규칙: 제목은 줄바꿈). 전역 화면 머리 말줄임보다 우선 */
+#root .rb-main .rb-pf-head h1.rb-pf-title { white-space: normal; overflow: visible; text-overflow: clip; }

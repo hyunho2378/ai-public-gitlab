@@ -19,12 +19,16 @@ function SnapshotBand() {
   return <div className="rb-snapband" role="status" data-figma="snapshot-band">{u.Snap_band(d)}</div>;
 }
 
+// 프로젝트 현황판: KRDS로 다시 만든 현황판(3차_현황판) 주소는 VITE_DASHBOARD_URL 한 곳에서 정한다.
+// 개발 서버는 .env.development(로컬 현황판), 배포는 현황판 주소가 정해지기 전까지 원본 axboard로 간다(빈 링크 방지)
+const DASHBOARD_URL = import.meta.env.VITE_DASHBOARD_URL || `https://${u.Sys_bandBoardUrl}`;
+
 export function Masthead() {
   return (
     <>
       <a className="rb-skip" href="#main">{t.Header_skip}</a>
       <div className="rb-sysband" data-figma="system-band">
-        <span>{u.Sys_band} ( {u.Sys_bandBoard} <a href={`https://${u.Sys_bandBoardUrl}`} {...newWindow(u.Sys_bandBoard)}>{u.Sys_bandBoardUrl}</a> )</span>
+        <span>{u.Sys_band} ( <a href={DASHBOARD_URL} {...newWindow(u.Sys_bandBoard)}>{u.Sys_bandBoard}</a> )</span>
       </div>
       <SnapshotBand />
     </>

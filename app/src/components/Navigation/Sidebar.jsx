@@ -10,6 +10,7 @@ import { Icon } from '../Code/Icon';
 import { Avatar } from '../Layout/Avatar';
 import { useAuth } from '../Identity/useAuth';
 import { newWindow } from '../Layout/newWindow';
+import { pf } from '../../copy/work';
 
 const GITLAB = 'https://gitlab.aigov.go.kr';
 
@@ -39,6 +40,25 @@ export function globalMenu({ signedIn } = {}) {
       ] },
       { name: u.G_extraTitle, heading: true, items: extra, extra: true },
     ],
+  };
+}
+
+/** 사용자 프로필 메뉴(공공 깃랩 사용자 화면 70 원문 순서). 우리에게 없는 화면은 공공 깃랩 원본을 새 창으로 */
+export function profileMenu(username) {
+  const p = `/users/${username}`;
+  const up = (path) => ({ href: `${GITLAB}/${username}${path}` });
+  return {
+    title: pf.side,
+    groups: [{ items: [
+      item(pf.activity, p, { icon: 'ext/history', end: true }),
+      item(pf.groups, null, { ...up('/groups'), icon: 'ext/group' }),
+      item(pf.contributed, null, { ...up('/contributed'), icon: 'ext/project' }),
+      item(pf.personal, `${p}/projects`, { icon: 'ext/project' }),
+      item(pf.starred, `${p}/starred`, { icon: 'ext/star' }),
+      item(pf.snippets, null, { ...up('/snippets'), icon: 'ext/snippet' }),
+      item(pf.followers, null, { ...up('/followers'), icon: 'ext/users' }),
+      item(pf.following, null, { ...up('/following'), icon: 'ext/users' }),
+    ] }],
   };
 }
 
@@ -187,7 +207,9 @@ function Group({ group, tipApi, rail, onShow }) {
 export function Sidebar({ project, open, onClose, onHide, onShow, hidden = false }) {
   const rail = hidden;
   const { signedIn, role } = useAuth();
-  const menu = project ? projectMenu(project.id, { signedIn, role, issues: project.issues, webUrl: project.webUrl }) : globalMenu({ signedIn });
+  const { pathname } = useLocation();
+  const profileName = !project && (pathname.match(/^\/users\/([^/]+)/) || [])[1];
+  const menu = project ? projectMenu(project.id, { signedIn, role, issues: project.issues, webUrl: project.webUrl }) : profileName ? profileMenu(decodeURIComponent(profileName)) : globalMenu({ signedIn });
   const tipApi = useTip();
   const { tip } = tipApi;
   // 좁은 화면 서랍: Esc로 닫는다

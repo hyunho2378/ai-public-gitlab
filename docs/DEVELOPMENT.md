@@ -122,6 +122,7 @@ npm test
 - 방법: `main`에 push하면 `.github/workflows/pages.yml`이 `app`을 정적 모드로 빌드해 Pages에 게시
 - 로컬 빌드: `cd app && npm run build:pages`(결과 `app/dist`)
 - 환경변수: `VITE_STATIC=1`, `VITE_BASE`(저장소 이름 경로, `build:pages` 스크립트에 지정)
+- `VITE_DASHBOARD_URL`: 상단 띠 '프로젝트 현황판' 링크 주소(KRDS 현황판 배포 주소). 비우면 원본 `axboard.aigov.go.kr`. 개발 서버는 `app/.env.development`(로컬 현황판 5804)
 
 정적 모드 동작(`app/src/api/static.js`):
 
