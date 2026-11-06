@@ -245,3 +245,10 @@
 .rb-code-wrap.has-tree .rb-filetree { top: calc(var(--rb-header-h) + var(--rb-masthead-h) + var(--rb-top-extra) + var(--krds-gap-5)); max-height: calc(100dvh - var(--rb-header-h) - var(--rb-masthead-h) - var(--rb-top-extra) - var(--krds-gap-9)); }
 /* 파일 종류 아이콘(공공 깃랩 file_icons): 16, 글자 줄 가운데 */
 .rb-file-icon { display: inline-block; flex: none; width: var(--krds-number-8); height: var(--krds-number-8); vertical-align: middle; object-fit: contain; }
+
+/* M-8 README: Figma의 안쪽12/12/15/12에서 아래15는 D-16에 따라16.
+   기존 header/body 중첩 패딩을 제거하고 부품 루트 한 곳에서 간격을 관리한다. */
+.rb-readme-box { border-radius: 0; padding: var(--krds-number-7) var(--krds-number-7) var(--krds-number-8); gap: var(--krds-number-7); }
+.rb-readme-box > .rb-readme-head,
+.rb-readme-box > .rb-readme-body,
+.rb-readme-box > .rb-readme-toc { padding: 0; }
