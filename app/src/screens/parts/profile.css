@@ -16,22 +16,21 @@
 .rb-pf-act-icon { flex: none; display: inline-flex; align-items: center; justify-content: center; width: var(--krds-size-height-5); height: var(--krds-size-height-5); border-radius: var(--krds-radius-max); background: var(--layout-raised-bg); color: var(--layout-text-subtle); }
 .rb-pf-act-icon .rb-icon { width: var(--krds-size-height-3); height: var(--krds-size-height-3); }
 
-/* 활동 달력: 52주, 칸 12, 사이 2, 모서리 2(알약 아님). 본문 열(1440에서 약 750)에 맞는 폭 */
+/* 활동 달력: 52주, 칸 12(1023 이하 10) 정수 고정, 사이 2, 모서리 2(알약 아님). 열보다 넓으면 가로로 넘긴다(Figma activity-calendar와 같은 값) */
 .rb-cal { display: flex; flex-direction: column; gap: var(--krds-gap-4); }
 .rb-cal-scroll { overflow-x: auto; }
-.rb-cal-grid { display: grid; grid-auto-flow: column; grid-template-rows: auto repeat(7, auto); grid-template-columns: auto repeat(52, minmax(0, 1fr)); gap: var(--layout-cal-gap); min-width: var(--layout-cal-min-w); align-items: center; }
+.rb-cal-grid { display: grid; grid-auto-flow: column; grid-template-columns: var(--layout-cal-dow-w) repeat(52, var(--layout-cal-cell)); grid-template-rows: auto repeat(7, var(--layout-cal-cell)); gap: var(--layout-cal-gap); width: max-content; align-items: center; }
 .rb-cal-month { height: var(--layout-cal-month-h); line-height: var(--layout-cal-month-h); font-size: var(--rb-step-13); color: var(--layout-text-subtle); white-space: nowrap; overflow: visible; min-width: 0; }
 .rb-cal-dow { font-size: var(--rb-step-13); line-height: 1; color: var(--layout-text-subtle); padding-right: var(--krds-gap-2); }
 /* 좁은 화면에서 가로로 넘겨도 요일은 왼쪽에 남는다 */
 .rb-cal-month:first-child, .rb-cal-dow { position: sticky; left: 0; z-index: 1; background: var(--layout-panel-bg); }
-.rb-cal-day { display: block; width: 100%; aspect-ratio: 1; border-radius: var(--krds-radius-xsmall2); background: var(--layout-cal-0); }
+.rb-cal-day { display: block; width: var(--layout-cal-cell); height: var(--layout-cal-cell); border-radius: var(--krds-radius-xsmall2); background: var(--layout-cal-0); }
 .rb-cal-day.is-future { background: none; }
 .rb-cal-day.lv-1 { background: var(--layout-cal-1); }
 .rb-cal-day.lv-2 { background: var(--layout-cal-2); }
 .rb-cal-day.lv-3 { background: var(--layout-cal-3); }
 .rb-cal-day.lv-4 { background: var(--layout-cal-4); }
 .rb-cal-foot { display: flex; justify-content: space-between; align-items: center; gap: var(--krds-gap-5); flex-wrap: wrap; }
-.rb-cal-legend .rb-cal-day { width: var(--layout-cal-cell); }
 .rb-cal-legend { display: flex; align-items: center; gap: var(--krds-gap-2); margin: 0; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--layout-text-subtle); }
 .rb-cal-caption { margin: 0; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--layout-text-subtle); }
 
