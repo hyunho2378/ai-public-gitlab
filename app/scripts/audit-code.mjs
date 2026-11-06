@@ -4,7 +4,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const KRDS_MEDIA = /@media ?\((?:max-width: ?(?:767|1023)px|width > ?(?:767|1023)px)\)/g;
+// 허용 구간: KRDS 767/1023 + D-21 사용자 확정 1279/1280
+const KRDS_MEDIA = /@media ?\((?:max-width: ?(?:767|1023|1279)px|min-width: ?(?:768|1024|1280)px|width > ?(?:767|1023|1279)px)\)/g;
 const RULES = [
   ['브라우저 저장소', /\b(?:localStorage|sessionStorage)\b/g],
   ['직접 색', /#[0-9a-fA-F]{3,8}\b|\b(?:rgb|rgba|hsl|hsla)\(/g],
