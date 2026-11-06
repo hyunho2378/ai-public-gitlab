@@ -303,7 +303,8 @@ html.rb-font-large {
   --rb-lh-17: 2.8rem;
 }
 
-/* 중간 1279 구간 제거: 1023 / 767 공식 구간만 사용한다. */
+/* D-21 7장(사용자 확정): 판 안 좌우 여백 1280 이상 48, 1024~1279 32, 768~1023 24, 768 미만 16. 1279 구간은 KRDS 공식 구간 밖이지만 사용자 결정이라 유지 */
+@media (max-width: 1279px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-md); } }
 @media (max-width: 1023px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x); } }
 @media (max-width: 767px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-sm); --rb-gutter: var(--layout-container-pad-x-sm); } }
 @media (max-width: 1023px) {

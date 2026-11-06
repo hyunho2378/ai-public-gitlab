@@ -30,7 +30,8 @@
 @media (max-width: 1023px) {
   /* D-17 2장: 1024 미만은 정보 영역이 본문 위로 올라온다 */
   }
-@media (width > 1023px) {
+/* 1280 이상에서만 왼쪽 프로젝트 메뉴, 그 아래는 탭 줄(공공 깃랩 실측) */
+@media (min-width: 1280px) {
   .rb-repo-top .rb-tabs { display: none; }
 }
 .rb-side-project { display: flex; align-items: center; gap: var(--krds-gap-3); padding: var(--krds-padding-3) var(--krds-padding-4); min-width: 0; }
