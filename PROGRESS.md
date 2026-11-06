@@ -411,3 +411,22 @@ project-row 분포: y 102 = A-01 42 · G-01 36 · G-02 24 / h 80 = G-01 48 · A-
 | 10 | 위치/크기 filter-search x | 36 | 36 | 0 | C2 |
 새로 생긴 원인(5건 이상): 위치 search-clear x 20(D21, Figma 검색칸 지우기 단추가 새로 들어옴). 없어진 원인: 위치 task-search y 6. 큰 감소: project-row y 102→28, h 80→40.
 별도 줄(G-06, 판정 보류): G-06 Signed-in project-row Figma에만 5건 = 로그인 필요 상태 캡처 대기(개발용 로그인 사용자에게 내 프로젝트 없음). 원장 숫자에는 그대로 포함, 허용 목록에는 넣지 않음
+
+## 측정 라운드 M-7(11. 7. 07:26, M, 기준선): 공식 합 3,403(이전 M-6 2,072, +1,331), 새 허용 0건, 560개 전체
+코드 708791f, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-01 02:11 (오늘 Figma 수정 전 값. Figma 담당이 일괄 수정 중이므로 재내보내기 뒤 다시 측정 필요). 측정 중 연결 오류로 REPL이 한 번 초기화되어 560개를 처음부터 다시 쟀다. G-12는 Figma 합본에 없어 대조 불가, 코드만 code_plan/measured_G-12_codeonly.json에 저장(1440·768·360)
+담당: D21 2,068 · C2 740 · C1 595
+| 순위 | 원인 | 건수 | 이전(M-6) | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 문구 system-band | 550 | 0 | +550 | D21 280, C1 120, C2 150 |
+| 2 | 코드에만 group-row | 200 | 0 | +200 | D21 |
+| 3 | 위치/크기 footer x | 76 | 12 | +64 | D21 46, C2 22, C1 8 |
+| 4 | 위치/크기 footer w | 76 | 12 | +64 | D21 46, C2 22, C1 8 |
+| 5 | 위치/크기 main w | 74 | 10 | +64 | D21 44, C2 22, C1 8 |
+| 6 | 위치/크기 main x | 73 | 9 | +64 | D21 44, C2 21, C1 8 |
+| 7 | 위치/크기 breadcrumb x | 62 | 0 | +62 | D21 42, C2 12, C1 8 |
+| 8 | 위치/크기 page-head w | 58 | 16 | +42 | D21 46, C2 4, C1 8 |
+| 9 | 위치/크기 page-head x | 46 | 0 | +46 | D21 34, C2 4, C1 8 |
+| 10 | 모서리·안쪽·간격 page-head | 45 | 45 | 0 | D21 15, C1 20, C2 10 |
+새로 생긴 원인(5건 이상): 문구 system-band 550, 코드에만 group-row 200, breadcrumb x 62, page-head x 46, project-row x 38, project-row w 38, Figma에만 breadcrumb 10, gl-filter x 10, gl-filter w 10, gl-tabs x 6, 문구 checks 5. 없어진 원인: 없음.
+대표 값: system-band 코드 '( 프로젝트 현황판 )' 대 Figma '( 프로젝트 현황판 axboard.aigov.go.kr )'. A-01 1024 Guest main·footer·breadcrumb x Figma 40 대 코드 56, main·footer w Figma 944 대 코드 912
+담당별 작업 목록: UX/audit_v3/M7_owner_D21.md, UX/audit_v3/M7_owner_C.md
