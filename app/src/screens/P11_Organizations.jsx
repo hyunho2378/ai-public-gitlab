@@ -1,3 +1,4 @@
+import { ProjectStateTabs } from '../components/Navigation/ProjectStateTabs';
 // G-04 탐색 > 그룹 = 공공 깃랩 /explore/groups(캡처 40): 제목, 한 줄 설명, 활성/비활성 탭, 필터 막대(최근 검색, 검색, 정렬, 방향), 그룹 행.
 // 행: 하위 그룹 아이콘, 아바타, 이름 + 공개 지구, 오른쪽 하위 그룹 n, 프로젝트 n, 멤버 n(아이콘 + 숫자 13), '생성됨 n 전', 점 세 개.
 import { useEffect, useState } from 'react';
@@ -95,19 +96,9 @@ export default function Organizations() {
     <Page id="G-04" title={u.Gr_title} state={list.state}>
       <h1 className="rb-x-title" data-figma="page-head">{u.Gr_title}</h1>
       <p className="krds-text-body-small rb-subtle">{u.Gr_desc}</p>
-      <div className="krds-tab-area rb-x-tabs" data-figma="gl-tabs">
-        <div className="tab line" role="tablist" aria-label={u.X_tabs}>
-          <ul>
-            {[[false, u.X_active], [true, u.X_inactive]].map(([v, label]) => (
-              <li key={label} className={archived === v ? 'active' : undefined}>
-                <button type="button" role="tab" aria-selected={archived === v} className="btn-tab" onClick={() => set({ archived: v ? 'true' : '' })}>{label}</button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+      <ProjectStateTabs archived={archived} onChange={(value) => set({ archived: value ? 'true' : '' })} />
       <div className="rb-x-filter" data-figma="gl-filter">
-        <form className="rb-x-search" role="search" onSubmit={(e) => { e.preventDefault(); set({ q: text.trim() }); }}>
+        <form data-figma="search" className="rb-x-search" role="search" onSubmit={(e) => { e.preventDefault(); set({ q: text.trim() }); }}>
           <label className="sr-only" htmlFor="gr-q">{u.Gr_search}</label>
           <input id="gr-q" type="search" value={text} placeholder={u.Gr_search} onChange={(e) => setText(e.target.value)} />
           <button type="submit" className="rb-x-searchbtn" aria-label={u.X_search} title={u.X_search}><Icon name="search" /></button>

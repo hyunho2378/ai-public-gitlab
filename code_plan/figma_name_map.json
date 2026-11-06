@@ -3146,7 +3146,21 @@
   "filter-search": {
    "file": "app/src/screens/gl/parts.jsx",
    "selector": ".gl-filter-go",
-   "when": "figma===gl-filter"
+   "when": "figma===gl-filter",
+   "explore": "app/src/screens/P01_Home.jsx .rb-x-searchbtn"
+  },
+  "tabs": {
+   "file": "app/src/components/Navigation/ProjectStateTabs.jsx",
+   "screens": [
+    "G-01",
+    "G-04"
+   ],
+   "legacyName": "gl-tabs",
+   "note": "기존 표시 그대로 공통 부품/이름 통일"
+  },
+  "search": {
+   "file": "app/src/screens/P11_Organizations.jsx",
+   "selector": "form.rb-x-search"
   }
  }
 }

@@ -83,3 +83,5 @@
 `product/notify_row`는 공통 부품으로 등록한다. 현재 알림 화면은 빈 상태이므로 가짜 자료를 만들어 호출하지 않는다.
 
 | product/notify_row | app/src/components/Feedback/NotifyRow.jsx | product/notify_row | product/notify_row | read=false/true, to, children | 실제 알림 자료 연결 전. 가짜 행 생성 없음 |
+
+| ProjectStateTabs | app/src/components/Navigation/ProjectStateTabs.jsx | tabs | tabs | archived, onChange | 프로젝트 탐색 / 그룹 탐색 |

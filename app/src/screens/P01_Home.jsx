@@ -1,3 +1,4 @@
+import { ProjectStateTabs } from '../components/Navigation/ProjectStateTabs';
 // A-01 첫 화면 = 공공 깃랩 '탐색 / 프로젝트'(캡처 01, 72 그대로, D-21 4장).
 // 제목, 활성/비활성 탭, 필터 막대(최근 검색, 검색칸 최소 3자, 정렬, 정렬 방향), 목록 행, 쪽 넘김.
 // 덧붙임은 필터 막대 아래 '업무 분야' 선택 한 줄뿐이다(UX/14 3-1: 한 화면에 덧붙임 묶음 하나).
@@ -113,17 +114,7 @@ export default function Home() {
   return (
     <Page id="G-01" title={u.X_title} state={list.state}>
       <h1 className="rb-x-title" data-figma="page-head">{u.X_title}</h1>
-      <div className="krds-tab-area rb-x-tabs" data-figma="gl-tabs">
-        <div className="tab line" role="tablist" aria-label={u.X_tabs}>
-          <ul>
-            {[[false, u.X_active], [true, u.X_inactive]].map(([v, label]) => (
-              <li key={label} className={archived === v ? 'active' : undefined}>
-                <button type="button" role="tab" aria-selected={archived === v} className="btn-tab" onClick={() => set({ archived: v ? 'true' : '' })}>{label}</button>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+      <ProjectStateTabs archived={archived} onChange={(value) => set({ archived: value ? 'true' : '' })} />
       <div className="rb-x-filter" data-figma="gl-filter">
         <Menu label={u.X_recent} align="left" toggle btnClass="rb-x-recent" btnProps={{ title: u.X_recent }} button={<Icon name="ext/history" />}>
           {(close) => {
@@ -140,7 +131,7 @@ export default function Home() {
         <form className="rb-x-search" role="search" onSubmit={submit}>
           <label className="sr-only" htmlFor="x-filter">{u.X_filter}</label>
           <input id="x-filter" type="search" value={text} placeholder={u.X_filter} onChange={(e) => setText(e.target.value)} aria-describedby={warn ? 'x-filter-warn' : undefined} />
-          <button type="submit" className="rb-x-searchbtn" aria-label={u.X_search} title={u.X_search}><Icon name="search" /></button>
+          <button data-figma="filter-search" type="submit" className="rb-x-searchbtn" aria-label={u.X_search} title={u.X_search}><Icon name="search" /></button>
         </form>
         {/* 덧붙임(D-21 4장, UX/14 2): 업무 분야 선택 1개. 별도 줄 없이 필터 막대 안 정렬 앞 한 칸(2026. 10. 31. 사용자 지적) */}
         {fieldOpts.length ? (
