@@ -3129,5 +3129,24 @@
     "state": "registered-not-mounted"
    }
   ]
+ },
+ "measurementBindings": {
+  "filters": {
+   "file": "app/src/screens/P02_Search.jsx",
+   "selector": "aside#rb-s-side"
+  },
+  "results": {
+   "file": "app/src/screens/P02_Search.jsx",
+   "selector": "section.rb-s-results"
+  },
+  "steps": {
+   "file": "app/src/components/Help/RunSteps.jsx",
+   "selector": "section.rb-run"
+  },
+  "filter-search": {
+   "file": "app/src/screens/gl/parts.jsx",
+   "selector": ".gl-filter-go",
+   "when": "figma===gl-filter"
+  }
  }
 }

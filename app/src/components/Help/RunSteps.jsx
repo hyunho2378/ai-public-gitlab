@@ -42,7 +42,7 @@ export function RunSteps({ readme, cloneUrl }) {
   const steps = buildSteps(readme, cloneUrl);
   if (!steps.length) return null;
   return (
-    <section className="rb-run" aria-labelledby="run-title">
+    <section data-figma="steps" className="rb-run" aria-labelledby="run-title">
       <div className="rb-run-head">
         <h3 id="run-title" className="krds-text-body-small-bold">{t.Run_title}</h3>
         <p className="krds-text-body-xsmall rb-subtle">{t.Run_from}</p>

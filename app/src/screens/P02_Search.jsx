@@ -81,7 +81,7 @@ export default function Search() {
       {/* 공공 깃랩: 1024 미만은 왼쪽 범위 열 대신 검색칸 아래 오른쪽 '필터' 단추(눌러 범위 패널 열기, search_breakpoints.md) */}
       <div className="rb-s-filterbar"><button type="button" className="krds-btn small tertiary rb-s-filterbtn" data-figma="search-filter" aria-expanded={showScopes} aria-controls="rb-s-side" onClick={() => setShowScopes(!showScopes)}><Icon name="ext/filter" /><span>{u.S_filter}</span></button></div>
       <div className="rb-s-body">
-        <aside id="rb-s-side" className={'rb-s-side' + (showScopes ? ' is-open' : '')} aria-label={u.S_scopes}>
+        <aside data-figma="filters" id="rb-s-side" className={'rb-s-side' + (showScopes ? ' is-open' : '')} aria-label={u.S_scopes}>
           <ul className="rb-s-scopes">
             {scopes.map(([label, icon, href, n]) => (
               <li key={label}>
@@ -102,7 +102,7 @@ export default function Search() {
           </fieldset>
           <button type="button" className="krds-btn small tertiary" onClick={() => set({ archived: arch ? 'true' : '' })}>{u.S_apply}</button>
         </aside>
-        <section className="rb-s-results" aria-label={u.S_projects}>
+        <section data-figma="results" className="rb-s-results" aria-label={u.S_projects}>
           {q ? <TaskFind q={q} /> : null}
           {q || topic ? <Status {...list} /> : null}
           {topic ? <p className="krds-text-body-small-bold">{u.G_topics}: {topic}</p> : null}

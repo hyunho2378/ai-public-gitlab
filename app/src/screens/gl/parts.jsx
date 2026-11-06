@@ -41,7 +41,7 @@ export function FilterField({ value, onChange, placeholder, label, lead, figma }
     <div className="gl-filter-field" data-figma={figma}>
       {lead ? <span className="gl-filter-lead">{lead}</span> : null}
       <input type="search" className="gl-filter-input" value={value} placeholder={placeholder} aria-label={label || placeholder} onChange={(e) => onChange(e.target.value)} />
-      <span className="gl-filter-go"><Icon name="search" label={g.search} /></span>
+      <span data-figma={figma === "gl-filter" ? "filter-search" : undefined} className="gl-filter-go"><Icon name="search" label={g.search} /></span>
     </div>
   );
 }
