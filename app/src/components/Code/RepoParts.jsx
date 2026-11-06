@@ -1,4 +1,4 @@
-// Figma: Repo/Toolbar, Repo/CommitBar, Repo/FileTable, Repo/Readme, Repo/About. GitHub와 GitLab 저장소 첫 화면 배치(D-04 개정).
+// Figma: product/branch_menu, product/code_dropdown, product/file_row (data-figma), 기존 화면 상자는 data-figma-key
 import { FileIcon } from './FileIcon';
 import { gitlab } from '../../api/client';
 const fetchTree = async (id, ref, page) => (await gitlab.treeAll(id, ref, page)).data || [];
@@ -43,7 +43,7 @@ export function BranchSelect({ id, current, branches = [], path }) {
   const list = (branches.length ? branches : [{ name: current }]).filter((b) => !q || b.name.toLowerCase().includes(q.toLowerCase()));
   // 공공 깃랩: 브랜치 단추는 회색 채움 32, 열면 맨 위에 'Git 리비전으로 검색' 입력(audit_v3 02-10, 02-15)
   return (
-    <Drop label={t.Home_branchSelect} align="left" btnClass="rb-branch-btn rb-btn-fill" button={<><Icon name="ext/branch" /><span className="rb-ellipsis">{current}</span></>}>
+    <Drop figma="product/branch_menu" label={t.Home_branchSelect} align="left" btnClass="rb-branch-btn rb-btn-fill" button={<><Icon name="ext/branch" /><span className="rb-ellipsis">{current}</span></>}>
       {(close) => (
         <div className="rb-branch-menu">
           <p className="rb-menu-title">{u.R_switchRef}</p>
@@ -92,7 +92,7 @@ export function CodeMenu({ id, zipUrl, cloneUrl, sshUrl }) {
   const fmts = base ? [['zip', '.zip'], ['tar.gz', '.tar.gz'], ['tar.bz2', '.tar.bz2'], ['tar', '.tar']] : [];
   return (
     <>
-      <Drop label={t.Home_code} btnClass="rb-btn-light" button={<><span className="rb-drop-full">{t.Home_code}</span><span className="rb-drop-compact"><Icon name="download" /><span className="sr-only">{t.Home_code}</span></span><Icon name="arrow-down" /></>}>
+      <Drop figma="product/code_dropdown" label={t.Home_code} btnClass="rb-btn-light" button={<><span className="rb-drop-full">{t.Home_code}</span><span className="rb-drop-compact"><Icon name="download" /><span className="sr-only">{t.Home_code}</span></span><Icon name="arrow-down" /></>}>
         {(close) => (
           <div className="rb-code-menu">
             {sshUrl ? (
@@ -271,7 +271,7 @@ export function FileTable({ id, path, items, log, pending, filter, refQuery }) {
             const c = log?.[f.path];
             const wait = !c && pending?.has(f.path);
             return (
-              <tr key={f.path}>
+              <tr data-figma="product/file_row" data-figma-key="" key={f.path}>
                 <td>
                   <Link className="rb-tree-name" to={`/projects/${id}/code/${f.path}${refQuery}`}>
                     {f.type === 'tree' ? <Icon name="ext/folder" label={t.P16_folder} /> : <FileIcon name={f.name} label={t.P16_file} />}

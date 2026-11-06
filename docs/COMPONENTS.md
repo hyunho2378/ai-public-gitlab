@@ -53,3 +53,33 @@
 | CommitDialog | `app/src/components/Write/CommitDialog.jsx` | 호출부 전달 / 내부 부품 | 미등록(실제 Figma 확인 필요) | open, onClose, defaultMessage, branch, onSubmit, submitLabel | screens/P23_Write.jsx |
 
 | HistoryButton | `app/src/components/Action/HistoryButton.jsx` | history / arrow-down | history-button (실물 미확인) | label, onClick | 프로젝트 / 그룹 / 작업 항목 목록 |
+
+## Figma 부품 실명 대응(M-8)
+
+`data-figma`는 Figma 부품 실명이다. `data-figma-key`는 기존 화면 상자 이름을 보존한다. 빈 key는 화면 내 비교 상자가 아닌 부품 내부 이름표다. 측정기는 이 이름 분리를 읽으며 기존 화면 원장을 삭제하거나 허용하지 않는다.
+
+| 부품 | 파일 | data-figma | Figma 컴포넌트 이름 | 속성 / 변형 | 쓰는 화면 |
+|---|---|---|---|---|---|
+| product/brand_logo | app/src/components/Identity/Logo.jsx | product/brand_logo | product/brand_logo | Size | 전역 |
+| product/brand_mois | app/src/components/Identity/MoisLogo.jsx | product/brand_mois | product/brand_mois | 상하 | 로그인 |
+| product/brand_mois_horizontal | app/src/components/Identity/MoisLogo.jsx | product/brand_mois_horizontal | product/brand_mois_horizontal | 좌우 | 바닥글 |
+| product/app_header | app/src/components/Identity/Header.jsx | product/app_header | product/app_header | Auth, Breakpoint | 구형 머리글 |
+| product/repo_tabs | app/src/components/Navigation/ProjectTabs.jsx | product/repo_tabs | product/repo_tabs | Current | 현재 호출 없음 |
+| product/dock_panel | app/src/components/Layout/ProjectInfo.jsx | product/dock_panel | product/dock_panel | State | 저장소 |
+| product/global_sidebar | app/src/components/Navigation/Sidebar.jsx | product/global_sidebar | product/global_sidebar | Auth | 전역 |
+| product/gitlab_topbar | app/src/components/Identity/GlobalBar.jsx | product/gitlab_topbar | product/gitlab_topbar | Auth, Breakpoint | 전역 |
+| product/sidebar_item | app/src/components/Navigation/Sidebar.jsx | product/sidebar_item | product/sidebar_item | Current, Interaction | 사이드바 |
+| product/menu | app/src/components/Navigation/Menu.jsx | product/menu | product/menu | Kind | 전역 |
+| product/branch_menu | app/src/components/Code/RepoParts.jsx | product/branch_menu | product/branch_menu | current | 저장소 |
+| product/code_dropdown | app/src/components/Code/RepoParts.jsx | product/code_dropdown | product/code_dropdown | cloneUrl | 저장소 |
+| product/file_row | app/src/components/Code/RepoParts.jsx | product/file_row | product/file_row | Type | 파일 표 |
+| product/issue_row | app/src/screens/P19_Issues.jsx | product/issue_row | product/issue_row | State | 작업 항목 |
+| product/mr_row | app/src/screens/P20_MergeRequests.jsx | product/mr_row | product/mr_row | State | MR |
+| product/result_row | app/src/components/Layout/ProjectRow.jsx | product/result_row | product/result_row | compact=true | 검색 |
+| product/explore_row | app/src/components/Layout/ProjectRow.jsx | product/explore_row | product/explore_row | compact=false | 탐색 |
+| product/status_block | app/src/components/Feedback/Status.jsx | product/status_block | product/status_block | Loading, Error | 전역 |
+| product/empty_state | app/src/components/Feedback/Status.jsx | product/empty_state | product/empty_state | Empty | 전역 |
+
+`product/notify_row`는 공통 부품으로 등록한다. 현재 알림 화면은 빈 상태이므로 가짜 자료를 만들어 호출하지 않는다.
+
+| product/notify_row | app/src/components/Feedback/NotifyRow.jsx | product/notify_row | product/notify_row | read=false/true, to, children | 실제 알림 자료 연결 전. 가짜 행 생성 없음 |

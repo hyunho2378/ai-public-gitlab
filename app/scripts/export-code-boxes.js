@@ -18,11 +18,11 @@
     // 자식이 있는데 보이는 자식이 하나도 없으면(닫힌 서랍을 감싼 틀 등) 뺀다
     if (e.children.length && ![...e.querySelectorAll('*')].some((k) => { const r = k.getBoundingClientRect(); const kc = getComputedStyle(k); return r.width && r.height && kc.visibility !== 'hidden' && r.right > 0 && r.left < innerWidth; })) return false;
     return true; };
-  const els = [...document.querySelectorAll('[data-figma]')].filter(shown);
+  const els = [...document.querySelectorAll('[data-figma]')].filter((e) => e.getAttribute('data-figma-key') !== '').filter(shown);
   const seen = {}; const out = {}; const order = [];
   const keyOf = new Map();
   for (const e of els) {
-    const n = e.getAttribute('data-figma'); seen[n] = (seen[n] || 0) + 1; const key = seen[n] > 1 ? `${n}#${seen[n]}` : n; keyOf.set(e, key); order.push(key);
+    const n = e.getAttribute('data-figma-key') || e.getAttribute('data-figma'); seen[n] = (seen[n] || 0) + 1; const key = seen[n] > 1 ? `${n}#${seen[n]}` : n; keyOf.set(e, key); order.push(key);
   }
   for (const e of els) {
     const key = keyOf.get(e); const b = e.getBoundingClientRect(); const c = getComputedStyle(e);
@@ -39,7 +39,7 @@
     const tc = getComputedStyle(textEl);
     const bw = px(c.borderTopWidth) || px(c.borderBottomWidth) || px(c.borderLeftWidth);
     const bcol = bw ? hex(c.borderTopWidth !== '0px' ? c.borderTopColor : c.borderBottomWidth !== '0px' ? c.borderBottomColor : c.borderLeftColor) : null;
-    const kids = [...e.querySelectorAll('[data-figma]')].filter((k) => k.parentElement.closest('[data-figma]') === e && keyOf.has(k)).map((k) => keyOf.get(k));
+    const kids = [...e.querySelectorAll('[data-figma]')].filter((k) => (() => { let a = k.parentElement; while (a && !keyOf.has(a)) a = a.parentElement; return a === e; })() && keyOf.has(k)).map((k) => keyOf.get(k));
     out[key] = {
       x: Math.round(b.x + scrollX), y: Math.round(b.y + dy), w: Math.round(b.width), h: Math.round(b.height),
       text: t.length <= 200 ? t : t.slice(0, 200), textLen: t.length,

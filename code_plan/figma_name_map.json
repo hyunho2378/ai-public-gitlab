@@ -2079,7 +2079,7 @@
     "Project/개요"
    ],
    "code": {
-    "path": "/projects/150/about",
+    "path": "/projects/150",
     "query": {
      "fixture": "kordoc"
     },
@@ -2096,7 +2096,8 @@
     ],
     "authSwitch": "?auth=Signed-in(개발 서버만, api/devState.js)",
     "roles": [],
-    "variantsInCode": {}
+    "variantsInCode": {},
+    "mappingNote": "M8: Figma A-02는 저장소 홈 + AI 소개 카드. 소개 상세 /about와 비교하지 않는다."
    }
   },
   {
@@ -3100,5 +3101,33 @@
   "count": 1103,
   "since": "2026-11-01 Figma 36차",
   "note": "833 + 흐름 K 브랜치 선택 270(K1·K2 1440 Guest, K3·K4 1920 Guest). 직접 연결 8(branch button 2, outside click 2, 메뉴 항목 2, Esc 2) + 복제 상태 262(사이드바 항목 item/관리·계획·코드·빌드·배포·운영·분석 각 4 = 28, 사이드바 접음 2, File row 폴더 112 + 파일 120 마우스 올림·누름 쌍 = 232). 흐름 H와 같은 방식. 목적지 누락 0. 부모 승인(968 기준) 후 1920 추가로 갱신"
+ },
+ "componentIdentity": {
+  "componentAttribute": "data-figma",
+  "screenBoxAttribute": "data-figma-key",
+  "note": "부품 이름과 화면 상자 역할 분리. data-figma-key 빈 값은 화면 비교 대상 아닌 내부 부품. 누락된 화면 상자를 허용하거나 제외하는 변경은 아님.",
+  "aliases": [
+   {
+    "file": "app/src/components/Layout/ProjectInfo.jsx",
+    "figma": "product/dock_panel",
+    "screenKey": "project-info"
+   },
+   {
+    "file": "app/src/components/Identity/GlobalBar.jsx",
+    "figma": "product/gitlab_topbar",
+    "screenKey": "topbar"
+   },
+   {
+    "file": "app/src/components/Navigation/Sidebar.jsx",
+    "figma": "product/gitlab_sidebar",
+    "screenKey": "gitlab-sidebar"
+   },
+   {
+    "file": "app/src/components/Feedback/NotifyRow.jsx",
+    "figma": "product/notify_row",
+    "screenKey": "",
+    "state": "registered-not-mounted"
+   }
+  ]
  }
 }
