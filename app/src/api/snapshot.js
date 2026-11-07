@@ -18,6 +18,13 @@ export function snapshotIndex() {
   if (!indexP) indexP = getJson(SNAP + 'index.json');
   return indexP;
 }
+// 사용자 프로필(G-12): users/{username}.json(scripts/snapshot/fetch-users.mjs). 이름으로 먼저 받고, 이후 users/:id/* 요청은 같은 파일을 쓴다
+const userFiles = new Map();
+const userById = new Map();
+function userFile(name) {
+  if (!userFiles.has(name)) userFiles.set(name, getJson(`${SNAP}users/${encodeURIComponent(name)}.json`).then((f) => { if (f?.user) userById.set(String(f.user.id), f); return f; }));
+  return userFiles.get(name);
+}
 function detail(id) {
   if (!details.has(id)) details.set(id, getJson(`${SNAP}projects/${id}.json`));
   return details.get(id);
@@ -53,6 +60,18 @@ export async function snapshotGet(sub, query) {
   const all = idx.projects || [];
   let m;
 
+  if (sub === 'users') {
+    const f = await userFile(q.get('username') || '');
+    if (!f?.user) throw new SnapshotMissing();
+    return ok([f.user], 1, null);
+  }
+  if ((m = sub.match(/^users\/(\d+)\/(events|projects|starred_projects)$/))) {
+    const f = userById.get(m[1]);
+    if (!f) throw new SnapshotMissing();
+    if (m[2] === 'projects') return ok(f.projects, f.projectsTotal, null);
+    if (m[2] === 'starred_projects') return ok(f.starred, f.starredTotal, null);
+    return page(f.events, q);
+  }
   if (sub === 'projects') {
     let list = all;
     const arch = q.get('archived');

@@ -94,8 +94,21 @@ for (const p of index) {
   details++;
 }
 
+// 사용자 프로필(G-12): scripts/snapshot/fetch-users.mjs가 data/raw/users/{username}/profile.json에 고정 저장한 공개 응답을 그대로 싣는다
+let userCount = 0;
+const USERS = path.join(RAW, 'users');
+if (fs.existsSync(USERS)) {
+  fs.mkdirSync(path.join(OUT, 'users'), { recursive: true });
+  for (const name of fs.readdirSync(USERS)) {
+    const prof = read(path.join(USERS, name, 'profile.json'), null);
+    if (!prof?.user) continue;
+    fs.writeFileSync(path.join(OUT, 'users', `${name}.json`), JSON.stringify(prof));
+    userCount++;
+  }
+}
+
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({
   meta: { fetchedDate: meta.fetchedDate || null, fetchedAt: meta.fetchedAt || null, source: 'data/raw(공개 목록, README, 파일 목록, languages) + sample/kordoc', projectCount: index.length, detailCount: details, readmeExcluded: noReadme.size },
   projects: index,
 }));
-console.log(`index ${index.length}, 상세 ${details}, README 제외 ${noReadme.size}`);
+console.log(`index ${index.length}, 상세 ${details}, README 제외 ${noReadme.size}, 사용자 ${userCount}`);

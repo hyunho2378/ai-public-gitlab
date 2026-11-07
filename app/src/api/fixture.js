@@ -1,3 +1,4 @@
+import { displayNow } from '../lib/displayClock';
 // 고정 예시 자료(?fixture=kordoc). Figma 화면과 코드를 같은 자료로 대조할 때 쓴다.
 // 공공 깃랩 점검 시간에도 화면을 확인할 수 있다. 실제 공개 저장소에서 받아 둔 응답이며 꾸민 자료가 아니다.
 // 개발 모드에서만 켜진다. 배포본에서는 항상 꺼져 있다.
@@ -18,6 +19,25 @@ function snapshotList(query) {
   rows = [...rows].sort((a, b) => (a[order] > b[order] ? 1 : a[order] < b[order] ? -1 : 0) * dir);
   return { data: rows.slice((page - 1) * per, page * per), total: rows.length, next: page * per < rows.length ? page + 1 : null };
 }
+// 사용자 프로필(G-12): 공개 API를 실시간으로 받으면 측정마다 새 활동이 생겨 Figma와 어긋난다.
+// scripts/snapshot/fetch-users.mjs가 고정 저장한 응답(public/data/snapshot/users/{username}.json)을 쓴다. 측정 기준 시각보다 뒤의 활동은 뺀다(그 시각에 본 화면)
+const USERS = import.meta.glob('../../public/data/snapshot/users/*.json', { eager: true, import: 'default' });
+const userSnap = (pred) => Object.values(USERS).find(pred);
+function userFixture(p, query) {
+  const q = new URLSearchParams(query);
+  const res = (data, total = null) => ({ mock: false, source: 'snapshot/users', fixture: 'kordoc', state: Array.isArray(data) && !data.length ? 'Empty' : 'Ideal', data, pagination: { nextPage: null, total } });
+  if (p === 'users') { const s = userSnap((x) => x.user?.username === q.get('username')); return s ? res([s.user]) : null; }
+  const m = p.match(/^users\/(\d+)\/(events|projects|starred_projects)$/);
+  if (!m) return null;
+  const s = userSnap((x) => String(x.user?.id) === m[1]);
+  if (!s) return null;
+  if (m[2] === 'projects') return res(s.projects, s.projectsTotal);
+  if (m[2] === 'starred_projects') return res(s.starred, s.starredTotal);
+  const cut = displayNow();
+  const all = s.events.filter((e) => Date.parse(e.created_at) <= cut);
+  const per = Number(q.get('per_page')) || 20; const page = Number(q.get('page')) || 1;
+  return res(all.slice((page - 1) * per, page * per), all.length);
+}
 const pick = (name) => FILES[`../../../sample/kordoc/api/${name}.json`];
 const TOTALS = pick('totals');
 // 목록 파일은 첫 100개만 담겨 있다. 화면에 보이는 총계는 totals.json 값을 쓴다.
@@ -35,6 +55,7 @@ export function fixtureFor(path) {
   if (!fixtureName()) return null;
   const p = path.replace(/^\/api\/gitlab\//, '').split('?')[0];
   const ok = (data) => ({ mock: false, source: 'sample/kordoc', fixture: 'kordoc', state: 'Ideal', data, pagination: { nextPage: null, total: null } });
+  if (p === 'users' || p.startsWith('users/')) return userFixture(p, path.split('?')[1] || '');
   if (p === 'projects') { const r = snapshotList(path.split('?')[1] || ''); return { mock: false, source: 'snapshot', fixture: 'kordoc', state: r.data.length ? 'Ideal' : 'Empty', data: r.data, pagination: { nextPage: r.next, total: r.total } }; }
   if (/^projects\/[^/]+\/repository\/commits\/[0-9a-f]{7,40}\/refs$/.test(p)) return ok([{ type: 'branch', name: 'main' }, { type: 'tag', name: 'v4.24.21' }]);
   if (/^projects\/[^/]+\/repository\/commits\/[0-9a-f]{7,40}\/merge_requests$/.test(p)) return ok([]);
