@@ -24,7 +24,8 @@
 .rb-error { color: var(--krds-color-text-danger); }
 .rb-actions { display: flex; flex-wrap: wrap; gap: var(--krds-gap-4); align-items: center; }
 .rb-links { display: flex; flex-wrap: wrap; gap: var(--krds-gap-5) var(--krds-gap-7); list-style: none; padding: 0; margin: 0; }
-.rb-narrow { max-width: calc(var(--krds-size-height-11) * 8); }
+/* 읽기 폭 640은 본문(폼·안내)에만. 화면 제목(page-head)은 다른 화면처럼 본문 전체 폭(Figma G-05/G-09 1088) */
+.rb-narrow > :not(.rb-write-head):not([data-figma="page-head"]) { min-inline-size: 0; max-width: calc(var(--krds-size-height-11) * 8); }
 
 /* 검색 */
 .rb-search { display: flex; flex-direction: column; gap: var(--krds-gap-3); }
