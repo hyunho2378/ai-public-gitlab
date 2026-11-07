@@ -409,3 +409,9 @@ html[data-krds-mode="light"] #root .rb-gbar-search {
 #root .rb-ra-gridlines span:last-child { background: var(--krds-color-text-subtle); }
 #root .rb-ra-xaxis { list-style: none; display: flex; gap: var(--krds-number-8); min-height: var(--rb-lh-13); padding: 0; margin: 0; }
 #root .rb-ra-xaxis li { flex: 1 1 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: center; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--krds-color-text-subtle); }
+/* M20 A-01 1023 이하: 유형 아이콘(위 4 + 20 = 24)이 첫 줄을 24로 키워 제목→숫자 간격이 2가 되던 원인.
+   아이콘도 아바타처럼 두 줄에 걸치고 줄 사이를 행 안 간격 4로(제목22 + 4 + 숫자20, 행 71) */
+@media (max-width: 1023px) {
+  #root .rb-taskfind .rb-prow { row-gap: var(--krds-number-3); }
+  #root .rb-taskfind .rb-prow > .rb-icon { grid-row: 1 / span 2; }
+}
