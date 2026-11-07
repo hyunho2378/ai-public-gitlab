@@ -1,3 +1,4 @@
+import { displayNow } from '../../lib/displayClock';
 // Figma: activity-calendar → activity-calendar
 // 활동 달력(공공 GitLab 사용자 프로필 '활동' 그대로): 52주 x 7일, 칸 하나 = 하루, 진할수록 활동이 많음.
 // 달 이름은 위(끝 2주는 넘침 방지로 비움), 요일(월, 수, 금)은 왼쪽에 고정, 범례는 왼쪽 아래, 설명은 오른쪽 아래. 색은 layout.tokens.css --layout-cal-0~4
@@ -11,7 +12,7 @@ const DOW = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 const ROWS = pf.calRows;
 
 /** counts: { 'YYYY-MM-DD': n }. 단계는 값이 있는 날의 4분위(GitHub, GitLab 방식) */
-export function buildCalendar(counts, now = Date.now(), weeks = 52) {
+export function buildCalendar(counts, now = displayNow(), weeks = 52) {
   const end = new Date(`${keyOf(new Date(now))}T12:00:00+09:00`);
   const dow = DOW.indexOf(new Intl.DateTimeFormat('en-US', { timeZone: TZ, weekday: 'short' }).format(end));
   const start = end.getTime() - ((weeks - 1) * 7 + dow) * DAY;

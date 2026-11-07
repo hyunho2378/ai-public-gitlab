@@ -1,3 +1,4 @@
+import { displayNow } from '../lib/displayClock';
 // 화면 문구 모음. Figma 문구와 같게 유지한다. 키 접두 = 화면 번호(P01~P15) 또는 공통 부품 이름.
 // 문구를 고칠 때는 이 파일만 고친다. 이름/제목/메뉴/탭/라벨은 명사 나열, 와/과 대신 빗금(/), 1~3어절(UX/07 11장). 버튼은 동사 하나, 느낌표 금지.
 export const t = {
@@ -776,7 +777,7 @@ export const t = {
     mib: (n) => `${n}MB`,
     ago: (iso) => {
       if (!iso) return '';
-      const sec = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000);
+      const sec = Math.max(0, (displayNow() - new Date(iso).getTime()) / 1000);
       const steps = [[60, '초'], [60, '분'], [24, '시간'], [30, '일'], [12, '개월'], [Infinity, '년']];
       let v = sec;
       for (const [n, unit] of steps) {
@@ -799,7 +800,7 @@ export const t = {
     times: (n) => `${n}`,
     countLabel: (label, n) => `${label} ${n}`,
     relativeDate: (iso) => {
-      const d = new Date(iso); const now = new Date();
+      const d = new Date(iso); const now = new Date(displayNow());
       // 공공 깃랩과 같은 단위: 분, 시간, 일, 주, 개월, 년
       const min = Math.floor((now - d) / 60000);
       const days = Math.floor(min / 1440);

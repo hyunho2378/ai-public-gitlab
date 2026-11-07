@@ -102,7 +102,8 @@
    "code": {
     "path": "/projects/150",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -148,7 +149,8 @@
    "code": {
     "path": "/projects/150/code/src",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -192,7 +194,8 @@
    "code": {
     "path": "/projects/150/code/README.md",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -239,7 +242,8 @@
    "code": {
     "path": "/projects/150/changes",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -282,7 +286,8 @@
    "code": {
     "path": "/projects/150/changes/03f9484ed200a2b3e8ba824de7d0b651ef7bd528",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -325,7 +330,8 @@
    "code": {
     "path": "/projects/150/compare",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -369,7 +375,8 @@
    "code": {
     "path": "/projects/150/branches",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -416,7 +423,8 @@
    "code": {
     "path": "/projects/150/tags",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -459,7 +467,8 @@
    "code": {
     "path": "/projects/150/releases",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -502,7 +511,8 @@
    "code": {
     "path": "/projects/150/contributors",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -545,7 +555,8 @@
    "code": {
     "path": "/projects/150/issues",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -589,7 +600,8 @@
    "code": {
     "path": "/projects/150/issues/55",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -636,7 +648,8 @@
    "code": {
     "path": "/projects/150/boards",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -679,7 +692,8 @@
    "code": {
     "path": "/projects/150/labels",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -722,7 +736,8 @@
    "code": {
     "path": "/projects/150/milestones",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -765,7 +780,8 @@
    "code": {
     "path": "/projects/150/merge-requests",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -809,7 +825,8 @@
    "code": {
     "path": "/projects/150/merge-requests/56",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -856,7 +873,8 @@
    "code": {
     "path": "/projects/150/pipelines",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -899,7 +917,8 @@
    "code": {
     "path": "/projects/150/jobs",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -942,7 +961,8 @@
    "code": {
     "path": "/projects/150/packages",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -985,7 +1005,8 @@
    "code": {
     "path": "/projects/150/wiki",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1028,7 +1049,8 @@
    "code": {
     "path": "/projects/150/snippets",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1072,7 +1094,8 @@
    "code": {
     "path": "/projects/150/members",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1119,7 +1142,8 @@
    "code": {
     "path": "/projects/150/activity",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1162,7 +1186,8 @@
    "code": {
     "path": "/projects/150/analytics",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1205,7 +1230,8 @@
    "code": {
     "path": "/projects/150/settings",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1253,7 +1279,8 @@
    "code": {
     "path": "/projects/150/new",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1296,7 +1323,8 @@
    "code": {
     "path": "/projects/150/upload",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1339,7 +1367,8 @@
    "code": {
     "path": "/projects/150/branches/new",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1382,7 +1411,8 @@
    "code": {
     "path": "/projects/150/use",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1426,7 +1456,8 @@
    "code": {
     "path": "/",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1471,7 +1502,8 @@
    "code": {
     "path": "/search?q=kordoc",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1513,7 +1545,9 @@
    ],
    "code": {
     "path": "/explore/topics",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1554,7 +1588,9 @@
    ],
    "code": {
     "path": "/organizations",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1595,7 +1631,9 @@
    ],
    "code": {
     "path": "/projects/new",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1636,7 +1674,9 @@
    ],
    "code": {
     "path": "/my",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1677,7 +1717,9 @@
    ],
    "code": {
     "path": "/notifications",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1716,7 +1758,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/login",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1755,7 +1799,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/login/failed",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1794,7 +1840,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/login/otp",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1833,7 +1881,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/register",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1872,7 +1922,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/password",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1913,7 +1965,9 @@
    ],
    "code": {
     "path": "/error",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1954,7 +2008,9 @@
    ],
    "code": {
     "path": "/help",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1995,7 +2051,9 @@
    ],
    "code": {
     "path": "/settings",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2037,7 +2095,8 @@
    "code": {
     "path": "/search?q=%EB%B3%B4%EA%B3%A0%EC%84%9C%20%EC%9E%91%EC%84%B1",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2081,7 +2140,8 @@
    "code": {
     "path": "/projects/150",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2125,7 +2185,8 @@
    "code": {
     "path": "/projects/150/publish-check",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2168,7 +2229,8 @@
    "code": {
     "path": "/projects/150/feedback",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2211,7 +2273,9 @@
    ],
    "code": {
     "path": "/requests",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2252,7 +2316,9 @@
    ],
    "code": {
     "path": "/insights",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2293,7 +2359,9 @@
    ],
    "code": {
     "path": "/mcp",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2335,7 +2403,8 @@
    "code": {
     "path": "/projects/150/handover",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2377,7 +2446,9 @@
    ],
    "code": {
     "path": "/collaborate",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2419,7 +2490,8 @@
    "code": {
     "path": "/projects/150/law-alerts",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2461,7 +2533,9 @@
    ],
    "code": {
     "path": "/checklist",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2492,7 +2566,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/users/chrisryugj",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1440,
      768,
@@ -3163,5 +3239,11 @@
    "file": "app/src/screens/P11_Organizations.jsx",
    "selector": "form.rb-x-search"
   }
+ },
+ "measurementClock": {
+  "query": "now",
+  "iso": "2026-11-07T10:00:00+09:00",
+  "developmentOnly": true,
+  "note": "상대시간과 프로필 달력 기준. 배포본은 query를 무시한다."
  }
 }

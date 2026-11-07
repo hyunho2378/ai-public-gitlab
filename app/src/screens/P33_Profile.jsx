@@ -1,3 +1,4 @@
+import { displayNow } from '../lib/displayClock';
 // G-12 사용자 프로필(공공 GitLab 사용자 화면 그대로, UX/handson/gitlab/70_사용자프로필.png).
 // 이름과 @아이디, '활동' 달력(최근 1년), 활동 목록, 오른쪽 '정보' 열. 탭: 개인 프로젝트, 별점 부여된 프로젝트.
 // 자료: 공개 API(users?username, users/:id/events, projects, starred_projects). 사용자 상세와 팔로워는 비로그인 403이라 쓰지 않는다.
@@ -28,7 +29,7 @@ async function loadUser(username) {
   const r = await gitlab.userByName(username);
   const user = Array.isArray(r.data) ? r.data[0] : null;
   if (!user) return null;
-  const after = new Date(Date.now() - 366 * 86400000).toISOString().slice(0, 10);
+  const after = new Date(displayNow() - 366 * 86400000).toISOString().slice(0, 10);
   const events = [];
   let partial = false;
   for (let page = 1; page <= MAX_PAGES; page += 1) {
