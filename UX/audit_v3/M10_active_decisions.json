@@ -1525,7 +1525,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 69,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -1555,7 +1555,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 69,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -1585,7 +1585,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 69,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -1713,7 +1713,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 69,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -1743,7 +1743,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 69,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -1773,7 +1773,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 69,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2179,7 +2179,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 121,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2194,7 +2194,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 780,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2209,7 +2209,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 185,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2222,11 +2222,11 @@
   "allowed": null,
   "frame": "A-02_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2250,7 +2250,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2265,7 +2265,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 233,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2280,7 +2280,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 315,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2295,7 +2295,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1262,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2320,7 +2320,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2335,7 +2335,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 5918,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2347,7 +2347,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 12 12 14 12→12 12 16 12",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2366,7 +2366,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2453,7 +2453,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2468,13 +2468,13 @@
   "allowed": null,
   "frame": "A-02_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2486,7 +2486,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2495,8 +2495,8 @@
   "allowed": null,
   "frame": "A-02_1024_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2505,8 +2505,8 @@
   "allowed": null,
   "frame": "A-02_1024_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2515,8 +2515,8 @@
   "allowed": null,
   "frame": "A-02_1024_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2525,8 +2525,8 @@
   "allowed": null,
   "frame": "A-02_1024_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2539,7 +2539,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > project-info > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2554,7 +2554,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 121,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2569,7 +2569,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 780,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2584,7 +2584,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 185,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2597,11 +2597,11 @@
   "allowed": null,
   "frame": "A-02_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2625,7 +2625,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2640,7 +2640,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 233,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2655,7 +2655,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 315,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2670,7 +2670,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1262,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2695,7 +2695,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2710,7 +2710,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 5918,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2722,7 +2722,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 12 12 14 12→12 12 16 12",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2741,7 +2741,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2828,7 +2828,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2843,13 +2843,13 @@
   "allowed": null,
   "frame": "A-02_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2861,7 +2861,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2870,8 +2870,8 @@
   "allowed": null,
   "frame": "A-02_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2880,8 +2880,8 @@
   "allowed": null,
   "frame": "A-02_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2890,8 +2890,8 @@
   "allowed": null,
   "frame": "A-02_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2900,8 +2900,8 @@
   "allowed": null,
   "frame": "A-02_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2914,7 +2914,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > project-info > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2929,7 +2929,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 121,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2944,7 +2944,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 780,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2959,7 +2959,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 185,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -2972,11 +2972,11 @@
   "allowed": null,
   "frame": "A-02_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3000,7 +3000,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3015,7 +3015,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 233,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3030,7 +3030,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 315,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3045,7 +3045,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1262,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3070,7 +3070,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3085,7 +3085,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 5494,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3104,7 +3104,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3191,7 +3191,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3206,13 +3206,13 @@
   "allowed": null,
   "frame": "A-02_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3224,7 +3224,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3233,8 +3233,8 @@
   "allowed": null,
   "frame": "A-02_1440_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3243,8 +3243,8 @@
   "allowed": null,
   "frame": "A-02_1440_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3253,8 +3253,8 @@
   "allowed": null,
   "frame": "A-02_1440_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3263,8 +3263,8 @@
   "allowed": null,
   "frame": "A-02_1440_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3277,7 +3277,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3292,7 +3292,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 121,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3307,7 +3307,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 780,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3322,7 +3322,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 185,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3335,11 +3335,11 @@
   "allowed": null,
   "frame": "A-02_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3363,7 +3363,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3378,7 +3378,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 233,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3393,7 +3393,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 315,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3408,7 +3408,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1262,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3433,7 +3433,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3448,7 +3448,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 5494,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3467,7 +3467,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3554,7 +3554,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3569,13 +3569,13 @@
   "allowed": null,
   "frame": "A-02_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3587,7 +3587,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3596,8 +3596,8 @@
   "allowed": null,
   "frame": "A-02_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3606,8 +3606,8 @@
   "allowed": null,
   "frame": "A-02_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3616,8 +3616,8 @@
   "allowed": null,
   "frame": "A-02_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3626,8 +3626,8 @@
   "allowed": null,
   "frame": "A-02_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3640,7 +3640,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3655,7 +3655,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 121,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3670,7 +3670,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 780,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3685,7 +3685,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 185,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3698,11 +3698,11 @@
   "allowed": null,
   "frame": "A-02_1920_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3726,7 +3726,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3741,7 +3741,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 233,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3756,7 +3756,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 315,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3771,7 +3771,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1262,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3796,7 +3796,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3811,7 +3811,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 5270,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3830,7 +3830,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3917,7 +3917,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3932,13 +3932,13 @@
   "allowed": null,
   "frame": "A-02_1920_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3950,7 +3950,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3959,8 +3959,8 @@
   "allowed": null,
   "frame": "A-02_1920_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3969,8 +3969,8 @@
   "allowed": null,
   "frame": "A-02_1920_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3979,8 +3979,8 @@
   "allowed": null,
   "frame": "A-02_1920_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -3989,8 +3989,8 @@
   "allowed": null,
   "frame": "A-02_1920_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4003,7 +4003,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4018,7 +4018,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 121,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4033,7 +4033,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 780,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4048,7 +4048,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 185,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4061,11 +4061,11 @@
   "allowed": null,
   "frame": "A-02_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4089,7 +4089,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4104,7 +4104,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 233,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4119,7 +4119,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 315,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4134,7 +4134,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1262,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4159,7 +4159,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4174,7 +4174,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 5270,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4193,7 +4193,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4280,7 +4280,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4295,13 +4295,13 @@
   "allowed": null,
   "frame": "A-02_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4313,7 +4313,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4322,8 +4322,8 @@
   "allowed": null,
   "frame": "A-02_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4332,8 +4332,8 @@
   "allowed": null,
   "frame": "A-02_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4342,8 +4342,8 @@
   "allowed": null,
   "frame": "A-02_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4352,8 +4352,8 @@
   "allowed": null,
   "frame": "A-02_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4366,7 +4366,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4381,7 +4381,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 225,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4396,7 +4396,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 734,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4409,11 +4409,11 @@
   "allowed": null,
   "frame": "A-02_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4438,7 +4438,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4453,7 +4453,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 66,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4468,7 +4468,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1219,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4493,7 +4493,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4505,7 +4505,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 12 12 10 12→12 12 16 12",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4524,7 +4524,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4611,7 +4611,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4626,13 +4626,13 @@
   "allowed": null,
   "frame": "A-02_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4644,7 +4644,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4653,8 +4653,8 @@
   "allowed": null,
   "frame": "A-02_360_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4663,8 +4663,8 @@
   "allowed": null,
   "frame": "A-02_360_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4673,8 +4673,8 @@
   "allowed": null,
   "frame": "A-02_360_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4683,8 +4683,8 @@
   "allowed": null,
   "frame": "A-02_360_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4699,7 +4699,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 225,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4714,7 +4714,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 734,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4727,11 +4727,11 @@
   "allowed": null,
   "frame": "A-02_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4756,7 +4756,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4771,7 +4771,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 66,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4786,7 +4786,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1219,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4811,7 +4811,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4823,7 +4823,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 12 12 10 12→12 12 16 12",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4842,7 +4842,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4929,7 +4929,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4944,13 +4944,13 @@
   "allowed": null,
   "frame": "A-02_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4962,7 +4962,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4971,8 +4971,8 @@
   "allowed": null,
   "frame": "A-02_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4981,8 +4981,8 @@
   "allowed": null,
   "frame": "A-02_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -4991,8 +4991,8 @@
   "allowed": null,
   "frame": "A-02_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5001,8 +5001,8 @@
   "allowed": null,
   "frame": "A-02_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5017,7 +5017,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 185,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5032,7 +5032,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 712,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5045,11 +5045,11 @@
   "allowed": null,
   "frame": "A-02_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5073,7 +5073,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5088,7 +5088,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1262,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5113,7 +5113,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5128,7 +5128,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 5548,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5147,7 +5147,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5234,7 +5234,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5249,13 +5249,13 @@
   "allowed": null,
   "frame": "A-02_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5267,7 +5267,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5276,8 +5276,8 @@
   "allowed": null,
   "frame": "A-02_768_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5286,8 +5286,8 @@
   "allowed": null,
   "frame": "A-02_768_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5296,8 +5296,8 @@
   "allowed": null,
   "frame": "A-02_768_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5306,8 +5306,8 @@
   "allowed": null,
   "frame": "A-02_768_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5322,7 +5322,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 185,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5337,7 +5337,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 712,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5350,11 +5350,11 @@
   "allowed": null,
   "frame": "A-02_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "코드"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5378,7 +5378,7 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5393,7 +5393,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1262,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5418,7 +5418,7 @@
    "icon-file/git",
    "icon-file/markdown"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5433,7 +5433,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 5548,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5452,7 +5452,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5539,7 +5539,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 172,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5554,13 +5554,13 @@
   "allowed": null,
   "frame": "A-02_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "HWP·PDF 문서를 Markdown으로 바꾼다",
    "설치 필요(Node.js, CLI)",
    "코드 MIT License"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5572,7 +5572,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5581,8 +5581,8 @@
   "allowed": null,
   "frame": "A-02_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5591,8 +5591,8 @@
   "allowed": null,
   "frame": "A-02_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5601,8 +5601,8 @@
   "allowed": null,
   "frame": "A-02_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -5611,8 +5611,8 @@
   "allowed": null,
   "frame": "A-02_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/14_팀기능_배치.md 1/3절; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6094,7 +6094,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -6220,7 +6220,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 642,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6256,7 +6256,7 @@
   "frame": "G-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6271,7 +6271,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -6397,7 +6397,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 642,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6433,7 +6433,7 @@
   "frame": "G-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6448,7 +6448,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -6604,7 +6604,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1042,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6640,7 +6640,7 @@
   "frame": "G-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6655,7 +6655,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -6811,7 +6811,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1042,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6847,7 +6847,7 @@
   "frame": "G-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -6862,7 +6862,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -7018,7 +7018,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1338,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7054,7 +7054,7 @@
   "frame": "G-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7069,7 +7069,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -7225,7 +7225,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1338,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7261,7 +7261,7 @@
   "frame": "G-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7276,7 +7276,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -7378,7 +7378,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 139,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7477,7 +7477,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 295,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7492,7 +7492,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 230,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7528,7 +7528,7 @@
   "frame": "G-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7541,7 +7541,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > page-head > gl-tabs > gl-filter > filter-search > extra-field-filter > project-row > project-row#2 > project-row#3 > project-row#4 > project-row#5 > project-row#6 > project-row#7 > project-row#8 > footer",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7556,7 +7556,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -7658,7 +7658,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 139,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7757,7 +7757,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 295,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7772,7 +7772,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 230,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7808,7 +7808,7 @@
   "frame": "G-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7821,7 +7821,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > page-head > gl-tabs > gl-filter > filter-search > extra-field-filter > project-row > project-row#2 > project-row#3 > project-row#4 > project-row#5 > project-row#6 > project-row#7 > project-row#8 > footer",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7836,7 +7836,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -7962,7 +7962,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 394,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -7998,7 +7998,7 @@
   "frame": "G-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -8013,7 +8013,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 160,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
@@ -8139,7 +8139,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 394,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -8175,7 +8175,7 @@
   "frame": "G-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9168,8 +9168,8 @@
   "frame": "G-04_1024_Guest",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -9196,13 +9196,13 @@
   "allowed": null,
   "frame": "G-04_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9217,13 +9217,13 @@
   "allowed": null,
   "frame": "G-04_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9238,13 +9238,13 @@
   "allowed": null,
   "frame": "G-04_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9259,13 +9259,13 @@
   "allowed": null,
   "frame": "G-04_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9280,13 +9280,13 @@
   "allowed": null,
   "frame": "G-04_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9301,13 +9301,13 @@
   "allowed": null,
   "frame": "G-04_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9322,13 +9322,13 @@
   "allowed": null,
   "frame": "G-04_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9646,7 +9646,7 @@
   "frame": "G-04_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9687,8 +9687,8 @@
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -9715,13 +9715,13 @@
   "allowed": null,
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9736,13 +9736,13 @@
   "allowed": null,
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9757,13 +9757,13 @@
   "allowed": null,
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9778,13 +9778,13 @@
   "allowed": null,
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -9799,13 +9799,13 @@
   "allowed": null,
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10157,7 +10157,7 @@
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10198,8 +10198,8 @@
   "frame": "G-04_1440_Guest",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -10226,13 +10226,13 @@
   "allowed": null,
   "frame": "G-04_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10247,13 +10247,13 @@
   "allowed": null,
   "frame": "G-04_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10268,13 +10268,13 @@
   "allowed": null,
   "frame": "G-04_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10289,13 +10289,13 @@
   "allowed": null,
   "frame": "G-04_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10310,13 +10310,13 @@
   "allowed": null,
   "frame": "G-04_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10672,7 +10672,7 @@
   "frame": "G-04_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10713,8 +10713,8 @@
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -10741,13 +10741,13 @@
   "allowed": null,
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10762,13 +10762,13 @@
   "allowed": null,
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10783,13 +10783,13 @@
   "allowed": null,
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -10821,13 +10821,13 @@
   "allowed": null,
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -11179,7 +11179,7 @@
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -11220,8 +11220,8 @@
   "frame": "G-04_1920_Guest",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -11248,13 +11248,13 @@
   "allowed": null,
   "frame": "G-04_1920_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -11283,13 +11283,13 @@
   "allowed": null,
   "frame": "G-04_1920_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -11318,13 +11318,13 @@
   "allowed": null,
   "frame": "G-04_1920_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -11385,13 +11385,13 @@
   "allowed": null,
   "frame": "G-04_1920_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -11973,7 +11973,7 @@
   "frame": "G-04_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12014,8 +12014,8 @@
   "frame": "G-04_1920_Signed-in",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -12042,13 +12042,13 @@
   "allowed": null,
   "frame": "G-04_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12114,13 +12114,13 @@
   "allowed": null,
   "frame": "G-04_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12475,7 +12475,7 @@
   "frame": "G-04_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12516,8 +12516,8 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -12597,13 +12597,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12633,13 +12633,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12669,13 +12669,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12690,13 +12690,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12711,13 +12711,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12732,13 +12732,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12753,13 +12753,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12774,13 +12774,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12795,13 +12795,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12816,13 +12816,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -12837,13 +12837,13 @@
   "allowed": null,
   "frame": "G-04_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13080,7 +13080,7 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13121,8 +13121,8 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -13202,13 +13202,13 @@
   "allowed": null,
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13238,13 +13238,13 @@
   "allowed": null,
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13274,13 +13274,13 @@
   "allowed": null,
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13295,13 +13295,13 @@
   "allowed": null,
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13316,13 +13316,13 @@
   "allowed": null,
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13337,13 +13337,13 @@
   "allowed": null,
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13358,13 +13358,13 @@
   "allowed": null,
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13379,13 +13379,13 @@
   "allowed": null,
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13673,7 +13673,7 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13714,8 +13714,8 @@
   "frame": "G-04_768_Guest",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -13742,13 +13742,13 @@
   "allowed": null,
   "frame": "G-04_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13763,13 +13763,13 @@
   "allowed": null,
   "frame": "G-04_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13784,13 +13784,13 @@
   "allowed": null,
   "frame": "G-04_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13805,13 +13805,13 @@
   "allowed": null,
   "frame": "G-04_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13826,13 +13826,13 @@
   "allowed": null,
   "frame": "G-04_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13847,13 +13847,13 @@
   "allowed": null,
   "frame": "G-04_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13868,13 +13868,13 @@
   "allowed": null,
   "frame": "G-04_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -13889,13 +13889,13 @@
   "allowed": null,
   "frame": "G-04_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14196,7 +14196,7 @@
   "frame": "G-04_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14237,8 +14237,8 @@
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
   "side": "Figma",
-  "target": "G-01과 같은 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름표를 혼용하지 않음",
-  "evidence": "ProjectStateTabs 공통 부품; G-04만 별도 폭/이름표 패치 금지",
+  "target": "공통 ProjectStateTabs 내부160. 바깥 FILL과 내부 Hug 이름을 분리",
+  "evidence": "ProjectStateTabs 동일 부품; 1440/360 내부160 실측; 화면별 패치 금지",
   "implementation": "미수정"
  },
  {
@@ -14265,13 +14265,13 @@
   "allowed": null,
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14286,13 +14286,13 @@
   "allowed": null,
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14307,13 +14307,13 @@
   "allowed": null,
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14328,13 +14328,13 @@
   "allowed": null,
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14349,13 +14349,13 @@
   "allowed": null,
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14370,13 +14370,13 @@
   "allowed": null,
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "하위 그룹",
    "프로젝트",
    "멤버"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14711,7 +14711,7 @@
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/capture_map.md; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14844,11 +14844,11 @@
   "allowed": null,
   "frame": "G-06_1024_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -14921,11 +14921,11 @@
   "allowed": null,
   "frame": "G-06_1024_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -15078,11 +15078,11 @@
   "allowed": null,
   "frame": "G-06_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -15155,11 +15155,11 @@
   "allowed": null,
   "frame": "G-06_1440_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -15312,11 +15312,11 @@
   "allowed": null,
   "frame": "G-06_1920_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -15389,11 +15389,11 @@
   "allowed": null,
   "frame": "G-06_1920_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -15546,11 +15546,11 @@
   "allowed": null,
   "frame": "G-06_360_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -15608,11 +15608,11 @@
   "allowed": null,
   "frame": "G-06_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -15709,11 +15709,11 @@
   "allowed": null,
   "frame": "G-06_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -15771,11 +15771,11 @@
   "allowed": null,
   "frame": "G-06_768_Signed-in",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "탐색 내 프로젝트"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -16887,7 +16887,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "간격 12→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -16902,7 +16902,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 1088,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -16915,11 +16915,11 @@
   "allowed": null,
   "frame": "G-12_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "정보"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -16932,11 +16932,11 @@
   "allowed": null,
   "frame": "G-12_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "6 시간 전"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -16949,11 +16949,11 @@
   "allowed": null,
   "frame": "G-12_1440_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "6 시간 전"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -16962,8 +16962,8 @@
   "allowed": null,
   "frame": "G-12_1440_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -16972,8 +16972,8 @@
   "allowed": null,
   "frame": "G-12_1440_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "code_plan/measured_G-12_codeonly.json; UX/handson/gitlab/48_그룹_사용자페이지.png; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17123,7 +17123,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > profile-head > profile-activity > profile-event > profile-event#2 > profile-event#3 > profile-event#4 > profile-event#5 > profile-event#6 > profile-event#7 > profile-event#8 > profile-event#9 > profile-event#10 > profi",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17150,7 +17150,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "간격 12→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17163,11 +17163,11 @@
   "allowed": null,
   "frame": "G-12_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "정보"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07_밀도_문구_기준.md 5/10/11/13절; D-19; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17180,11 +17180,11 @@
   "allowed": null,
   "frame": "G-12_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "6 시간 전"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17197,11 +17197,11 @@
   "allowed": null,
   "frame": "G-12_768_Guest",
   "owner": "D21",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "6 시간 전"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/07 5·10·11·13절; P11_Organizations useCounts; P33_Profile ago; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17210,8 +17210,8 @@
   "allowed": null,
   "frame": "G-12_768_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "UX/handson/gitlab/01_탐색_프로젝트목록_기본.png; UX/14_팀기능_배치.md; UX/handson/gitlab/48_그룹_사용자페이지.png; UX/14_팀기능_배치.md; UX/handson/gitlab/02_프로젝트홈_기본.png; UX/14_팀기능_배치.md; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17220,8 +17220,8 @@
   "allowed": null,
   "frame": "G-12_768_Guest",
   "owner": "D21",
-  "side": "코드",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "side": "Figma",
+  "evidence": "code_plan/measured_G-12_codeonly.json; UX/handson/gitlab/48_그룹_사용자페이지.png; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17234,7 +17234,7 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > profile-head > profile-activity > profile-event > profile-event#2 > profile-event#3 > profile-event#4 > profile-event#5 > profile-event#6 > profile-event#7 > profile-event#8 > profile-event#9 > profile-event#10 > profi",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17279,7 +17279,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 624,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -17648,7 +17648,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 624,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -18017,7 +18017,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 768,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -18374,7 +18374,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 768,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -18731,7 +18731,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 880,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -19088,7 +19088,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 880,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -19415,7 +19415,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -19757,7 +19757,7 @@
   "owner": "D21",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21152,7 +21152,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21221,7 +21221,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21290,7 +21290,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21359,7 +21359,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21428,7 +21428,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21497,7 +21497,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21596,7 +21596,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21695,7 +21695,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21764,7 +21764,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -21833,7 +21833,7 @@
   "target": [
    "copy"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -23995,7 +23995,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24031,7 +24031,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24091,7 +24091,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24127,7 +24127,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24172,7 +24172,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24208,7 +24208,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24283,7 +24283,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24319,7 +24319,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24379,7 +24379,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24415,7 +24415,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24490,7 +24490,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24526,7 +24526,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24586,7 +24586,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24622,7 +24622,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24667,7 +24667,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24703,7 +24703,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24748,7 +24748,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24784,7 +24784,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24844,7 +24844,7 @@
   "owner": "C1",
   "side": "코드",
   "target": 40,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -24880,7 +24880,7 @@
    "w": 70,
    "h": 22
   },
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/handson/gitlab/48_그룹_사용자페이지.png; code_plan/figma_full.json; UX/handson/gitlab/30_리포지토리분석.png; code_plan/figma_full.json; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26525,7 +26525,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26553,7 +26553,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26628,7 +26628,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26656,7 +26656,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26731,7 +26731,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26759,7 +26759,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26834,7 +26834,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26862,7 +26862,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26937,7 +26937,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -26965,7 +26965,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27040,7 +27040,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27068,7 +27068,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27083,7 +27083,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 305,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27143,7 +27143,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 112,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27171,7 +27171,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27186,7 +27186,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 305,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27246,7 +27246,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 112,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27274,7 +27274,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27334,7 +27334,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27362,7 +27362,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27422,7 +27422,7 @@
   "owner": "C2",
   "side": "코드",
   "target": 96,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -27450,7 +27450,7 @@
   "owner": "C2",
   "side": "코드",
   "target": "간격 8→0",
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -29729,7 +29729,7 @@
   "allowed": null,
   "frame": "R-26_1440_Guest",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "analytics",
    "arrow-down",
@@ -29745,7 +29745,7 @@
    "users",
    "view-all"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -29758,9 +29758,9 @@
   "allowed": null,
   "frame": "R-26_1440_Guest",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": 625,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -29798,7 +29798,7 @@
   "allowed": null,
   "frame": "R-26_1440_Guest",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "analytics",
    "arrow-down",
@@ -29814,7 +29814,7 @@
    "users",
    "view-all"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -29852,7 +29852,7 @@
   "allowed": null,
   "frame": "R-26_1440_Signed-in",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "analytics",
    "arrow-down",
@@ -29868,7 +29868,7 @@
    "users",
    "view-all"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -29896,9 +29896,9 @@
   "allowed": null,
   "frame": "R-26_1440_Signed-in",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": 625,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -29936,7 +29936,7 @@
   "allowed": null,
   "frame": "R-26_1440_Signed-in",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "analytics",
    "arrow-down",
@@ -29952,7 +29952,7 @@
    "users",
    "view-all"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -29990,7 +29990,7 @@
   "allowed": null,
   "frame": "R-26_1920_Guest",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "analytics",
    "arrow-down",
@@ -30006,7 +30006,7 @@
    "users",
    "view-all"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -30019,9 +30019,9 @@
   "allowed": null,
   "frame": "R-26_1920_Guest",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": 625,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -30059,7 +30059,7 @@
   "allowed": null,
   "frame": "R-26_1920_Guest",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "analytics",
    "arrow-down",
@@ -30075,7 +30075,7 @@
    "users",
    "view-all"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -30113,7 +30113,7 @@
   "allowed": null,
   "frame": "R-26_1920_Signed-in",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "analytics",
    "arrow-down",
@@ -30129,7 +30129,7 @@
    "users",
    "view-all"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -30157,9 +30157,9 @@
   "allowed": null,
   "frame": "R-26_1920_Signed-in",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": 625,
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {
@@ -30197,7 +30197,7 @@
   "allowed": null,
   "frame": "R-26_1920_Signed-in",
   "owner": "C2",
-  "side": "코드",
+  "side": "Figma",
   "target": [
    "analytics",
    "arrow-down",
@@ -30213,7 +30213,7 @@
    "users",
    "view-all"
   ],
-  "evidence": "capture_map.md:실측 없는 세부 속성은 Figma",
+  "evidence": "UX/audit_v3/M8_mapping.md; UX/17_사이드바_실측.md; D-16; 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
  {

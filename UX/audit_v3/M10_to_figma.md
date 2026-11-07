@@ -12,3 +12,5 @@ sidebar-nav40은 UX/17 224−실제막대폭(현재11)=213. 코드 유지. proje
 |text · profile-activity ·  · Figma|10|"동일 MR notes API 원문/시각으로 재생성. 활동을 임의로 창작하지 않음"; UX/07 5·10·11·13절; P20_MergeRequests notes|
 |box · sidebar-nav · w · Figma|40|"224 − 실제 스크롤바폭. 현재213=224−11; 코드 유지"; UX/17 1절 스크롤; D-16; sidebar-spec.json|
 |box · project-row · y · Figma|36|"실측 필터→첫 행8 간격. 모바일 필터2줄 복구 후 같은 자료로 재생성"; UX/gitlab_compare/v2/measure.md: 필터→첫 행8; v3: 모바일 입력 먼저/정렬 다음|
+
+추가 공통 부품 대조: G-04 gl-tabs 폭10행은 바깥 FILL과 내부 Hug 이름이 혼용되어 있다. G-01과 같은 ProjectStateTabs 내부160으로 정리한다. 코드 G-04만 화면 폭으로 늘리는 패치는 하지 않는다. M10_active_decisions.json에 반영했다.
