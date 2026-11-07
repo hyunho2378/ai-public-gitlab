@@ -93,3 +93,8 @@
   .gl-tabs.has-tools .gl-work-bar input { min-width: 0; width: 100%; }
   .gl-tabs.has-tools .gl-tools .krds-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
 }
+/* M14 R-14: 탭 줄 오른쪽 도구(검색·정렬)는 49 막대 가운데. 아래 안쪽8이 위로 4 치우치게 하던 원인 제거, 검색 칸은 공통 조작칸32 */
+@media (min-width: 768px) {
+  #root .gl-tabs .gl-tools { padding-bottom: 0; }
+  #root .gl-tabs .gl-tools .gl-work-bar { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+}
