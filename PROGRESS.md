@@ -616,3 +616,23 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 10 | 위치/크기 section-title y | 14 | 15 | -1 | D21 2, C1 12 |
 새로 생긴 원인(5건 이상): 코드에만 gl-diff-bar 10(C1), Figma에만 diff-tree 6(C1). 없어진 원인: 색 filters 12, results h 16, 색 search-filter 8, 모양 extra-field 20, 문구 filters 6, diff-area y 8, diff-file x·y·w·h 30, 모양 gl-tabs 10, 문구 profile-activity 10. 주의: R-05 1440 diff-area h는 Figma 1,898 대 코드 6,633(코드는 파일 전체 펼침)
 담당별 작업 목록: UX/audit_v3/M16_owner_D21.md, M16_owner_C.md
+
+## 측정 라운드 M-17(11. 7. 20:11, M): 공식 합 262(이전 M-16 481, -219), 새 허용 0건, 563개
+코드 시작 HEAD 5ef24c8(측정 중 변동 없음). Figma 합본 figma_full.json = 2026-11-07 19:53(598 변형, 화면 불변). 고정 시각 now=2026-11-07T10:00:00+09:00, G-04·G-12 fixture=kordoc. 방법: 스크롤바 숨김·오버플로 검사 잔존 0, 폭 불일치 0, lazy 이미지 eager 후 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭. gl-diff-bar·diff-tree는 코드가 data-figma 이름표를 달아 M-16의 측정 실행기 주입은 쓰지 않음. 아이콘 맵 적용 확인: 대조기가 code_plan/icon_name_map.json을 읽고 icon-file/{git,markdown,json,nodejs}는 file/* 4줄, 나머지 icon-file/*는 file:* 로 대응, 원장에 icon-file 이름이 남은 행 0건. 아이콘 file-table 20·readme 20이 사라짐
+분류별: 위치/크기 112, 문구 5, 글자 속성 0, 색 2, 모서리·안쪽·간격 37, 아이콘 58, Figma에만 40, 코드에만 8, 순서 0
+담당: D21 122(-107) · C1 81(-52) · C2 59(-60)
+판정 쪽별 합계(합 262): Figma 196 · 자료 없음/보류 55 · 측정 매핑 7 · 코드 4 · 신규 판정 필요 0. 담당별: D21 Figma 88·보류 30·코드 4 / C1 Figma 66·보류 10·매핑 5 / C2 Figma 42·보류 15·매핑 2. 연결: M15_decisions.md 행 단위 124행, M14 원인 단위 근사 75행, M11 행 단위 49행, M13 8행, M16_decisions.md 행 단위 6행(M16 표는 17행만 읽힘, '이름 대응(해소)' 같은 판정어는 못 읽음). 신규 0은 이전 문서 근사 연결이 모든 행을 덮은 결과라 실제로 판정이 닿았는지는 보장하지 않음
+| 순위 | 원인 | 건수 | M-16 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 아이콘 diff-file | 30 | 10 | +20 | C1 |
+| 2 | 위치/크기 project-row y | 28 | 36 | -8 | D21 |
+| 3 | Figma에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 4 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 5 | 모서리·안쪽·간격 profile-activity | 23 | 20 | +3 | D21 3, C2 20 |
+| 6 | 위치/크기 diff-area h | 10 | 10 | 0 | C1 |
+| 7 | 아이콘 diff-area | 10 | 10 | 0 | C1 |
+| 8 | 위치/크기 steps y | 10 | 10 | 0 | D21 |
+| 9 | 위치/크기 steps h | 10 | 10 | 0 | D21 |
+| 10 | 위치/크기 filter-search x | 9 | 35 | -26 | C2 |
+새로 생긴 원인(5건 이상): 코드에만 extra-reuse 8(D21). 없어진 원인: 아이콘 file-table 20·readme 20, 모양 readme 8, 코드에만 gl-diff-bar 10, Figma에만 diff-tree 6, project-info·extra-field·language-bar y 각 8, section-title y 14, 색·모양 gl-filter 각 10, profile-activity h 9·w 6, filter-clear x 8, gl-tabs h 8
+담당별 작업 목록: UX/audit_v3/M17_owner_D21.md, M17_owner_C.md
