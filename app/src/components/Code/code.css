@@ -251,3 +251,6 @@
 .rb-readme-box > .rb-readme-head,
 .rb-readme-box > .rb-readme-body,
 .rb-readme-box > .rb-readme-toc { padding: 0; }
+
+/* D-21 파일 tbody 행42. 머리의 실측40.5는 기존 KRDS40을 유지한다. */
+.krds-table-wrap .rb-tree.tbl.data tbody td { height: var(--layout-file-row-h); }
