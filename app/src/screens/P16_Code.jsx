@@ -225,6 +225,14 @@ export default function Code() {
   shaRef.current = b?.last?.id || null;
   const state = b ? (b.kind === 'tree' ? (!b.items.length ? 'Empty' : b.items.length === 1 ? 'Min' : 'Ideal') : 'Ideal') : body.state;
   const isHome = !path;
+  const subTree = !!path && body.data?.kind === 'tree';
+  const treeTools = (
+    <>
+      {b?.kind === 'tree' ? <FileFind id={frame.id} refName={ref} /> : null}
+      {b?.kind === 'tree' && signedIn && atLeast(role, 'developer') ? <AddFileMenu id={frame.id} branch={ref} /> : null}
+      {b?.kind === 'file' ? null : <><CodeMenu id={frame.id} zipUrl={zipUrl} cloneUrl={project.http_url_to_repo} sshUrl={project.ssh_url_to_repo} /><RepoMoreMenu id={frame.id} webUrl={project.web_url} /></>}
+    </>
+  );
 
 
   return (
@@ -246,13 +254,15 @@ export default function Code() {
                 <span className="rb-toolbar-path krds-text-body-small-bold">{project.path}</span>
               ) : <PathCrumbs id={frame.id} path={path} refQuery={refQuery} root={project.name} />}
             </div>
-            <div className="rb-toolbar-right">
-              {b?.kind === 'tree' ? <FileFind id={frame.id} refName={ref} /> : null}
-              {b?.kind === 'tree' && signedIn && atLeast(role, 'developer') ? <AddFileMenu id={frame.id} branch={ref} /> : null}
-              {b?.kind === 'file' ? null : <><CodeMenu id={frame.id} zipUrl={zipUrl} cloneUrl={project.http_url_to_repo} sshUrl={project.ssh_url_to_repo} /><RepoMoreMenu id={frame.id} webUrl={project.web_url} /></>}
-            </div>
+            {subTree ? null : <div className="rb-toolbar-right">{treeTools}</div>}
           </div>
-          {path && b?.kind === 'tree' ? <h2 className="gl-title gl-filetitle-name"><Icon name="ext/folder" /><span>{path.split('/').pop()}</span></h2> : null}
+          {/* 실제 하위 폴더 화면(1440 실측): 위 줄은 브랜치·경로(.tree-ref-container), 아래 제목 줄에 폴더 이름과 '파일 찾기'·'코드'(.tree-controls). 홈은 한 줄 그대로 */}
+          {subTree ? (
+            <div className="gl-filetitle-row" data-figma="section-title">
+              <h2 className="gl-title gl-filetitle-name"><Icon name="ext/folder" /><span>{path.split('/').pop()}</span></h2>
+              <div className="rb-toolbar-right">{treeTools}</div>
+            </div>
+          ) : null}
           {!b ? (
             <Status {...body} />
           ) : b.kind === 'file' ? (

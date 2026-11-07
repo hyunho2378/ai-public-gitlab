@@ -314,3 +314,6 @@
   #root .gl-tabs { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; }
   #root .gl-tabs > * { flex: none; }
 }
+/* M14 R-02: 하위 폴더 제목 줄(폴더 이름 + 파일 찾기·코드). 실제 .tree-controls처럼 오른쪽, 좁으면 줄바꿈 */
+.gl-filetitle-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--krds-gap-3); min-width: 0; }
+.gl-filetitle-row > .gl-filetitle-name { flex: 1 1 auto; }
