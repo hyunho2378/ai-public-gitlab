@@ -284,3 +284,17 @@
 /* M-9 공통 검색 끝 슬롯: 부모 테두리 안쪽30 높이를 상속하지 않고32칸 유지. */
 .gl-filter-go { box-sizing: border-box; flex: none; width: var(--layout-filter-control-h); height: var(--layout-filter-control-h); padding: 0; border-color: var(--layout-panel-border); }
 .gl-filter-go .rb-icon { width: var(--krds-number-8); height: var(--krds-number-8); }
+
+/* M12: 기본 탭은48 조작칸+아래 선1. 압축 탭은40 조작칸 안에 선택 선을 둔다. */
+#root .gl-tab { margin-bottom: 0; }
+#root .gl-tabs.is-compact { border-bottom: 0; }
+#root .gl-tabs.is-compact > .gl-tab { min-height: var(--krds-size-height-6); height: var(--krds-size-height-6); }
+#root .gl-page > .gl-tabs.is-compact + * { margin-top: calc(var(--rb-section-gap) * -1); }
+/* 공통 필터 면은 위 선만 남겨65. 붙는 목록 제목도 본문 폭과 첫 행 간격8을 공유한다. */
+#root .gl-bar:not(.is-bare) { border-width: var(--krds-border-width-static-regular) 0 0; color: var(--krds-color-text-subtle); }
+#root .gl-box.is-attached { border-inline: 0; margin-top: var(--krds-gap-3); }
+@media (max-width: 767px) {
+  #root .gl-page-title { font-size: var(--layout-title-page-sm); line-height: var(--layout-title-page-sm-lh); }
+}
+/* 필터 바 밖 머리글에 놓인 SortControl도 같은32 조작칸을 쓴다. */
+#root .gl-sort .drop-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
