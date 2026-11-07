@@ -474,3 +474,23 @@ project-row 분포: y 102 = A-01 42 · G-01 36 · G-02 24 / h 80 = G-01 48 · A-
 새로 생긴 원인(5건 이상): 위 표의 group-row w·문구·y, language-bar 모서리·y·h·w, profile-event(Figma에만 40), project-info y·h, toolbar 문구·아이콘, extra-field, search 모양·색 등 총 60여 묶음(M9_owner 파일에 원인별로 기록). 없어진 원인: 코드에만 group-row 200(이름 상한 20으로 짝이 맞음), A-02 Figma에만 project-info·toolbar·commit-bar·file-table·readme 각 20(경로 정정), 아이콘 project-row 38, login-card 문구 30·높이 32, commit-bar 문구 30 등
 주의: main y 510은 코드 main 이름표가 breadcrumb 아래(y 121)에 있고 Figma main은 breadcrumb 포함(y 81)이라 477건(81 대 121)이 같은 원인이다. 스크롤 막대 영향은 없었다(main 폭 차이 기준). 이 원인을 정하면 body·content-panel·breadcrumb y 연쇄 약 70건도 같이 정리된다
 담당별 작업 목록: UX/audit_v3/M9_owner_D21.md, M9_owner_C.md(M8_decisions.md 판정 이어받음, 신규 원인은 '판정 필요' 표시)
+
+## 측정 라운드 M-10(11. 7. 09:27, M): 공식 합 1,956(이전 M-9 3,097, -1,141), 새 허용 0건, 563개
+코드 4276169, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-07 09:14(598 변형). 방법: 스크롤 막대 0(html·#rb-scroll scrollbar-width:none), clientWidth==목표 폭 검증(불일치 0, 막대 잔존 0), 측정 전 Loading/aria-busy/'불러오는 중' 소멸 대기(대기 초과 0), G-12는 profile-event 20개 확인(1440·768·360 모두 20개). 측정 기록은 measured_full.json의 method·paths
+확인: A-01 측정 기록의 실제 경로는 /search?q=보고서 작성&fixture=kordoc, 문서 제목 '"보고서 작성" 검색 결과'(1440 Guest·Signed-in)로 검색 결과 화면이다. 코드 '/'(탐색)이 아니다. A-04는 /projects/150/feedback(복원), A-02는 /projects/150
+담당: D21 1,342(-749) · C1 335(-210) · C2 279(-182)
+| 순위 | 원인 | 건수 | M-9 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 문구 group-row | 200 | 140 | +60 | D21 |
+| 2 | 위치/크기 project-row y | 64 | 64 | 0 | D21 |
+| 3 | 위치/크기 filter-search x | 42 | 50 | -8 | D21 10, C2 32 |
+| 4 | 모서리·안쪽·간격 language-bar | 40 | 60 | -20 | D21 |
+| 5 | 위치/크기 sidebar-nav w | 40 | 36 | +4 | D21 4, C1 12, C2 24 |
+| 6 | 문구 page-head | 34 | 44 | -10 | D21 20, C1 10, C2 4 |
+| 7 | 위치/크기 file-table h | 30 | 40 | -10 | D21 20, C1 10 |
+| 8 | 위치/크기 gl-tabs w | 30 | 10 | +20 | D21 20, C2 10 |
+| 9 | 위치/크기 section-title y | 30 | 29 | +1 | D21 10, C1 20 |
+| 10 | Figma에만 section-title | 30 | 32 | -2 | C1 30 |
+새로 생긴 원인(5건 이상): 문구 language-bar 20, 모양 gl-tabs 20, 색 group-row 20, 문구 profile-activity 10, Figma에만 global-search 8, 위치 profile-activity w 6. 없어진 원인: group-row w 200, main 연쇄(body·content-panel·breadcrumb y 각 23), Figma에만 profile-event 40, A-04 홈 구조용 Figma 요소들, filter-search w·h 20, 색 body·content-panel·breadcrumb·footer 각 10 등
+G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만 2, 순서 1
+담당별 작업 목록: UX/audit_v3/M10_owner_D21.md, M10_owner_C.md(M9 판정 우선 이어받음. 건수 기준 D21: M9 495·M8 736·신규 111, C: M9 47·M8 521·신규 46)
