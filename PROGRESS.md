@@ -592,3 +592,7 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 10 | 아이콘 readme | 20 | 20 | 0 | D21 |
 새로 생긴 원인(5건 이상): 위치 profile-activity h 10(C2), body·content-panel·breadcrumb·main y 각 5(D21). 없어진 원인: 문구 toolbar 20, Figma에만 tabbar 20, 문구 group-row 29, 문구 profile-event 60, group-row y 6, page-head h 5, 아이콘 section-title 10, Figma에만 profile-activity 10, 모양 code-button 10
 담당별 작업 목록: UX/audit_v3/M15_owner_D21.md, M15_owner_C.md
+
+
+## 측정 방법 보탬(11. 7., 코드 담당)
+- 판정 이어받기: M-16부터 UX/audit_v3/M15_decisions.md의 행 단위 표(`화면 | 요소 | 분류 | 항목 | 판정`)를 이어받기 기준으로 쓴다. 화면·요소·분류·항목 넷이 모두 같은 원장 행에만 붙이고, 원인 단위 문서(M14_decisions.md 등)로 근사 연결하지 않는다. 표에 없는 행만 이전 판정표 순서로 잇는다
