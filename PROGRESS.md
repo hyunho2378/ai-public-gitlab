@@ -514,3 +514,21 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 새로 생긴 원인(5건 이상): 색 profile-event 60, project-row x 48·w 48, results x·w 각 6, task-search x·w 각 6, body·content-panel·breadcrumb·page-head y 각 6, 색 topbar 5. 없어진 원인: 모서리 results 10, 문구 task-search 10, language-bar h·문구 각 20, 색 group-row 20, 코드에만 없는 global-search 8, extra-field-filter x 10, 문구 breadcrumb 10
 색 분류 93→146(+53): 색 profile-event 60이 대부분
 담당별 작업 목록: UX/audit_v3/M11_owner_D21.md, M11_owner_C.md(M10>M9>M8 판정 이어받음. 건수 기준 D21: M8 612·M9 270·M10 112·신규 192, C: M8 497·M10 82·M9 47)
+
+## 측정 라운드 M-12(11. 7. 10:30, M): 공식 합 1,533(이전 M-11 1,812, -279), 새 허용 0건, 563개
+코드: 측정 시작 시 HEAD 6d45848(app/src 미커밋 변경 없음). 측정 중 다른 담당 커밋으로 대조 시점 HEAD는 c3a2136(restore shared repository toolbar more menu)으로 이동했고 개발 서버 5994는 같은 작업 트리라 후반 화면은 그 변경을 반영했을 수 있다. worktree로 고정하지 않았다. Figma 합본 figma_full.json = 2026-11-07 10:17(598 변형). 방법 M-11과 같음(스크롤 막대 0, 비동기 대기, 대기 초과 0, 폭 불일치 0, G-12 profile-event 20개 3폭)
+담당: D21 917(-269) · C1 337(-10) · C2 279(0)
+| 순위 | 원인 | 건수 | M-11 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row x | 66 | 48 | +18 | D21 |
+| 2 | 위치/크기 project-row w | 66 | 48 | +18 | D21 |
+| 3 | 문구 section-title | 43 | 43 | 0 | D21 4, C1 34, C2 5 |
+| 4 | 위치/크기 sidebar-nav w | 40 | 40 | 0 | D21 4, C1 12, C2 24 |
+| 5 | 위치/크기 project-row y | 36 | 52 | -16 | D21 |
+| 6 | 위치/크기 filter-search x | 34 | 34 | 0 | D21 2, C2 32 |
+| 7 | 위치/크기 section-title y | 30 | 40 | -10 | D21 10, C1 20 |
+| 8 | 위치/크기 gl-tabs h | 26 | 26 | 0 | C1 10, C2 16 |
+| 9 | 코드에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 10 | 위치/크기 page-head h | 25 | 25 | 0 | D21 17, C1 4, C2 4 |
+새로 생긴 원인(5건 이상): 모서리·안쪽·간격 commit-bar 6. 없어진 원인: 색 profile-event 60, 모서리 language-bar 40, gl-tabs 모양 20, task-search 높이 10·모양 10, intro-card 문구·모양 각 10, 색 topbar 5, page-head y 6
+담당별 작업 목록: UX/audit_v3/M12_owner_D21.md, M12_owner_C.md(M11>M10>M9>M8 판정 이어받음, 건수 기준 D21: M8 472·M9 193·M11 168·M10 76·신규 8, C: M8 481·M10 82·M9 51·신규 2)
