@@ -81,3 +81,15 @@
 .gl-label-main { display: flex; flex-direction: column; align-items: flex-start; gap: var(--krds-gap-2); }
 .gl-label-project { display: inline-flex; align-items: center; gap: var(--krds-gap-2); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--layout-text-subtle); }
 .gl-label-project .rb-icon { width: var(--krds-number-8); height: var(--krds-number-8); }
+
+/* M12: 도구가 붙은 탭은 전체 막대를 측정한다. 안쪽 남는 폭을 탭 폭으로 오인하지 않는다. */
+.gl-tabs.has-tools .gl-tabs-left { min-width: max-content; }
+.gl-tabs.has-tools .gl-tab { min-width: calc(var(--krds-number-16) + var(--krds-number-12)); justify-content: center; }
+@media (max-width: 767px) {
+  .gl-tabs.has-tools { flex-wrap: wrap; }
+  .gl-tabs.has-tools .gl-tabs-left { flex: 1 0 100%; }
+  .gl-tabs.has-tools .gl-tools { width: 100%; min-width: 0; }
+  .gl-tabs.has-tools .gl-work-bar { min-width: 0; }
+  .gl-tabs.has-tools .gl-work-bar input { min-width: 0; width: 100%; }
+  .gl-tabs.has-tools .gl-tools .krds-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+}

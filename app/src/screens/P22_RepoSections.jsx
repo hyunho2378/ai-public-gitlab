@@ -114,10 +114,10 @@ function LabelsView({ list, id, projectName }) {
   );
   return (
     <>
-      <div className="gl-tabs">
-        <span className="gl-tabs-left" data-figma="gl-tabs">
-        <button type="button" className={'gl-tab' + (arch ? '' : ' active')} onClick={() => setArch(false)}>{rp.tabActive}</button>
-        <button type="button" className={'gl-tab' + (arch ? ' active' : '')} onClick={() => setArch(true)}>{rp.tabArchived}</button>
+      <div className="gl-tabs has-tools" data-figma="gl-tabs">
+        <span className="gl-tabs-left" role="tablist" aria-label={t.P22_labels}>
+        <button type="button" role="tab" aria-selected={!arch} className={'gl-tab' + (arch ? '' : ' active')} onClick={() => setArch(false)}>{rp.tabActive}</button>
+        <button type="button" role="tab" aria-selected={arch} className={'gl-tab' + (arch ? ' active' : '')} onClick={() => setArch(true)}>{rp.tabArchived}</button>
         </span>
         <span className="gl-tools">
           <span className="gl-work-bar"><input type="search" value={q} placeholder={rp.search} aria-label={rp.search} onChange={(e) => setQ(e.target.value)} /><FilterSearch label={u.List_searchLabel} /></span>
