@@ -673,3 +673,23 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 7 | 글자 속성 tabs | 5 | 5 | 0 | C1 |
 새로 생긴 원인(5건 이상): G-06 project-row w 55(Signed-in 전 폭, Figma 942 대 코드 944 같은 차 2)·project-row 안쪽 51(Figma 아래 안쪽 14·34·56 대 코드 12), 아이콘 file-table 30(R-01·A-02 등, 코드 9개 대 Figma 6개: json·nodejs·typescript가 코드에만). 없어진 원인: section-title w 13, 모양 profile-activity 20, 모양 search 10, 아이콘 gitlab-sidebar 12, Figma에만 section-title 10·filter-search 6·toolbar 5·project-row 5, 코드에만 tabs 5, tabs y 5. 설명: file-table 아이콘은 상한 20 때문에 가려져 있던 값이 상한 40에서 드러난 것이고, G-06 project-row는 fixture=kordoc 반영으로 Signed-in 행이 처음 비교됨. 둘 다 코드·Figma 변경이 아니라 측정 범위 변화
 담당별 작업 목록: UX/audit_v3/M19_owner_D21.md, M19_owner_C.md
+
+## 측정 라운드 M-20(11. 7. 21:51, M): 공식 합 62(이전 M-19 167, -105), 새 허용 0건, 563개
+코드 HEAD c5a578a(app/src·scripts 미커밋 변경 없음). Figma 합본 figma_full.json = 2026-11-07 21:34(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, 아이콘 상한 40. 방법 같음(스크롤바 잔존 0, 폭 불일치 0, 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭). 429로 한 번 끊겼고 중간 저장 파일이 남지 않아 처음부터 다시 쟀다
+분류별: 위치/크기 37, 글자 속성 5, Figma에만 20. 문구·색·모서리·아이콘·코드에만·순서는 0
+담당: D21 52(-89) · C1 5(-16) · C2 5(0)
+판정 쪽별 합계(합 62): 코드 21 · Figma 20 · 자료 없음/보류 20 · 신규 판정 필요 1. 담당별: D21 Figma 20·코드 16·보류 15·신규 1 / C1 코드 5 / C2 보류 5. 연결: M16·M15 행 단위 36행, M14·M11·M10 근사 25행(M19·M20 판정 문서는 저장소에 없음)
+원인 전체 목록(건수 1 이상, 7종) + 해소 원인:
+| 원인 | 건수 | M-19 | 증감 | 담당 | 판정 쪽 |
+|---|---:|---:|---:|---|---|
+| 위치/크기 · project-row · h | 17 | 0 | +17 | D21 17 | Figma 16, 신규 판정 필요 1 |
+| Figma에만 · tabs | 15 | 15 | +0 | D21 15 | 자료없음/보류 15 |
+| 위치/크기 · project-row · y | 12 | 0 | +12 | D21 12 | 코드 12 |
+| Figma에만 · comment-editor | 5 | 5 | +0 | C2 5 | 자료없음/보류 5 |
+| 글자 속성 · tabs | 5 | 5 | +0 | C1 5 | 코드 5 |
+| 위치/크기 · results · h | 4 | 0 | +4 | D21 4 | Figma 4 |
+| 위치/크기 · task-search · h | 4 | 0 | +4 | D21 4 | 코드 4 |
+| 아이콘 · file-table | 0 | 30 | -30 | - | 해소 |
+| 위치/크기 · project-row · w | 0 | 55 | -55 | - | 해소 |
+| 모서리·안쪽·간격 · project-row | 0 | 51 | -51 | - | 해소 |
+| 모서리·안쪽·간격 · filter-search | 0 | 6 | -6 | - | 해소 |담당별 작업 목록: UX/audit_v3/M20_owner_D21.md, M20_owner_C.md
