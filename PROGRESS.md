@@ -572,3 +572,23 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 10 | 문구 toolbar | 20 | 20 | 0 | D21 |
 새로 생긴 원인(5건 이상): 문구 profile-event 60, 아이콘 section-title 10(C1), 모양 gl-tabs 10·code-button 10(C2), 위치 profile-event y 6, Figma에만 toolbar 5. 없어진 원인: sidebar-nav w 40, extra-field 색 40·폭 20·글자 20, 코드에만 tabs 20, gl-tabs w 20, page-head w 28, repo-actions x·w 36, extra-field-filter 모양 20, profile-activity h 11, code-button x·w 20 등. 코드에만 0·순서 0·글자 속성 0
 담당별 작업 목록: UX/audit_v3/M14_owner_D21.md, M14_owner_C.md
+
+## 측정 라운드 M-15(11. 7. 18:36, M): 공식 합 779(이전 M-14 925, -146), 새 허용 0건, 563개
+코드 HEAD 00b4fe1(시작 시 해시, 측정 중 변동 없음). Figma 합본 figma_full.json = 2026-11-07 18:22(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, G-04·G-12 fixture=kordoc 경로 반영. 방법: 모든 요소 스크롤바 숨김, 오버플로 요소 폭 차이 검사 잔존 0곳, 폭 불일치 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭. 이전 탭이 닫혀 있어 다른 로컬 탭(5994)으로 측정
+분류별: 위치/크기 478, 문구 59, 글자 속성 2, 색 32, 모서리·안쪽·간격 88, 아이콘 78, Figma에만 40, 코드에만 2, 순서 0
+담당: D21 443(-113) · C1 185(-26) · C2 151(-7)
+판정 쪽별 합계(합 779): Figma 321 · 코드 280 · 자료 없음/보류 125 · 측정 매핑 7 · 신규 판정 필요 46. 담당별: D21 Figma 209·코드 162·보류 30·신규 42 / C1 Figma 58·코드 50·보류 70·매핑 5·신규 2 / C2 코드 68·Figma 54·보류 25·매핑 2·신규 2. 연결 방식: M14_decisions.md(349행)·M13_decisions_new.md(15행)는 원인 단위 문서라 요소 이름·분류·화면 번호로 근사 연결, 나머지는 M8~M11 행 단위(M11 367·M8 2). '자료 없음/보류'에는 사용자 확인·기존 판정 재확인도 함께 센다
+| 순위 | 원인 | 건수 | M-14 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row h | 82 | 48 | +34 | D21 |
+| 2 | 위치/크기 project-row y | 52 | 52 | 0 | D21 |
+| 3 | 문구 section-title | 39 | 49 | -10 | C1 34, C2 5 |
+| 4 | 위치/크기 filter-search x | 35 | 36 | -1 | D21 2, C2 33 |
+| 5 | Figma에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 6 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 7 | 모서리·안쪽·간격 profile-activity | 23 | 13 | +10 | D21 3, C2 20 |
+| 8 | 아이콘 file-table | 20 | 20 | 0 | D21 |
+| 9 | 위치/크기 readme h | 20 | 20 | 0 | D21 |
+| 10 | 아이콘 readme | 20 | 20 | 0 | D21 |
+새로 생긴 원인(5건 이상): 위치 profile-activity h 10(C2), body·content-panel·breadcrumb·main y 각 5(D21). 없어진 원인: 문구 toolbar 20, Figma에만 tabbar 20, 문구 group-row 29, 문구 profile-event 60, group-row y 6, page-head h 5, 아이콘 section-title 10, Figma에만 profile-activity 10, 모양 code-button 10
+담당별 작업 목록: UX/audit_v3/M15_owner_D21.md, M15_owner_C.md
