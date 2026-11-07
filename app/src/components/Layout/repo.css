@@ -53,7 +53,8 @@
 .rb-kbd-inline { font-family: 'D2Coding', ui-monospace, monospace; font-size: var(--krds-font-size-body-xsmall); padding: 0 var(--krds-padding-2); border: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray); border-radius: var(--krds-radius-small2); }
 .rb-repo-top:empty { display: none; }
 
-.rb-repo-main.has-info { display: grid; grid-template-columns: minmax(0, 1fr) var(--rb-info-w); column-gap: var(--rb-gutter); align-items: start; }
+/* 실제 프로젝트 홈 1440: 머리(.project-home-panel) 아래16에 정보 열(.project-page-sidebar). Figma 도구 줄 y185도 머리+16 */
+.rb-repo-main.has-info { display: grid; grid-template-columns: minmax(0, 1fr) var(--rb-info-w); column-gap: var(--rb-gutter); row-gap: var(--krds-gap-5); align-items: start; }
 .rb-repo-body { display: flex; flex-direction: column; gap: var(--krds-gap-7); min-width: 0; }
 .rb-repo-info { display: flex; flex-direction: column; gap: var(--krds-gap-5); min-width: 0; }
 .rb-repo-info h2 { margin: 0; }
