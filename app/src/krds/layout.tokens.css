@@ -61,8 +61,8 @@
   --rb-row-h: var(--krds-number-14);
   /* D-21 실제 파일 행42. D-14의 일반 밀도40과 분리한다(표 머리는40 유지). */
   --layout-file-row-h: calc(var(--krds-number-14) + var(--krds-number-2));
-  /* M-11 Figma 범위 열248. D-21 바깥 여백/가터는 그대로 둔다. */
-  --layout-search-scope-w: calc(var(--krds-number-21) * 2 + var(--krds-number-16) + var(--krds-number-5));
+  /* M-12 실제 검색 논리 열228 = 시각 필터240 - 왼쪽 겹침12. 바깥 D-21 여백 유지. */
+  --layout-search-scope-w: calc(var(--krds-number-21) * 2 + var(--krds-number-12) + var(--krds-number-3));
   --rb-side-item-h: var(--krds-number-12);
   /* UX-007 12장 메뉴: 항목 높이 32, 폭 160~320(가장 긴 항목 + 좌우 12), 화면 가장자리 12 */
   --rb-menu-item-h: var(--krds-number-12);
