@@ -5,7 +5,7 @@ export function ProjectStateTabs({ archived, onChange }) {
   return (
     <div className="krds-tab-area rb-x-tabs" data-figma="tabs">
       <div className="tab line" role="tablist" aria-label={u.X_tabs}>
-        <ul>
+        <ul data-figma="gl-tabs">
           {[[false, u.X_active], [true, u.X_inactive]].map(([value, label]) => (
             <li key={label} className={archived === value ? 'active' : undefined}>
               <button type="button" role="tab" aria-selected={archived === value} className="btn-tab" onClick={() => onChange(value)}>{label}</button>

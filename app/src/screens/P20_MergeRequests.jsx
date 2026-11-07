@@ -228,7 +228,7 @@ export function MergeRequest() {
                     <ul><li>{m.state === 'merged' ? au.mergedInto(m.target_branch) : au.notMerged(m.target_branch)}</li></ul>
                   </div>
                 </section>
-                <section className="gl-activity">
+                <section className="gl-activity" data-figma="profile-activity">
                   <div className="gl-activity-head"><h2>{au.activity}</h2><div className="gl-act-tools"><span className="krds-btn small tertiary">{au.allActivity}</span><Drop label={p1.sortActivity} align="right" button={<span>{newestFirst ? p1.newest : p1.oldest}</span>}>{(close) => (<ul className="drop-list" aria-label={p1.sortActivity}>{[[true, p1.newest], [false, p1.oldest]].map(([v, n]) => <li key={n}><button type="button" className={'item-link' + (v === newestFirst ? ' active' : '')} onClick={() => { close(); setNewest(v); }}>{n}</button></li>)}</ul>)}</Drop></div></div>
                   <ul>
                     {notes.length ? notes.map((n, i) => (
