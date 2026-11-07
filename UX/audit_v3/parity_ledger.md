@@ -1,6 +1,6 @@
 # Figma 대 코드 전수 대조 원장(parity ledger)
 
-- 생성: 2026-11-07T13:38:57.658Z. 입력: code_plan/figma_full.json, code_plan/measured_full.json, code_plan/parity_allow.json
+- 생성: 2026-11-07T13:59:12.584Z. 입력: code_plan/figma_full.json, code_plan/measured_full.json, code_plan/parity_allow.json
 - 다시 만들기: 개발 서버에서 측정(app/scripts/export-code-boxes.mjs 또는 Aside 탭에서 export-code-boxes.js) 뒤 `npm run check:parity`
 
 ## 0. 해소 규칙
@@ -20,11 +20,8 @@
 
 | 순위 | 원인(분류 · 요소 · 항목) | 건수 | 담당 화면 분포 | 해소 쪽 | 비고 | 예 |
 |---:|---|---:|---|---|---|---|
-| 1 | 위치/크기 · group-row · h | 40 | D21 40 | 미정 |  | G-04_360_Guest |
-| 2 | 문구 · group-row | 34 | D21 34 | 미정 |  | G-04_1024_Signed-in |
-| 3 | Figma에만 · tabs | 15 | D21 15 | 미정 |  | A-09_1024_Guest |
-| 4 | Figma에만 · comment-editor | 5 | C2 5 | 미정 |  | R-12_1024_Signed-in |
-| 5 | 위치/크기 · group-row · y | 4 | D21 4 | 미정 |  | G-04_360_Guest |
+| 1 | Figma에만 · tabs | 15 | D21 15 | 미정 |  | A-09_1024_Guest |
+| 2 | Figma에만 · comment-editor | 5 | C2 5 | 미정 |  | R-12_1024_Signed-in |
 
 ## 0-2. 로그인 상태(Signed-in) 대조
 
@@ -235,15 +232,15 @@
 | G-03_768_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-03_768_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-04_1024_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
-| G-04_1024_Signed-in | D21 | 0 | 8 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 | 9 |
+| G-04_1024_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-04_1440_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
-| G-04_1440_Signed-in | D21 | 0 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 | 13 |
+| G-04_1440_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
 | G-04_1920_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
-| G-04_1920_Signed-in | D21 | 0 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 | 13 |
-| G-04_360_Guest | D21 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 22 | 27 |
-| G-04_360_Signed-in | D21 | 22 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 22 | 27 |
+| G-04_1920_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
+| G-04_360_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
+| G-04_360_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | G-04_768_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
-| G-04_768_Signed-in | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 10 |
+| G-04_768_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | G-05_1024_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
 | G-05_1024_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 5 |
 | G-05_1440_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
@@ -657,7 +654,7 @@
 | R-30_360_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | R-30_768_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | R-30_768_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
-| **합** |  | 44 | 34 | 0 | 0 | 0 | 0 | 20 | 0 | 0 | 98 |  |
+| **합** |  | 0 | 0 | 0 | 0 | 0 | 0 | 20 | 0 | 0 | 20 |  |
 
 - 코드 측정 없음: D-01_1440_Guest, D-01_360_Guest, D-01_768_Guest
 
@@ -724,114 +721,6 @@
 | 분류 | 요소 | 내용 |
 |---|---|---|
 | Figma에만 | tabs | 코드에 이름표 없음(Figma 32,199 704x40) |
-
-### G-04_1024_Signed-in (D21, 8건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 문구 | group-row#13 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#14 | Figma 글 '0', '0' 없음. 코드: 'R rei-lab - - - 생성됨 3주 전' |
-| 문구 | group-row#15 | Figma 글 '0', '0' 없음. 코드: 'I IT여객정보부 - - - 생성됨 4주 전' |
-| 문구 | group-row#16 | Figma 글 '0', '0' 없음. 코드: '그 그랜드코리아레저 박관태 - - - 생성됨 4주 전' |
-| 문구 | group-row#17 | Figma 글 '0' 없음. 코드: '모 모닝커피 - - - 생성됨 1개월 전' |
-| 문구 | group-row#18 | Figma 글 '0' 없음. 코드: '서 서명키즈 - - - 생성됨 1개월 전' |
-| 문구 | group-row#19 | Figma 글 '0' 없음. 코드: '일 일일팔베개 - - - 생성됨 1개월 전' |
-| 문구 | group-row#20 | Figma 글 '0', '0' 없음. 코드: 'N nihhs - - - 생성됨 1개월 전' |
-
-### G-04_1440_Signed-in (D21, 11건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 문구 | group-row#10 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#11 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#12 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#13 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#14 | Figma 글 '0', '0' 없음. 코드: 'R rei-lab - - - 생성됨 3주 전' |
-| 문구 | group-row#15 | Figma 글 '0', '0' 없음. 코드: 'I IT여객정보부 - - - 생성됨 4주 전' |
-| 문구 | group-row#16 | Figma 글 '0', '0' 없음. 코드: '그 그랜드코리아레저 박관태 - - - 생성됨 4주 전' |
-| 문구 | group-row#17 | Figma 글 '0' 없음. 코드: '모 모닝커피 - - - 생성됨 1개월 전' |
-| 문구 | group-row#18 | Figma 글 '0' 없음. 코드: '서 서명키즈 - - - 생성됨 1개월 전' |
-| 문구 | group-row#19 | Figma 글 '0' 없음. 코드: '일 일일팔베개 - - - 생성됨 1개월 전' |
-| 문구 | group-row#20 | Figma 글 '0', '0' 없음. 코드: 'N nihhs - - - 생성됨 1개월 전' |
-
-### G-04_1920_Signed-in (D21, 14건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 문구 | group-row#7 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#8 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#9 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#10 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#11 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#12 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#13 | Figma 글 '0', '0' 없음. 코드: 'S sparrow8dast2text4 - - - 생성됨 3주 전' |
-| 문구 | group-row#14 | Figma 글 '0', '0' 없음. 코드: 'R rei-lab - - - 생성됨 3주 전' |
-| 문구 | group-row#15 | Figma 글 '0', '0' 없음. 코드: 'I IT여객정보부 - - - 생성됨 4주 전' |
-| 문구 | group-row#16 | Figma 글 '0', '0' 없음. 코드: '그 그랜드코리아레저 박관태 - - - 생성됨 4주 전' |
-| 문구 | group-row#17 | Figma 글 '0' 없음. 코드: '모 모닝커피 - - - 생성됨 1개월 전' |
-| 문구 | group-row#18 | Figma 글 '0' 없음. 코드: '서 서명키즈 - - - 생성됨 1개월 전' |
-| 문구 | group-row#19 | Figma 글 '0' 없음. 코드: '일 일일팔베개 - - - 생성됨 1개월 전' |
-| 문구 | group-row#20 | Figma 글 '0', '0' 없음. 코드: 'N nihhs - - - 생성됨 1개월 전' |
-
-### G-04_360_Guest (D21, 22건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | group-row | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#2 | y Figma 491 / 코드 481 (-10) |
-| 위치/크기 | group-row#2 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#3 | y Figma 596 / 코드 576 (-20) |
-| 위치/크기 | group-row#3 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#4 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#5 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#6 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#7 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#8 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#9 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#10 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#11 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#12 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#13 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#14 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#15 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#16 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#17 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#18 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#19 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#20 | h Figma 105 / 코드 95 (-10) |
-
-### G-04_360_Signed-in (D21, 22건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | group-row | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#2 | y Figma 491 / 코드 481 (-10) |
-| 위치/크기 | group-row#2 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#3 | y Figma 596 / 코드 576 (-20) |
-| 위치/크기 | group-row#3 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#4 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#5 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#6 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#7 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#8 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#9 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#10 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#11 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#12 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#13 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#14 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#15 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#16 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#17 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#18 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#19 | h Figma 105 / 코드 95 (-10) |
-| 위치/크기 | group-row#20 | h Figma 105 / 코드 95 (-10) |
-
-### G-04_768_Signed-in (D21, 1건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 문구 | group-row#20 | Figma 글 '0', '0' 없음. 코드: 'N nihhs - - - 생성됨 1개월 전' |
 
 ### G-07_1024_Signed-in (D21, 1건)
 

@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T13:38:57.658Z",
+ "generated": "2026-11-07T13:59:12.584Z",
  "rules": "UX/audit_v3/parity_ledger.md 0절",
  "screens": {
   "A-01_1024_Guest": {
@@ -14803,7 +14803,7 @@
    "owner": "D21",
    "counts": {
     "box": 0,
-    "text": 8,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -14882,83 +14882,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "text",
-     "name": "group-row#13",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#14",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "R rei-lab - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#15",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "I IT여객정보부 - - - 생성됨 4주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#16",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "그 그랜드코리아레저 박관태 - - - 생성됨 4주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#17",
-     "figma": [
-      "0"
-     ],
-     "code": "모 모닝커피 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#18",
-     "figma": [
-      "0"
-     ],
-     "code": "서 서명키즈 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#19",
-     "figma": [
-      "0"
-     ],
-     "code": "일 일일팔베개 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#20",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "N nihhs - - - 생성됨 1개월 전",
-     "allowed": null
     }
    ]
   },
@@ -15079,7 +15002,7 @@
    "owner": "D21",
    "counts": {
     "box": 0,
-    "text": 11,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -15185,113 +15108,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "text",
-     "name": "group-row#10",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#11",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#12",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#13",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#14",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "R rei-lab - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#15",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "I IT여객정보부 - - - 생성됨 4주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#16",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "그 그랜드코리아레저 박관태 - - - 생성됨 4주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#17",
-     "figma": [
-      "0"
-     ],
-     "code": "모 모닝커피 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#18",
-     "figma": [
-      "0"
-     ],
-     "code": "서 서명키즈 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#19",
-     "figma": [
-      "0"
-     ],
-     "code": "일 일일팔베개 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#20",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "N nihhs - - - 생성됨 1개월 전",
-     "allowed": null
     }
    ]
   },
@@ -15412,7 +15228,7 @@
    "owner": "D21",
    "counts": {
     "box": 0,
-    "text": 14,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -15518,150 +15334,13 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "text",
-     "name": "group-row#7",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#8",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#9",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#10",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#11",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#12",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#13",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "S sparrow8dast2text4 - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#14",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "R rei-lab - - - 생성됨 3주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#15",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "I IT여객정보부 - - - 생성됨 4주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#16",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "그 그랜드코리아레저 박관태 - - - 생성됨 4주 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#17",
-     "figma": [
-      "0"
-     ],
-     "code": "모 모닝커피 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#18",
-     "figma": [
-      "0"
-     ],
-     "code": "서 서명키즈 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#19",
-     "figma": [
-      "0"
-     ],
-     "code": "일 일일팔베개 - - - 생성됨 1개월 전",
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "group-row#20",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "N nihhs - - - 생성됨 1개월 전",
-     "allowed": null
     }
    ]
   },
   "G-04_360_Guest": {
    "owner": "D21",
    "counts": {
-    "box": 22,
+    "box": 0,
     "text": 0,
     "font": 0,
     "color": 0,
@@ -15671,15 +15350,15 @@
     "only-code": 0,
     "order": 0
    },
-   "allowed": 27,
+   "allowed": 10,
    "rows": [
     {
      "kind": "box",
      "name": "body",
      "field": "h",
-     "figma": 2758,
+     "figma": 2558,
      "code": 1328,
-     "diff": -1430,
+     "diff": -1230,
      "allowed": "판 안 스크롤: 셸 높이 = 화면 높이"
     },
     {
@@ -15692,9 +15371,9 @@
      "kind": "box",
      "name": "content-panel",
      "field": "h",
-     "figma": 2758,
+     "figma": 2558,
      "code": 1328,
-     "diff": -1430,
+     "diff": -1230,
      "allowed": "판 안 스크롤(공공 깃랩): 판 높이 = 화면 높이"
     },
     {
@@ -15722,9 +15401,9 @@
      "kind": "box",
      "name": "main",
      "field": "h",
-     "figma": 2365,
+     "figma": 2165,
      "code": 2221,
-     "diff": -144,
+     "diff": 56,
      "allowed": "본문 높이는 받아 온 자료 길이(README, 목록 개수)에 따라 다름"
     },
     {
@@ -15737,9 +15416,9 @@
      "kind": "box",
      "name": "footer",
      "field": "y",
-     "figma": 2527,
+     "figma": 2327,
      "code": 2366,
-     "diff": -161,
+     "diff": 39,
      "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
     },
     {
@@ -15747,364 +15426,13 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#2",
-     "field": "y",
-     "figma": 491,
-     "code": 481,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#2",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#3",
-     "field": "y",
-     "figma": 596,
-     "code": 576,
-     "diff": -20,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#3",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#4",
-     "field": "y",
-     "figma": 701,
-     "code": 671,
-     "diff": -30,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#4",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#5",
-     "field": "y",
-     "figma": 806,
-     "code": 766,
-     "diff": -40,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#5",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#6",
-     "field": "y",
-     "figma": 911,
-     "code": 861,
-     "diff": -50,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#6",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#7",
-     "field": "y",
-     "figma": 1016,
-     "code": 956,
-     "diff": -60,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#7",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#8",
-     "field": "y",
-     "figma": 1121,
-     "code": 1051,
-     "diff": -70,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#8",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#9",
-     "field": "y",
-     "figma": 1226,
-     "code": 1146,
-     "diff": -80,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#9",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#10",
-     "field": "y",
-     "figma": 1331,
-     "code": 1241,
-     "diff": -90,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#10",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#11",
-     "field": "y",
-     "figma": 1436,
-     "code": 1336,
-     "diff": -100,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#11",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#12",
-     "field": "y",
-     "figma": 1541,
-     "code": 1431,
-     "diff": -110,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#12",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#13",
-     "field": "y",
-     "figma": 1646,
-     "code": 1526,
-     "diff": -120,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#13",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#14",
-     "field": "y",
-     "figma": 1751,
-     "code": 1621,
-     "diff": -130,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#14",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#15",
-     "field": "y",
-     "figma": 1856,
-     "code": 1716,
-     "diff": -140,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#15",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#16",
-     "field": "y",
-     "figma": 1961,
-     "code": 1811,
-     "diff": -150,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#16",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#17",
-     "field": "y",
-     "figma": 2066,
-     "code": 1906,
-     "diff": -160,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#17",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#18",
-     "field": "y",
-     "figma": 2171,
-     "code": 2001,
-     "diff": -170,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#18",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#19",
-     "field": "y",
-     "figma": 2276,
-     "code": 2096,
-     "diff": -180,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#19",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#20",
-     "field": "y",
-     "figma": 2381,
-     "code": 2191,
-     "diff": -190,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#20",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
     }
    ]
   },
   "G-04_360_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 22,
+    "box": 0,
     "text": 0,
     "font": 0,
     "color": 0,
@@ -16114,15 +15442,15 @@
     "only-code": 0,
     "order": 0
    },
-   "allowed": 27,
+   "allowed": 10,
    "rows": [
     {
      "kind": "box",
      "name": "body",
      "field": "h",
-     "figma": 2758,
+     "figma": 2558,
      "code": 1328,
-     "diff": -1430,
+     "diff": -1230,
      "allowed": "판 안 스크롤: 셸 높이 = 화면 높이"
     },
     {
@@ -16135,9 +15463,9 @@
      "kind": "box",
      "name": "content-panel",
      "field": "h",
-     "figma": 2758,
+     "figma": 2558,
      "code": 1328,
-     "diff": -1430,
+     "diff": -1230,
      "allowed": "판 안 스크롤(공공 깃랩): 판 높이 = 화면 높이"
     },
     {
@@ -16165,9 +15493,9 @@
      "kind": "box",
      "name": "main",
      "field": "h",
-     "figma": 2365,
+     "figma": 2165,
      "code": 2221,
-     "diff": -144,
+     "diff": 56,
      "allowed": "본문 높이는 받아 온 자료 길이(README, 목록 개수)에 따라 다름"
     },
     {
@@ -16180,9 +15508,9 @@
      "kind": "box",
      "name": "footer",
      "field": "y",
-     "figma": 2527,
+     "figma": 2327,
      "code": 2366,
-     "diff": -161,
+     "diff": 39,
      "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
     },
     {
@@ -16190,357 +15518,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#2",
-     "field": "y",
-     "figma": 491,
-     "code": 481,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#2",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#3",
-     "field": "y",
-     "figma": 596,
-     "code": 576,
-     "diff": -20,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#3",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#4",
-     "field": "y",
-     "figma": 701,
-     "code": 671,
-     "diff": -30,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#4",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#5",
-     "field": "y",
-     "figma": 806,
-     "code": 766,
-     "diff": -40,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#5",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#6",
-     "field": "y",
-     "figma": 911,
-     "code": 861,
-     "diff": -50,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#6",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#7",
-     "field": "y",
-     "figma": 1016,
-     "code": 956,
-     "diff": -60,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#7",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#8",
-     "field": "y",
-     "figma": 1121,
-     "code": 1051,
-     "diff": -70,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#8",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#9",
-     "field": "y",
-     "figma": 1226,
-     "code": 1146,
-     "diff": -80,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#9",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#10",
-     "field": "y",
-     "figma": 1331,
-     "code": 1241,
-     "diff": -90,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#10",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#11",
-     "field": "y",
-     "figma": 1436,
-     "code": 1336,
-     "diff": -100,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#11",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#12",
-     "field": "y",
-     "figma": 1541,
-     "code": 1431,
-     "diff": -110,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#12",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#13",
-     "field": "y",
-     "figma": 1646,
-     "code": 1526,
-     "diff": -120,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#13",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#14",
-     "field": "y",
-     "figma": 1751,
-     "code": 1621,
-     "diff": -130,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#14",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#15",
-     "field": "y",
-     "figma": 1856,
-     "code": 1716,
-     "diff": -140,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#15",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#16",
-     "field": "y",
-     "figma": 1961,
-     "code": 1811,
-     "diff": -150,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#16",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#17",
-     "field": "y",
-     "figma": 2066,
-     "code": 1906,
-     "diff": -160,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#17",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#18",
-     "field": "y",
-     "figma": 2171,
-     "code": 2001,
-     "diff": -170,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#18",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#19",
-     "field": "y",
-     "figma": 2276,
-     "code": 2096,
-     "diff": -180,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#19",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
-    },
-    {
-     "kind": "box",
-     "name": "group-row#20",
-     "field": "y",
-     "figma": 2381,
-     "code": 2191,
-     "diff": -190,
-     "allowed": "본문 길이 차이로 그 아래 요소 y가 밀림(600 아래는 위 요소 높이 차이의 결과)"
-    },
-    {
-     "kind": "box",
-     "name": "group-row#20",
-     "field": "h",
-     "figma": 105,
-     "code": 95,
-     "diff": -10,
-     "allowed": null
     }
    ]
   },
@@ -16640,7 +15617,7 @@
    "owner": "D21",
    "counts": {
     "box": 0,
-    "text": 1,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -16725,16 +15702,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "text",
-     "name": "group-row#20",
-     "figma": [
-      "0",
-      "0"
-     ],
-     "code": "N nihhs - - - 생성됨 1개월 전",
-     "allowed": null
     }
    ]
   },
