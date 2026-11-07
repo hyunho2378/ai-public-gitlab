@@ -329,9 +329,9 @@ html body, html body #root, #root .rb-shell, #root .rb-gbar, #root .rb-side, #ro
 #root .rb-ra-sec h2 { margin: 0; font-size: var(--layout-title-section); line-height: var(--layout-title-section-lh); }
 #root .rb-ra-sec p { margin: 0; }
 #root .rb-ra-chart { margin: 0; display: flex; flex-direction: column; gap: var(--krds-number-4); }
-#root .rb-ra-bars { list-style: none; margin: 0; padding: 0; display: flex; align-items: flex-end; gap: var(--krds-number-8); height: calc(var(--krds-number-20) * 3); border-bottom: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); }
-#root .rb-ra-bar { flex: 1 1 0; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: var(--krds-number-3); }
-#root .rb-ra-fill { display: block; width: 100%; min-height: var(--krds-number-1); background: var(--layout-raised-bg); border: var(--krds-border-width-static-regular) solid var(--krds-color-border-primary); box-sizing: border-box; }
+#root .rb-ra-bars { list-style: none; margin: 0; padding: 0; display: flex; align-items: flex-end; gap: var(--krds-number-8); height: 100%; position: relative; z-index: 1; }
+#root .rb-ra-bar { flex: 1 1 0; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; min-width: 0; }
+#root .rb-ra-fill { display: block; width: 100%; min-height: 0; flex: none; background: var(--layout-raised-bg); border: var(--krds-border-width-static-regular) solid var(--krds-color-border-primary); box-sizing: border-box; }
 #root .rb-ra-key, #root .rb-ra-axis { font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--krds-color-text-subtle); text-align: center; }
 #root .rb-ra-note { display: flex; gap: var(--krds-number-4); align-items: flex-start; }
 #root .rb-ra-note-t { font-weight: var(--krds-font-weight-bold); }
@@ -398,3 +398,14 @@ html[data-krds-mode="light"] #root .rb-gbar-search {
   #root .rb-taskfind .rb-prow-title .rb-icon { flex-shrink: 0; }
   #root .rb-taskfind .rb-prow-title a { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
 }
+
+/* M12 원본30: 빈 커버리지도 축을 유지한다. %는0~100, 건수는0에서 시작하는 정수 눈금이다. */
+#root .rb-ra-grid { display: grid; grid-template-columns: var(--krds-number-12) minmax(0, 1fr); gap: var(--krds-gap-3); }
+#root .rb-ra-plot, #root .rb-ra-yaxis { height: calc(var(--krds-number-20) * 3); position: relative; }
+#root .rb-ra-yaxis { list-style: none; margin: 0; padding: 0; }
+#root .rb-ra-yaxis li { position: absolute; right: 0; transform: translateY(-50%); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--krds-color-text-subtle); }
+#root .rb-ra-gridlines { position: absolute; inset: 0; }
+#root .rb-ra-gridlines span { position: absolute; left: 0; right: 0; height: var(--krds-border-width-static-regular); background: var(--layout-divider); }
+#root .rb-ra-gridlines span:last-child { background: var(--krds-color-text-subtle); }
+#root .rb-ra-xaxis { list-style: none; display: flex; gap: var(--krds-number-8); min-height: var(--rb-lh-13); padding: 0; margin: 0; }
+#root .rb-ra-xaxis li { flex: 1 1 0; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: center; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--krds-color-text-subtle); }

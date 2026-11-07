@@ -178,6 +178,7 @@ export const u = {
   RA_langHint: "코드는 바이트 단위로 측정. 생성 코드, 외부 업체 코드는 제외",
   RA_langAxis: "사용되는 프로그래밍 언어(퍼센트)",
   RA_covTitle: "코드 커버리지 통계",
+  RA_covAxis: "코드 커버리지(퍼센트)",
   RA_covNone: "코드 커버리지 데이터 없음",
   RA_covBody: "공개 저장소에서 읽을 수 있는 커버리지 결과가 없음",
   RA_commitTitle: "커밋 통계",
