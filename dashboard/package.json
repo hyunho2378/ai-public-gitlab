@@ -1,0 +1,21 @@
+{
+  "name": "ai-lab-dashboard-krds",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5801 --host 127.0.0.1",
+    "build": "vite build",
+    "build:pages": "VITE_BASE=/ai-public-gitlab/dashboard/ VITE_GITLAB_URL=/ai-public-gitlab/ vite build --outDir ../app/dist/dashboard --emptyOutDir",
+    "preview": "vite preview --port 5802 --host 127.0.0.1",
+    "snapshot": "node scripts/snapshot.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

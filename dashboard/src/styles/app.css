@@ -1,0 +1,210 @@
+/* 현황판 화면 스타일. 값은 --krds-* 와 --dash-* 변수만. 미디어 구간은 KRDS 공식 구간(1023, 767)만.
+   색: 면은 흰색과 회색 한 번(숫자 띠), 강조는 주색 하나(링크, 막대). 장식 테두리, 그림자, 아이콘 타일, 색 배지, 알약 모양 없음.
+   막대: 얇고(8, 순위는 4) 끝이 각진 모양. 둥근 끝 금지.
+   글: 제목과 두 줄짜리는 균형(balance), 본문은 끝줄 보정(pretty), 한 줄 칸은 말줄임과 title 전체 문구(최소/이상/최대 글 길이 규칙, DESIGN.md 5장). */
+
+html { color-scheme: light; }
+html[data-krds-mode='high-contrast'] { color-scheme: dark; }
+body {
+  margin: 0;
+  background: var(--krds-color-background-white);
+  color: var(--krds-color-text-basic);
+  font-family: 'Pretendard GOV', sans-serif;
+  font-size: var(--krds-font-size-body-medium);
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+h1, h2, h3, p, dl, dd, ul, ol { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+#root { display: flex; flex-direction: column; min-height: 100dvh; }
+
+.dash-subtle { color: var(--krds-color-text-subtle); }
+.dash-num { font-variant-numeric: tabular-nums; }
+.dash-nowrap { white-space: nowrap; display: inline-block; }
+/* 화면 낭독용 표: 표 요소는 폭 var(--krds-number-1)을 무시하므로 블록으로 바꿔 가로 넘침을 막는다 */
+table.sr-only { display: block; width: var(--krds-number-1); height: var(--krds-number-1); min-width: 0; }
+.dash-ellipsis { display: block; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dash-link { color: var(--krds-color-link-default); text-decoration: none; }
+.dash-link:hover { color: var(--krds-color-link-hover); text-decoration: underline; }
+.dash-link:visited { color: var(--krds-color-link-default); }
+
+.dash-skip { position: absolute; transform: translateY(-200%); padding: var(--krds-padding-6); background: var(--krds-color-background-white); color: var(--krds-color-text-basic); z-index: 10; }
+.dash-skip:focus { transform: translateY(0); }
+:focus-visible { outline: var(--krds-border-width-variable-medium) solid var(--krds-color-border-primary); outline-offset: var(--krds-gap-1); }
+#main:focus { outline: none; }
+
+.dash-icon { display: inline-block; flex: none; background-color: currentColor; -webkit-mask: no-repeat center / contain; mask: no-repeat center / contain; }
+.dash-icon.is-medium { width: var(--krds-size-height-4); height: var(--krds-size-height-4); }
+
+.dash-inner { width: 100%; max-width: calc(var(--dash-max) + var(--dash-pad-x) * 2); margin: 0 auto; padding-inline: var(--dash-pad-x); box-sizing: border-box; }
+
+/* 머리글: 로고, 서비스 이름, 바로가기. 아래 구분선 하나, 선 포함 높이 64(767 이하 56) */
+.dash-header { box-sizing: border-box; height: var(--dash-header-h); background: var(--krds-color-background-white); }
+.dash-header-inner { display: flex; align-items: center; justify-content: space-between; gap: var(--krds-gap-5); height: 100%; }
+.dash-brand { display: inline-flex; align-items: center; gap: var(--krds-gap-4); color: var(--krds-color-text-bolder); text-decoration: none; white-space: nowrap; }
+.dash-brand-logo { height: var(--krds-size-height-5); width: auto; display: block; }
+.dash-brand-divider { width: var(--krds-number-1); height: var(--krds-size-height-3); background: var(--krds-color-divider-gray); }
+.dash-header-nav { display: flex; gap: var(--krds-gap-7); white-space: nowrap; }
+.dash-header-nav a { color: var(--krds-color-text-basic); text-decoration: none; }
+.dash-header-nav a:hover { text-decoration: underline; }
+
+.dash-main { display: flex; flex-direction: column; gap: var(--dash-section-gap); padding-block: var(--krds-padding-9) var(--dash-section-gap); flex: 1; }
+
+/* 화면 머리 */
+.dash-pagehead { display: flex; align-items: center; justify-content: space-between; gap: var(--krds-gap-5); flex-wrap: wrap; }
+.dash-pagehead h1 { color: var(--krds-color-text-bolder); }
+.dash-asof { display: flex; align-items: center; gap: var(--krds-gap-3); }
+.dash-iconbtn { width: var(--krds-size-height-6); height: var(--krds-size-height-6); padding: 0; display: inline-flex; align-items: center; justify-content: center; }
+
+/* 숫자 한 줄: 화면 머리 아래, 이름(옅게)과 값(굵게). 큰 숫자 카드 없음 */
+.dash-stats { display: flex; flex-wrap: wrap; gap: var(--krds-gap-3) var(--krds-gap-8); padding-bottom: var(--krds-padding-8); }
+.dash-stat { display: flex; align-items: baseline; gap: var(--krds-gap-3); white-space: nowrap; }
+.dash-stat dd { margin: 0; }
+.dash-stat-hint { display: none; }
+
+/* 두 열: 왼쪽 채움, 오른쪽 384 */
+.dash-cols { display: flex; gap: var(--dash-col-gap); align-items: flex-start; }
+.dash-cols > :first-child { flex: 1 1 0; min-width: 0; }
+.dash-cols > :last-child { flex: none; width: var(--dash-side-w); }
+.dash-section { display: flex; flex-direction: column; gap: var(--dash-head-gap); min-width: 0; }
+.dash-section-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--krds-gap-4); }
+.dash-section-head h2 { color: var(--krds-color-text-bolder); }
+.dash-section-head p { white-space: nowrap; }
+
+/* 등록 달력: 칸 20, 사이 4, 모서리 2(알약 아님). 0은 회색, 1~4는 주색 단계 */
+.dash-cal-scroll { overflow-x: auto; }
+.dash-cal { display: flex; gap: var(--dash-cal-gap); width: max-content; }
+.dash-cal-rows, .dash-cal-week { display: flex; flex-direction: column; gap: var(--dash-cal-gap); }
+.dash-cal-rows > span { height: var(--dash-cal-cell); line-height: var(--dash-cal-cell); }
+.dash-cal-rows > span:first-child, .dash-cal-month { height: var(--dash-cal-month-h); line-height: var(--dash-cal-month-h); }
+.dash-cal-rows { padding-right: var(--krds-padding-3); }
+.dash-cal-month { white-space: nowrap; width: var(--dash-cal-cell); overflow: visible; }
+.dash-cal-day { display: block; width: var(--dash-cal-cell); height: var(--dash-cal-cell); border-radius: var(--krds-radius-xsmall2); background: var(--krds-color-element-gray-light); }
+.dash-cal-day.is-future { background: none; }
+.dash-cal-day.lv-1 { background: var(--krds-color-light-primary-20); }
+.dash-cal-day.lv-2 { background: var(--krds-color-light-primary-40); }
+.dash-cal-day.lv-3 { background: var(--krds-color-light-primary-50); }
+.dash-cal-day.lv-4 { background: var(--krds-color-light-primary-70); }
+.dash-cal-foot { display: flex; justify-content: space-between; align-items: center; gap: var(--krds-gap-5); flex-wrap: wrap; }
+.dash-cal-legend { display: flex; align-items: center; gap: var(--krds-gap-2); }
+.dash-cal-legend .dash-cal-day { width: var(--dash-cal-legend); height: var(--dash-cal-legend); }
+
+/* 최근 7일 막대: KRDS 선형 탭, 세로축 0부터, 눈금선 회색 1, 기준선 진한 1, 막대 폭 16 */
+.dash-tabs .tab.line ul { display: flex; gap: var(--krds-gap-5); }
+.dash-chart { display: flex; flex-direction: column; gap: var(--krds-gap-3); }
+.dash-chart-plot { display: flex; gap: var(--krds-gap-4); height: var(--dash-chart-h); }
+/* 눈금: 값 비율(--p) 위치에 글자 가운데를 맞춘다 */
+.dash-chart-y { position: relative; flex: none; width: var(--dash-chart-y-w); }
+.dash-chart-y li { position: absolute; right: 0; bottom: calc(100% * var(--p) - var(--dash-chart-tick-h) / 2); height: var(--dash-chart-tick-h); line-height: var(--dash-chart-tick-h); }
+.dash-chart-area { position: relative; flex: 1 1 0; min-width: 0; border-bottom: var(--krds-number-1) solid var(--krds-color-divider-gray-dark); }
+.dash-chart-grid { position: absolute; inset: 0; pointer-events: none; }
+.dash-chart-grid span { position: absolute; left: 0; right: 0; bottom: calc(100% * var(--p)); height: 0; border-top: var(--krds-number-1) solid var(--krds-color-divider-gray-light); }
+.dash-chart-cols { position: relative; display: flex; height: 100%; gap: var(--dash-chart-gap); }
+.dash-chart-col { flex: 1 1 0; display: flex; justify-content: center; align-items: flex-end; }
+.dash-chart-bar { display: block; width: var(--dash-chart-bar-w); height: calc(100% * var(--r, 0)); min-height: var(--krds-number-1); background: var(--dash-bar); }
+.dash-chart-days { display: flex; gap: var(--dash-chart-gap); margin-left: calc(var(--dash-chart-y-w) + var(--krds-gap-4)); }
+.dash-chart-days li { flex: 1 1 0; text-align: center; white-space: nowrap; }
+.dash-stack { display: flex; flex-direction: column; gap: var(--dash-section-gap); }
+
+/* 순위 목록: 위 줄 이름과 값, 아래 4 높이 막대(바탕 회색, 끝 각짐) */
+.dash-rank { display: flex; flex-direction: column; gap: var(--krds-gap-4); }
+.dash-rank-row { display: flex; flex-direction: column; gap: var(--krds-gap-2); }
+.dash-rank-line { display: flex; justify-content: space-between; align-items: baseline; gap: var(--krds-gap-5); }
+.dash-rank-label { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--krds-color-text-basic); }
+.dash-rank-value { flex: none; white-space: nowrap; color: var(--krds-color-text-subtle); }
+.dash-rank-track { display: flex; height: var(--dash-rank-bar-h); background: var(--dash-track); }
+.dash-rank-bar { display: block; height: 100%; background: var(--dash-bar); }
+.dash-rank-row.is-muted .dash-rank-bar { background: var(--dash-bar-muted); }
+.dash-rank-row.is-muted .dash-rank-label { color: var(--krds-color-text-subtle); }
+
+/* 목록 행(최근 이슈): 아래 선 하나, 제목은 두 줄까지 균형 */
+.dash-rows { display: flex; flex-direction: column; }
+/* 한 줄: 제목(넘치면 말줄임, 전체는 title) 왼쪽, 프로젝트와 때 오른쪽 */
+.dash-row { display: flex; align-items: baseline; justify-content: flex-start; gap: var(--krds-gap-5); padding-block: var(--krds-padding-5); }
+.dash-row:first-child { padding-top: 0; }
+.dash-row a { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dash-row p { flex: none; white-space: nowrap; }
+
+/* 공개 프로젝트 표 */
+.dash-filters { display: flex; align-items: flex-end; gap: var(--krds-gap-5); flex-wrap: wrap; }
+.dash-filters .form-group { margin: 0; width: auto; flex: 0 0 auto; }
+.dash-filters .form-tit { margin-bottom: var(--krds-gap-3); }
+.dash-filters .form-group.dash-filter-q { flex: 1 1 var(--dash-filter-q-min); }
+.dash-filters select { min-width: var(--dash-filter-select-min); }
+.dash-table-wrap { overflow-x: auto; }
+/* KRDS 표 부품 변수만 바꾼다: 머리 면과 아래선은 회색(연한 파랑 금지, D-15), 본문 글자 15 */
+.dash-table {
+  table-layout: fixed;
+  width: 100%;
+  --krds-table--data-thead-surface: var(--krds-color-surface-gray-subtler);
+  --krds-table--data-thead-border: var(--krds-color-border-gray);
+  --krds-table--data-tbody-pc-font-size: var(--krds-font-size-body-small);
+  --krds-table--data-tbody-mobile-font-size: var(--krds-font-size-body-small);
+}
+.dash-table .c-owner { width: var(--dash-col-owner); }
+.dash-table .c-field { width: var(--dash-col-field); }
+.dash-table .c-issues { width: var(--dash-col-issues); }
+.dash-table .c-commits { width: var(--dash-col-commits); }
+.dash-table .c-stars { width: var(--dash-col-stars); }
+.dash-table .c-updated { width: var(--dash-col-updated); }
+.krds-table-wrap .tbl.data.dash-table td.is-right,
+.krds-table-wrap .tbl.data.dash-table th.is-right { text-align: right; }
+.dash-cell-project-inner { display: flex; flex-direction: column; gap: var(--krds-gap-1); min-width: 0; }
+.dash-name { text-wrap: balance; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.dash-only-stack { display: none; }
+.dash-commits { display: inline-flex; flex-direction: column; align-items: flex-end; gap: var(--krds-gap-2); width: 100%; }
+.dash-rank-track.is-cell { width: 100%; }
+.dash-nowrap-cell { white-space: nowrap; }
+.dash-empty { padding-block: var(--krds-padding-9); text-align: center; }
+.krds-pagination { justify-content: center; }
+
+.dash-error { display: flex; align-items: center; gap: var(--krds-gap-5); }
+
+/* 바닥글: 피그마 product/footer(Context=Panel). 위 구분선 하나, 위아래 24, 줄 사이 16 */
+.dash-footer { margin-top: auto; }
+.dash-foot { display: flex; flex-direction: column; gap: var(--krds-gap-5); padding-block: var(--krds-padding-8); }
+.dash-foot-top { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--krds-gap-7); }
+.dash-foot-logo { display: block; width: auto; height: var(--krds-size-height-5); }
+.dash-foot-info { display: flex; flex-direction: column; gap: var(--krds-gap-3); }
+.dash-foot-contact { display: flex; flex-direction: column; gap: var(--krds-gap-2); font-style: normal; color: var(--krds-color-text-basic); }
+.dash-foot-links { display: flex; flex-wrap: wrap; gap: var(--krds-gap-7); }
+.dash-foot-links a { color: var(--krds-color-text-basic); text-decoration: none; }
+.dash-foot-links a:hover { text-decoration: underline; }
+.dash-foot-links a.is-strong { font-weight: var(--krds-font-weight-bold); }
+.dash-foot-divider { height: var(--krds-number-1); background: var(--krds-color-border-gray-light); }
+.dash-foot-bottom { display: flex; justify-content: space-between; align-items: center; gap: var(--krds-gap-7); }
+.dash-foot-copy { color: var(--krds-color-text-basic); }
+
+/* 1023 이하: 한 열, 숫자 띠 1 + 2 + 2, 표는 행마다 세로 묶음(이름, 설명, 만든 사람 / 분야, 숫자 한 줄) */
+@media (max-width: 1023px) {
+  .dash-cols { flex-direction: column; align-items: stretch; }
+  .dash-cols > :last-child { width: auto; }
+  .dash-table colgroup, .dash-table thead { display: none; }
+  .krds-table-wrap .tbl.data.dash-table, .dash-table tbody { display: block; width: 100%; min-width: 0; }
+  .dash-table tr { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--krds-gap-3) var(--krds-gap-7); padding-block: var(--dash-row-pad-y); }
+  .krds-table-wrap .tbl.data.dash-table tbody td { display: block; flex: none; padding: 0; box-shadow: none; text-align: left; }
+  .krds-table-wrap .tbl.data.dash-table tbody td.dash-cell-project { flex-basis: 100%; min-width: 0; max-width: 100%; }
+  /* 묶음 보기의 설명은 2줄까지(글 길이 규칙) */
+  .dash-cell-project-inner .dash-ellipsis:not(.dash-only-stack) { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .krds-table-wrap .tbl.data.dash-table tbody td.dash-only-cols { display: none; }
+  .dash-only-stack { display: block; }
+  .dash-table td[data-label]:not(.dash-cell-project)::before { content: attr(data-label) ' '; color: var(--krds-color-text-subtle); }
+  .dash-commits { display: inline; }
+  .dash-commits > span { display: inline; }
+  .dash-rank-track.is-cell { display: none; }
+}
+
+/* 767 이하 */
+@media (max-width: 767px) {
+  .dash-filters { flex-direction: column; align-items: stretch; }
+  .dash-filters .form-group, .dash-filters .form-group.dash-filter-q { width: 100%; flex: none; }
+  .dash-filters select { min-width: 0; width: 100%; }
+  .dash-header-nav { display: none; }
+  .dash-row { flex-direction: column; align-items: stretch; gap: var(--krds-gap-1); }
+  .dash-row a { white-space: normal; text-wrap: balance; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .dash-tabs .btn-tab { padding-right: var(--krds-padding-6); }
+  .dash-foot-top { flex-direction: column; gap: var(--krds-gap-4); }
+  .dash-foot-bottom { flex-direction: column; align-items: flex-start; gap: var(--krds-gap-3); }
+}
