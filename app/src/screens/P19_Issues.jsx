@@ -23,6 +23,9 @@ import { day } from './parts/repoCommon';
 import '../components/Code/code.css';
 import './parts/glWork.css';
 import './parts/glRepo.css';
+import { ActivityNotes } from './parts/ActivityNotes';
+import { gql, Q } from './parts/glGraphql';
+import { useAuth } from '../components/Identity/useAuth';
 
 export function StateTabs({ value, onChange, items, label }) {
   return (
@@ -146,6 +149,13 @@ export function Issue() {
   const { iid } = useParams();
   const frame = useProject();
   const body = useData(async () => (await gitlab.issue(frame.id, iid)).data, [frame.id, iid]);
+  const { signedIn } = useAuth();
+  const path = frame.data?.project?.path_with_namespace;
+  // 실제 작업 항목 화면처럼 활동(댓글·상태 변경)을 공개 GraphQL에서 읽는다(REST notes는 비로그인 401)
+  const notes = useData(async () => {
+    if (!path) return [];
+    try { return ((await gql(Q.issueNotes, { p: path, i: String(iid) })).project.issue?.discussions?.nodes || []).flatMap((d) => d.notes.nodes); } catch { return []; }
+  }, [path, iid]);
   if (!frame.data) return <ProjectFrame screenId="R-12" data={frame} />;
   const i = body.data;
   return (
@@ -164,6 +174,7 @@ export function Issue() {
             </p>
           </div>
           <div className="rb-detail-body">{i.description ? <Readme source={i.description} /> : <p className="rb-subtle">{t.P19_noBody}</p>}</div>
+          <ActivityNotes notes={notes.data || []} signedIn={signedIn} />
         </div>
       )}
     </ProjectFrame>
