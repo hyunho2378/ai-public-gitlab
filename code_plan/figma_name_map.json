@@ -2166,7 +2166,7 @@
     "Project/개요"
    ],
    "code": {
-    "path": "/projects/150/feedback",
+    "path": "/projects/150",
     "query": {
      "fixture": "kordoc"
     },
@@ -2183,7 +2183,8 @@
     ],
     "authSwitch": "?auth=Signed-in(개발 서버만, api/devState.js)",
     "roles": [],
-    "variantsInCode": {}
+    "variantsInCode": {},
+    "note": "M-9 매핑 정정: Figma A-04 구조는 프로젝트 홈 README(project-info·toolbar·commit-bar·file-table·language-bar·readme). UX/05·PRD는 A-04를 의견(P-08, /projects/150/feedback)으로 정의해 화면 ID 정의가 서로 다름. 측정은 Figma 구조와 같은 홈 경로로 한다"
    }
   },
   {

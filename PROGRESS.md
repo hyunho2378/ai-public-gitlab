@@ -453,3 +453,24 @@ project-row 분포: y 102 = A-01 42 · G-01 36 · G-02 24 / h 80 = G-01 48 · A-
 - G-08 로그인 제목: Figma '로그인'(24 Bold)과 코드 로그인 카드 첫 글자가 같아 G-08 제목 문구 차이 0건. 실제 공공 깃랩 로그인(UX/gitlab_compare/46_로그인_1440.png)에는 큰 제목이 없고, 로그인 2열 유지는 사용자 결정(UX/13 78행). 차이는 G-08b(실패)·G-08c(2단계) 문구와 높이에 있다: G-08b Figma '아이디 또는 비밀번호가 맞지 않습니다. 다시 입력해 주세요.' 대 코드 '아이디/비밀번호 확인, 5회 오류 시 잠금', G-08c login-card h Figma 366 대 코드 338
 - G-12: 1440·768·360 모두 대조에 포함. main y Figma 121 대 코드 81, Figma에만 section-title(1440·768), 코드에만 page-head·profile-event(360)
 고칠 쪽 확정: UX/audit_v3/M8_owner_D21.md, M8_owner_C.md에 원인마다 적었다. 이번에 판정한 묶음은 일부(D21 건수 기준 Figma 325·코드 38·보류 30·미판정 996, C 건수 기준 Figma 64·보류 14·미판정 773)이고 나머지는 실측 캡처와 대조가 필요한 미판정이다
+
+## 측정 라운드 M-9(11. 7. 09:01, M): 공식 합 3,097(이전 M-8 2,240, +857), 새 허용 0건, 563개
+코드 ed6076b, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-07 08:46(598 변형, 요소 7,146, export 이름 상한 3→20)
+측정 방법(스크롤 막대): 문서 스크롤은 #rb-scroll 안에서 일어나 documentElement.clientWidth는 창 폭과 같았다(1440 시험: cw 1440). 막대 15는 #rb-scroll 안에 생겨(offsetWidth 1184, clientWidth 1169) html·#rb-scroll에 scrollbar-width:none을 주입해 0으로 했다(M-6까지 headless와 같은 조건). 모든 변형에서 clientWidth==목표 폭 검증(불일치 0건), #rb-scroll 막대 잔존 0건. 창 폭을 목표+15로 키우는 방식은 불일치가 없어 쓰지 않았다. 전환·애니메이션 끔, 폭 변경 뒤 900ms 대기. 측정 기록은 code_plan/measured_full.json의 method 필드
+매핑 정정: A-04 코드 경로 /projects/150/feedback → /projects/150(프로젝트 홈, fixture=kordoc). A-02는 /projects/150, A-01은 /search?q=보고서 작성(fixture=kordoc)으로 이미 정정되어 있었다. 화면 ID 정의가 Figma와 문서가 다른 목록: A-04(UX/05·PRD는 의견 P-08, Figma A-04는 프로젝트 홈 README 구조: project-info·toolbar·commit-bar·file-table·language-bar·readme). 그 밖 A-01(업무로 찾기=검색 화면 위에 올림), A-02(AI 소개 카드=홈+카드)는 정의와 구조가 맞음
+담당: D21 2,091(+702) · C1 545(+190) · C2 461(-35)
+| 순위 | 원인 | 건수 | M-8 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 main y | 510 | 23 | +487 | D21 230, C1 120, C2 160 |
+| 2 | 위치/크기 group-row w | 200 | 0 | +200 | D21 |
+| 3 | 문구 group-row | 140 | 0 | +140 | D21 |
+| 4 | 순서 (화면) | 77 | 13 | +64 | D21 |
+| 5 | 위치/크기 project-row y | 64 | 28 | +36 | D21 |
+| 6 | 모서리·안쪽·간격 language-bar | 60 | 0 | +60 | D21 |
+| 7 | 위치/크기 filter-search x | 50 | 36 | +14 | D21 8, C1 10, C2 32 |
+| 8 | 문구 page-head | 44 | 44 | 0 | D21 30, C1 10, C2 4 |
+| 9 | 위치/크기 file-table h | 40 | 20 | +20 | D21 30, C1 10 |
+| 10 | Figma에만 profile-event | 40 | 0 | +40 | D21 |
+새로 생긴 원인(5건 이상): 위 표의 group-row w·문구·y, language-bar 모서리·y·h·w, profile-event(Figma에만 40), project-info y·h, toolbar 문구·아이콘, extra-field, search 모양·색 등 총 60여 묶음(M9_owner 파일에 원인별로 기록). 없어진 원인: 코드에만 group-row 200(이름 상한 20으로 짝이 맞음), A-02 Figma에만 project-info·toolbar·commit-bar·file-table·readme 각 20(경로 정정), 아이콘 project-row 38, login-card 문구 30·높이 32, commit-bar 문구 30 등
+주의: main y 510은 코드 main 이름표가 breadcrumb 아래(y 121)에 있고 Figma main은 breadcrumb 포함(y 81)이라 477건(81 대 121)이 같은 원인이다. 스크롤 막대 영향은 없었다(main 폭 차이 기준). 이 원인을 정하면 body·content-panel·breadcrumb y 연쇄 약 70건도 같이 정리된다
+담당별 작업 목록: UX/audit_v3/M9_owner_D21.md, M9_owner_C.md(M8_decisions.md 판정 이어받음, 신규 원인은 '판정 필요' 표시)
