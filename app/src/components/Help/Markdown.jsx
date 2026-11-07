@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { t } from '../../copy/ko';
 import { u } from '../../copy/ui';
 import { Icon } from '../Code/Icon';
+import { IconButton } from '../Action/IconButton';
 import { languageOf, tokenize } from '../Code/highlight';
 import { linkKind, parseMarkdown, plainText, repoPath, slugify } from './mdparse';
 import './markdown.css';
@@ -85,7 +86,8 @@ function CodeBlock({ node }) {
     <figure className="rb-md-block">
       <figcaption className="rb-md-block-head">
         <span className="krds-text-body-xsmall rb-subtle">{node.lang}</span>
-        <button type="button" className="krds-btn xsmall text" onClick={copy}>{copied ? u.Md_copied : u.Md_copy}</button>
+        {/* 실제 공공 깃랩 코드 묶음: 글자 단추가 아니라 '클립보드에 복사' 아이콘 단추(copy-code). Figma preview도 copy 아이콘 */}
+        <IconButton icon="copy" label={copied ? u.Md_copied : u.Md_copy} onClick={copy} />
         <span className="sr-only" role="status">{copied ? u.Md_copied : ''}</span>
       </figcaption>
       <pre className="rb-md-pre" tabIndex={0}>
