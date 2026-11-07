@@ -552,3 +552,23 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 10 | 위치/크기 page-head h | 21 | 25 | -4 | D21 19, C1 2 |
 새로 생긴 원인(5건 이상): extra-field 색 40·모양 40·폭 20·글자 20·y 16(전부 D21). 없어진 원인: project-row x 66·w 66, 코드에만 extra-field 20, results x·w 각 12, filters 폭 12, 코드에만 repo-actions·extra-reuse 각 10, 문구 profile-event 18, search-clear x 10 등
 담당별 작업 목록: UX/audit_v3/M13_owner_D21.md, M13_owner_C.md(행 단위 판정 이어받기, 신규만 '판정 필요')
+
+## 측정 라운드 M-14(11. 7. 17:47, M): 공식 합 925(이전 M-13 1,331, -406), 새 허용 0건, 563개
+코드 HEAD 20ed235(측정 중 다른 커밋 없음). Figma 합본 figma_full.json = 2026-11-07 17:32(598 변형, 7,158요소). 고정 시각 now=2026-11-07T10:00:00+09:00. 방법: 모든 요소에 scrollbar-width:none·::-webkit-scrollbar 숨김, 오버플로 요소 offsetWidth-clientWidth>2 검사 → 막대 잔존 0곳(M-13의 4곳은 변형 키를 기록하지 못해 어느 변형인지 소급 확인 불가, 이번은 변형별 검사 기록이 measured_full.json method에 있음), 폭 불일치 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭. 탭이 중간에 닫혀 다른 로컬 탭으로 이어 측정(URL 동일, 처음부터 저장 방식)
+분류별: 위치/크기 452, 문구 178, 글자 속성 0, 색 32, 모서리·안쪽·간격 97, 아이콘 96, Figma에만 70, 코드에만 0, 순서 0
+담당: D21 556(-249) · C1 211(-64) · C2 158(-93)
+판정 쪽별 합계(행 단위, M8~M11 판정표에서 이어받음. M12·M13 행 단위 판정 파일은 없어 M13_decisions_new.md는 읽지 않음): 코드 483 · Figma 190 · 사용자 확인 5 · 둘 다 2 · 측정 매핑 2 · 신규 판정 필요 243(합 925). 담당별: D21 코드 280·Figma 101·사용자확인 5·신규 170 / C1 코드 122·Figma 54·둘 다 2·신규 33 / C2 코드 81·Figma 35·매핑 2·신규 40
+| 순위 | 원인 | 건수 | M-13 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 문구 profile-event | 60 | 0 | +60 | D21 |
+| 2 | 위치/크기 project-row y | 52 | 44 | +8 | D21 |
+| 3 | 문구 section-title | 49 | 43 | +6 | C1 44, C2 5 |
+| 4 | 위치/크기 project-row h | 48 | 20 | +28 | D21 |
+| 5 | 위치/크기 filter-search x | 36 | 34 | +2 | D21 2, C2 34 |
+| 6 | 문구 group-row | 29 | 12 | +17 | D21 |
+| 7 | Figma에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 8 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 9 | 위치/크기 results h | 20 | 14 | +6 | D21 |
+| 10 | 문구 toolbar | 20 | 20 | 0 | D21 |
+새로 생긴 원인(5건 이상): 문구 profile-event 60, 아이콘 section-title 10(C1), 모양 gl-tabs 10·code-button 10(C2), 위치 profile-event y 6, Figma에만 toolbar 5. 없어진 원인: sidebar-nav w 40, extra-field 색 40·폭 20·글자 20, 코드에만 tabs 20, gl-tabs w 20, page-head w 28, repo-actions x·w 36, extra-field-filter 모양 20, profile-activity h 11, code-button x·w 20 등. 코드에만 0·순서 0·글자 속성 0
+담당별 작업 목록: UX/audit_v3/M14_owner_D21.md, M14_owner_C.md
