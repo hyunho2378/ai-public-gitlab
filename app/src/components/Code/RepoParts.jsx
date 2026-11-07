@@ -92,7 +92,8 @@ export function CodeMenu({ id, zipUrl, cloneUrl, sshUrl }) {
   const fmts = base ? [['zip', '.zip'], ['tar.gz', '.tar.gz'], ['tar.bz2', '.tar.bz2'], ['tar', '.tar']] : [];
   return (
     <>
-      <Drop figma="product/code_dropdown" label={t.Home_code} btnClass="rb-btn-light" button={<><span className="rb-drop-full">{t.Home_code}</span><span className="rb-drop-compact"><Icon name="download" /><span className="sr-only">{t.Home_code}</span></span><Icon name="arrow-down" /></>}>
+      {/* 단추 이름은 Menu의 aria-label(코드)이 이미 준다. 좁은 화면 아이콘 안 sr-only 중복 글을 두지 않는다 */}
+      <Drop figma="product/code_dropdown" label={t.Home_code} btnClass="rb-btn-light" button={<><span className="rb-drop-full">{t.Home_code}</span><span className="rb-drop-compact"><Icon name="download" /></span><Icon name="arrow-down" /></>}>
         {(close) => (
           <div className="rb-code-menu">
             {sshUrl ? (
