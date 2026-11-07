@@ -193,7 +193,7 @@ export function GlDiff({ files, id, refName, webUrl }) {
   const setAll = (v) => setClosed(Object.fromEntries(files.map((_, i) => [i, v])));
   return (
     <div className="gl-diff">
-      <div className="gl-diff-bar">
+      <div className="gl-diff-bar" data-figma="gl-diff-bar">
         <IconButton icon={panel ? 'panel_close' : 'panel_open'} label={panel ? g.hideTree : g.showTree} size="medium" aria-expanded={panel} onClick={() => setPanel(!panel)} />
         <p className="gl-diff-total">
           <Icon name="document" /><span>{g.filesN(files.length)}</span><Stat add={total.add} del={total.del} />
@@ -207,7 +207,7 @@ export function GlDiff({ files, id, refName, webUrl }) {
       </div>
       <div className={'gl-diff-main' + (panel ? ' has-panel' : '')} data-figma="diff-area">
         {panel ? (
-          <aside className="gl-panel" aria-label={g.files}>
+          <aside className="gl-panel" data-figma="diff-tree" aria-label={g.files}>
             <div className="gl-panel-head">
               <p className="gl-panel-title">{g.files}<span className="gl-tab-count">{files.length}</span></p>
               <div className="gl-seg" role="group" aria-label={g.viewMode}>
