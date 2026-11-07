@@ -2682,8 +2682,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -3024,8 +3024,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -3366,8 +3366,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -3696,8 +3696,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -4026,8 +4026,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -4356,8 +4356,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -4672,8 +4672,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -4957,8 +4957,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -5241,8 +5241,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -5513,8 +5513,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -14453,8 +14453,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -14788,8 +14788,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15123,8 +15123,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15446,8 +15446,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15769,8 +15769,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -16092,8 +16092,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -16401,8 +16401,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -16709,8 +16709,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -17001,8 +17001,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -17251,8 +17251,8 @@
    "branch",
    "ellipsis-vertical"
   ],
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); D-21 6장 도구 줄 점 세 개를 RepoMoreMenu 공통 부품으로 추가. 원본 열기/이력 링크와 열림·닫힘,1440/360 조작32 확인",
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",

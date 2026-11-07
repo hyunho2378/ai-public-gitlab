@@ -269,3 +269,6 @@
 @media (max-width: 767px) {
   #root .rb-commit-mobile-actions .krds-btn { height: var(--krds-number-12); min-height: var(--krds-number-12); }
 }
+
+/* D-21 도구 줄 점 세 개도 IconButton small과 같은 32 조작 칸이다. */
+#root .rb-toolbar .rb-drop > .rb-iconbtn.is-small { width: var(--krds-size-height-5); height: var(--krds-size-height-5); min-height: var(--krds-size-height-5); padding: 0; }

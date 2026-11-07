@@ -17,7 +17,7 @@ import { IconButton as GlIconButton } from '../components/Action/IconButton';
 import { g } from '../copy/gl';
 import './gl/gl.css';
 import { Icon } from '../components/Code/Icon';
-import { AddFileMenu, BranchSelect, CodeMenu, CommitBar, FileFind, FileTable, ReadmeBox, enc } from '../components/Code/RepoParts';
+import { AddFileMenu, BranchSelect, CodeMenu, CommitBar, FileFind, FileTable, ReadmeBox, RepoMoreMenu, enc } from '../components/Code/RepoParts';
 import { FileTreePanel } from '../components/Code/FileTreePanel';
 import '../components/Code/code.css';
 
@@ -249,7 +249,7 @@ export default function Code() {
             <div className="rb-toolbar-right">
               {b?.kind === 'tree' ? <FileFind id={frame.id} refName={ref} /> : null}
               {b?.kind === 'tree' && signedIn && atLeast(role, 'developer') ? <AddFileMenu id={frame.id} branch={ref} /> : null}
-              {b?.kind === 'file' ? null : <CodeMenu id={frame.id} zipUrl={zipUrl} cloneUrl={project.http_url_to_repo} sshUrl={project.ssh_url_to_repo} />}
+              {b?.kind === 'file' ? null : <><CodeMenu id={frame.id} zipUrl={zipUrl} cloneUrl={project.http_url_to_repo} sshUrl={project.ssh_url_to_repo} /><RepoMoreMenu id={frame.id} webUrl={project.web_url} /></>}
             </div>
           </div>
           {path && b?.kind === 'tree' ? <h2 className="gl-title gl-filetitle-name"><Icon name="ext/folder" /><span>{path.split('/').pop()}</span></h2> : null}

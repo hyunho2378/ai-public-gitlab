@@ -5,7 +5,7 @@ const fetchTree = async (id, ref, page) => (await gitlab.treeAll(id, ref, page))
 import { u } from '../../copy/ui';
 import { newWindow } from '../Layout/newWindow';
 import { toast } from '../Feedback/Toast';
-import { IconButton } from '../Action/IconButton';
+import { IconButton, iconBtnClass } from '../Action/IconButton';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { t } from '../../copy/ko';
@@ -136,6 +136,16 @@ export function CodeMenu({ id, zipUrl, cloneUrl, sshUrl }) {
 }
 
 // 공공 깃랩: '파일 찾기'는 회색 채움 단추(32). 누르거나 t를 누르면 파일 찾기 대화창이 열리고 전체 파일 경로에서 거른다(audit_v3 02-1, 02-17)
+/** D-21 6장: 파일 찾기·코드 옆 저장소 작업 메뉴. 기존 읽기 경로만 제공한다. */
+export function RepoMoreMenu({ id, webUrl }) {
+  return <Drop label={u.I_projectMore} btnClass={iconBtnClass('small')} toggle={false} button={<Icon name="ellipsis_vertical" />}>
+    {(close) => <ul className="drop-list">
+      <li><a className="item-link" href={webUrl} {...newWindow(t.Home_openOrigin)} onClick={close}>{t.Home_openOrigin}</a></li>
+      <li><Link className="item-link" to={`/projects/${id}/changes`} onClick={close}>{t.Home_history}</Link></li>
+    </ul>}
+  </Drop>;
+}
+
 export function FileFind({ id, refName }) {
   const [open, setOpen] = useState(false);
   const btn = useRef(null);
