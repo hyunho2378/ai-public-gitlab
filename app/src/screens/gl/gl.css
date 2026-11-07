@@ -305,3 +305,5 @@
   #root .gl-commit-head > .gl-head-actions { flex-direction: column; align-items: flex-start; gap: var(--krds-number-4); margin-top: var(--krds-number-4); }
   #root .gl-commit-head > .gl-head-actions > .krds-btn { align-self: stretch; justify-content: center; }
 }
+/* M13 R-02: 폴더 제목 안 글 span이 기본 행간1.5(48)를 가져 제목줄이48이 되던 원인. 실제 h1 행37.5+위4=41.5를 KRDS32/40으로 맞춘다. */
+#root .gl-filetitle-name > span { line-height: inherit; }

@@ -41,7 +41,8 @@
 .rb-drop-compact { display: none; }
 .rb-drop-open .drop-menu { display: block; left: auto; right: 0; transform: none; }
 .rb-drop .drop-list .item-link { width: 100%; text-align: left; background: none; border: 0; cursor: pointer; }
-.rb-tree-block { display: flex; flex-direction: column; min-width: 0; }
+/* 실제 트리 화면(1440 실측): .project-last-commit 아래 margin16 뒤 파일 표. Figma R-01/R-02/A-02 모든 폭도 16 */
+.rb-tree-block { display: flex; flex-direction: column; gap: var(--krds-gap-5); min-width: 0; }
 .rb-commit-bar { display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: var(--krds-gap-3); padding: var(--krds-padding-4) var(--krds-padding-5); background: var(--krds-color-surface-gray-subtler); border-radius: var(--krds-radius-medium2) var(--krds-radius-medium2) 0 0; }
 .rb-commit-main { display: flex; align-items: center; gap: var(--krds-gap-3); min-width: 0; flex: 1 1 auto; }
 .rb-commit-meta { display: flex; align-items: center; gap: var(--krds-gap-4); }
