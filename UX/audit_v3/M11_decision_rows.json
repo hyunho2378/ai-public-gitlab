@@ -2794,5 +2794,1580 @@
   "target": "D-21 shell/panel/search 색. G-12만 다른 모드/공통색을 쓰지 않음",
   "evidence": "UX/gitlab_compare/v2/measure.md 색 층/목록 구분선; D-21 공통 틀; UX/17",
   "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "A-02_1024_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_1024_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_1024_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "A-02_1024_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_1024_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_1024_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "A-02_1440_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_1440_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_1440_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "A-02_1440_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_1440_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_1440_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "A-02_1920_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_1920_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_1920_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "A-02_1920_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_1920_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_1920_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1219,
+  "code": 1400,
+  "diff": 181,
+  "allowed": null,
+  "frame": "A-02_360_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1400,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_360_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_360_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1219,
+  "code": 1400,
+  "diff": 181,
+  "allowed": null,
+  "frame": "A-02_360_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1400,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_360_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_360_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "A-02_768_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_768_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_768_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "A-02_768_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "A-02_768_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "A-02_768_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "새 프로젝트"
+  ],
+  "code": "로그인 후 내 도구/받은 의견",
+  "allowed": null,
+  "frame": "G-06_1024_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "로그인 후 내 도구/받은 의견",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "새 프로젝트"
+  ],
+  "code": "로그인 후 내 도구/받은 의견",
+  "allowed": null,
+  "frame": "G-06_1440_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "로그인 후 내 도구/받은 의견",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "새 프로젝트"
+  ],
+  "code": "로그인 후 내 도구/받은 의견",
+  "allowed": null,
+  "frame": "G-06_1920_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "로그인 후 내 도구/받은 의견",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "새 프로젝트"
+  ],
+  "code": "로그인 후 내 도구/받은 의견",
+  "allowed": null,
+  "frame": "G-06_768_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "로그인 후 내 도구/받은 의견",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "R-01_1024_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_1024_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_1024_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "R-01_1024_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_1024_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_1024_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "R-01_1440_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_1440_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_1440_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "R-01_1440_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_1440_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_1440_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "R-01_1920_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_1920_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_1920_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "R-01_1920_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_1920_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_1920_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1219,
+  "code": 1400,
+  "diff": 181,
+  "allowed": null,
+  "frame": "R-01_360_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1400,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_360_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_360_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1219,
+  "code": 1400,
+  "diff": 181,
+  "allowed": null,
+  "frame": "R-01_360_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1400,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_360_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_360_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "R-01_768_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_768_Guest",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_768_Guest",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 1262,
+  "code": 1441,
+  "diff": 179,
+  "allowed": null,
+  "frame": "R-01_768_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": 1441,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "모서리 8→0",
+  "allowed": null,
+  "frame": "R-01_768_Signed-in",
+  "owner": "D21",
+  "side": "코드",
+  "target": 8,
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "shape",
+  "name": "language-bar",
+  "detail": "간격 2→4",
+  "allowed": null,
+  "frame": "R-01_768_Signed-in",
+  "owner": "D21",
+  "side": "Figma",
+  "target": "gap4(D-16,2는 선 두께만 예외)",
+  "evidence": "D-16; layout.tokens.css158~165: gap/padding은4배수, number-2는 선 두께용. 반경8은 최신 Figma를 따름",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 926,
+  "code": 1841,
+  "diff": 915,
+  "allowed": null,
+  "frame": "R-02_1024_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1841,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 926,
+  "code": 1841,
+  "diff": 915,
+  "allowed": null,
+  "frame": "R-02_1024_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1841,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 926,
+  "code": 1841,
+  "diff": 915,
+  "allowed": null,
+  "frame": "R-02_1440_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1841,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 926,
+  "code": 1841,
+  "diff": 915,
+  "allowed": null,
+  "frame": "R-02_1440_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1841,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 926,
+  "code": 1841,
+  "diff": 915,
+  "allowed": null,
+  "frame": "R-02_1920_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1841,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 926,
+  "code": 1841,
+  "diff": 915,
+  "allowed": null,
+  "frame": "R-02_1920_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1841,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 883,
+  "code": 1800,
+  "diff": 917,
+  "allowed": null,
+  "frame": "R-02_360_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1800,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 883,
+  "code": 1800,
+  "diff": 917,
+  "allowed": null,
+  "frame": "R-02_360_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1800,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 926,
+  "code": 1841,
+  "diff": 915,
+  "allowed": null,
+  "frame": "R-02_768_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1841,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "box",
+  "name": "file-table",
+  "field": "h",
+  "figma": 926,
+  "code": 1841,
+  "diff": 915,
+  "allowed": null,
+  "frame": "R-02_768_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": 1841,
+  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "새 브랜치"
+  ],
+  "code": "활성 브랜치",
+  "allowed": null,
+  "frame": "R-07_1024_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "활성 브랜치",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "새 브랜치"
+  ],
+  "code": "활성 브랜치",
+  "allowed": null,
+  "frame": "R-07_1440_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "활성 브랜치",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "새 브랜치"
+  ],
+  "code": "활성 브랜치",
+  "allowed": null,
+  "frame": "R-07_1920_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "활성 브랜치",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "새 브랜치"
+  ],
+  "code": "활성 브랜치",
+  "allowed": null,
+  "frame": "R-07_768_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "활성 브랜치",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_1024_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_1024_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_1024_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_1024_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_1024_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_1024_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_1440_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_1440_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_1440_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_1440_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_1440_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_1440_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_1920_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_1920_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_1920_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_1920_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_1920_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_1920_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_360_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_360_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_360_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_360_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_360_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_360_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_768_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_768_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_768_Guest",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "이 리포지토리에 사용 된 프로그래밍 언어"
+  ],
+  "code": "이 리포지토리에 사용된 프로그래밍 언어",
+  "allowed": null,
+  "frame": "R-25_768_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "이 리포지토리에 사용된 프로그래밍 언어",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#2",
+  "figma": [
+   "main Aug 01 - Oct 30 기간의 코드 커버리지 통계"
+  ],
+  "code": "코드 커버리지 통계",
+  "allowed": null,
+  "frame": "R-25_768_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "코드 커버리지 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title#3",
+  "figma": [
+   "main 에 대한 커밋 통계 Mar 28 - Oct 29"
+  ],
+  "code": "커밋 통계",
+  "allowed": null,
+  "frame": "R-25_768_Signed-in",
+  "owner": "C1",
+  "side": "Figma",
+  "target": "커밋 통계",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "저장소 기본 정보"
+  ],
+  "code": "프로젝트 설정",
+  "allowed": null,
+  "frame": "R-26_1024_Signed-in",
+  "owner": "C2",
+  "side": "Figma",
+  "target": "프로젝트 설정",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "저장소 기본 정보"
+  ],
+  "code": "프로젝트 설정",
+  "allowed": null,
+  "frame": "R-26_1440_Signed-in",
+  "owner": "C2",
+  "side": "Figma",
+  "target": "프로젝트 설정",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "저장소 기본 정보"
+  ],
+  "code": "프로젝트 설정",
+  "allowed": null,
+  "frame": "R-26_1920_Signed-in",
+  "owner": "C2",
+  "side": "Figma",
+  "target": "프로젝트 설정",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "저장소 기본 정보"
+  ],
+  "code": "프로젝트 설정",
+  "allowed": null,
+  "frame": "R-26_360_Signed-in",
+  "owner": "C2",
+  "side": "Figma",
+  "target": "프로젝트 설정",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
+ },
+ {
+  "kind": "text",
+  "name": "section-title",
+  "figma": [
+   "저장소 기본 정보"
+  ],
+  "code": "프로젝트 설정",
+  "allowed": null,
+  "frame": "R-26_768_Signed-in",
+  "owner": "C2",
+  "side": "Figma",
+  "target": "프로젝트 설정",
+  "evidence": "UX/07; D-19; R07 활성 브랜치 제목과 새 브랜치 CTA의 역할을 섞지 않음. R25 실제 copy/work 문자열/공개 API 기준. 측정 이름표를 헤더 안 단추와 본문 제목 사이에서 혼용하지 않음",
+  "implementation": "미수정"
  }
 ]
