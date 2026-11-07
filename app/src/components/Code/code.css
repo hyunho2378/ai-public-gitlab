@@ -266,3 +266,6 @@
   .rb-commit-mobile .rb-commit-avatar { width: var(--krds-number-10); height: var(--krds-number-10); flex: none; }
   .rb-commit-mobile-details:not([hidden]) { display: block; margin-top: var(--krds-number-5); white-space: pre-wrap; overflow-wrap: anywhere; }
 }
+@media (max-width: 767px) {
+  #root .rb-commit-mobile-actions .krds-btn { height: var(--krds-number-12); min-height: var(--krds-number-12); }
+}

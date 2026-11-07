@@ -213,4 +213,4 @@ a.rb-s-scope:hover { background: var(--krds-color-action-secondary-hover); }
 }
 
 /* 공통 저장소 화면 제목→첫 본문8, 이후 본문 묶음 사이24는 유지한다. */
-#root .rb-repo-main > .rb-frame-title + * { margin-top: calc(var(--krds-number-5) - var(--krds-gap-7)); }
+#root :is(.rb-repo-main, .rb-repo-body) > .rb-frame-title + * { margin-top: calc(var(--krds-number-5) - var(--krds-gap-7)); }
