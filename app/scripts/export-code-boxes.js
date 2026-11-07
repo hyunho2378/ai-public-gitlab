@@ -47,7 +47,7 @@
       color: hex(tc.color), colorTok: tok(hex(tc.color)), bg: hex(c.backgroundColor), bgTok: tok(hex(c.backgroundColor)),
       border: bw || 0, borderColor: bcol, borderTok: tok(bcol), radius: px(c.borderTopLeftRadius),
       pad: [px(c.paddingTop), px(c.paddingRight), px(c.paddingBottom), px(c.paddingLeft)], gap: [px(c.rowGap), px(c.columnGap)],
-      icons: [...e.querySelectorAll('[data-icon]')].filter(shown).slice(0, 20).map((i) => (i.tagName === 'IMG' ? 'file/' : '') + i.getAttribute('data-icon')),
+      icons: [...e.querySelectorAll('[data-icon]')].filter(shown).slice(0, 40).map((i) => (i.tagName === 'IMG' ? 'file/' : '') + i.getAttribute('data-icon')),
       kids, nchild: [...e.children].filter((k) => { const r = k.getBoundingClientRect(); return r.width && r.height && getComputedStyle(k).display !== 'none' && !k.classList.contains('sr-only'); }).length,
     };
   }
