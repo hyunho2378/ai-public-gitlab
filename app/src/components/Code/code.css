@@ -254,3 +254,15 @@
 
 /* D-21 파일 tbody 행42. 머리의 실측40.5는 기존 KRDS40을 유지한다. */
 .krds-table-wrap .rb-tree.tbl.data tbody td { height: var(--layout-file-row-h); }
+
+/* 실제 공공 깃랩 모바일 커밋 행: hash/시간/설명 토글/이력, 8+32+8=48. */
+.rb-commit-desktop { display: contents; }
+.rb-commit-mobile, .rb-commit-mobile-details { display: none; }
+@media (max-width: 767px) {
+  #root .rb-commit-bar { display: block; min-height: var(--krds-number-16); height: auto; padding: var(--krds-number-5) var(--krds-number-7); }
+  .rb-commit-desktop { display: none; }
+  .rb-commit-mobile { display: flex; align-items: center; justify-content: space-between; gap: var(--krds-number-5); min-width: 0; }
+  .rb-commit-mobile-main, .rb-commit-mobile-actions { display: flex; align-items: center; gap: var(--krds-number-5); min-width: 0; white-space: nowrap; }
+  .rb-commit-mobile .rb-commit-avatar { width: var(--krds-number-10); height: var(--krds-number-10); flex: none; }
+  .rb-commit-mobile-details:not([hidden]) { display: block; margin-top: var(--krds-number-5); white-space: pre-wrap; overflow-wrap: anywhere; }
+}

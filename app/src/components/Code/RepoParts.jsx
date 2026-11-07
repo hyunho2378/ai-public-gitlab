@@ -215,11 +215,13 @@ async function gitlabTreeAll(id, ref) {
 
 export function CommitBar({ id, commit, count, more, path, owner, pipeline }) {
   const [note, copy] = useCopy();
+  const [showMessage, setShowMessage] = useState(false);
   if (!commit) return null;
   // 커밋 자료는 계정 이름(chrisryugj)만 준다. 그 계정이 이 프로젝트 소유자면 공개 이름을 쓴다.
   const org = owner && owner.path === commit.author_name ? owner.name : orgLabel(commit.author_name);
   return (
     <div className="rb-commit-bar" data-figma="commit-bar">
+      <div className="rb-commit-desktop">
       <Avatar className="rb-commit-avatar" src={owner?.avatar_url} name={org} />
       <span className="rb-commit-texts">
         <Link className="rb-plain-link krds-text-body-small-bold rb-ellipsis" to={`/projects/${id}/changes/${commit.id}`}>{commit.title}</Link>
@@ -238,6 +240,19 @@ export function CommitBar({ id, commit, count, more, path, owner, pipeline }) {
         </Link>
         <span className="sr-only" role="status" aria-live="polite">{note}</span>
       </p>
+      </div>
+      <div className="rb-commit-mobile">
+        <div className="rb-commit-mobile-main">
+          <Avatar className="rb-commit-avatar is-24" src={owner?.avatar_url} name={org} />
+          <Link className="rb-plain-link krds-text-body-xsmall-bold" to={`/projects/${id}/changes/${commit.id}`} title={commit.title}>{commit.short_id}</Link>
+          <span className="krds-text-body-xsmall rb-subtle"><Ago iso={commit.committed_date} /></span>
+        </div>
+        <div className="rb-commit-mobile-actions">
+          <IconButton icon="ellipsis_vertical" label={u.I_commitDescription} size="small" aria-expanded={showMessage} aria-controls={`commit-message-${commit.id}`} onClick={() => setShowMessage(!showMessage)} />
+          <Link className="krds-btn small tertiary" to={`/projects/${id}/changes${path ? `?path=${enc(path)}` : ''}`}>{t.Home_history}</Link>
+        </div>
+      </div>
+      <div className="rb-commit-mobile-details krds-text-body-xsmall" id={`commit-message-${commit.id}`} hidden={!showMessage}>{commit.message || commit.title}</div>
     </div>
   );
 }
