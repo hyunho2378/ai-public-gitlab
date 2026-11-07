@@ -158,7 +158,6 @@
 .rb-about-links { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--krds-gap-3); }
 .rb-about-links li { display: flex; align-items: center; gap: var(--krds-gap-2); color: var(--krds-color-text-subtle); }
 .rb-langs { display: flex; flex-direction: column; gap: var(--krds-gap-2); }
-.rb-lang-bar { display: flex; height: var(--krds-number-5); border-radius: var(--krds-radius-medium3); overflow: hidden; gap: var(--krds-number-1); }
 .rb-lang { display: block; min-width: var(--krds-number-2); }
 .rb-lang-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-4); }
 .rb-lang-list li { display: inline-flex; align-items: center; gap: var(--krds-gap-2); }

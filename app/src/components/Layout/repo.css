@@ -134,7 +134,7 @@
 .rb-info-extra { display: flex; flex-direction: column; gap: var(--krds-gap-3); }
 .rb-info-extra h3 { margin: 0; }
 .rb-lang { display: flex; flex-direction: column; gap: var(--krds-gap-2); width: 100%; }
-.rb-lang-bar { display: flex; width: 100%; height: var(--rb-lang-bar-h); border-radius: var(--krds-radius-medium3); overflow: hidden; gap: var(--krds-number-1); }
+.rb-lang-bar { display: flex; width: 100%; height: var(--rb-lang-bar-h); border-radius: var(--krds-radius-small2); overflow: hidden; gap: var(--krds-number-2); }
 .rb-lang-bar > span { display: block; min-width: var(--krds-number-2); }
 .rb-lang-list { display: flex; flex-wrap: wrap; gap: var(--krds-gap-1) var(--krds-gap-4); list-style: none; margin: 0; padding: 0; font-size: var(--krds-font-size-body-xsmall); line-height: var(--rb-lh-13); }
 .rb-lang-list li { display: inline-flex; align-items: center; gap: var(--krds-gap-2); }
@@ -192,3 +192,6 @@ a.rb-s-scope:hover { background: var(--krds-color-action-secondary-hover); }
   .rb-repo-main.has-info > .rb-repo-title-row { order: -2; }
   .rb-repo-main.has-info .rb-info-list { flex-direction: row; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-5); }
 }
+
+/* 탐색 공통 검색 부품의 안쪽/간격은 루트에서 관리한다. */
+.rb-x-search { padding-inline: var(--krds-number-7); gap: var(--krds-number-5); border-radius: var(--krds-radius-small2); border-color: var(--layout-panel-border); color: var(--layout-text-subtle); }

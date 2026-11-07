@@ -24,9 +24,9 @@ function LangBar({ languages }) {
   if (!list.length) return null;
   const label = list.map(([n, v]) => `${n} ${v.toFixed(1)}%`).join(', ');
   return (
-    <div className="rb-lang" data-figma="language-bar">
+    <div className="rb-lang">
       <p className="sr-only">{u.I_languages}: {label}</p>
-      <div className="rb-lang-bar" aria-hidden="true" title={label}>
+      <div className="rb-lang-bar" data-figma="language-bar" aria-hidden="true" title={label}>
         {list.map(([n, v]) => <span key={n} style={{ width: `${v}%`, background: langVar(n) }} />)}
       </div>
       <ul className="rb-lang-list" aria-hidden="true">
