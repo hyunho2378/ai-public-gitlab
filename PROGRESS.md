@@ -656,3 +656,20 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 10 | Figma에만 comment-editor | 5 | 5 | 0 | C2 |
 새로 생긴 원인(5건 이상): section-title w 13·Figma에만 section-title 10(D21), Figma에만 filter-search 6·코드에만 tabs 5·tabs y 5·tabs 글자 5(C1). 없어진 원인: project-row y 28, 아이콘 diff-file 30, sidebar-nav h 24, 코드에만 extra-reuse 8, filter-search x 9, diff-area h 10·아이콘 10, 문구 section-title 5
 담당별 작업 목록: UX/audit_v3/M18_owner_D21.md, M18_owner_C.md
+
+## 측정 라운드 M-19(11. 7. 21:19, M): 공식 합 167(이전 M-18 140, +27), 새 허용 0건, 563개
+코드 시작 HEAD 04be493(대조 시점 a2bd6e1, 그 사이는 문서 커밋만). Figma 합본 figma_full.json = 2026-11-07 21:05(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, G-06 fixture=kordoc(URL 확인), R-27 file_name, G-04·G-12 fixture. 변경: 코드 측정의 아이콘 수집 상한 20→40(app/scripts/export-code-boxes.js 한 곳, 측정 도구라 커밋 대상 아님·미커밋 작업 트리 변경), Figma export는 이미 slice(0, 40)이고 합본 요소당 아이콘 최대 30. 방법 같음(스크롤바 잔존 0, 폭 불일치 0, 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭)
+분류별: 위치/크기 55, 문구 0, 글자 속성 5, 색 0, 모서리·안쪽·간격 57, 아이콘 30, Figma에만 20, 코드에만 0, 순서 0
+담당: D21 141(+61) · C1 21(-10) · C2 5(-24)
+판정 쪽별 합계(합 167): 신규 판정 필요 122 · 측정 매핑 20 · 자료 없음/보류 20 · 코드 5. 담당별: D21 신규 106·매핑 20·보류 15 / C1 신규 16·코드 5 / C2 보류 5. 연결: M16_decisions.md 1~4절(39행 읽힘) 행 단위 40행, M14 근사 5행, 판정 없음 122행. 신규 122건은 모두 이번에 새로 대조된 원인
+| 순위 | 원인 | 건수 | M-18 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row w | 55 | 0 | +55 | D21 |
+| 2 | 모서리·안쪽·간격 project-row | 51 | 4 | +47 | D21 |
+| 3 | 아이콘 file-table | 30 | 0 | +30 | D21 20, C1 10 |
+| 4 | Figma에만 tabs | 15 | 20 | -5 | D21 |
+| 5 | 모서리·안쪽·간격 filter-search | 6 | 2 | +4 | C1 |
+| 6 | Figma에만 comment-editor | 5 | 5 | 0 | C2 |
+| 7 | 글자 속성 tabs | 5 | 5 | 0 | C1 |
+새로 생긴 원인(5건 이상): G-06 project-row w 55(Signed-in 전 폭, Figma 942 대 코드 944 같은 차 2)·project-row 안쪽 51(Figma 아래 안쪽 14·34·56 대 코드 12), 아이콘 file-table 30(R-01·A-02 등, 코드 9개 대 Figma 6개: json·nodejs·typescript가 코드에만). 없어진 원인: section-title w 13, 모양 profile-activity 20, 모양 search 10, 아이콘 gitlab-sidebar 12, Figma에만 section-title 10·filter-search 6·toolbar 5·project-row 5, 코드에만 tabs 5, tabs y 5. 설명: file-table 아이콘은 상한 20 때문에 가려져 있던 값이 상한 40에서 드러난 것이고, G-06 project-row는 fixture=kordoc 반영으로 Signed-in 행이 처음 비교됨. 둘 다 코드·Figma 변경이 아니라 측정 범위 변화
+담당별 작업 목록: UX/audit_v3/M19_owner_D21.md, M19_owner_C.md
