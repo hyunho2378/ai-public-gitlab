@@ -22,9 +22,7 @@ export default function PublishCheck() {
   return (
     <ProjectFrame screenId="A-03" tab="" tabLabel={t.PubCheck_title} crumbs={[[t.Settings_title, `/projects/${frame.id}/settings`], [t.PubCheck_title, null]]} data={frame} state={check ? (allPass ? 'Pass' : 'NeedsWork') : body.state}>
       <div className="rb-code-area">
-        <div className="rb-detail-head">
-          <p className="krds-text-body-xsmall rb-subtle">{t.PubCheck_hint}</p>
-        </div>
+        {/* M13 A-03: Figma는 제목 바로 아래 점검 묶음(근거 범위 문장은 묶음 끝에 있음) */}
         {!check ? (
           <Status {...body} />
         ) : (
