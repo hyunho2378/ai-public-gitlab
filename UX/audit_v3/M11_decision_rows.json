@@ -2805,10 +2805,10 @@
   "allowed": null,
   "frame": "A-02_1024_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -2844,10 +2844,10 @@
   "allowed": null,
   "frame": "A-02_1024_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -2883,10 +2883,10 @@
   "allowed": null,
   "frame": "A-02_1440_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -2922,10 +2922,10 @@
   "allowed": null,
   "frame": "A-02_1440_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -2961,10 +2961,10 @@
   "allowed": null,
   "frame": "A-02_1920_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3000,10 +3000,10 @@
   "allowed": null,
   "frame": "A-02_1920_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3039,10 +3039,10 @@
   "allowed": null,
   "frame": "A-02_360_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1400,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1470,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3078,10 +3078,10 @@
   "allowed": null,
   "frame": "A-02_360_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1400,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1470,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3117,10 +3117,10 @@
   "allowed": null,
   "frame": "A-02_768_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3156,10 +3156,10 @@
   "allowed": null,
   "frame": "A-02_768_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3255,10 +3255,10 @@
   "allowed": null,
   "frame": "R-01_1024_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3294,10 +3294,10 @@
   "allowed": null,
   "frame": "R-01_1024_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3333,10 +3333,10 @@
   "allowed": null,
   "frame": "R-01_1440_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3372,10 +3372,10 @@
   "allowed": null,
   "frame": "R-01_1440_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3411,10 +3411,10 @@
   "allowed": null,
   "frame": "R-01_1920_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3450,10 +3450,10 @@
   "allowed": null,
   "frame": "R-01_1920_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3489,10 +3489,10 @@
   "allowed": null,
   "frame": "R-01_360_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1400,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1470,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3528,10 +3528,10 @@
   "allowed": null,
   "frame": "R-01_360_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1400,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1470,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3567,10 +3567,10 @@
   "allowed": null,
   "frame": "R-01_768_Guest",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3606,10 +3606,10 @@
   "allowed": null,
   "frame": "R-01_768_Signed-in",
   "owner": "D21",
-  "side": "Figma",
-  "target": 1441,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1511,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "shape",
@@ -3645,10 +3645,10 @@
   "allowed": null,
   "frame": "R-02_1024_Guest",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1841,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1931,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3660,10 +3660,10 @@
   "allowed": null,
   "frame": "R-02_1024_Signed-in",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1841,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1931,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3675,10 +3675,10 @@
   "allowed": null,
   "frame": "R-02_1440_Guest",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1841,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1931,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3690,10 +3690,10 @@
   "allowed": null,
   "frame": "R-02_1440_Signed-in",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1841,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1931,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3705,10 +3705,10 @@
   "allowed": null,
   "frame": "R-02_1920_Guest",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1841,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1931,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3720,10 +3720,10 @@
   "allowed": null,
   "frame": "R-02_1920_Signed-in",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1841,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1931,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3735,10 +3735,10 @@
   "allowed": null,
   "frame": "R-02_360_Guest",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1800,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1890,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3750,10 +3750,10 @@
   "allowed": null,
   "frame": "R-02_360_Signed-in",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1800,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1890,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3765,10 +3765,10 @@
   "allowed": null,
   "frame": "R-02_768_Guest",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1841,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1931,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "box",
@@ -3780,10 +3780,10 @@
   "allowed": null,
   "frame": "R-02_768_Signed-in",
   "owner": "C1",
-  "side": "Figma",
-  "target": 1841,
-  "evidence": "D-16; UX/gitlab_compare/v3/README.md: 실제 행42→코드40. tree_root35개→(35+thead1)×40+1=1441, mobile35×40=1400; tree_src44개+상위1+thead1→1841, mobile1800. source sample/kordoc/api/tree_root.json/tree_src.json; FileTable 전체 항목 보존",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 1931,
+  "evidence": "정정: D-21 실제 파일 행42가 정답. v3의40 유지 판정은 취소. tbody42/thead40, fixture root35/src44+상위1. parent 원문재확인; UX/audit_v3/02_프로젝트홈_파일.md20행",
+  "implementation": "코드 행42 반영(전체 높이 공식 재측정/Figma 행수 갱신 대기)"
  },
  {
   "kind": "text",

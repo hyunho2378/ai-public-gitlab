@@ -14,6 +14,6 @@
 
 ## 추가 전달
 
-- 파일 표 h30: 코드40 행 유지. root35+머리1은1441, src44+상위1+머리1은1841. 모바일1400/1800. v3/README의 D-16 42→40과 sample/kordoc 실제 항목 수가 근거다. Figma의42 피치/옛 행 수를 고친다.
+- 파일 표 h30 **정정**: 코드40 유지 요청은 취소한다. 실제 행42에 맞춰 코드 수정 완료. Figma도42와 fixture root35/src44+상위1개로 다시 만든다. 최종 root1511/src1931, mobile1470/1890. 코드/Figma 둘 다 대상이다.
 - section-title 문구43: copy/work/gl 최신 문구와 API 기준. 활성 브랜치 제목을 새 브랜치 CTA로 대체하지 않는다.
 - language-bar gap20: Figma2→4. D-16의 gap/padding4배수와 선 두께2 예외를 구분한다. radius20은 코드8로 처리한다.
