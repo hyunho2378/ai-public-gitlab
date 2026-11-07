@@ -3709,7 +3709,8 @@
   "side": "코드",
   "target": 589,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -3737,7 +3738,8 @@
   "side": "코드",
   "target": "간격 0→20",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -3791,7 +3793,8 @@
   "side": "코드",
   "target": 589,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -3819,7 +3822,8 @@
   "side": "코드",
   "target": "간격 0→20",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -3873,7 +3877,8 @@
   "side": "코드",
   "target": 589,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -3901,7 +3906,8 @@
   "side": "코드",
   "target": "간격 0→20",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -4037,7 +4043,8 @@
   "side": "코드",
   "target": 589,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -4065,7 +4072,8 @@
   "side": "코드",
   "target": "간격 0→20",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -6144,7 +6152,8 @@
   "side": "코드",
   "target": 245,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -6558,7 +6567,8 @@
   "side": "코드",
   "target": 245,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -7841,7 +7851,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -7876,7 +7887,8 @@
   "side": "코드",
   "target": 206,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -7890,7 +7902,8 @@
   "side": "코드",
   "target": 73,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -8210,7 +8223,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -8245,7 +8259,8 @@
   "side": "코드",
   "target": 206,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -8259,7 +8274,8 @@
   "side": "코드",
   "target": 73,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -8579,7 +8595,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -8614,7 +8631,8 @@
   "side": "코드",
   "target": 206,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -8628,7 +8646,8 @@
   "side": "코드",
   "target": 73,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -8948,7 +8967,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -8983,7 +9003,8 @@
   "side": "코드",
   "target": 206,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -8997,7 +9018,8 @@
   "side": "코드",
   "target": 73,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -9317,7 +9339,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -9352,7 +9375,8 @@
   "side": "코드",
   "target": 206,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -9366,7 +9390,8 @@
   "side": "코드",
   "target": 73,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -9686,7 +9711,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -9721,7 +9747,8 @@
   "side": "코드",
   "target": 206,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -9735,7 +9762,8 @@
   "side": "코드",
   "target": 73,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -10055,7 +10083,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -10090,7 +10119,8 @@
   "side": "코드",
   "target": 198,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -10424,7 +10454,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -10459,7 +10490,8 @@
   "side": "코드",
   "target": 198,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -10793,7 +10825,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -10828,7 +10861,8 @@
   "side": "코드",
   "target": 206,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -10842,7 +10876,8 @@
   "side": "코드",
   "target": 73,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -11162,7 +11197,8 @@
   "side": "코드",
   "target": "안쪽 0 0 4 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -11197,7 +11233,8 @@
   "side": "코드",
   "target": 206,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -11211,7 +11248,8 @@
   "side": "코드",
   "target": 73,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "icon",
@@ -12312,7 +12350,8 @@
   "side": "코드",
   "target": 161,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -13119,7 +13158,8 @@
   "side": "코드",
   "target": 497,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -13133,7 +13173,8 @@
   "side": "코드",
   "target": 587,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -13203,7 +13244,8 @@
   "side": "코드",
   "target": 497,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -13217,7 +13259,8 @@
   "side": "코드",
   "target": 587,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -13924,7 +13967,8 @@
   "side": "코드",
   "target": 149,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -14166,7 +14210,8 @@
   "side": "코드",
   "target": 473,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -14268,7 +14313,8 @@
   "side": "코드",
   "target": 473,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -15754,7 +15800,8 @@
   "side": "코드",
   "target": 473,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -15842,7 +15889,8 @@
   "side": "코드",
   "target": 473,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-figma",
@@ -17049,7 +17097,8 @@
   "side": "코드",
   "target": 172,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -17076,7 +17125,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -17401,7 +17451,8 @@
   "side": "코드",
   "target": 172,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -17428,7 +17479,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -17753,7 +17805,8 @@
   "side": "코드",
   "target": 172,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -17780,7 +17833,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -18105,7 +18159,8 @@
   "side": "코드",
   "target": 172,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -18132,7 +18187,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -18457,7 +18513,8 @@
   "side": "코드",
   "target": 172,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -18484,7 +18541,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -18809,7 +18867,8 @@
   "side": "코드",
   "target": 172,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -18836,7 +18895,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -19064,7 +19124,8 @@
   "side": "코드",
   "target": 9104,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "shape",
@@ -19134,7 +19195,8 @@
   "side": "코드",
   "target": 172,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -19161,7 +19223,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -19377,7 +19440,8 @@
   "side": "코드",
   "target": 9104,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "shape",
@@ -19447,7 +19511,8 @@
   "side": "코드",
   "target": 172,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -19474,7 +19539,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -19772,7 +19838,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -20070,7 +20137,8 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→12 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "only-code",
@@ -23714,7 +23782,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -23783,7 +23852,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -23838,7 +23908,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -23921,7 +23992,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -23990,7 +24062,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -24073,7 +24146,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -24142,7 +24216,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -24197,7 +24272,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -24252,7 +24328,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -24321,7 +24398,8 @@
   "side": "코드",
   "target": 170,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -24778,7 +24856,8 @@
   "side": "코드",
   "target": 263,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -24817,7 +24896,8 @@
   "side": "코드",
   "target": 295,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -24831,7 +24911,8 @@
   "side": "코드",
   "target": 263,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "color",
@@ -24870,7 +24951,8 @@
   "side": "코드",
   "target": 295,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -26059,7 +26141,8 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -26115,7 +26198,8 @@
   "side": "코드",
   "target": 119,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -27171,7 +27255,8 @@
   "side": "코드",
   "target": 65,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -27185,7 +27270,8 @@
   "side": "코드",
   "target": 156,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -27199,7 +27285,8 @@
   "side": "코드",
   "target": 65,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -27213,7 +27300,8 @@
   "side": "코드",
   "target": 156,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -29282,7 +29370,8 @@
   "side": "코드",
   "target": 137,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -29954,7 +30043,8 @@
   "side": "코드",
   "target": 240,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -29968,7 +30058,8 @@
   "side": "코드",
   "target": 137,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -29982,7 +30073,8 @@
   "side": "코드",
   "target": 960,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -30646,7 +30738,8 @@
   "side": "코드",
   "target": 137,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -30660,7 +30753,8 @@
   "side": "코드",
   "target": 960,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -31180,7 +31274,8 @@
   "side": "코드",
   "target": 24,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -31194,7 +31289,8 @@
   "side": "코드",
   "target": 137,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -31208,7 +31304,8 @@
   "side": "코드",
   "target": 312,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",
@@ -31692,7 +31789,8 @@
   "side": "코드",
   "target": 24,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -31706,7 +31804,8 @@
   "side": "코드",
   "target": 137,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "box",
@@ -31720,7 +31819,8 @@
   "side": "코드",
   "target": 720,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공식 M9 동일 속성 차이 없음(코드 수정 실적과 구분)",
+  "verification": "audits/parity_ledger.json 2026-11-07T00:01:03.322Z; measured_full.json 현재 요소 존재; 동일 kind/name/field 미검출"
  },
  {
   "kind": "text",

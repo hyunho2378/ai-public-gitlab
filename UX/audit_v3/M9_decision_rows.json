@@ -5216,7 +5216,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5228,7 +5228,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5240,7 +5240,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5252,7 +5252,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5264,7 +5264,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5276,7 +5276,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5288,7 +5288,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5300,7 +5300,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5312,7 +5312,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5324,7 +5324,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5336,7 +5336,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5348,7 +5348,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5360,7 +5360,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5372,7 +5372,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5384,7 +5384,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5396,7 +5396,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5408,7 +5408,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5420,7 +5420,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5432,7 +5432,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5444,7 +5444,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5696,7 +5696,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5708,7 +5708,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5720,7 +5720,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5732,7 +5732,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5744,7 +5744,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5756,7 +5756,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5768,7 +5768,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5780,7 +5780,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5792,7 +5792,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5804,7 +5804,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5816,7 +5816,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5828,7 +5828,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5840,7 +5840,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5852,7 +5852,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5864,7 +5864,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5876,7 +5876,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5888,7 +5888,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5900,7 +5900,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5912,7 +5912,7 @@
   "side": "코드",
   "target": "모서리 4→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5924,7 +5924,7 @@
   "side": "코드",
   "target": "간격 2→4",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -7639,7 +7639,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7654,7 +7654,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7669,7 +7669,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7684,7 +7684,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7699,7 +7699,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7714,7 +7714,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7729,7 +7729,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7744,7 +7744,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7759,7 +7759,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7774,7 +7774,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7939,7 +7939,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7954,7 +7954,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7969,7 +7969,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7984,7 +7984,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7999,7 +7999,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -8014,7 +8014,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -8029,7 +8029,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -8044,7 +8044,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -8059,7 +8059,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -8074,7 +8074,7 @@
   "side": "측정 매핑 오류",
   "target": "언어 범례가 아닌 실제 막대 .rb-lang-bar(8)를 측정",
   "evidence": "app/src/components/Layout/ProjectInfo.jsx LangBar",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8086,7 +8086,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8098,7 +8098,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8110,7 +8110,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8122,7 +8122,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8134,7 +8134,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8146,7 +8146,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8158,7 +8158,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8170,7 +8170,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8182,7 +8182,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8194,7 +8194,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8206,7 +8206,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8218,7 +8218,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8230,7 +8230,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8242,7 +8242,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8254,7 +8254,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8266,7 +8266,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8278,7 +8278,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8290,7 +8290,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8302,7 +8302,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8314,7 +8314,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8326,7 +8326,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8338,7 +8338,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8350,7 +8350,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8362,7 +8362,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8374,7 +8374,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8386,7 +8386,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8398,7 +8398,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8410,7 +8410,7 @@
   "side": "코드",
   "target": "모서리 4→8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8422,7 +8422,7 @@
   "side": "코드",
   "target": "안쪽 0 12 0 12→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8434,7 +8434,7 @@
   "side": "코드",
   "target": "간격 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -8875,7 +8875,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -8892,7 +8892,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -8909,7 +8909,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -8926,7 +8926,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -8943,7 +8943,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -8960,7 +8960,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -8977,7 +8977,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -8994,7 +8994,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9011,7 +9011,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9028,7 +9028,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9045,7 +9045,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9062,7 +9062,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9079,7 +9079,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9096,7 +9096,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9113,7 +9113,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9130,7 +9130,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9147,7 +9147,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9164,7 +9164,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9181,7 +9181,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -9198,7 +9198,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 ProjectStateTabs 내부 탭 목록 이름 연결. 중복 탭 생성 금지",
   "evidence": "app/src/components/Navigation/ProjectStateTabs.jsx; code_plan/figma_name_map.json",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -9712,7 +9712,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9726,7 +9726,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9740,7 +9740,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9754,7 +9754,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9768,7 +9768,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9782,7 +9782,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9796,7 +9796,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9810,7 +9810,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9824,7 +9824,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9838,7 +9838,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9852,7 +9852,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9866,7 +9866,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9880,7 +9880,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9894,7 +9894,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9908,7 +9908,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9922,7 +9922,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9936,7 +9936,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9950,7 +9950,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9964,7 +9964,7 @@
   "side": "코드",
   "target": "#cdd1d5 color/text/subtle",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -9978,7 +9978,7 @@
   "side": "코드",
   "target": "#33363d color/border/gray-light",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -14344,7 +14344,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14361,7 +14361,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14378,7 +14378,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14395,7 +14395,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14412,7 +14412,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14429,7 +14429,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14446,7 +14446,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14463,7 +14463,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14480,7 +14480,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "only-figma",
@@ -14497,7 +14497,7 @@
   "side": "측정 매핑 오류",
   "target": "기존 section.gl-activity에 측정 이름표 연결",
   "evidence": "app/src/screens/P20_MergeRequests.jsx",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14511,7 +14511,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14525,7 +14525,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14539,7 +14539,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14553,7 +14553,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14567,7 +14567,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14581,7 +14581,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14595,7 +14595,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14609,7 +14609,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14623,7 +14623,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -14637,7 +14637,7 @@
   "side": "코드",
   "target": "#33363d color/layout/panel-border",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14649,7 +14649,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14661,7 +14661,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14673,7 +14673,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14685,7 +14685,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14697,7 +14697,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14709,7 +14709,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14721,7 +14721,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14733,7 +14733,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14745,7 +14745,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -14757,7 +14757,7 @@
   "side": "코드",
   "target": "안쪽 0 0 0 0→0 8 0 8",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
@@ -15112,7 +15112,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15127,7 +15127,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15142,7 +15142,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15157,7 +15157,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15172,7 +15172,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15187,7 +15187,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15202,7 +15202,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15217,7 +15217,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15232,7 +15232,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15247,7 +15247,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15262,7 +15262,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15277,7 +15277,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15292,7 +15292,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15307,7 +15307,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15322,7 +15322,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15337,7 +15337,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15352,7 +15352,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15367,7 +15367,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15382,7 +15382,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -15397,7 +15397,7 @@
   "side": "코드",
   "target": 32,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "color",
