@@ -298,3 +298,10 @@
 }
 /* 필터 바 밖 머리글에 놓인 SortControl도 같은32 조작칸을 쓴다. */
 #root .gl-sort .drop-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+/* M13 R-05 모바일: 실제 커밋 화면 360(.page-content-header h128.68 = 안쪽10 + 제목줄34.5 + '파일 찾아보기' 전체폭32 + 아래8 + '옵션' 자연폭32 + 안쪽10)을
+   KRDS 4배수로 옮긴다. 안쪽8, 제목줄→조작8, 조작 사이8, 조작칸32. 데스크톱 한 줄 배치는 그대로. */
+@media (max-width: 767px) {
+  #root .gl-commit-head { display: block; padding-block: var(--krds-number-4); }
+  #root .gl-commit-head > .gl-head-actions { flex-direction: column; align-items: flex-start; gap: var(--krds-number-4); margin-top: var(--krds-number-4); }
+  #root .gl-commit-head > .gl-head-actions > .krds-btn { align-self: stretch; justify-content: center; }
+}
