@@ -8,7 +8,6 @@ import { ProjectFrame, useProject } from '../components/Layout/ProjectFrame';
 import { Readme, sectionLines } from '../components/Help/Readme';
 import { RunSteps } from '../components/Help/RunSteps';
 import { Button, LinkButton } from '../components/Action/Button';
-import { Steps } from '../components/Navigation/StepIndicator';
 import { EmptyState } from '../components/Feedback/Status';
 
 const NETWORKS = [
@@ -41,7 +40,7 @@ export default function Usage() {
 
   return (
     <ProjectFrame screenId="R-30" tab="/use" tabLabel={t.ProjectTabs_2} data={data} state={guide ? 'Ideal' : 'Empty'}>
-      <Steps label={t.P07_4} labels={[t.P07_5, t.P07_6, t.P07_7]} current={result ? 1 : 0} />
+      {/* 결정(부모, 11. 7.): 단계 표시(Steps) 장식 금지, Figma R-30도 없음. 내용은 아래 절 제목 순서로 남긴다 */}
       <h2 className="krds-text-body-small-bold">{t.P07_8}</h2>
       <form className="rb-stack" onSubmit={check}>
         <fieldset className="rb-stack">
