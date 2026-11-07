@@ -30,7 +30,7 @@ html[data-krds-mode="high-contrast"] {
   display: inline-flex; align-items: center; justify-content: center;
   min-width: var(--krds-size-height-3); height: var(--krds-size-height-3);
   padding-inline: var(--krds-padding-2);
-  border-radius: var(--krds-radius-max);
+  border-radius: var(--krds-radius-medium3);
   background: var(--rb-status-primary);
   color: var(--krds-color-text-inverse-static);
   font-size: var(--krds-pc-font-size-label-xsmall);
@@ -50,7 +50,7 @@ html[data-krds-mode="high-contrast"] {
   display: inline-flex; align-items: center;
   height: var(--krds-size-height-3);
   padding-inline: var(--krds-padding-3);
-  border-radius: var(--krds-radius-max);
+  border-radius: var(--krds-radius-medium3);
   border: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light);
   color: var(--krds-color-text-subtle);
   font-size: var(--krds-pc-font-size-label-xsmall);

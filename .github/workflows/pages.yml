@@ -27,6 +27,12 @@ jobs:
       - name: 정적 모드 빌드
         working-directory: app
         run: npm run build:pages
+      - name: 프로젝트 현황판 의존성 설치
+        working-directory: dashboard
+        run: npm ci
+      - name: 프로젝트 현황판 빌드(app/dist/dashboard)
+        working-directory: dashboard
+        run: npm run build:pages
       - uses: actions/upload-pages-artifact@v3
         with:
           path: app/dist

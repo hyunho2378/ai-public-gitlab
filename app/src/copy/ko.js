@@ -1,3 +1,4 @@
+import { displayNow } from '../lib/displayClock';
 // 화면 문구 모음. Figma 문구와 같게 유지한다. 키 접두 = 화면 번호(P01~P15) 또는 공통 부품 이름.
 // 문구를 고칠 때는 이 파일만 고친다. 이름/제목/메뉴/탭/라벨은 명사 나열, 와/과 대신 빗금(/), 1~3어절(UX/07 11장). 버튼은 동사 하나, 느낌표 금지.
 export const t = {
@@ -228,6 +229,8 @@ export const t = {
   P10_2: "로그인",
   P10_3: "로그인 후 내 도구/받은 의견",
   P10_4: "올린 도구 없음",
+  P10_new: "새 프로젝트",
+  P10_tabs: "내 프로젝트 목록",
   // P11
   P11_1: "기관 둘러보기",
   P11_2: "기관 이름",
@@ -477,6 +480,15 @@ export const t = {
   P16_blameError: "불러오기 실패",
   Alerts_hint: "내 프로젝트/의견 활동",
   Alerts_none: "알림 없음",
+  Alerts_tabs: "알림 보기",
+  Alerts_unread: "안 읽음",
+  Alerts_all: "전체",
+  Alerts_reason: "공공 깃랩 알림은 본인 계정에서만 열람, 이 화면에서 불러오지 않음",
+  Alerts_open: "공공 깃랩에서 알림 보기",
+  Cmt_write: "쓰기",
+  Cmt_close: "작업 항목 닫기",
+  Cmt_label: "의견",
+  Cmt_hint: "보내기·닫기는 공공 깃랩 원본 작업 항목 화면에서",
   Settings_title: "설정",
   Settings_account: "계정",
   PSet_title: "프로젝트 설정",
@@ -493,6 +505,11 @@ export const t = {
   Collab_title: "협업 모집",
   Collab_hint: "같은 도구 제작 기관 연결",
   Collab_none: "모집 글 없음",
+  Collab_tabs: "협업 상태",
+  Collab_open: "모집 중",
+  Collab_doing: "진행 중",
+  Collab_done: "마친 협업",
+  Collab_reason: "모집 글은 서버 저장소 연결 뒤에 등록",
   Collab_toRequests: "요청 보드",
   Collab_notice: "등록은 로그인/서버 연결 필요, 시험판은 화면 확인만",
   NewProject_title: "새 프로젝트 만들기",
@@ -677,6 +694,10 @@ export const t = {
   Write_cannotTitle: "시험판 저장 불가",
   Write_cannotStatic: "읽기 전용, 저장소 미반영",
   Write_cannotLogin: "저장은 계정 로그인 필요",
+  Write_action_new: "파일 만들기",
+  Write_action_upload: "파일 올리기",
+  Write_action_branch: "브랜치 만들기",
+  Write_needLoginHint: "공공 깃랩 계정으로 로그인해 주세요.",
   P22_activity: "활동",
   P22_activityHint: "시간순 활동",
   P22_activityNone: "활동 없음",
@@ -769,6 +790,7 @@ export const t = {
     patchBranch: (b) => `${b}-수정-1`,
     commitDirect: (b) => `${b} 직접 반영`,
     writeKind: (k) => `작업: ${k}`,
+    writeNeedLogin: (k) => `${k}는 로그인한 뒤에 할 수 있습니다.`,
     writeTarget: (p, b) => `${p} / ${b}`,
     branchFrom: (b) => `기준: ${b}`,
     bytes: (n) => `${n}B`,
@@ -776,7 +798,7 @@ export const t = {
     mib: (n) => `${n}MB`,
     ago: (iso) => {
       if (!iso) return '';
-      const sec = Math.max(0, (Date.now() - new Date(iso).getTime()) / 1000);
+      const sec = Math.max(0, (displayNow() - new Date(iso).getTime()) / 1000);
       const steps = [[60, '초'], [60, '분'], [24, '시간'], [30, '일'], [12, '개월'], [Infinity, '년']];
       let v = sec;
       for (const [n, unit] of steps) {
@@ -799,7 +821,7 @@ export const t = {
     times: (n) => `${n}`,
     countLabel: (label, n) => `${label} ${n}`,
     relativeDate: (iso) => {
-      const d = new Date(iso); const now = new Date();
+      const d = new Date(iso); const now = new Date(displayNow());
       // 공공 깃랩과 같은 단위: 분, 시간, 일, 주, 개월, 년
       const min = Math.floor((now - d) / 60000);
       const days = Math.floor(min / 1440);

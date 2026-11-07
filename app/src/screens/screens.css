@@ -24,7 +24,8 @@
 .rb-error { color: var(--krds-color-text-danger); }
 .rb-actions { display: flex; flex-wrap: wrap; gap: var(--krds-gap-4); align-items: center; }
 .rb-links { display: flex; flex-wrap: wrap; gap: var(--krds-gap-5) var(--krds-gap-7); list-style: none; padding: 0; margin: 0; }
-.rb-narrow { max-width: calc(var(--krds-size-height-11) * 8); }
+/* 읽기 폭 640은 본문(폼·안내)에만. 화면 제목(page-head)은 다른 화면처럼 본문 전체 폭(Figma G-05/G-09 1088) */
+.rb-narrow > :not(.rb-write-head):not([data-figma="page-head"]) { min-inline-size: 0; max-width: calc(var(--krds-size-height-11) * 8); }
 
 /* 검색 */
 .rb-search { display: flex; flex-direction: column; gap: var(--krds-gap-3); }
@@ -130,3 +131,8 @@
 .rb-aside-col.rb-filter-pc { background: none; padding: 0; border-radius: 0; border-top: var(--krds-border-width-static-medium) solid var(--krds-color-divider-gray-dark); }
 .rb-filter-pc fieldset { padding-block: var(--krds-padding-6); border-bottom: var(--krds-border-width-static-regular) solid var(--krds-color-divider-gray-light); }
 .rb-filter-pc > h2 { padding-top: var(--krds-padding-6); }
+
+/* G-06 내 프로젝트 도구 줄: 새 프로젝트 단추를 오른쪽에(공공 깃랩 /dashboard/projects 머리 오른쪽 단추) */
+.rb-my-toolbar { display: flex; justify-content: flex-end; }
+/* 제목 → 도구 줄 → 탭 각 8(Figma G-06 169·217) */
+#root .rb-page > .rb-my-toolbar, #root .rb-page > .rb-my-toolbar + [data-figma="tabs"] { margin-top: calc(var(--krds-number-5) - var(--rb-rhythm)); }

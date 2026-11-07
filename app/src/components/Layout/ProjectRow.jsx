@@ -1,3 +1,4 @@
+// Figma: product/result_row, product/explore_row (data-figma), 기존 화면 상자는 data-figma-key
 // D-21 4장 탐색 목록 행(공공 깃랩 01 그대로): 유형 아이콘, 아바타, '만든 곳 / 이름' + 공개 아이콘, 설명 두 줄, 주제 3개 + 더보기,
 // 오른쪽에 별표, 포크, 머지 리퀘스트, 작업 항목 개수(아이콘 + 숫자 13)와 '업데이트됨 n 전', 맨 오른쪽 점 세 개 메뉴.
 import { Link } from 'react-router-dom';
@@ -28,7 +29,7 @@ export function ProjectRow({ p, mrs, issues, compact = false }) {
   const { rel, full } = t.fn.relativeDate(p.last_activity_at);
   const desc = cleanDescription(p.description);
   return (
-    <li className="rb-prow" data-figma="project-row">
+    <li className="rb-prow" data-figma={compact ? "product/result_row" : "product/explore_row"} data-figma-key="project-row">
       <Icon name="ext/project" />
       {/* 공공 깃랩: 머리글자는 '만든 곳 / 이름'의 첫 글자(서울특별시 광진구 류승인 / kordoc → 서) */}
       <Avatar src={p.avatar_url} name={owner || p.name} seed={p.id} className="is-32" />

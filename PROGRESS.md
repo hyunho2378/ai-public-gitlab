@@ -411,3 +411,346 @@ project-row 분포: y 102 = A-01 42 · G-01 36 · G-02 24 / h 80 = G-01 48 · A-
 | 10 | 위치/크기 filter-search x | 36 | 36 | 0 | C2 |
 새로 생긴 원인(5건 이상): 위치 search-clear x 20(D21, Figma 검색칸 지우기 단추가 새로 들어옴). 없어진 원인: 위치 task-search y 6. 큰 감소: project-row y 102→28, h 80→40.
 별도 줄(G-06, 판정 보류): G-06 Signed-in project-row Figma에만 5건 = 로그인 필요 상태 캡처 대기(개발용 로그인 사용자에게 내 프로젝트 없음). 원장 숫자에는 그대로 포함, 허용 목록에는 넣지 않음
+
+## 측정 라운드 M-7(11. 7. 07:26, M, 기준선): 공식 합 3,403(이전 M-6 2,072, +1,331), 새 허용 0건, 560개 전체
+코드 708791f, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-01 02:11 (오늘 Figma 수정 전 값. Figma 담당이 일괄 수정 중이므로 재내보내기 뒤 다시 측정 필요). 측정 중 연결 오류로 REPL이 한 번 초기화되어 560개를 처음부터 다시 쟀다. G-12는 Figma 합본에 없어 대조 불가, 코드만 code_plan/measured_G-12_codeonly.json에 저장(1440·768·360)
+담당: D21 2,068 · C2 740 · C1 595
+| 순위 | 원인 | 건수 | 이전(M-6) | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 문구 system-band | 550 | 0 | +550 | D21 280, C1 120, C2 150 |
+| 2 | 코드에만 group-row | 200 | 0 | +200 | D21 |
+| 3 | 위치/크기 footer x | 76 | 12 | +64 | D21 46, C2 22, C1 8 |
+| 4 | 위치/크기 footer w | 76 | 12 | +64 | D21 46, C2 22, C1 8 |
+| 5 | 위치/크기 main w | 74 | 10 | +64 | D21 44, C2 22, C1 8 |
+| 6 | 위치/크기 main x | 73 | 9 | +64 | D21 44, C2 21, C1 8 |
+| 7 | 위치/크기 breadcrumb x | 62 | 0 | +62 | D21 42, C2 12, C1 8 |
+| 8 | 위치/크기 page-head w | 58 | 16 | +42 | D21 46, C2 4, C1 8 |
+| 9 | 위치/크기 page-head x | 46 | 0 | +46 | D21 34, C2 4, C1 8 |
+| 10 | 모서리·안쪽·간격 page-head | 45 | 45 | 0 | D21 15, C1 20, C2 10 |
+새로 생긴 원인(5건 이상): 문구 system-band 550, 코드에만 group-row 200, breadcrumb x 62, page-head x 46, project-row x 38, project-row w 38, Figma에만 breadcrumb 10, gl-filter x 10, gl-filter w 10, gl-tabs x 6, 문구 checks 5. 없어진 원인: 없음.
+대표 값: system-band 코드 '( 프로젝트 현황판 )' 대 Figma '( 프로젝트 현황판 axboard.aigov.go.kr )'. A-01 1024 Guest main·footer·breadcrumb x Figma 40 대 코드 56, main·footer w Figma 944 대 코드 912
+담당별 작업 목록: UX/audit_v3/M7_owner_D21.md, UX/audit_v3/M7_owner_C.md
+
+## 측정 라운드 M-8(11. 7. 08:07, M): 공식 합 2,240(이전 M-7 3,403, -1,163), 새 허용 0건, 563개(560 + G-12 3폭)
+코드 ffdbc40, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-07 07:51(598 변형, 파일 안 generated 필드는 2026-11-01 그대로). G-12는 code_plan/figma_name_map.json에 항목 추가(1440·768·360 Guest, /users/chrisryugj). D-01은 요청 범위 밖이라 측정하지 않음
+담당: D21 1,389(-679) · C2 496(-244) · C1 355(-240)
+| 순위 | 원인 | 건수 | M-7 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 코드에만 group-row | 200 | 200 | 0 | D21 |
+| 2 | 문구 page-head | 44 | 44 | 0 | D21 30, C1 10, C2 4 |
+| 3 | 위치/크기 project-row h | 40 | 40 | 0 | D21 |
+| 4 | Figma에만 tabs | 40 | 40 | 0 | D21 |
+| 5 | 아이콘 project-row | 38 | 38 | 0 | D21 |
+| 6 | 위치/크기 sidebar-nav w | 36 | 36 | 0 | C1 12, C2 24 |
+| 7 | 위치/크기 filter-search x | 36 | 38 | -2 | C2 |
+| 8 | 위치/크기 section-title y | 35 | 35 | 0 | D21 10, C1 20, C2 5 |
+| 9 | 위치/크기 login-card h | 32 | 26 | +6 | D21 |
+| 10 | 문구 login-card | 30 | 30 | 0 | D21 |
+새로 생긴 원인(5건 이상): 코드에만 profile-event 20(G-12 360). 없어진 원인: 문구 system-band 550, 위치 breadcrumb x 62, project-row x 38·w 38, page-head x 46, gl-filter x·w 각 10, 모서리 commit-bar 40, gl-tabs x 6.
+확인 사항
+- R-01 360 마크다운(readme) 높이: Figma 9104 대 코드 6234로 다르다(차 2,870). R-01 1440도 Figma 5640 대 코드 5495(차 145). 모서리 0→8, 안쪽 16 대 0, 간격 12 대 0 차이도 R-01 30건
+- A-02 360·1440: 코드 측정에 readme가 없고(Figma에만 readme h 9104/5640), A-02 1024도 project-info·toolbar·commit-bar·file-table·readme·breadcrumb·intro-card가 Figma에만 있다. 코드 A-02 측정 경로 /projects/150/about에는 section-title·main·footer만 있어 Figma A-02(프로젝트 홈 + AI 소개 카드 구조)와 다른 화면을 재고 있을 가능성이 크다. 이 경로 확인이 필요하다
+- G-08 로그인 제목: Figma '로그인'(24 Bold)과 코드 로그인 카드 첫 글자가 같아 G-08 제목 문구 차이 0건. 실제 공공 깃랩 로그인(UX/gitlab_compare/46_로그인_1440.png)에는 큰 제목이 없고, 로그인 2열 유지는 사용자 결정(UX/13 78행). 차이는 G-08b(실패)·G-08c(2단계) 문구와 높이에 있다: G-08b Figma '아이디 또는 비밀번호가 맞지 않습니다. 다시 입력해 주세요.' 대 코드 '아이디/비밀번호 확인, 5회 오류 시 잠금', G-08c login-card h Figma 366 대 코드 338
+- G-12: 1440·768·360 모두 대조에 포함. main y Figma 121 대 코드 81, Figma에만 section-title(1440·768), 코드에만 page-head·profile-event(360)
+고칠 쪽 확정: UX/audit_v3/M8_owner_D21.md, M8_owner_C.md에 원인마다 적었다. 이번에 판정한 묶음은 일부(D21 건수 기준 Figma 325·코드 38·보류 30·미판정 996, C 건수 기준 Figma 64·보류 14·미판정 773)이고 나머지는 실측 캡처와 대조가 필요한 미판정이다
+
+## 측정 라운드 M-9(11. 7. 09:01, M): 공식 합 3,097(이전 M-8 2,240, +857), 새 허용 0건, 563개
+코드 ed6076b, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-07 08:46(598 변형, 요소 7,146, export 이름 상한 3→20)
+측정 방법(스크롤 막대): 문서 스크롤은 #rb-scroll 안에서 일어나 documentElement.clientWidth는 창 폭과 같았다(1440 시험: cw 1440). 막대 15는 #rb-scroll 안에 생겨(offsetWidth 1184, clientWidth 1169) html·#rb-scroll에 scrollbar-width:none을 주입해 0으로 했다(M-6까지 headless와 같은 조건). 모든 변형에서 clientWidth==목표 폭 검증(불일치 0건), #rb-scroll 막대 잔존 0건. 창 폭을 목표+15로 키우는 방식은 불일치가 없어 쓰지 않았다. 전환·애니메이션 끔, 폭 변경 뒤 900ms 대기. 측정 기록은 code_plan/measured_full.json의 method 필드
+매핑 정정: A-04 코드 경로 /projects/150/feedback → /projects/150(프로젝트 홈, fixture=kordoc). A-02는 /projects/150, A-01은 /search?q=보고서 작성(fixture=kordoc)으로 이미 정정되어 있었다. 화면 ID 정의가 Figma와 문서가 다른 목록: A-04(UX/05·PRD는 의견 P-08, Figma A-04는 프로젝트 홈 README 구조: project-info·toolbar·commit-bar·file-table·language-bar·readme). 그 밖 A-01(업무로 찾기=검색 화면 위에 올림), A-02(AI 소개 카드=홈+카드)는 정의와 구조가 맞음
+담당: D21 2,091(+702) · C1 545(+190) · C2 461(-35)
+| 순위 | 원인 | 건수 | M-8 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 main y | 510 | 23 | +487 | D21 230, C1 120, C2 160 |
+| 2 | 위치/크기 group-row w | 200 | 0 | +200 | D21 |
+| 3 | 문구 group-row | 140 | 0 | +140 | D21 |
+| 4 | 순서 (화면) | 77 | 13 | +64 | D21 |
+| 5 | 위치/크기 project-row y | 64 | 28 | +36 | D21 |
+| 6 | 모서리·안쪽·간격 language-bar | 60 | 0 | +60 | D21 |
+| 7 | 위치/크기 filter-search x | 50 | 36 | +14 | D21 8, C1 10, C2 32 |
+| 8 | 문구 page-head | 44 | 44 | 0 | D21 30, C1 10, C2 4 |
+| 9 | 위치/크기 file-table h | 40 | 20 | +20 | D21 30, C1 10 |
+| 10 | Figma에만 profile-event | 40 | 0 | +40 | D21 |
+새로 생긴 원인(5건 이상): 위 표의 group-row w·문구·y, language-bar 모서리·y·h·w, profile-event(Figma에만 40), project-info y·h, toolbar 문구·아이콘, extra-field, search 모양·색 등 총 60여 묶음(M9_owner 파일에 원인별로 기록). 없어진 원인: 코드에만 group-row 200(이름 상한 20으로 짝이 맞음), A-02 Figma에만 project-info·toolbar·commit-bar·file-table·readme 각 20(경로 정정), 아이콘 project-row 38, login-card 문구 30·높이 32, commit-bar 문구 30 등
+주의: main y 510은 코드 main 이름표가 breadcrumb 아래(y 121)에 있고 Figma main은 breadcrumb 포함(y 81)이라 477건(81 대 121)이 같은 원인이다. 스크롤 막대 영향은 없었다(main 폭 차이 기준). 이 원인을 정하면 body·content-panel·breadcrumb y 연쇄 약 70건도 같이 정리된다
+담당별 작업 목록: UX/audit_v3/M9_owner_D21.md, M9_owner_C.md(M8_decisions.md 판정 이어받음, 신규 원인은 '판정 필요' 표시)
+
+## 측정 라운드 M-10(11. 7. 09:27, M): 공식 합 1,956(이전 M-9 3,097, -1,141), 새 허용 0건, 563개
+코드 4276169, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-07 09:14(598 변형). 방법: 스크롤 막대 0(html·#rb-scroll scrollbar-width:none), clientWidth==목표 폭 검증(불일치 0, 막대 잔존 0), 측정 전 Loading/aria-busy/'불러오는 중' 소멸 대기(대기 초과 0), G-12는 profile-event 20개 확인(1440·768·360 모두 20개). 측정 기록은 measured_full.json의 method·paths
+확인: A-01 측정 기록의 실제 경로는 /search?q=보고서 작성&fixture=kordoc, 문서 제목 '"보고서 작성" 검색 결과'(1440 Guest·Signed-in)로 검색 결과 화면이다. 코드 '/'(탐색)이 아니다. A-04는 /projects/150/feedback(복원), A-02는 /projects/150
+담당: D21 1,342(-749) · C1 335(-210) · C2 279(-182)
+| 순위 | 원인 | 건수 | M-9 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 문구 group-row | 200 | 140 | +60 | D21 |
+| 2 | 위치/크기 project-row y | 64 | 64 | 0 | D21 |
+| 3 | 위치/크기 filter-search x | 42 | 50 | -8 | D21 10, C2 32 |
+| 4 | 모서리·안쪽·간격 language-bar | 40 | 60 | -20 | D21 |
+| 5 | 위치/크기 sidebar-nav w | 40 | 36 | +4 | D21 4, C1 12, C2 24 |
+| 6 | 문구 page-head | 34 | 44 | -10 | D21 20, C1 10, C2 4 |
+| 7 | 위치/크기 file-table h | 30 | 40 | -10 | D21 20, C1 10 |
+| 8 | 위치/크기 gl-tabs w | 30 | 10 | +20 | D21 20, C2 10 |
+| 9 | 위치/크기 section-title y | 30 | 29 | +1 | D21 10, C1 20 |
+| 10 | Figma에만 section-title | 30 | 32 | -2 | C1 30 |
+새로 생긴 원인(5건 이상): 문구 language-bar 20, 모양 gl-tabs 20, 색 group-row 20, 문구 profile-activity 10, Figma에만 global-search 8, 위치 profile-activity w 6. 없어진 원인: group-row w 200, main 연쇄(body·content-panel·breadcrumb y 각 23), Figma에만 profile-event 40, A-04 홈 구조용 Figma 요소들, filter-search w·h 20, 색 body·content-panel·breadcrumb·footer 각 10 등
+G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만 2, 순서 1
+담당별 작업 목록: UX/audit_v3/M10_owner_D21.md, M10_owner_C.md(M9 판정 우선 이어받음. 건수 기준 D21: M9 495·M8 736·신규 111, C: M9 47·M8 521·신규 46)
+
+## 측정 라운드 M-11(11. 7. 09:50, M): 공식 합 1,812(이전 M-10 1,956, -144), 새 허용 0건, 563개
+코드 048cbbc, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-07 09:34(598 변형). 방법 M-10과 같음(스크롤 막대 0, 비동기 대기, 대기 초과 0, 폭 불일치 0, G-12 profile-event 20개 3폭)
+변수 연결 표본(합본 전수): 색 필드 47,192곳 — 채움 3,768, 선 2,915, 글자 40,509 — 모두 var 이름이 있어(연결됨) 원색만 있는 곳(var 없음) 0곳. 화면군별 A 8,942, D 39, G 13,049, R 25,162 모두 미연결 0. 주의: 합본에는 boundVariables 필드가 없고 var(변수 이름) 유무로 판정했다. 변수 이름이 있어도 실제 연결 객체인지는 Figma 쪽에서 확인해야 한다
+담당: D21 1,186(-156) · C1 347(+12) · C2 279(0)
+| 순위 | 원인 | 건수 | M-10 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 색 profile-event | 60 | 0 | +60 | D21 |
+| 2 | 위치/크기 project-row y | 52 | 64 | -12 | D21 |
+| 3 | 위치/크기 project-row x | 48 | 0 | +48 | D21 |
+| 4 | 위치/크기 project-row w | 48 | 0 | +48 | D21 |
+| 5 | 문구 section-title | 43 | 26 | +17 | D21 4, C1 34, C2 5 |
+| 6 | 모서리·안쪽·간격 language-bar | 40 | 40 | 0 | D21 |
+| 7 | 위치/크기 sidebar-nav w | 40 | 40 | 0 | D21 4, C1 12, C2 24 |
+| 8 | 위치/크기 section-title y | 40 | 30 | +10 | D21 10, C1 30 |
+| 9 | 위치/크기 filter-search x | 34 | 42 | -8 | D21 2, C2 32 |
+| 10 | 위치/크기 file-table h | 30 | 30 | 0 | D21 20, C1 10 |
+새로 생긴 원인(5건 이상): 색 profile-event 60, project-row x 48·w 48, results x·w 각 6, task-search x·w 각 6, body·content-panel·breadcrumb·page-head y 각 6, 색 topbar 5. 없어진 원인: 모서리 results 10, 문구 task-search 10, language-bar h·문구 각 20, 색 group-row 20, 코드에만 없는 global-search 8, extra-field-filter x 10, 문구 breadcrumb 10
+색 분류 93→146(+53): 색 profile-event 60이 대부분
+담당별 작업 목록: UX/audit_v3/M11_owner_D21.md, M11_owner_C.md(M10>M9>M8 판정 이어받음. 건수 기준 D21: M8 612·M9 270·M10 112·신규 192, C: M8 497·M10 82·M9 47)
+
+## 측정 라운드 M-12(11. 7. 10:30, M): 공식 합 1,533(이전 M-11 1,812, -279), 새 허용 0건, 563개
+코드: 측정 시작 시 HEAD 6d45848(app/src 미커밋 변경 없음). 측정 중 다른 담당 커밋으로 대조 시점 HEAD는 c3a2136(restore shared repository toolbar more menu)으로 이동했고 개발 서버 5994는 같은 작업 트리라 후반 화면은 그 변경을 반영했을 수 있다. worktree로 고정하지 않았다. Figma 합본 figma_full.json = 2026-11-07 10:17(598 변형). 방법 M-11과 같음(스크롤 막대 0, 비동기 대기, 대기 초과 0, 폭 불일치 0, G-12 profile-event 20개 3폭)
+담당: D21 917(-269) · C1 337(-10) · C2 279(0)
+| 순위 | 원인 | 건수 | M-11 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row x | 66 | 48 | +18 | D21 |
+| 2 | 위치/크기 project-row w | 66 | 48 | +18 | D21 |
+| 3 | 문구 section-title | 43 | 43 | 0 | D21 4, C1 34, C2 5 |
+| 4 | 위치/크기 sidebar-nav w | 40 | 40 | 0 | D21 4, C1 12, C2 24 |
+| 5 | 위치/크기 project-row y | 36 | 52 | -16 | D21 |
+| 6 | 위치/크기 filter-search x | 34 | 34 | 0 | D21 2, C2 32 |
+| 7 | 위치/크기 section-title y | 30 | 40 | -10 | D21 10, C1 20 |
+| 8 | 위치/크기 gl-tabs h | 26 | 26 | 0 | C1 10, C2 16 |
+| 9 | 코드에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 10 | 위치/크기 page-head h | 25 | 25 | 0 | D21 17, C1 4, C2 4 |
+새로 생긴 원인(5건 이상): 모서리·안쪽·간격 commit-bar 6. 없어진 원인: 색 profile-event 60, 모서리 language-bar 40, gl-tabs 모양 20, task-search 높이 10·모양 10, intro-card 문구·모양 각 10, 색 topbar 5, page-head y 6
+담당별 작업 목록: UX/audit_v3/M12_owner_D21.md, M12_owner_C.md(M11>M10>M9>M8 판정 이어받음, 건수 기준 D21: M8 472·M9 193·M11 168·M10 76·신규 8, C: M8 481·M10 82·M9 51·신규 2)
+
+## 측정 라운드 M-13(11. 7. 11:11, M): 공식 합 1,331(이전 M-12 1,533, -202), 새 허용 0건, 563개
+코드: 측정 시작 HEAD 68d475b, 대조 시점 HEAD 594722c(측정 중 다른 담당 커밋 유입, 같은 작업 트리 5994). Figma 합본 figma_full.json = 2026-11-07 10:58(598 변형). 고정 시각: figma_name_map screens[].code.query.now = 2026-11-07T10:00:00+09:00 전 57화면 적용(URL ?now=...%2B09%3A00 확인). 방법: 스크롤 막대 0, 비동기 대기(대기 초과 0), G-12 profile-event 20개 3폭, 폭 불일치 0. 막대 잔존 4곳(#rb-scroll 안 막대, help 부근 변형으로 추정, 변형 키는 기록하지 못함)
+담당: D21 805(-112) · C1 275(-62) · C2 251(-28)
+판정 쪽별 합계(행 단위 M11>M10>M9>M8 이어받기): 코드 793 · Figma 284 · 측정 매핑 12 · 사용자 확인 5 · 둘 다 8 · 신규 판정 필요 229(합 1,331)
+담당별 판정 쪽: D21 코드 476·Figma 116·사용자확인 5·둘 다 4·신규 204 / C1 코드 180·Figma 76·둘 다 4·신규 15 / C2 코드 137·Figma 92·매핑 12·신규 10
+| 순위 | 원인 | 건수 | M-12 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row y | 44 | 36 | +8 | D21 |
+| 2 | 문구 section-title | 43 | 43 | 0 | D21 4, C1 34, C2 5 |
+| 3 | 색 extra-field | 40 | 0 | +40 | D21 |
+| 4 | 모서리·안쪽·간격 extra-field | 40 | 0 | +40 | D21 |
+| 5 | 위치/크기 sidebar-nav w | 40 | 40 | 0 | D21 4, C1 12, C2 24 |
+| 6 | 위치/크기 filter-search x | 34 | 34 | 0 | D21 2, C2 32 |
+| 7 | 위치/크기 page-head w | 28 | 20 | +8 | D21 |
+| 8 | Figma에만 tabs | 25 | 20 | +5 | D21 20, C1 5 |
+| 9 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 10 | 위치/크기 page-head h | 21 | 25 | -4 | D21 19, C1 2 |
+새로 생긴 원인(5건 이상): extra-field 색 40·모양 40·폭 20·글자 20·y 16(전부 D21). 없어진 원인: project-row x 66·w 66, 코드에만 extra-field 20, results x·w 각 12, filters 폭 12, 코드에만 repo-actions·extra-reuse 각 10, 문구 profile-event 18, search-clear x 10 등
+담당별 작업 목록: UX/audit_v3/M13_owner_D21.md, M13_owner_C.md(행 단위 판정 이어받기, 신규만 '판정 필요')
+
+## 측정 라운드 M-14(11. 7. 17:47, M): 공식 합 925(이전 M-13 1,331, -406), 새 허용 0건, 563개
+코드 HEAD 20ed235(측정 중 다른 커밋 없음). Figma 합본 figma_full.json = 2026-11-07 17:32(598 변형, 7,158요소). 고정 시각 now=2026-11-07T10:00:00+09:00. 방법: 모든 요소에 scrollbar-width:none·::-webkit-scrollbar 숨김, 오버플로 요소 offsetWidth-clientWidth>2 검사 → 막대 잔존 0곳(M-13의 4곳은 변형 키를 기록하지 못해 어느 변형인지 소급 확인 불가, 이번은 변형별 검사 기록이 measured_full.json method에 있음), 폭 불일치 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭. 탭이 중간에 닫혀 다른 로컬 탭으로 이어 측정(URL 동일, 처음부터 저장 방식)
+분류별: 위치/크기 452, 문구 178, 글자 속성 0, 색 32, 모서리·안쪽·간격 97, 아이콘 96, Figma에만 70, 코드에만 0, 순서 0
+담당: D21 556(-249) · C1 211(-64) · C2 158(-93)
+판정 쪽별 합계(행 단위, M8~M11 판정표에서 이어받음. M12·M13 행 단위 판정 파일은 없어 M13_decisions_new.md는 읽지 않음): 코드 483 · Figma 190 · 사용자 확인 5 · 둘 다 2 · 측정 매핑 2 · 신규 판정 필요 243(합 925). 담당별: D21 코드 280·Figma 101·사용자확인 5·신규 170 / C1 코드 122·Figma 54·둘 다 2·신규 33 / C2 코드 81·Figma 35·매핑 2·신규 40
+| 순위 | 원인 | 건수 | M-13 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 문구 profile-event | 60 | 0 | +60 | D21 |
+| 2 | 위치/크기 project-row y | 52 | 44 | +8 | D21 |
+| 3 | 문구 section-title | 49 | 43 | +6 | C1 44, C2 5 |
+| 4 | 위치/크기 project-row h | 48 | 20 | +28 | D21 |
+| 5 | 위치/크기 filter-search x | 36 | 34 | +2 | D21 2, C2 34 |
+| 6 | 문구 group-row | 29 | 12 | +17 | D21 |
+| 7 | Figma에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 8 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 9 | 위치/크기 results h | 20 | 14 | +6 | D21 |
+| 10 | 문구 toolbar | 20 | 20 | 0 | D21 |
+새로 생긴 원인(5건 이상): 문구 profile-event 60, 아이콘 section-title 10(C1), 모양 gl-tabs 10·code-button 10(C2), 위치 profile-event y 6, Figma에만 toolbar 5. 없어진 원인: sidebar-nav w 40, extra-field 색 40·폭 20·글자 20, 코드에만 tabs 20, gl-tabs w 20, page-head w 28, repo-actions x·w 36, extra-field-filter 모양 20, profile-activity h 11, code-button x·w 20 등. 코드에만 0·순서 0·글자 속성 0
+담당별 작업 목록: UX/audit_v3/M14_owner_D21.md, M14_owner_C.md
+
+## 측정 라운드 M-15(11. 7. 18:36, M): 공식 합 779(이전 M-14 925, -146), 새 허용 0건, 563개
+코드 HEAD 00b4fe1(시작 시 해시, 측정 중 변동 없음). Figma 합본 figma_full.json = 2026-11-07 18:22(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, G-04·G-12 fixture=kordoc 경로 반영. 방법: 모든 요소 스크롤바 숨김, 오버플로 요소 폭 차이 검사 잔존 0곳, 폭 불일치 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭. 이전 탭이 닫혀 있어 다른 로컬 탭(5994)으로 측정
+분류별: 위치/크기 478, 문구 59, 글자 속성 2, 색 32, 모서리·안쪽·간격 88, 아이콘 78, Figma에만 40, 코드에만 2, 순서 0
+담당: D21 443(-113) · C1 185(-26) · C2 151(-7)
+판정 쪽별 합계(합 779): Figma 321 · 코드 280 · 자료 없음/보류 125 · 측정 매핑 7 · 신규 판정 필요 46. 담당별: D21 Figma 209·코드 162·보류 30·신규 42 / C1 Figma 58·코드 50·보류 70·매핑 5·신규 2 / C2 코드 68·Figma 54·보류 25·매핑 2·신규 2. 연결 방식: M14_decisions.md(349행)·M13_decisions_new.md(15행)는 원인 단위 문서라 요소 이름·분류·화면 번호로 근사 연결, 나머지는 M8~M11 행 단위(M11 367·M8 2). '자료 없음/보류'에는 사용자 확인·기존 판정 재확인도 함께 센다
+| 순위 | 원인 | 건수 | M-14 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row h | 82 | 48 | +34 | D21 |
+| 2 | 위치/크기 project-row y | 52 | 52 | 0 | D21 |
+| 3 | 문구 section-title | 39 | 49 | -10 | C1 34, C2 5 |
+| 4 | 위치/크기 filter-search x | 35 | 36 | -1 | D21 2, C2 33 |
+| 5 | Figma에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 6 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 7 | 모서리·안쪽·간격 profile-activity | 23 | 13 | +10 | D21 3, C2 20 |
+| 8 | 아이콘 file-table | 20 | 20 | 0 | D21 |
+| 9 | 위치/크기 readme h | 20 | 20 | 0 | D21 |
+| 10 | 아이콘 readme | 20 | 20 | 0 | D21 |
+새로 생긴 원인(5건 이상): 위치 profile-activity h 10(C2), body·content-panel·breadcrumb·main y 각 5(D21). 없어진 원인: 문구 toolbar 20, Figma에만 tabbar 20, 문구 group-row 29, 문구 profile-event 60, group-row y 6, page-head h 5, 아이콘 section-title 10, Figma에만 profile-activity 10, 모양 code-button 10
+담당별 작업 목록: UX/audit_v3/M15_owner_D21.md, M15_owner_C.md
+
+
+## 측정 방법 보탬(11. 7., 코드 담당)
+- 판정 이어받기: M-16부터 UX/audit_v3/M15_decisions.md의 행 단위 표(`화면 | 요소 | 분류 | 항목 | 판정`)를 이어받기 기준으로 쓴다. 화면·요소·분류·항목 넷이 모두 같은 원장 행에만 붙이고, 원인 단위 문서(M14_decisions.md 등)로 근사 연결하지 않는다. 표에 없는 행만 이전 판정표 순서로 잇는다
+
+## 측정 라운드 M-16(11. 7. 19:29, M): 공식 합 481(이전 M-15 779, -298), 새 허용 0건, 563개
+코드 시작 HEAD 919348e(측정 중 변동 없음). Figma 합본 figma_full.json = 2026-11-07 19:13(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, G-04·G-12 fixture=kordoc. 방법 보탬 반영: (1) README 외부 배지·이미지가 loading=lazy라 화면 밖 이미지는 영영 로드되지 않아(첫 시도에서 R-01 대기 초과 6건) 측정 전 loading을 eager로 바꾸고 모든 img complete까지 대기, 이후 이미지 미완 0곳, R-01 1024 readme h 5,152(4,683 아님). (2) R-05 머리줄: figma_name_map.json boxes에 gl-diff-bar 추가(figmaNodeMatch 'Diff bar'|'gl-diff-bar'), 코드에 data-figma가 없어 측정 실행기가 .gl-diff-bar 상자를 이름표 gl-diff-bar로 R-05에 직접 추가(1440 Guest 296/536/1088/48, M15_to_figma 표와 같음). Figma 내보내기에는 같은 이름 요소가 없어 코드에만 10건으로 잡힘(Figma 쪽 이름표 필요). 스크롤바 잔존 0, 폭 불일치 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭
+분류별: 위치/크기 276, 문구 5, 글자 속성 0, 색 12, 모서리·안쪽·간격 52, 아이콘 78, Figma에만 46, 코드에만 12, 순서 0
+담당: D21 229(-214) · C1 133(-52) · C2 119(-32)
+판정 쪽별 합계(합 481): Figma 337 · 코드 60 · 자료 없음/보류 45 · 측정 매핑 7 · 신규 판정 필요 32. 담당별: D21 Figma 161·코드 36·보류 30·신규 2 / C1 Figma 76·코드 22·매핑 5·신규 30 / C2 Figma 100·보류 15·코드 2·매핑 2. 연결: M15_decisions.md 행 단위(화면·요소·분류·항목 일치) 258행, 이어서 M14·M13 원인 단위 근사 130행, M8~M11 행 단위 61행, 판정 없음 32행
+| 순위 | 원인 | 건수 | M-15 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row y | 36 | 52 | -16 | D21 |
+| 2 | 위치/크기 filter-search x | 35 | 35 | 0 | D21 2, C2 33 |
+| 3 | Figma에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 4 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 5 | 아이콘 file-table | 20 | 20 | 0 | D21 |
+| 6 | 아이콘 readme | 20 | 20 | 0 | D21 |
+| 7 | 모서리·안쪽·간격 profile-activity | 20 | 23 | -3 | C2 |
+| 8 | 위치/크기 project-info h | 16 | 16 | 0 | D21 |
+| 9 | 위치/크기 readme h | 16 | 20 | -4 | D21 |
+| 10 | 위치/크기 section-title y | 14 | 15 | -1 | D21 2, C1 12 |
+새로 생긴 원인(5건 이상): 코드에만 gl-diff-bar 10(C1), Figma에만 diff-tree 6(C1). 없어진 원인: 색 filters 12, results h 16, 색 search-filter 8, 모양 extra-field 20, 문구 filters 6, diff-area y 8, diff-file x·y·w·h 30, 모양 gl-tabs 10, 문구 profile-activity 10. 주의: R-05 1440 diff-area h는 Figma 1,898 대 코드 6,633(코드는 파일 전체 펼침)
+담당별 작업 목록: UX/audit_v3/M16_owner_D21.md, M16_owner_C.md
+
+## 측정 라운드 M-17(11. 7. 20:11, M): 공식 합 262(이전 M-16 481, -219), 새 허용 0건, 563개
+코드 시작 HEAD 5ef24c8(측정 중 변동 없음). Figma 합본 figma_full.json = 2026-11-07 19:53(598 변형, 화면 불변). 고정 시각 now=2026-11-07T10:00:00+09:00, G-04·G-12 fixture=kordoc. 방법: 스크롤바 숨김·오버플로 검사 잔존 0, 폭 불일치 0, lazy 이미지 eager 후 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭. gl-diff-bar·diff-tree는 코드가 data-figma 이름표를 달아 M-16의 측정 실행기 주입은 쓰지 않음. 아이콘 맵 적용 확인: 대조기가 code_plan/icon_name_map.json을 읽고 icon-file/{git,markdown,json,nodejs}는 file/* 4줄, 나머지 icon-file/*는 file:* 로 대응, 원장에 icon-file 이름이 남은 행 0건. 아이콘 file-table 20·readme 20이 사라짐
+분류별: 위치/크기 112, 문구 5, 글자 속성 0, 색 2, 모서리·안쪽·간격 37, 아이콘 58, Figma에만 40, 코드에만 8, 순서 0
+담당: D21 122(-107) · C1 81(-52) · C2 59(-60)
+판정 쪽별 합계(합 262): Figma 196 · 자료 없음/보류 55 · 측정 매핑 7 · 코드 4 · 신규 판정 필요 0. 담당별: D21 Figma 88·보류 30·코드 4 / C1 Figma 66·보류 10·매핑 5 / C2 Figma 42·보류 15·매핑 2. 연결: M15_decisions.md 행 단위 124행, M14 원인 단위 근사 75행, M11 행 단위 49행, M13 8행, M16_decisions.md 행 단위 6행(M16 표는 17행만 읽힘, '이름 대응(해소)' 같은 판정어는 못 읽음). 신규 0은 이전 문서 근사 연결이 모든 행을 덮은 결과라 실제로 판정이 닿았는지는 보장하지 않음
+| 순위 | 원인 | 건수 | M-16 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 아이콘 diff-file | 30 | 10 | +20 | C1 |
+| 2 | 위치/크기 project-row y | 28 | 36 | -8 | D21 |
+| 3 | Figma에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 4 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 5 | 모서리·안쪽·간격 profile-activity | 23 | 20 | +3 | D21 3, C2 20 |
+| 6 | 위치/크기 diff-area h | 10 | 10 | 0 | C1 |
+| 7 | 아이콘 diff-area | 10 | 10 | 0 | C1 |
+| 8 | 위치/크기 steps y | 10 | 10 | 0 | D21 |
+| 9 | 위치/크기 steps h | 10 | 10 | 0 | D21 |
+| 10 | 위치/크기 filter-search x | 9 | 35 | -26 | C2 |
+새로 생긴 원인(5건 이상): 코드에만 extra-reuse 8(D21). 없어진 원인: 아이콘 file-table 20·readme 20, 모양 readme 8, 코드에만 gl-diff-bar 10, Figma에만 diff-tree 6, project-info·extra-field·language-bar y 각 8, section-title y 14, 색·모양 gl-filter 각 10, profile-activity h 9·w 6, filter-clear x 8, gl-tabs h 8
+담당별 작업 목록: UX/audit_v3/M17_owner_D21.md, M17_owner_C.md
+
+## 측정 라운드 M-18(11. 7. 20:50, M): 공식 합 140(이전 M-17 262, -122), 새 허용 0건, 563개
+코드 시작 HEAD 11aeb7d(대조 시점 HEAD d05b24a, 그 사이는 문서 커밋만, 작업 트리 app/src 변경 없음). Figma 합본 figma_full.json = 2026-11-07 20:34(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, R-27 file_name=docs/사용안내.md(URL 확인), G-04·G-12 fixture=kordoc. 방법 같음(스크롤바 잔존 0, 폭 불일치 0, 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭)
+분류별: 위치/크기 25, 문구 0, 글자 속성 5, 색 0, 모서리·안쪽·간격 38, 아이콘 16, Figma에만 51, 코드에만 5, 순서 0
+담당: D21 80(-42) · C1 31(-50) · C2 29(-30)
+판정 쪽별 합계(합 140): Figma 47 · 자료 없음/보류 45 · 측정 매핑 15 · 신규 판정 필요 33. 담당별: D21 보류 30·Figma 23·신규 27 / C1 매핑 15·Figma 10·신규 6 / C2 보류 15·Figma 14. 연결: M16_decisions.md(6열, M17 행 포함) 행 단위, M15 행 단위 52행, M14 근사 24행, M13 15행, M11 12행, M16 4행, 판정 없음 33행. M17_hold.md는 행 단위 표가 아니라 읽지 않음. 신규 33건은 M-17에 없던 원인(section-title w·Figma에만 section-title, C1 filter-search·tabs)
+| 순위 | 원인 | 건수 | M-17 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | Figma에만 tabs | 20 | 25 | -5 | D21 |
+| 2 | 모서리·안쪽·간격 profile-activity | 20 | 23 | -3 | C2 |
+| 3 | 위치/크기 section-title w | 13 | 0 | +13 | D21 |
+| 4 | 아이콘 gitlab-sidebar | 12 | 8 | +4 | D21 4, C1 4, C2 4 |
+| 5 | 모서리·안쪽·간격 search | 10 | 8 | +2 | D21 |
+| 6 | Figma에만 section-title | 10 | 0 | +10 | D21 |
+| 7 | Figma에만 filter-search | 6 | 0 | +6 | C1 |
+| 8 | Figma에만 toolbar | 5 | 5 | 0 | D21 |
+| 9 | Figma에만 project-row | 5 | 5 | 0 | D21 |
+| 10 | Figma에만 comment-editor | 5 | 5 | 0 | C2 |
+새로 생긴 원인(5건 이상): section-title w 13·Figma에만 section-title 10(D21), Figma에만 filter-search 6·코드에만 tabs 5·tabs y 5·tabs 글자 5(C1). 없어진 원인: project-row y 28, 아이콘 diff-file 30, sidebar-nav h 24, 코드에만 extra-reuse 8, filter-search x 9, diff-area h 10·아이콘 10, 문구 section-title 5
+담당별 작업 목록: UX/audit_v3/M18_owner_D21.md, M18_owner_C.md
+
+## 측정 라운드 M-19(11. 7. 21:19, M): 공식 합 167(이전 M-18 140, +27), 새 허용 0건, 563개
+코드 시작 HEAD 04be493(대조 시점 a2bd6e1, 그 사이는 문서 커밋만). Figma 합본 figma_full.json = 2026-11-07 21:05(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, G-06 fixture=kordoc(URL 확인), R-27 file_name, G-04·G-12 fixture. 변경: 코드 측정의 아이콘 수집 상한 20→40(app/scripts/export-code-boxes.js 한 곳, 측정 도구라 커밋 대상 아님·미커밋 작업 트리 변경), Figma export는 이미 slice(0, 40)이고 합본 요소당 아이콘 최대 30. 방법 같음(스크롤바 잔존 0, 폭 불일치 0, 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭)
+분류별: 위치/크기 55, 문구 0, 글자 속성 5, 색 0, 모서리·안쪽·간격 57, 아이콘 30, Figma에만 20, 코드에만 0, 순서 0
+담당: D21 141(+61) · C1 21(-10) · C2 5(-24)
+판정 쪽별 합계(합 167): 신규 판정 필요 122 · 측정 매핑 20 · 자료 없음/보류 20 · 코드 5. 담당별: D21 신규 106·매핑 20·보류 15 / C1 신규 16·코드 5 / C2 보류 5. 연결: M16_decisions.md 1~4절(39행 읽힘) 행 단위 40행, M14 근사 5행, 판정 없음 122행. 신규 122건은 모두 이번에 새로 대조된 원인
+| 순위 | 원인 | 건수 | M-18 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row w | 55 | 0 | +55 | D21 |
+| 2 | 모서리·안쪽·간격 project-row | 51 | 4 | +47 | D21 |
+| 3 | 아이콘 file-table | 30 | 0 | +30 | D21 20, C1 10 |
+| 4 | Figma에만 tabs | 15 | 20 | -5 | D21 |
+| 5 | 모서리·안쪽·간격 filter-search | 6 | 2 | +4 | C1 |
+| 6 | Figma에만 comment-editor | 5 | 5 | 0 | C2 |
+| 7 | 글자 속성 tabs | 5 | 5 | 0 | C1 |
+새로 생긴 원인(5건 이상): G-06 project-row w 55(Signed-in 전 폭, Figma 942 대 코드 944 같은 차 2)·project-row 안쪽 51(Figma 아래 안쪽 14·34·56 대 코드 12), 아이콘 file-table 30(R-01·A-02 등, 코드 9개 대 Figma 6개: json·nodejs·typescript가 코드에만). 없어진 원인: section-title w 13, 모양 profile-activity 20, 모양 search 10, 아이콘 gitlab-sidebar 12, Figma에만 section-title 10·filter-search 6·toolbar 5·project-row 5, 코드에만 tabs 5, tabs y 5. 설명: file-table 아이콘은 상한 20 때문에 가려져 있던 값이 상한 40에서 드러난 것이고, G-06 project-row는 fixture=kordoc 반영으로 Signed-in 행이 처음 비교됨. 둘 다 코드·Figma 변경이 아니라 측정 범위 변화
+담당별 작업 목록: UX/audit_v3/M19_owner_D21.md, M19_owner_C.md
+
+## 측정 라운드 M-20(11. 7. 21:51, M): 공식 합 62(이전 M-19 167, -105), 새 허용 0건, 563개
+코드 HEAD c5a578a(app/src·scripts 미커밋 변경 없음). Figma 합본 figma_full.json = 2026-11-07 21:34(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, 아이콘 상한 40. 방법 같음(스크롤바 잔존 0, 폭 불일치 0, 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭). 429로 한 번 끊겼고 중간 저장 파일이 남지 않아 처음부터 다시 쟀다
+분류별: 위치/크기 37, 글자 속성 5, Figma에만 20. 문구·색·모서리·아이콘·코드에만·순서는 0
+담당: D21 52(-89) · C1 5(-16) · C2 5(0)
+판정 쪽별 합계(합 62): 코드 21 · Figma 20 · 자료 없음/보류 20 · 신규 판정 필요 1. 담당별: D21 Figma 20·코드 16·보류 15·신규 1 / C1 코드 5 / C2 보류 5. 연결: M16·M15 행 단위 36행, M14·M11·M10 근사 25행(M19·M20 판정 문서는 저장소에 없음)
+원인 전체 목록(건수 1 이상, 7종) + 해소 원인:
+| 원인 | 건수 | M-19 | 증감 | 담당 | 판정 쪽 |
+|---|---:|---:|---:|---|---|
+| 위치/크기 · project-row · h | 17 | 0 | +17 | D21 17 | Figma 16, 신규 판정 필요 1 |
+| Figma에만 · tabs | 15 | 15 | +0 | D21 15 | 자료없음/보류 15 |
+| 위치/크기 · project-row · y | 12 | 0 | +12 | D21 12 | 코드 12 |
+| Figma에만 · comment-editor | 5 | 5 | +0 | C2 5 | 자료없음/보류 5 |
+| 글자 속성 · tabs | 5 | 5 | +0 | C1 5 | 코드 5 |
+| 위치/크기 · results · h | 4 | 0 | +4 | D21 4 | Figma 4 |
+| 위치/크기 · task-search · h | 4 | 0 | +4 | D21 4 | 코드 4 |
+| 아이콘 · file-table | 0 | 30 | -30 | - | 해소 |
+| 위치/크기 · project-row · w | 0 | 55 | -55 | - | 해소 |
+| 모서리·안쪽·간격 · project-row | 0 | 51 | -51 | - | 해소 |
+| 모서리·안쪽·간격 · filter-search | 0 | 6 | -6 | - | 해소 |담당별 작업 목록: UX/audit_v3/M20_owner_D21.md, M20_owner_C.md
+
+## 측정 라운드 M-21(11. 7. 22:14, M): 공식 합 35(이전 M-20 62, -27), 새 허용 0건, 563개
+코드 HEAD 520e055(586a5df 이후, app/src·scripts 미커밋 변경 없음). Figma 합본 최신(65차, 파일 시각 22:00). 방법 같음(스크롤바 잔존 0, 폭 불일치 0, 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭)
+분류별: 위치/크기 14, 모서리·안쪽·간격 1, Figma에만 20. 나머지 0
+담당: D21 30(-22) · C1 0(-5) · C2 5(0)
+판정 쪽별 합계(합 35): 자료 없음/보류 20 · 코드 10 · Figma 4 · 신규 판정 필요 1. 담당별: D21 보류 15·코드 10·Figma 4·신규 1 / C2 보류 5. 연결: M20_decisions.md 6열 행 단위 10행(7행 읽힘), M16 15행, M15 2행, M14 근사 7행, 판정 없음 1행
+원인 전체 목록(건수 1 이상 7종, 해소 포함):
+| 원인 | 건수 | M-20 | 증감 | 담당 | 판정 쪽 |
+|---|---:|---:|---:|---|---|
+| Figma에만 · tabs | 15 | 15 | +0 | D21 15 | 자료없음/보류 15 |
+| 위치/크기 · project-row · y | 6 | 12 | -6 | D21 6 | 코드 6 |
+| Figma에만 · comment-editor | 5 | 5 | +0 | C2 5 | 자료없음/보류 5 |
+| 위치/크기 · project-row · h | 4 | 17 | -13 | D21 4 | 코드 2, Figma 2 |
+| 위치/크기 · results · h | 2 | 4 | -2 | D21 2 | Figma 2 |
+| 위치/크기 · task-search · h | 2 | 4 | -2 | D21 2 | 코드 2 |
+| 모서리·안쪽·간격 · project-row | 1 | 0 | +1 | D21 1 | 신규 판정 필요 1 |
+| 글자 속성 · tabs | 0 | 5 | -5 | - | 해소 |
+담당별 작업 목록: UX/audit_v3/M21_owner_D21.md, M21_owner_C.md
+
+## 측정 라운드 M-22(11. 7. 22:39, M): 공식 합 98(이전 M-21 35, +63), 563개
+코드 HEAD 4a1d11b(60c6f10 이후), Figma 합본 67차(22:22). 방법 같음(스크롤바·폭·이미지·대기 이상 0). A-01은 project-row h/y, task-search, results 전부 해소(0건).
+분류별: 위치/크기 44, 문구 34, Figma에만 20. 담당: D21 93 · C1 0 · C2 5
+판정 쪽(합 98): Figma 44(G-04 group-row h/y, M15 판정) · 자료 없음/보류 20 · 신규 판정 필요 34(G-04 group-row 문구)
+원인 전체 목록:
+| 원인 | 건수 | M-21 | 증감 | 담당 | 판정 쪽 |
+|---|---:|---:|---:|---|---|
+| 위치/크기 · group-row · h | 40 | 0 | +40 | D21 40 | Figma 40 |
+| 문구 · group-row | 34 | 0 | +34 | D21 34 | 신규 판정 필요 34 |
+| Figma에만 · tabs | 15 | 15 | +0 | D21 15 | 자료없음/보류 15 |
+| Figma에만 · comment-editor | 5 | 5 | +0 | C2 5 | 자료없음/보류 5 |
+| 위치/크기 · group-row · y | 4 | 0 | +4 | D21 4 | Figma 4 |
+| 위치/크기 · results · h | 0 | 2 | -2 | - | 해소 |
+| 위치/크기 · task-search · h | 0 | 2 | -2 | - | 해소 |
+| 위치/크기 · project-row · h | 0 | 4 | -4 | - | 해소 |
+| 위치/크기 · project-row · y | 0 | 6 | -6 | - | 해소 |
+| 모서리·안쪽·간격 · project-row | 0 | 1 | -1 | - | 해소 |
+행별 목록(화면·폭·요소·코드값·Figma값): UX/audit_v3/M22_owner_D21.md, M22_owner_C.md
+
+## 측정 라운드 M-23(11. 7. 22:59, M): 공식 합 20(이전 M-22 98, -78), 563개
+코드 HEAD 4a1d11b(코드 변경 없음, 이후 커밋은 문서만), Figma 합본 68차(파일 22:42). G-04는 networkidle 후 group-row 텍스트를 2초 간격 두 번 읽어 같을 때까지 기다린 뒤 측정(미안정 0). 스크롤바·폭·이미지·대기 이상 0.
+분류별: Figma에만 20, 나머지 0. 담당: D21 15 · C1 0 · C2 5. 판정 쪽: 자료 없음/보류 20(전부 M17_hold)
+원인 전체 목록:
+| 원인 | 건수 | M-22 | 증감 | 담당 | 판정 쪽 |
+|---|---:|---:|---:|---|---|
+| Figma에만 · tabs | 15 | 15 | +0 | D21 15 | 자료없음/보류 15 |
+| Figma에만 · comment-editor | 5 | 5 | +0 | C2 5 | 자료없음/보류 5 |
+| 문구 · group-row | 0 | 34 | -34 | - | 해소 |
+| 위치/크기 · group-row · h | 0 | 40 | -40 | - | 해소 |
+| 위치/크기 · group-row · y | 0 | 4 | -4 | - | 해소 |
+행별 목록: UX/audit_v3/M23_owner_D21.md, M23_owner_C.md
+
+## 측정 라운드 M-24(11. 7. 23:27, M): 공식 합 30(이전 M-23 20, +10), 563개
+코드 HEAD 0df0887(1872fe7 이후), Figma 합본 69차(23:07). G-04 안정 대기 포함(미안정 0), 스크롤바·폭·이미지·대기 이상 0.
+분류별: 위치/크기 15, 문구 15. 담당: D21 30 · C1 0 · C2 0. 판정 쪽: 신규 판정 필요 30
+원인: 위치/크기 page-head h 15 · 문구 page-head 15 (A-09 협업 모집 10폭, G-07 알림 5폭). 해소: Figma에만 tabs 15, comment-editor 5
+행별: UX/audit_v3/M24_owner_D21.md
+
+## 측정 라운드 M-25(11. 7. 23:42, M): 공식 합 0(이전 M-24 30, -30), 563개
+코드 HEAD 0df0887 그대로(코드 변경 없음), Figma 합본 70차(파일 23:29). G-04 안정 대기 포함(미안정 0), 스크롤바·폭·이미지·대기 이상 0. 다른 작업자 정지 상태에서 측정.
+분류별 전부 0, 담당 D21 0 · C1 0 · C2 0. 남은 원인 0건.
+원인 전체 목록: 없음(해소: 위치/크기 page-head h 15, 문구 page-head 15)

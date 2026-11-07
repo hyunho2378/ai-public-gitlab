@@ -70,7 +70,8 @@
 .gl-tabs-left { flex: 1 1 auto; min-width: 0; }
 .gl-tabs .gl-tab { min-height: var(--krds-number-16); }
 
-#root .gl-tabs.gl-tabs-req { margin-top: calc(-1 * var(--krds-gap-4)); }
+/* 설명 → 탭 8을 모든 폭에서 같게(부모 간격 --rb-rhythm이 PC20·모바일16으로 바뀌어 모바일만 4가 되던 원인) */
+#root .gl-tabs.gl-tabs-req { margin-top: calc(var(--krds-number-5) - var(--rb-rhythm)); }
 #root .gl-tabs.gl-tabs-gap { gap: var(--krds-gap-2); }
 .gl-members .gl-table { table-layout: fixed; }
 .gl-members .gl-table th:nth-child(1) { width: 40%; }
@@ -81,3 +82,20 @@
 .gl-label-main { display: flex; flex-direction: column; align-items: flex-start; gap: var(--krds-gap-2); }
 .gl-label-project { display: inline-flex; align-items: center; gap: var(--krds-gap-2); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--layout-text-subtle); }
 .gl-label-project .rb-icon { width: var(--krds-number-8); height: var(--krds-number-8); }
+
+/* M12: 도구가 붙은 탭은 전체 막대를 측정한다. 안쪽 남는 폭을 탭 폭으로 오인하지 않는다. */
+.gl-tabs.has-tools .gl-tabs-left { min-width: max-content; }
+.gl-tabs.has-tools .gl-tab { min-width: calc(var(--krds-number-16) + var(--krds-number-12)); justify-content: center; }
+@media (max-width: 767px) {
+  .gl-tabs.has-tools { flex-wrap: wrap; }
+  .gl-tabs.has-tools .gl-tabs-left { flex: 1 0 100%; }
+  .gl-tabs.has-tools .gl-tools { width: 100%; min-width: 0; }
+  .gl-tabs.has-tools .gl-work-bar { min-width: 0; }
+  .gl-tabs.has-tools .gl-work-bar input { min-width: 0; width: 100%; }
+  .gl-tabs.has-tools .gl-tools .krds-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+}
+/* M14 R-14: 탭 줄 오른쪽 도구(검색·정렬)는 49 막대 가운데. 아래 안쪽8이 위로 4 치우치게 하던 원인 제거, 검색 칸은 공통 조작칸32 */
+@media (min-width: 768px) {
+  #root .gl-tabs .gl-tools { padding-bottom: 0; }
+  #root .gl-tabs .gl-tools .gl-work-bar { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+}

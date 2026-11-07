@@ -123,6 +123,11 @@ export const gitlab = {
   issue: (id, iid) => request(`/api/gitlab/projects/${enc(id)}/issues/${enc(iid)}`),
   mergeRequests: (id, state = 'opened') => request(`/api/gitlab/projects/${enc(id)}/merge_requests?state=${enc(state)}`),
   mergeRequest: (id, iid) => request(`/api/gitlab/projects/${enc(id)}/merge_requests/${enc(iid)}`),
+  // G-12 사용자 프로필(공개 API: 사용자 찾기, 활동, 개인 프로젝트, 별표 부여 프로젝트). 사용자 상세와 팔로워는 비로그인 403이라 부르지 않는다
+  userByName: (username) => request(`/api/gitlab/users?username=${enc(username)}`),
+  userEvents: (id, { page = 1, after = '' } = {}) => request(`/api/gitlab/users/${enc(id)}/events?per_page=100&page=${page}${after ? `&after=${enc(after)}` : ''}`),
+  userProjects: (id) => request(`/api/gitlab/users/${enc(id)}/projects?per_page=20&order_by=last_activity_at`),
+  userStarred: (id) => request(`/api/gitlab/users/${enc(id)}/starred_projects?per_page=20&order_by=last_activity_at`),
 };
 
 let csrfToken = null;

@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // 마크다운 그리기(해석은 markdown.js). README, 이슈 본문, 미리보기가 모두 이 부품을 거친다.
 // 그림은 저장소 자신의 파일(상대 경로)과 같은 서버 그림만 불러온다. 바깥 서버 그림(배지 등)은 설명 글자로 대신한다(외부 요청 차단).
 import { newWindow } from '../Layout/newWindow';
@@ -6,6 +7,7 @@ import { Link } from 'react-router-dom';
 import { t } from '../../copy/ko';
 import { u } from '../../copy/ui';
 import { Icon } from '../Code/Icon';
+import { IconButton } from '../Action/IconButton';
 import { languageOf, tokenize } from '../Code/highlight';
 import { linkKind, parseMarkdown, plainText, repoPath, slugify } from './mdparse';
 import './markdown.css';
@@ -84,7 +86,8 @@ function CodeBlock({ node }) {
     <figure className="rb-md-block">
       <figcaption className="rb-md-block-head">
         <span className="krds-text-body-xsmall rb-subtle">{node.lang}</span>
-        <button type="button" className="krds-btn xsmall text" onClick={copy}>{copied ? u.Md_copied : u.Md_copy}</button>
+        {/* 실제 공공 깃랩 코드 묶음: 글자 단추가 아니라 '클립보드에 복사' 아이콘 단추(copy-code). Figma preview도 copy 아이콘 */}
+        <IconButton icon="copy" label={copied ? u.Md_copied : u.Md_copy} onClick={copy} />
         <span className="sr-only" role="status">{copied ? u.Md_copied : ''}</span>
       </figcaption>
       <pre className="rb-md-pre" tabIndex={0}>

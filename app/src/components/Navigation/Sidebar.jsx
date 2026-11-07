@@ -1,3 +1,4 @@
+// Figma: product/global_sidebar, product/sidebar_item (data-figma), 기존 화면 상자는 data-figma-key
 // D-21 왼쪽 세로 바. 공공 깃랩 사이드바(UX/handson/README.md 1절, 캡처 01, 03) 항목과 순서를 그대로 옮긴다.
 // 폭 240, 항목 높이 32, 글자 15(현재 항목만 굵게 + 회색 면). 묶음은 꺾쇠로 접고 편다. 맨 아래 '도움말', '사이드바 접음'.
 // 접으면 완전히 숨기고 상단 바의 펼침 단추로 다시 연다(공공 깃랩 방식). 쉬운 풀이는 항목 옆이 아니라 툴팁.
@@ -10,6 +11,7 @@ import { Icon } from '../Code/Icon';
 import { Avatar } from '../Layout/Avatar';
 import { useAuth } from '../Identity/useAuth';
 import { newWindow } from '../Layout/newWindow';
+import { pf } from '../../copy/work';
 
 const GITLAB = 'https://gitlab.aigov.go.kr';
 
@@ -42,6 +44,25 @@ export function globalMenu({ signedIn } = {}) {
   };
 }
 
+/** 사용자 프로필 메뉴(공공 깃랩 사용자 화면 70 원문 순서). 우리에게 없는 화면은 공공 깃랩 원본을 새 창으로 */
+export function profileMenu(username) {
+  const p = `/users/${username}`;
+  const up = (path) => ({ href: `${GITLAB}/${username}${path}` });
+  return {
+    title: pf.side,
+    groups: [{ items: [
+      item(pf.activity, p, { icon: 'ext/history', end: true }),
+      item(pf.groups, null, { ...up('/groups'), icon: 'ext/group' }),
+      item(pf.contributed, null, { ...up('/contributed'), icon: 'ext/project' }),
+      item(pf.personal, `${p}/projects`, { icon: 'ext/project' }),
+      item(pf.starred, `${p}/starred`, { icon: 'ext/star' }),
+      item(pf.snippets, null, { ...up('/snippets'), icon: 'ext/snippet' }),
+      item(pf.followers, null, { ...up('/followers'), icon: 'ext/users' }),
+      item(pf.following, null, { ...up('/following'), icon: 'ext/users' }),
+    ] }],
+  };
+}
+
 /** 프로젝트 메뉴(공공 깃랩 03_사이드바_전체펼침 원문 순서). 묶음 아이콘만 두고 하위 항목은 글자만(공공 깃랩과 같다). */
 export function projectMenu(id, { signedIn, role, issues, webUrl } = {}) {
   const p = `/projects/${id}`;
@@ -64,7 +85,7 @@ export function projectMenu(id, { signedIn, role, issues, webUrl } = {}) {
       item(u.G_workItems, `${p}/issues`), item(u.G_boards, `${p}/boards`), item(u.G_milestones, `${p}/milestones`), item(u.G_wiki, `${p}/wiki`),
     ] },
     { name: u.G_code, icon: 'ext/code', items: [
-      item(u.G_mr, `${p}/merge-requests`), item(u.G_repository, `${p}/code`), item(u.G_branches, `${p}/branches`),
+      item(u.G_mr, `${p}/merge-requests`), item(u.G_repository, `${p}/code`, { also: [`${p}/new`, `${p}/upload`] }), item(u.G_branches, `${p}/branches`),
       item(u.G_commits, `${p}/changes`, { hint: t.Side_hintCommit }), item(u.G_tags, `${p}/tags`), item(u.G_graph, `${p}/graph`),
       item(u.G_compare, `${p}/compare`), item(u.G_snippets, `${p}/snippets`),
     ] },
@@ -116,9 +137,13 @@ function useTip() {
 }
 
 function SideLink({ it, tipApi, indent }) {
+  const { pathname } = useLocation();
+  // 실제 공공 깃랩: 새 파일·파일 올리기 화면에서도 코드 > 리포지토리가 현재 항목(UX/17 2절 묶음 펼침)
+  const alsoOn = (it.also || []).some((x) => pathname === x || pathname.startsWith(x + '/'));
   const id = 'rb-tip-' + (it.to || it.href).replace(/[^a-z0-9]/gi, '-');
   const tipOn = it.hint ? (e) => tipApi.show(e.currentTarget, it.hint, id) : undefined;
   const common = {
+    "data-figma": "product/sidebar_item", "data-figma-key": "",
     onMouseEnter: tipOn, onFocus: tipOn, onMouseLeave: it.hint ? tipApi.hide : undefined, onBlur: it.hint ? tipApi.hide : undefined,
     'aria-describedby': tipApi.tip?.id === id ? id : undefined,
   };
@@ -134,7 +159,7 @@ function SideLink({ it, tipApi, indent }) {
     return <a className={cls} href={it.href} {...newWindow(it.label)} title={u.G_newWindow} {...common}>{body}</a>;
   }
   return (
-    <NavLink end={!!it.end} to={it.to} className={({ isActive }) => cls + (isActive ? ' active' : '')} {...common}>
+    <NavLink end={!!it.end} to={it.to} className={({ isActive }) => cls + (isActive || alsoOn ? ' active' : '')} aria-current={alsoOn ? 'page' : undefined} {...common}>
       {body}
     </NavLink>
   );
@@ -142,7 +167,7 @@ function SideLink({ it, tipApi, indent }) {
 
 function Group({ group, tipApi, rail, onShow }) {
   const { pathname } = useLocation();
-  const hasActive = group.items.some((it) => it.to && (pathname === it.to || pathname.startsWith(it.to + '/')));
+  const hasActive = group.items.some((it) => it.to && [it.to, ...(it.also || [])].some((x) => pathname === x || pathname.startsWith(x + '/')));
   const [open, setOpen] = useState(group.open || hasActive);
   useEffect(() => { if (hasActive) setOpen(true); }, [hasActive]);
   if (group.heading) {
@@ -187,7 +212,9 @@ function Group({ group, tipApi, rail, onShow }) {
 export function Sidebar({ project, open, onClose, onHide, onShow, hidden = false }) {
   const rail = hidden;
   const { signedIn, role } = useAuth();
-  const menu = project ? projectMenu(project.id, { signedIn, role, issues: project.issues, webUrl: project.webUrl }) : globalMenu({ signedIn });
+  const { pathname } = useLocation();
+  const profileName = !project && (pathname.match(/^\/users\/([^/]+)/) || [])[1];
+  const menu = project ? projectMenu(project.id, { signedIn, role, issues: project.issues, webUrl: project.webUrl }) : profileName ? profileMenu(decodeURIComponent(profileName)) : globalMenu({ signedIn });
   const tipApi = useTip();
   const { tip } = tipApi;
   // 좁은 화면 서랍: Esc로 닫는다
@@ -202,8 +229,8 @@ export function Sidebar({ project, open, onClose, onHide, onShow, hidden = false
   return (
     <>
       {open ? <div className="rb-side-dim" onClick={onClose} /> : null}
-      <div className="rb-side-wrap" data-figma="gitlab-sidebar">
-        <nav id="rb-sidebar" className={'rb-side' + (open ? ' is-open' : '') + (rail ? ' is-rail' : '')} aria-label={project ? t.Side_labelProject : t.Side_label}>
+      <div className="rb-side-wrap" data-figma="product/gitlab_sidebar" data-figma-key="gitlab-sidebar">
+        <nav data-figma="product/global_sidebar" data-figma-key="" id="rb-sidebar" className={'rb-side' + (open ? ' is-open' : '') + (rail ? ' is-rail' : '')} aria-label={project ? t.Side_labelProject : t.Side_label}>
           <div className="rb-side-scroll">
             <p className="rb-side-title">{project ? u.G_project : menu.title}</p>
             {project ? (

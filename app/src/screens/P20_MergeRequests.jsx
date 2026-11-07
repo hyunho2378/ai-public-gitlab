@@ -1,3 +1,4 @@
+// Figma: product/mr_row (data-figma), 기존 화면 상자는 data-figma-key
 // P-20 변경 제안(머지 리퀘스트) 목록과 상세, 읽기 전용. 코드 탭 하위 메뉴.
 import { useState } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
@@ -109,7 +110,7 @@ export function MergeRequests() {
           list.length ? (
             <ul className="rb-row-list">
               {list.map((m) => (
-                <li className="gl-mr-row" key={m.iid}>
+                <li className="gl-mr-row" data-figma="product/mr_row" data-figma-key="" key={m.iid}>
                   <div className="gl-mr-main">
                     <p className="gl-mr-title"><Link to={`/projects/${frame.id}/merge-requests/${m.iid}`}>{m.title}</Link>{m.task_completion_status?.count ? <span className="gl-mr-task"> {p1.mrChecklist(m.task_completion_status.completed_count, m.task_completion_status.count)}</span> : null}</p>
                     <p className="gl-mr-meta">!{m.iid} · {ago(m.created_at)} {mr.createdBy(m.author?.name || '')}</p>
@@ -227,7 +228,7 @@ export function MergeRequest() {
                     <ul><li>{m.state === 'merged' ? au.mergedInto(m.target_branch) : au.notMerged(m.target_branch)}</li></ul>
                   </div>
                 </section>
-                <section className="gl-activity">
+                <section className="gl-activity" data-figma="profile-activity">
                   <div className="gl-activity-head"><h2>{au.activity}</h2><div className="gl-act-tools"><span className="krds-btn small tertiary">{au.allActivity}</span><Drop label={p1.sortActivity} align="right" button={<span>{newestFirst ? p1.newest : p1.oldest}</span>}>{(close) => (<ul className="drop-list" aria-label={p1.sortActivity}>{[[true, p1.newest], [false, p1.oldest]].map(([v, n]) => <li key={n}><button type="button" className={'item-link' + (v === newestFirst ? ' active' : '')} onClick={() => { close(); setNewest(v); }}>{n}</button></li>)}</ul>)}</Drop></div></div>
                   <ul>
                     {notes.length ? notes.map((n, i) => (

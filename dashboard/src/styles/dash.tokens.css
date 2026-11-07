@@ -1,0 +1,67 @@
+/* 현황판 레이아웃 토큰. 값은 KRDS 변수만 참조한다. 숫자가 필요한 곳(최대 폭)은 KRDS 공식 값과 근거를 적는다.
+   피그마 변수 컬렉션 dash/* 와 같은 이름으로 맞춘다. 화면 파일에서는 이 변수와 --krds-* 만 쓴다. */
+:root {
+  /* KRDS 레이아웃 지침: 콘텐츠 최대 폭 1200, 좌우 패딩 PC 24 / 모바일 16 (style_05_레이아웃) */
+  --dash-max: 120rem;
+  --dash-pad-x: var(--krds-gap-7);
+  --dash-header-h: var(--krds-size-height-9);
+
+  /* 구역 사이 48, 같은 줄 두 열 사이 40, 구역 제목과 내용 24, 목록 행 위아래 16 */
+  --dash-section-gap: var(--krds-gap-10);
+  --dash-col-gap: var(--krds-gap-9);
+  --dash-head-gap: var(--krds-gap-7);
+  --dash-row-pad-y: var(--krds-padding-6);
+
+  /* 숫자 띠: 회색 면 한 번, 안쪽 32, 항목 사이 32 */
+  --dash-band-bg: var(--krds-color-background-gray-subtler);
+  --dash-band-pad: var(--krds-padding-9);
+  --dash-band-gap: var(--krds-gap-8);
+  --dash-band-radius: var(--krds-radius-xlarge1);
+
+  /* 그래프: 보는 값은 주색 하나, 나머지는 회색. 막대는 얇고 끝이 각짐(둥근 끝 = 알약 금지) */
+  --dash-bar: var(--krds-color-element-primary);
+  --dash-bar-muted: var(--krds-color-element-gray);
+  --dash-track: var(--krds-color-element-gray-light);
+  --dash-chart-h: 24rem;
+  --dash-chart-bar-w: var(--krds-size-height-2);
+  --dash-chart-gap: var(--krds-gap-3);
+  --dash-chart-y-w: 3.2rem;
+  --dash-chart-tick-h: var(--krds-size-height-3);
+  /* 등록 달력 52주: 칸 12, 사이 2(GitHub 활동 달력 비율), 범례 칸 12 */
+  --dash-cal-cell: 1.2rem;
+  --dash-cal-gap: var(--krds-gap-1);
+  --dash-cal-legend: 1.2rem;
+  --dash-cal-month-h: var(--krds-size-height-3);
+  --dash-rank-bar-h: 0.4rem;
+
+  --dash-divider: var(--krds-color-divider-gray-light);
+
+  /* 두 열: 오른쪽 열 384, 왼쪽 채움 */
+  --dash-side-w: 38.4rem;
+
+  /* 표 열 폭(프로젝트 칸은 채움). 4의 배수 */
+  --dash-col-owner: 20rem;
+  --dash-col-field: 12rem;
+  --dash-col-issues: 10.4rem;
+  --dash-col-commits: 12rem;
+  --dash-col-stars: 7.2rem;
+  --dash-col-updated: 10.4rem;
+  --dash-filter-q-min: 32rem;
+  --dash-filter-select-min: 18rem;
+}
+
+@media (max-width: 1023px) {
+  :root {
+    --dash-col-gap: var(--krds-gap-10);
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --dash-pad-x: var(--krds-gap-5);
+    --dash-section-gap: var(--krds-gap-9);
+    --dash-band-pad: var(--krds-padding-8);
+    --dash-band-gap: var(--krds-gap-7);
+    --dash-header-h: var(--krds-size-height-8);
+  }
+}

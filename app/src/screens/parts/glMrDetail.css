@@ -50,3 +50,12 @@
 .gl-code-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); padding: 0 var(--krds-gap-3); border-radius: var(--krds-gap-2); gap: var(--krds-gap-2); display: inline-flex; align-items: center; }
 
 #root .krds-btn.small.gl-code-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); padding: 0 var(--krds-gap-3); border-radius: var(--krds-gap-2); gap: var(--krds-gap-2); }
+
+/* M-8 MR 제목줄: Figma와 같은 gap8, 내용 높이 가운데. 긴 제목은 모바일 두 줄로 읽힌다. */
+.gl-mr-titlerow { align-items: center; gap: var(--krds-number-5); }
+#root .rb-main .gl-mr-titlerow[data-figma="page-head"] > .gl-mr-h1 { flex: 1 1 auto; min-width: 0; white-space: normal; overflow: visible; text-overflow: clip; }
+.gl-mr-titlerow > .krds-drop-wrap { flex: none; }
+/* M13 R-17: 실제 MR 1440 실측 .detail-page-description 안쪽 위4/아래12, 내용24(합40) 뒤 바로 탭.
+   13 글자에 19단계 행간28을 써 꼬리표·브랜치 칩이30이던 원인을 KRDS 높이24(size-height-4)로 맞춘다. 머리→상태줄4, 상태줄→탭12 */
+#root .gl-mr-head { gap: var(--krds-number-3); margin-bottom: calc(var(--krds-number-7) - var(--krds-gap-5)); }
+#root .gl-mr-statusline > :is(.gl-chip, .gl-badge) { box-sizing: border-box; height: var(--krds-size-height-4); line-height: var(--rb-lh-13); }

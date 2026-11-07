@@ -49,7 +49,7 @@ async function fetchOrSnapshot(url, init) {
 const repo = repository({ upstream: UPSTREAM, fetchImpl: fetchOrSnapshot });
 
 // 서버 app.js와 같은 허용 경로
-const allowed = /^(?:groups(?:\/[^/]+(?:\/(?:subgroups|projects|members(?:\/all)?))?)?|topics|projects(?:\/[^/]+(?:\/(?:repository\/(?:tree|compare|commits(?:\/[0-9a-f]{7,40}(?:\/diff)?)?|files\/[^/]+(?:\/(?:raw|blame))?|branches|tags|contributors)|languages|releases|events|wikis|pipelines|jobs|packages|labels|milestones|members(?:\/all)?|boards|snippets|issues(?:\/\d+(?:\/notes)?)?|merge_requests(?:\/\d+(?:\/(?:changes|notes|commits))?)?))?)?)$/;
+const allowed = /^(?:groups(?:\/[^/]+(?:\/(?:subgroups|projects|members(?:\/all)?))?)?|topics|users(?:\/\d+\/(?:events|projects|starred_projects))?|projects(?:\/[^/]+(?:\/(?:repository\/(?:tree|compare|commits(?:\/[0-9a-f]{7,40}(?:\/diff)?)?|files\/[^/]+(?:\/(?:raw|blame))?|branches|tags|contributors)|languages|releases|events|wikis|pipelines|jobs|packages|labels|milestones|members(?:\/all)?|boards|snippets|issues(?:\/\d+(?:\/notes)?)?|merge_requests(?:\/\d+(?:\/(?:changes|notes|commits))?)?))?)?)$/;
 
 // 공공 깃랩이 6초 안에 답하지 않거나 5xx, 네트워크 오류면 다시 부르지 않고 저장된 자료(snapshot.js)로 바꾼다
 const FETCH_TIMEOUT_MS = 6000;

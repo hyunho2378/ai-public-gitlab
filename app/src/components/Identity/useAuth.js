@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 import { auth as authApi } from '../../api/client';
 import { devAuth, devRole } from '../../api/devState';
 
-const DEV_USER = { id: 0, name: '류승인', username: 'dev-sample' };
+// 개발 전용 로그인 사용자 = 예시 자료(kordoc) 소유자. 공개 프로필 고정 저장 자료(public/data/snapshot/users/chrisryugj.json)와 같은 사람이라 '내 프로젝트'를 지어내지 않고 그 사람의 공개 프로젝트로 그린다. 배포본에서는 쓰이지 않음
+const DEV_USER = { id: 0, name: '류승인', username: 'chrisryugj' };
 
 export function useAuth() {
   const forcedAuth = devAuth();

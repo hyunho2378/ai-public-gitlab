@@ -1,11 +1,11 @@
-// Figma: Repo/Toolbar, Repo/CommitBar, Repo/FileTable, Repo/Readme, Repo/About. GitHub와 GitLab 저장소 첫 화면 배치(D-04 개정).
+// Figma: product/branch_menu, product/code_dropdown, product/file_row (data-figma), 기존 화면 상자는 data-figma-key
 import { FileIcon } from './FileIcon';
 import { gitlab } from '../../api/client';
 const fetchTree = async (id, ref, page) => (await gitlab.treeAll(id, ref, page)).data || [];
 import { u } from '../../copy/ui';
 import { newWindow } from '../Layout/newWindow';
 import { toast } from '../Feedback/Toast';
-import { IconButton } from '../Action/IconButton';
+import { IconButton, iconBtnClass } from '../Action/IconButton';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { t } from '../../copy/ko';
@@ -43,7 +43,7 @@ export function BranchSelect({ id, current, branches = [], path }) {
   const list = (branches.length ? branches : [{ name: current }]).filter((b) => !q || b.name.toLowerCase().includes(q.toLowerCase()));
   // 공공 깃랩: 브랜치 단추는 회색 채움 32, 열면 맨 위에 'Git 리비전으로 검색' 입력(audit_v3 02-10, 02-15)
   return (
-    <Drop label={t.Home_branchSelect} align="left" btnClass="rb-branch-btn rb-btn-fill" button={<><Icon name="ext/branch" /><span className="rb-ellipsis">{current}</span></>}>
+    <Drop figma="product/branch_menu" label={t.Home_branchSelect} align="left" btnClass="rb-branch-btn rb-btn-fill" button={<><Icon name="ext/branch" /><span className="rb-ellipsis">{current}</span></>}>
       {(close) => (
         <div className="rb-branch-menu">
           <p className="rb-menu-title">{u.R_switchRef}</p>
@@ -92,7 +92,8 @@ export function CodeMenu({ id, zipUrl, cloneUrl, sshUrl }) {
   const fmts = base ? [['zip', '.zip'], ['tar.gz', '.tar.gz'], ['tar.bz2', '.tar.bz2'], ['tar', '.tar']] : [];
   return (
     <>
-      <Drop label={t.Home_code} btnClass="rb-btn-light" button={<><span className="rb-drop-full">{t.Home_code}</span><span className="rb-drop-compact"><Icon name="download" /><span className="sr-only">{t.Home_code}</span></span><Icon name="arrow-down" /></>}>
+      {/* 단추 이름은 Menu의 aria-label(코드)이 이미 준다. 좁은 화면 아이콘 안 sr-only 중복 글을 두지 않는다 */}
+      <Drop figma="product/code_dropdown" label={t.Home_code} btnClass="rb-btn-light" button={<><span className="rb-drop-full">{t.Home_code}</span><span className="rb-drop-compact"><Icon name="download" /></span><Icon name="arrow-down" /></>}>
         {(close) => (
           <div className="rb-code-menu">
             {sshUrl ? (
@@ -136,6 +137,16 @@ export function CodeMenu({ id, zipUrl, cloneUrl, sshUrl }) {
 }
 
 // 공공 깃랩: '파일 찾기'는 회색 채움 단추(32). 누르거나 t를 누르면 파일 찾기 대화창이 열리고 전체 파일 경로에서 거른다(audit_v3 02-1, 02-17)
+/** D-21 6장: 파일 찾기·코드 옆 저장소 작업 메뉴. 기존 읽기 경로만 제공한다. */
+export function RepoMoreMenu({ id, webUrl }) {
+  return <Drop label={u.I_projectMore} btnClass={iconBtnClass('small')} toggle={false} button={<Icon name="ellipsis_vertical" />}>
+    {(close) => <ul className="drop-list">
+      <li><a className="item-link" href={webUrl} {...newWindow(t.Home_openOrigin)} onClick={close}>{t.Home_openOrigin}</a></li>
+      <li><Link className="item-link" to={`/projects/${id}/changes`} onClick={close}>{t.Home_history}</Link></li>
+    </ul>}
+  </Drop>;
+}
+
 export function FileFind({ id, refName }) {
   const [open, setOpen] = useState(false);
   const btn = useRef(null);
@@ -215,11 +226,13 @@ async function gitlabTreeAll(id, ref) {
 
 export function CommitBar({ id, commit, count, more, path, owner, pipeline }) {
   const [note, copy] = useCopy();
+  const [showMessage, setShowMessage] = useState(false);
   if (!commit) return null;
   // 커밋 자료는 계정 이름(chrisryugj)만 준다. 그 계정이 이 프로젝트 소유자면 공개 이름을 쓴다.
   const org = owner && owner.path === commit.author_name ? owner.name : orgLabel(commit.author_name);
   return (
     <div className="rb-commit-bar" data-figma="commit-bar">
+      <div className="rb-commit-desktop">
       <Avatar className="rb-commit-avatar" src={owner?.avatar_url} name={org} />
       <span className="rb-commit-texts">
         <Link className="rb-plain-link krds-text-body-small-bold rb-ellipsis" to={`/projects/${id}/changes/${commit.id}`}>{commit.title}</Link>
@@ -238,6 +251,19 @@ export function CommitBar({ id, commit, count, more, path, owner, pipeline }) {
         </Link>
         <span className="sr-only" role="status" aria-live="polite">{note}</span>
       </p>
+      </div>
+      <div className="rb-commit-mobile">
+        <div className="rb-commit-mobile-main">
+          <Avatar className="rb-commit-avatar is-24" src={owner?.avatar_url} name={org} />
+          <Link className="rb-plain-link krds-text-body-xsmall-bold" to={`/projects/${id}/changes/${commit.id}`} title={commit.title}>{commit.short_id}</Link>
+          <span className="krds-text-body-xsmall rb-subtle"><Ago iso={commit.committed_date} /></span>
+        </div>
+        <div className="rb-commit-mobile-actions">
+          <IconButton icon="ellipsis_vertical" label={u.I_commitDescription} size="small" aria-expanded={showMessage} aria-controls={`commit-message-${commit.id}`} onClick={() => setShowMessage(!showMessage)} />
+          <Link className="krds-btn small tertiary" to={`/projects/${id}/changes${path ? `?path=${enc(path)}` : ''}`}>{t.Home_history}</Link>
+        </div>
+      </div>
+      <div className="rb-commit-mobile-details krds-text-body-xsmall" id={`commit-message-${commit.id}`} hidden={!showMessage}>{commit.message || commit.title}</div>
     </div>
   );
 }
@@ -271,7 +297,7 @@ export function FileTable({ id, path, items, log, pending, filter, refQuery }) {
             const c = log?.[f.path];
             const wait = !c && pending?.has(f.path);
             return (
-              <tr key={f.path}>
+              <tr data-figma="product/file_row" data-figma-key="" key={f.path}>
                 <td>
                   <Link className="rb-tree-name" to={`/projects/${id}/code/${f.path}${refQuery}`}>
                     {f.type === 'tree' ? <Icon name="ext/folder" label={t.P16_folder} /> : <FileIcon name={f.name} label={t.P16_file} />}

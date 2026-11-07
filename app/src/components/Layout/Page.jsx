@@ -1,3 +1,4 @@
+// Figma: page-head → page-head
 // 화면 바탕. data-screen-id는 Figma 섹션(P-번호)과 대조할 때 쓴다.
 import { plain } from '../Help/Phrase';
 import { t } from '../../copy/ko';

@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // 긴 글 접기(UX-007 14장): 정해진 줄 수(기본 3, 소개 4)까지만 보이고 나머지는 '더보기'로 펼친다. 펼치면 '접기'. 링크형 단추(KRDS 링크), nowrap, aria-expanded.
 import { useId, useLayoutEffect, useRef, useState } from 'react';
 import { u } from '../../copy/ui';

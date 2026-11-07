@@ -11,6 +11,7 @@ import { CommitDialog } from '../components/Write/CommitDialog';
 import { Readme } from '../components/Help/Readme';
 import { Icon } from '../components/Code/Icon';
 import '../components/Write/write.css';
+import { useAuth } from '../components/Identity/useAuth';
 
 const SCREEN = { new: 'R-27', edit: 'R-27', upload: 'R-28', branch: 'R-29' };
 
@@ -36,10 +37,10 @@ function Editor({ value, onChange, path }) {
   const markdown = /\.(md|markdown)$/i.test(path || '');
   return (
     <div className="rb-editor">
-      <div className="rb-editor-tabs" data-figma="tabs" role="tablist" aria-label={t.Write_editorLabel}>
+      {markdown ? <div className="rb-editor-tabs" data-figma="tabs" role="tablist" aria-label={t.Write_editorLabel}>
         <button type="button" role="tab" aria-selected={view === 'write'} className={'rb-code-view' + (view === 'write' ? ' active' : '')} onClick={() => setView('write')}>{g.fileEditTab}</button>
         {markdown ? <button type="button" role="tab" aria-selected={view === 'preview'} className={'rb-code-view' + (view === 'preview' ? ' active' : '')} onClick={() => setView('preview')}>{t.P16_viewPreview}</button> : null}
-      </div>
+      </div> : null}
       {view === 'write' ? (
         <textarea
           className="krds-input rb-editor-area"
@@ -61,9 +62,11 @@ export default function Write({ mode }) {
   const [search] = useSearchParams();
   const navigate = useNavigate();
   const frame = useProject();
+  const { signedIn } = useAuth();
   const branch = search.get('ref') || frame.data?.project.default_branch || 'main';
   const editPath = (params['*'] || '').replace(/\/$/, '');
-  const [name, setName] = useState(editPath);
+  // 공공 깃랩 새 파일 주소의 ?file_name=(예: 'README 추가' 링크)처럼 이름을 미리 채운다
+  const [name, setName] = useState(editPath || (mode === 'new' ? search.get('file_name') || '' : ''));
   const [text, setText] = useState('');
   const [files, setFiles] = useState([]);
   const [branchName, setBranchName] = useState('');
@@ -85,6 +88,24 @@ export default function Write({ mode }) {
     setCommitOpen(false);
     setDone(true);
   };
+
+  // 실제 공공 깃랩은 비로그인 쓰기 화면을 로그인으로 보낸다. 같은 자리에 로그인 안내(Figma R-27·28·29 Guest)
+  if (!signedIn) {
+    return (
+    <ProjectFrame screenId={SCREEN[mode]} tab="" tabLabel={title} crumbs={mode === 'branch' ? [[g.brTitle, `/projects/${id}/branches`], [title]] : [[g.repoLabel, `/projects/${id}/code`], [title]]} data={frame} state="Ideal" headExtra={mode === 'branch' ? null : (<div className="gl-histtop"><span className="rb-branch-btn"><Icon name="ext/branch" /><span className="rb-ellipsis">{branch}</span><Icon name="arrow-down" /></span><span className="gl-histproject">{project.path || project.name}</span></div>)}>
+      <div className="rb-write">
+        <div className="rb-write-head">
+          <p className="krds-text-body-xsmall rb-subtle">{t.fn.writeTarget(project.name, branch)}</p>
+        </div>
+        <section className="rb-write-gate">
+          <p className="krds-text-body-small-bold">{t.fn.writeNeedLogin(t[`Write_action_${mode === 'edit' ? 'new' : mode}`])}</p>
+          <p className="krds-text-body-small rb-subtle">{t.Write_needLoginHint}</p>
+          <Link className="krds-btn small primary" to={`/login?returnTo=${encodeURIComponent(window.location.pathname + window.location.search)}`}>{t.Header_login}</Link>
+        </section>
+      </div>
+    </ProjectFrame>
+    );
+  }
 
   return (
     <ProjectFrame screenId={SCREEN[mode]} tab="" tabLabel={title} crumbs={mode === 'branch' ? [[g.brTitle, `/projects/${id}/branches`], [title]] : [[g.repoLabel, `/projects/${id}/code`], [title]]} data={frame} state="Ideal" headExtra={mode === 'branch' ? null : (<div className="gl-histtop"><span className="rb-branch-btn"><Icon name="ext/branch" /><span className="rb-ellipsis">{branch}</span><Icon name="arrow-down" /></span><span className="gl-histproject">{project.path || project.name}</span></div>)}>

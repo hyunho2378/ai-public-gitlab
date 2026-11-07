@@ -12,29 +12,41 @@ import { ScreenModeOptions, useScreenMode } from '../components/Identity/ScreenM
 import { day } from './parts/repoCommon';
 import '../components/Write/write.css';
 import '../components/Code/code.css';
+import { useAuth } from '../components/Identity/useAuth';
+import { newWindow } from '../components/Layout/newWindow';
+import { StateTabs } from './P19_Issues';
+
+const GITLAB = 'https://gitlab.aigov.go.kr';
 
 /** 로그인해야 쓰는 화면에서 보여 주는 안내. 가짜 자료를 만들지 않는다. */
 function NeedLogin({ title, path }) {
   return (
     <EmptyState
       title={isStatic ? t.Write_cannotStatic : t.fn.needLogin(title)}
-      action={!isStatic ? <Link className="krds-btn small primary" to={`/login?returnTo=${encodeURIComponent(path)}`}>{t.Header_login}</Link> : null}
+      actions={!isStatic ? <Link className="krds-btn small primary" to={`/login?returnTo=${encodeURIComponent(path)}`}>{t.Header_login}</Link> : null}
     />
   );
 }
 
-/** G-06 알림. 로그인 전에는 받은 알림이 없다. */
+/** G-07 알림. 공공 깃랩 알림(todos)은 본인 계정에서만 읽을 수 있어 숫자·목록을 받지 않는다(지어내지 않음).
+ *  로그인 상태에서는 탭 이름만 두고 빈 상태에 이유와 원본으로 가는 다음 행동을 한 줄씩 둔다(부모 결정 M-23). */
 export function Notifications() {
-  const me = useData(async () => (await auth.session()), []);
-  const signedIn = !!me.data?.user;
+  const { signedIn, ready } = useAuth();
+  const [tab, setTab] = useState('unread');
   return (
-    <Page id="G-07" title={t.TabBar_alerts} state={signedIn ? 'Empty' : 'Empty'}>
+    <Page id="G-07" title={t.TabBar_alerts} state="Empty">
       <div className="rb-write">
         <div className="rb-write-head">
           <h1 className="krds-text-heading-small" data-figma="page-head">{t.TabBar_alerts}</h1>
           <p className="krds-text-body-xsmall rb-subtle">{t.Alerts_hint}</p>
         </div>
-        {!signedIn ? <NeedLogin title={t.TabBar_alerts} path="/notifications" /> : <EmptyState title={t.Alerts_none} />}
+        {ready && !signedIn ? <NeedLogin title={t.TabBar_alerts} path="/notifications" /> : null}
+        {signedIn ? (
+          <>
+            <div data-figma="tabs"><StateTabs value={tab} onChange={setTab} label={t.Alerts_tabs} items={[['unread', t.Alerts_unread], ['all', t.Alerts_all]]} /></div>
+            <EmptyState title={t.Alerts_none} actions={<a className="krds-btn small tertiary" href={`${GITLAB}/dashboard/todos`} {...newWindow(t.Alerts_open)}>{t.Alerts_open}</a>}>{t.Alerts_reason}</EmptyState>
+          </>
+        ) : null}
       </div>
     </Page>
   );
@@ -143,8 +155,9 @@ export function RepoGraph() {
   );
 }
 
-/** A-03 협업과 팀원 모집. 비슷한 도구를 만드는 사람을 잇는다(F-05). */
+/** A-09 협업과 팀원 모집. 비슷한 도구를 만드는 사람을 잇는다(F-05). 모집 글은 우리 서버 저장소 자료라 연결 전에는 숫자 없이 탭 이름만(부모 결정 M-23). */
 export function Collaborate() {
+  const [tab, setTab] = useState('open');
   return (
     <Page id="A-09" title={t.Collab_title} state="Empty">
       <div className="rb-write">
@@ -152,10 +165,8 @@ export function Collaborate() {
           <h1 className="krds-text-heading-small">{t.Collab_title}</h1>
           <p className="krds-text-body-xsmall rb-subtle">{t.Collab_hint}</p>
         </div>
-        <EmptyState
-          title={t.Collab_none}
-          action={<Link className="krds-btn small primary" to="/requests">{t.Collab_toRequests}</Link>}
-        />
+        <div data-figma="tabs"><StateTabs value={tab} onChange={setTab} label={t.Collab_tabs} items={[['open', t.Collab_open], ['doing', t.Collab_doing], ['done', t.Collab_done]]} /></div>
+        <EmptyState title={t.Collab_none} actions={<Link className="krds-btn small primary" to="/requests">{t.Collab_toRequests}</Link>}>{t.Collab_reason}</EmptyState>
         <p className="krds-text-body-xsmall rb-subtle">{t.Collab_notice}</p>
       </div>
     </Page>

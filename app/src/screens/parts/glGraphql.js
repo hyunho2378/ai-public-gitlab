@@ -24,6 +24,7 @@ export async function gql(query, variables = {}) {
 }
 
 export const Q = {
+  issueNotes: `query($p:ID!,$i:String!){project(fullPath:$p){issue(iid:$i){discussions(first:30){nodes{notes{nodes{body createdAt system author{name username avatarUrl}}}}}}}}`,
   labels: `query($p:ID!){project(fullPath:$p){labels(first:100){nodes{title color textColor description}}}}`,
   board: `query($p:ID!){project(fullPath:$p){boards(first:5){nodes{name}} open:issues(first:20,state:opened){count nodes{iid title webUrl}} closed:issues(first:20,state:closed){count nodes{iid title webUrl}}}}`,
   milestones: `query($p:ID!){project(fullPath:$p){milestones(first:50){nodes{title state dueDate startDate description}}}}`,

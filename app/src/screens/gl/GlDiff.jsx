@@ -193,7 +193,7 @@ export function GlDiff({ files, id, refName, webUrl }) {
   const setAll = (v) => setClosed(Object.fromEntries(files.map((_, i) => [i, v])));
   return (
     <div className="gl-diff">
-      <div className="gl-diff-bar">
+      <div className="gl-diff-bar" data-figma="gl-diff-bar">
         <IconButton icon={panel ? 'panel_close' : 'panel_open'} label={panel ? g.hideTree : g.showTree} size="medium" aria-expanded={panel} onClick={() => setPanel(!panel)} />
         <p className="gl-diff-total">
           <Icon name="document" /><span>{g.filesN(files.length)}</span><Stat add={total.add} del={total.del} />
@@ -207,7 +207,7 @@ export function GlDiff({ files, id, refName, webUrl }) {
       </div>
       <div className={'gl-diff-main' + (panel ? ' has-panel' : '')} data-figma="diff-area">
         {panel ? (
-          <aside className="gl-panel" aria-label={g.files}>
+          <aside className="gl-panel" data-figma="diff-tree" aria-label={g.files}>
             <div className="gl-panel-head">
               <p className="gl-panel-title">{g.files}<span className="gl-tab-count">{files.length}</span></p>
               <div className="gl-seg" role="group" aria-label={g.viewMode}>
@@ -217,7 +217,7 @@ export function GlDiff({ files, id, refName, webUrl }) {
             </div>
             <div className="gl-filter-field">
               <input type="search" className="gl-filter-input" value={q} placeholder={g.fileFilter} aria-label={g.fileFilter} onChange={(e) => setQ(e.target.value)} />
-              <span className="gl-filter-go"><Icon name="search" /></span>
+              <span className="gl-filter-go" data-figma="filter-search"><Icon name="search" /></span>
             </div>
             {view === 'tree' && !q ? <TreeNode node={treeOf(files)} stats={stats} /> : (
               <ul className="gl-pl-list">{shown.map((i) => <FileLine key={i} name={nameOf(files[i])} index={i} stat={stats[i]} />)}</ul>

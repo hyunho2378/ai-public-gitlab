@@ -34,6 +34,7 @@ import { Branches, Tags, Releases } from '../screens/P18_Refs';
 import { Issues, Issue } from '../screens/P19_Issues';
 import { MergeRequests, MergeRequest } from '../screens/P20_MergeRequests';
 import Contributors from '../screens/P21_Contributors';
+import Profile, { ProfileProjects, ProfileStarred } from '../screens/P33_Profile';
 
 const SECTION_ID = { boards: 'R-13', labels: 'R-14', milestones: 'R-15', pipelines: 'R-18', packages: 'R-20', wiki: 'R-21', snippets: 'R-22', members: 'R-23', activity: 'R-24' };
 
@@ -93,6 +94,9 @@ export const routes = [
   { id: 'R-25', path: '/projects/:id/analytics', Screen: RepoAnalytics },
   { id: 'R-25g', path: '/projects/:id/graph', Screen: RepoGraph },
   { id: 'G-05', path: '/projects/new', Screen: NewProject },
+  { id: 'G-12', path: '/users/:username', Screen: Profile },
+  { id: 'G-12', path: '/users/:username/projects', Screen: ProfileProjects },
+  { id: 'G-12', path: '/users/:username/starred', Screen: ProfileStarred },
   { id: 'G-01', path: '/explore', Screen: Explore },
   { id: 'G-01t', path: '/explore/topics', Screen: ExploreTopics },
   { id: 'G-01s', path: '/explore/snippets', Screen: ExploreSnippets },

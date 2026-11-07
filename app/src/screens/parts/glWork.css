@@ -34,3 +34,9 @@
 .gl-filter-tools { display: inline-flex; align-items: center; gap: var(--krds-gap-2); flex: none; }
 .gl-filter-tools .rb-iconbtn { width: var(--layout-filter-control-h); height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
 #root .gl-work-filter .krds-btn.rb-iconbtn { width: var(--layout-filter-control-h); height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+
+/* M-8 공통 필터: 지우기/검색은 붙어 있는32칸. 내부 gap8이 모바일 넘침을 만들었다. */
+.gl-work-filter .gl-work-bar { column-gap: 0; }
+/* 필터의 아이콘 조작은 Figma의 각진 기본형. 바깥 IconButton 크기/초점은 그대로 둔다. */
+#root .gl-work-filter .rb-iconbtn,
+#root .gl-filter-tools .rb-iconbtn { border-radius: 0; }

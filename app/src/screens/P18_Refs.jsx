@@ -20,7 +20,7 @@ const when = (c) => new Date(c?.committed_date || c?.created_at || 0).getTime();
 const ago = (iso) => (iso ? t.fn.ago(iso) : '');
 
 function Rss({ href }) {
-  return <IconButton icon="ext/rss" label={g.rss} size="medium" onClick={() => window.open(href, '_blank', 'noopener,noreferrer')} />;
+  return <IconButton icon="ext/rss" label={g.rss} size="small" onClick={() => window.open(href, '_blank', 'noopener,noreferrer')} />;
 }
 
 function RefRow({ id, project, name, commit, isBranch, flags }) {
@@ -77,7 +77,7 @@ export function Branches() {
   return (
     <ProjectFrame screenId="R-07" tab="" tabLabel={g.brTitle} data={frame} state={list ? (list.length ? (list.length === 1 ? 'Min' : 'Ideal') : 'Empty') : body.state}>
       <div className="gl-page">
-        <div className="gl-tabs" data-figma="gl-tabs" role="tablist" aria-label={g.brTitle}>
+        <div className="gl-tabs is-compact" data-figma="gl-tabs" role="tablist" aria-label={g.brTitle}>
           {tabs.map(([k, name, n]) => (
             <button key={k} type="button" role="tab" aria-selected={tab === k} className="gl-tab" onClick={() => setTab(k)}>
               <span>{name}</span>{n != null ? <span className="gl-tab-count">{n}</span> : null}
@@ -123,7 +123,7 @@ export function Tags() {
         <p className="gl-intro">{g.tagIntro}</p>
         {!list ? <Status {...body} /> : (
           <div>
-            <div className="gl-bar is-top" data-figma="gl-filter">
+            <div className="gl-bar is-top gl-tags-filter" data-figma="gl-filter">
               <FilterField value={query} onChange={setQuery} placeholder={g.tagFilter} />
               <SortControl options={[['updated', g.sortUpdated], ['name', g.sortName]]} value={sort} onChange={setSort} desc={desc} onDir={() => setDesc(!desc)} />
             </div>

@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // 제작자 설명(README) 그리기는 Markdown.jsx. 이 파일은 README에서 명령과 구역만 뽑는 도우미(RunSteps, 사용 방법 화면)와 Readme 껍데기다.
 import { Markdown } from './Markdown';
 export function splitReadme(source) {

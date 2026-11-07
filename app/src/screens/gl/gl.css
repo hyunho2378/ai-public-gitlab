@@ -212,7 +212,7 @@
 .gl-crow-line { padding: var(--krds-number-4) var(--krds-number-6); }
 .gl-crow .rb-avatar.is-32, .gl-cbar .rb-avatar.is-32 { border-radius: var(--krds-radius-max); }
 .gl-crow .gl-ref-name a { font-weight: var(--rb-fw-current); }
-.gl-crow .rb-pill, .gl-chip, .gl-badge { display: inline-flex; align-items: center; gap: var(--krds-gap-2); padding: 0 var(--krds-number-5); border: 0; border-radius: var(--krds-radius-max); background: var(--layout-divider); color: var(--krds-color-text-basic); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); text-decoration: none; }
+.gl-crow .rb-pill, .gl-chip, .gl-badge { display: inline-flex; align-items: center; gap: var(--krds-gap-2); padding: 0 var(--krds-number-5); border: 0; border-radius: var(--krds-radius-medium3); background: var(--layout-divider); color: var(--krds-color-text-basic); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); text-decoration: none; }
 .gl-badge.is-primary { background: var(--rb-status-primary); color: var(--krds-color-text-inverse); }
 .gl-filled { background: var(--layout-divider); }
 .gl-ref-row { background: var(--layout-raised-bg); }
@@ -227,6 +227,8 @@
 .gl-crow .gl-fold.is-open { transform: rotate(180deg); }
 .gl-filter-lead { display: inline-flex; align-items: center; height: 100%; padding: 0 var(--krds-number-3); border-inline-end: var(--krds-border-width-static-regular) solid var(--layout-panel-border); }
 .gl-filter-lead .rb-iconbtn { height: 100%; }
+#root .gl-filter-lead > .krds-drop-wrap { display: flex; height: 100%; }
+#root .gl-filter-lead .gl-history-btn { height: 100%; min-height: 0; }
 .gl-ref-name.is-lg { font-size: var(--rb-step-17); line-height: var(--rb-lh-17); }
 .gl-filled[aria-pressed='true'] { background: var(--layout-head-bg); }
 .gl-sha { padding: var(--krds-number-2) var(--krds-number-5); border-radius: var(--krds-radius-medium3); background: var(--layout-divider); }
@@ -263,3 +265,79 @@
 #root .gl-page > .gl-tabs + * { margin-top: calc((var(--rb-section-gap) + var(--krds-number-4)) * -1); }
 #root .gl-page > .gl-intro + * { margin-top: calc(var(--krds-number-6) - var(--rb-section-gap)); }
 #root .gl-page > .gl-head + .gl-intro { margin-top: calc(var(--krds-number-4) - var(--rb-section-gap)); }
+
+/* M-7 R-02: 실측 padding 자료 없음. Figma 11067:964807 commit-bar padding12/gap12를 적용한다. */
+#root .rb-commit-bar { padding: var(--krds-number-7); gap: var(--krds-number-7); }
+/* M-7 R-05: Figma 11067:1007492 page-head 안쪽8/0/8/0, 간격12.
+   제목줄 버튼은 32로 맞춰 위 안쪽을 늘려도 PC 전체 높이49를 유지한다. */
+#root .gl-commit-head { padding-top: var(--krds-number-5); gap: var(--krds-number-7); }
+#root .gl-commit-head .krds-btn { min-height: var(--layout-filter-control-h); height: var(--layout-filter-control-h); }
+/* M-7 R-04: Figma 11067:1043507 제목줄 아래8. 다른 목록 사이 간격은 바꾸지 않는다. */
+#root .gl-pagehead + .gl-bar.is-bare { margin-top: calc(var(--krds-number-5) - var(--rb-section-gap)); }
+/* M-7 R-08: D-21 7-2 필터 안쪽16 + 조작32 + 위 선1 =65.
+   원본 small 버튼40이 74를 만들던 원인만 이 화면에서 보정한다. */
+#root .gl-tags-filter { border-width: var(--krds-border-width-static-regular) 0 0; }
+#root .gl-tags-filter .krds-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+@media (max-width: 767px) {
+  #root .gl-tags-filter { flex-wrap: wrap; }
+  #root .gl-tags-filter > .gl-filter-field { flex-basis: 100%; }
+}
+
+/* M-9 공통 검색 끝 슬롯: 부모 테두리 안쪽30 높이를 상속하지 않고32칸 유지. */
+.gl-filter-go { box-sizing: border-box; flex: none; width: var(--layout-filter-control-h); height: var(--layout-filter-control-h); padding: 0; border-color: var(--layout-panel-border); }
+.gl-filter-go .rb-icon { width: var(--krds-number-8); height: var(--krds-number-8); }
+
+/* M12: 기본 탭은48 조작칸+아래 선1. 압축 탭은40 조작칸 안에 선택 선을 둔다. */
+#root .gl-tab { margin-bottom: 0; }
+#root .gl-tabs.is-compact { border-bottom: 0; }
+#root .gl-tabs.is-compact > .gl-tab { min-height: var(--krds-size-height-6); height: var(--krds-size-height-6); }
+#root .gl-page > .gl-tabs.is-compact + * { margin-top: calc(var(--rb-section-gap) * -1); }
+/* 공통 필터 면은 위 선만 남겨65. 붙는 목록 제목도 본문 폭과 첫 행 간격8을 공유한다. */
+#root .gl-bar:not(.is-bare) { border-width: var(--krds-border-width-static-regular) 0 0; color: var(--krds-color-text-subtle); }
+#root .gl-box.is-attached { border-inline: 0; margin-top: var(--krds-gap-3); }
+@media (max-width: 767px) {
+  #root .gl-page-title { font-size: var(--layout-title-page-sm); line-height: var(--layout-title-page-sm-lh); }
+}
+/* 필터 바 밖 머리글에 놓인 SortControl도 같은32 조작칸을 쓴다. */
+#root .gl-sort .drop-btn { height: var(--layout-filter-control-h); min-height: var(--layout-filter-control-h); }
+/* M13 R-05 모바일: 실제 커밋 화면 360(.page-content-header h128.68 = 안쪽10 + 제목줄34.5 + '파일 찾아보기' 전체폭32 + 아래8 + '옵션' 자연폭32 + 안쪽10)을
+   KRDS 4배수로 옮긴다. 안쪽8, 제목줄→조작8, 조작 사이8, 조작칸32. 데스크톱 한 줄 배치는 그대로. */
+@media (max-width: 767px) {
+  #root .gl-commit-head { display: block; padding-block: var(--krds-number-4); }
+  #root .gl-commit-head > .gl-head-actions { flex-direction: column; align-items: flex-start; gap: var(--krds-number-4); margin-top: var(--krds-number-4); }
+  #root .gl-commit-head > .gl-head-actions > .krds-btn { align-self: stretch; justify-content: center; }
+}
+/* M13 R-02: 폴더 제목 안 글 span이 기본 행간1.5(48)를 가져 제목줄이48이 되던 원인. 실제 h1 행37.5+위4=41.5를 KRDS32/40으로 맞춘다. */
+#root .gl-filetitle-name > span { line-height: inherit; }
+/* M13: 탭이 본문 폭보다 길면(R-17 360에서 '변경사항'이 99 넘침) 실제 공공 깃랩처럼 탭 줄 안에서 가로로 민다. 문서 가로 넘침0 */
+@media (max-width: 767px) {
+  #root .gl-tabs { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; }
+  #root .gl-tabs > * { flex: none; }
+}
+/* M14 R-02: 하위 폴더 제목 줄(폴더 이름 + 파일 찾기·코드). 실제 .tree-controls처럼 오른쪽, 좁으면 줄바꿈 */
+.gl-filetitle-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--krds-gap-3); min-width: 0; }
+.gl-filetitle-row > .gl-filetitle-name { flex: 1 1 auto; }
+/* M15 R-02 360: 실측 하위 폴더 머리(360) h1 24/30 → KRDS 24/32, 아래16에 '파일 찾기' 전체폭32, 그 아래8에 '코드' 전체폭32(.tree-controls 세로).
+   공통 모바일 화면 제목 단계(--layout-title-page-sm)를 쓰고 '코드'는 좁은 화면에서도 글 단추(실제와 같음). 더보기는 '코드' 옆 32 */
+@media (max-width: 767px) {
+  #root .gl-filetitle-row { flex-direction: column; align-items: stretch; gap: var(--krds-gap-5); }
+  #root .gl-filetitle-row > .gl-filetitle-name { font-size: var(--layout-title-page-sm); line-height: var(--layout-title-page-sm-lh); }
+  #root .gl-filetitle-row > .rb-toolbar-right { display: flex; flex-wrap: wrap; gap: var(--krds-gap-3); width: 100%; }
+  #root .gl-filetitle-row > .rb-toolbar-right > .rb-find-btn { flex: 1 0 100%; justify-content: center; }
+  #root .gl-filetitle-row > .rb-toolbar-right > .rb-drop:not(:last-child) { flex: 1 1 auto; }
+  #root .gl-filetitle-row > .rb-toolbar-right > .rb-drop:not(:last-child) > .drop-btn { width: 100%; justify-content: center; }
+  #root .gl-filetitle-row .rb-drop-full { display: inline-flex; }
+  #root .gl-filetitle-row .rb-drop-compact { display: none; }
+}
+/* M15 R-05(부모 결정): 머리줄48 바로 아래 트리320 + 열 간격24 + 파일 열 남은 폭. 첫 파일 전체 펼침(줄 자르지 않음).
+   1023 이하는 트리 숨김(실측 768·360 숨김. 실측 1023은 보이지만 KRDS 구간1024로 맞춘 결정) */
+#root .gl-diff { gap: 0; }
+#root .gl-diff-bar { min-height: var(--layout-diff-head-h); }
+#root .gl-diff-main.has-panel { grid-template-columns: var(--layout-diff-tree-w) minmax(0, 1fr); column-gap: var(--layout-gutter); }
+@media (max-width: 1023px) {
+  #root .gl-diff-main.has-panel { grid-template-columns: minmax(0, 1fr); }
+  #root .gl-diff-main.has-panel > .gl-panel { display: none; }
+  #root .gl-diff-bar > .rb-iconbtn:first-child { display: none; }
+}
+/* M16 R-04: 필터 입력칸 안 자리표시·아이콘은 보조색(실제 공공 깃랩 필터 칸). 입력한 글은 .gl-filter-input이 본문색으로 따로 정한다 */
+#root .gl-filter-field { color: var(--krds-color-text-subtle); }

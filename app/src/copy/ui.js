@@ -1,5 +1,6 @@
 // 새로 추가한 화면 문구(글자 크기 설정). ko.js와 같은 규칙(명사 나열, 문장형 설명 없음)을 따른다. 다음 정리 때 ko.js로 합친다.
 export const u = {
+  I_commitDescription: '커밋 설명',
   Font_title: "글자 크기",
   Font_normal: "보통",
   Font_large: "크게",
@@ -119,6 +120,7 @@ export const u = {
   // D-21 전역 틀: 공공 깃랩 화면 말 그대로
   Sys_band: "AI 정부 실험실 공공 GitLab 저장소",
   Sys_bandBoard: "프로젝트 현황판",
+  // 프로젝트 현황판 원본 주소(VITE_DASHBOARD_URL이 없을 때 쓰는 기본값)
   Sys_bandBoardUrl: "axboard.aigov.go.kr",
   G_explore: "탐색",
   G_project: "프로젝트",
@@ -176,6 +178,7 @@ export const u = {
   RA_langHint: "코드는 바이트 단위로 측정. 생성 코드, 외부 업체 코드는 제외",
   RA_langAxis: "사용되는 프로그래밍 언어(퍼센트)",
   RA_covTitle: "코드 커버리지 통계",
+  RA_covAxis: "코드 커버리지(퍼센트)",
   RA_covNone: "코드 커버리지 데이터 없음",
   RA_covBody: "공개 저장소에서 읽을 수 있는 커버리지 결과가 없음",
   RA_commitTitle: "커밋 통계",

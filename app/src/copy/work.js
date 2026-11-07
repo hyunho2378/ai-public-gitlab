@@ -86,3 +86,25 @@ export const p1 = {
 export const rq = { byVotes: '공감 많은 순', recent: '최근', mine: (n) => `내가 쓴 요청 ${n}`, code: '코드' };
 
 export const bd = { display: '표시 옵션', settings: '보드 설정', expand: '확대' };
+
+// G-12 사용자 프로필(공공 GitLab 사용자 화면 문구 그대로, 2026. 11. 7. 캡처 70)
+export const pf = {
+  side: '프로필',
+  activity: '활동', groups: '그룹', contributed: '기여한 프로젝트', personal: '개인 프로젝트', starred: '별점 부여된 프로젝트', snippets: '스니펫', followers: '팔로워', following: '팔로잉',
+  viewAll: '모두 보기',
+  calCaption: '이슈, 머지 리퀘스트, 푸시 및 댓글.',
+  calAria: (n) => `최근 1년 활동 ${n}건`,
+  calCell: (d, n) => `${d} 활동 ${n}건`,
+  calPartial: (n) => `최근 활동 ${n}건 기준`,
+  less: '적음', more: '많음',
+  calRows: ['', '월', '', '수', '', '금', ''],
+  calMonth: (m) => `${m}월`,
+  info: '정보',
+  personalCount: (n) => `개인 프로젝트 ${n}개`,
+  starredCount: (n) => `별점 부여된 프로젝트 ${n}개`,
+  openOriginal: '공공 GitLab 프로필',
+  at: 'at',
+  none: '표시할 활동이 없습니다.',
+  noUser: '사용자를 찾을 수 없습니다.',
+  noProjects: '표시할 프로젝트가 없습니다.',
+};

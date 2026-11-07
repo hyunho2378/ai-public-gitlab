@@ -1,3 +1,4 @@
+// Figma: 호출부 전달 / 내부 부품 → 대응 미등록(실제 Figma 확인 필요)
 // R-30 따라 하기. README에 실제로 적힌 명령만 단계로 만든다.
 // 명령을 지어내지 않는다. 단계마다 README 몇 행에서 가져왔는지 밝힌다.
 import { IconButton } from '../Action/IconButton';
@@ -41,7 +42,7 @@ export function RunSteps({ readme, cloneUrl }) {
   const steps = buildSteps(readme, cloneUrl);
   if (!steps.length) return null;
   return (
-    <section className="rb-run" aria-labelledby="run-title">
+    <section data-figma="steps" className="rb-run" aria-labelledby="run-title">
       <div className="rb-run-head">
         <h3 id="run-title" className="krds-text-body-small-bold">{t.Run_title}</h3>
         <p className="krds-text-body-xsmall rb-subtle">{t.Run_from}</p>

@@ -59,6 +59,10 @@
   --rb-header-h: var(--krds-number-16);
   /* D-14 끝절: 줄 높이 */
   --rb-row-h: var(--krds-number-14);
+  /* D-21 실제 파일 행42. D-14의 일반 밀도40과 분리한다(표 머리는40 유지). */
+  --layout-file-row-h: calc(var(--krds-number-14) + var(--krds-number-2));
+  /* M-12 실제 검색 논리 열228 = 시각 필터240 - 왼쪽 겹침12. 바깥 D-21 여백 유지. */
+  --layout-search-scope-w: calc(var(--krds-number-21) * 2 + var(--krds-number-12) + var(--krds-number-3));
   --rb-side-item-h: var(--krds-number-12);
   /* UX-007 12장 메뉴: 항목 높이 32, 폭 160~320(가장 긴 항목 + 좌우 12), 화면 가장자리 12 */
   --rb-menu-item-h: var(--krds-number-12);
@@ -73,7 +77,7 @@
   /* D-21(Figma R-02, R-03): 이 폭(단위 없음) 이상에서만 파일 트리를 보인다 */
   --rb-bp-tree: 1440;
   /* D-17 5장: 이 폭(단위 없음) 이상에서만 정보 영역이 본문 옆에 놓이고 홈에서 열림이 기본이다. 미만이면 본문 위로 올라가 닫힘이 기본이다 */
-  --rb-bp-info-side: 1024;
+  --rb-bp-info-side: 1280;
   /* 글자 크기 네 단계(KRDS 값 그대로). 행간은 짝수 px */
   --rb-step-13: 1.3rem;
   --rb-step-15: 1.5rem;
@@ -199,15 +203,15 @@
   --layout-repo-title-lh: var(--layout-title-project-lh);
   /* v2 색 층(공공 깃랩 rgb → 가장 가까운 KRDS gray 단계). 바깥(세로 바, 상단 바) 5,5,6 → gray-100, 판 24,23,29 → gray-95, 판 테두리 58,56,63 → gray-80,
      필터 막대와 현재 항목 40,39,45 → gray-90, 필터 위 선과 행 구분선 76,75,81 → gray-70, 주제 알약 164,163,168 → gray-30(글자 24,23,29 → gray-95), 보조 글자 191,191,195 → gray-20 */
-  --layout-shell-bg: var(--krds-color-light-gray-100);
-  --layout-panel-bg: var(--krds-color-light-gray-95);
-  --layout-panel-border: var(--krds-color-light-gray-80);
-  --layout-raised-bg: var(--krds-color-light-gray-90);
-  --layout-head-bg: var(--krds-color-light-gray-80);
-  --layout-divider: var(--krds-color-light-gray-70);
-  --layout-topic-bg: var(--krds-color-light-gray-30);
+  --layout-shell-bg: var(--krds-color-light-gray-5);
+  --layout-panel-bg: var(--krds-color-light-gray-0);
+  --layout-panel-border: var(--krds-color-light-gray-20);
+  --layout-raised-bg: var(--krds-color-light-gray-10);
+  --layout-head-bg: var(--krds-color-light-gray-20);
+  --layout-divider: var(--krds-color-light-gray-30);
+  --layout-topic-bg: var(--krds-color-light-gray-20);
   --layout-topic-text: var(--krds-color-light-gray-95);
-  --layout-text-subtle: var(--krds-color-light-gray-20);
+  --layout-text-subtle: var(--krds-color-light-gray-70);
   /* 머리글자 타일 7색: KRDS 원색 50 + 흰 글자(대비 계산은 UX/gitlab_compare/v2/measure.md 5절) */
   --layout-tone-0: var(--krds-color-light-primary-50);
   --layout-tone-1: var(--krds-color-light-success-50);
@@ -221,6 +225,23 @@
   --layout-gutter: var(--krds-number-10);
   --layout-section-gap: var(--krds-number-10);
   --layout-info-col: calc(var(--krds-number-12) * 9 + var(--krds-number-5));
+  /* 커밋 변경 파일 트리 열(부모 결정 11. 7.: 실측 .rd-app-sidebar 목록 320). 파일 열은 남은 폭 전부, 사이 --layout-gutter */
+  --layout-diff-tree-w: calc(var(--krds-number-12) * 10);
+  /* 변경 파일 머리줄(실측 .rd-app-header 48) */
+  --layout-diff-head-h: calc(var(--krds-number-12) + var(--krds-number-8));
+  /* G-12 사용자 프로필(공공 GitLab 캡처 70): 아바타 96, 활동 달력 칸 12, 사이 2, 달 이름 줄 20 */
+  --layout-profile-avatar: calc(var(--krds-number-12) * 3);
+  --layout-cal-cell: 1.2rem; /* 1023 이하 1.0rem(아래 미디어 구간) */
+  --layout-cal-gap: var(--krds-number-2); /* 2 고정(gap-1은 PC에서 4로 바뀜) */
+  --layout-cal-dow-w: var(--krds-number-9); /* 요일 열 20 고정 */
+  --layout-cal-month-h: var(--krds-size-height-3);
+  --layout-profile-avatar-sm: calc(var(--krds-number-12) * 2);
+  /* 활동 단계 색: 0은 회색 면, 1~4는 KRDS 주색 단계(밝은 화면은 진할수록 많음) */
+  --layout-cal-0: var(--krds-color-light-gray-10);
+  --layout-cal-1: var(--krds-color-light-primary-20);
+  --layout-cal-2: var(--krds-color-light-primary-40);
+  --layout-cal-3: var(--krds-color-light-primary-50);
+  --layout-cal-4: var(--krds-color-light-primary-70);
   /* 앱 안 이름(위 값을 그대로 가리킨다) */
   --rb-container-w: var(--layout-container-max);
   --rb-gbar-pad-x: var(--layout-topbar-pad-x);
@@ -290,6 +311,7 @@ html.rb-font-large {
   --rb-lh-17: 2.8rem;
 }
 
+/* D-21 7장(사용자 확정): 판 안 좌우 여백 1280 이상 48, 1024~1279 32, 768~1023 24, 768 미만 16. 1279 구간은 KRDS 공식 구간 밖이지만 사용자 결정이라 유지 */
 @media (max-width: 1279px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-md); } }
 @media (max-width: 1023px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x); } }
 @media (max-width: 767px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-sm); --rb-gutter: var(--layout-container-pad-x-sm); } }
@@ -307,3 +329,29 @@ html.rb-font-large {
 html.rb-reduce-motion { --rb-motion-fast: 0ms; --rb-motion-base: 0ms; --rb-motion-slow: 0ms; --rb-tip-delay: 0ms; }
 
 html.rb-snap-on { --rb-top-extra: var(--krds-number-10); }
+
+/* 어두운 화면과 선명한 화면: 바탕이 어두우므로 밝을수록 많음(공공 GitLab 어두운 화면 달력과 같은 방향) */
+html[data-krds-mode="dark"], html[data-krds-mode="high-contrast"] {
+  --layout-cal-0: var(--layout-raised-bg);
+  --layout-cal-1: var(--krds-color-light-primary-80);
+  --layout-cal-2: var(--krds-color-light-primary-60);
+  --layout-cal-3: var(--krds-color-light-primary-40);
+  --layout-cal-4: var(--krds-color-light-primary-20);
+}
+
+@media (max-width: 1023px) {
+  :root { --layout-cal-cell: 1rem; }
+}
+
+/* D-01: 어두운 화면의 고정 회색 층은 어두운 모드에만 적용한다. 밝은 모드의 글자와 면 대비를 보장한다. */
+html[data-krds-mode="dark"], html[data-krds-mode="high-contrast"] {
+  --layout-shell-bg: var(--krds-color-light-gray-100);
+  --layout-panel-bg: var(--krds-color-light-gray-95);
+  --layout-panel-border: var(--krds-color-light-gray-80);
+  --layout-raised-bg: var(--krds-color-light-gray-90);
+  --layout-head-bg: var(--krds-color-light-gray-80);
+  --layout-divider: var(--krds-color-light-gray-70);
+  --layout-topic-bg: var(--krds-color-light-gray-30);
+  --layout-topic-text: var(--krds-color-light-gray-95);
+  --layout-text-subtle: var(--krds-color-light-gray-20);
+}

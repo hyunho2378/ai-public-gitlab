@@ -11,7 +11,6 @@ import { ProjectList } from '../components/Layout/StructuredList';
 import { LoginRequiredModal } from '../components/Feedback/LoginRequiredModal';
 import { FormField, requireFields } from '../components/Input/FormField';
 import { Button, LinkButton } from '../components/Action/Button';
-import { Steps } from '../components/Navigation/StepIndicator';
 import { EmptyState } from '../components/Feedback/Status';
 
 const STEPS = [t.P09_1, t.P04_10, t.P09_2];
@@ -66,7 +65,8 @@ export default function Publish() {
     <Page id="G-05c" title={t.Header_4} state={check ? (allPass ? 'Pass' : 'NeedsWork') : step === 0 && similar ? 'Similar' : 'Ideal'}>
       <h1 className="krds-text-heading-small" data-figma="page-head">{phrase(t.Header_4)}</h1>
       <p className="rb-subtle">{phrase(t.P09_11)}</p>
-      <Steps label={t.P09_12} labels={STEPS} current={step} />
+      {/* 결정(부모, 11. 7.): 단계 표시 장식 금지. 지금 단계 이름만 절 제목으로 둔다(흐름·내용 그대로) */}
+      <h2 className="krds-text-body-small-bold" data-figma="section-title">{STEPS[step]}</h2>
 
       {step === 0 && (
         <form className="rb-stack rb-form" onSubmit={findSimilar} noValidate>

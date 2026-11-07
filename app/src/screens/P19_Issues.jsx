@@ -1,3 +1,4 @@
+// Figma: product/issue_row (data-figma), 기존 화면 상자는 data-figma-key
 // P-19 이슈 목록과 상세(F-31 연동). GitHub Issues 목록 구성: 열림/닫힘, 제목, 라벨, 번호, 날짜, 댓글 수.
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
@@ -22,6 +23,10 @@ import { day } from './parts/repoCommon';
 import '../components/Code/code.css';
 import './parts/glWork.css';
 import './parts/glRepo.css';
+import { ActivityNotes } from './parts/ActivityNotes';
+import { CommentBox } from './parts/CommentBox';
+import { gql, Q } from './parts/glGraphql';
+import { useAuth } from '../components/Identity/useAuth';
 
 export function StateTabs({ value, onChange, items, label }) {
   return (
@@ -89,7 +94,7 @@ export function Issues() {
             <IconButton icon="close" data-figma="filter-clear" label={w2.clearFilter} onClick={() => { setQuery(''); setSt('opened'); }} />
             <FilterSearch label={u.List_searchLabel} />
           </div>
-          <Drop label={w.display} align="right" button={<span>{w.display}</span>}>
+          <Drop label={w.display} align="right" toggle={false} button={<><Icon name="ext/sliders" /><span>{w.display}</span></>}>
             {(close) => (
               <ul className="drop-list" aria-label={u.List_sort}>
                 {SORTS.map(([k, n]) => (
@@ -105,7 +110,7 @@ export function Issues() {
             {list.length ? (
               <ul className="rb-row-list">
                 {list.map((i) => (
-                  <li className="rb-row" key={i.iid}>
+                  <li className="rb-row" data-figma="product/issue_row" data-figma-key="" key={i.iid}>
                     <div className="rb-row-main">
                       <p className="rb-row-title">
                         <Link className="krds-link krds-text-body-small rb-ellipsis" to={`/projects/${frame.id}/issues/${i.iid}`}>{i.title}</Link>
@@ -145,6 +150,13 @@ export function Issue() {
   const { iid } = useParams();
   const frame = useProject();
   const body = useData(async () => (await gitlab.issue(frame.id, iid)).data, [frame.id, iid]);
+  const { signedIn } = useAuth();
+  const path = frame.data?.project?.path_with_namespace;
+  // 실제 작업 항목 화면처럼 활동(댓글·상태 변경)을 공개 GraphQL에서 읽는다(REST notes는 비로그인 401)
+  const notes = useData(async () => {
+    if (!path) return [];
+    try { return ((await gql(Q.issueNotes, { p: path, i: String(iid) })).project.issue?.discussions?.nodes || []).flatMap((d) => d.notes.nodes); } catch { return []; }
+  }, [path, iid]);
   if (!frame.data) return <ProjectFrame screenId="R-12" data={frame} />;
   const i = body.data;
   return (
@@ -163,6 +175,8 @@ export function Issue() {
             </p>
           </div>
           <div className="rb-detail-body">{i.description ? <Readme source={i.description} /> : <p className="rb-subtle">{t.P19_noBody}</p>}</div>
+          <ActivityNotes notes={notes.data || []} signedIn={signedIn} />
+          {signedIn ? <CommentBox webUrl={i.web_url} /> : null}
         </div>
       )}
     </ProjectFrame>

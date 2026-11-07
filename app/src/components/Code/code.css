@@ -41,7 +41,8 @@
 .rb-drop-compact { display: none; }
 .rb-drop-open .drop-menu { display: block; left: auto; right: 0; transform: none; }
 .rb-drop .drop-list .item-link { width: 100%; text-align: left; background: none; border: 0; cursor: pointer; }
-.rb-tree-block { display: flex; flex-direction: column; min-width: 0; }
+/* 실제 트리 화면(1440 실측): .project-last-commit 아래 margin16 뒤 파일 표. Figma R-01/R-02/A-02 모든 폭도 16 */
+.rb-tree-block { display: flex; flex-direction: column; gap: var(--krds-gap-5); min-width: 0; }
 .rb-commit-bar { display: flex; flex-wrap: nowrap; align-items: center; justify-content: space-between; gap: var(--krds-gap-3); padding: var(--krds-padding-4) var(--krds-padding-5); background: var(--krds-color-surface-gray-subtler); border-radius: var(--krds-radius-medium2) var(--krds-radius-medium2) 0 0; }
 .rb-commit-main { display: flex; align-items: center; gap: var(--krds-gap-3); min-width: 0; flex: 1 1 auto; }
 .rb-commit-meta { display: flex; align-items: center; gap: var(--krds-gap-4); }
@@ -132,7 +133,7 @@
 .rb-code-wrap { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--krds-gap-5); }
 .rb-filetree { display: none; }
 /* D-21(Figma R-02, R-03): 파일 트리는 1440 이상에서만 그린다(P16_Code가 --rb-bp-tree로 판단) */
-@media (min-width: 1024px) {
+@media (width > 1023px) {
   .rb-code-wrap.has-tree { grid-template-columns: var(--rb-dtree-w) minmax(0, 1fr); }
   .rb-filetree { display: flex; flex-direction: column; gap: var(--krds-gap-3); position: sticky; top: var(--krds-gap-5); align-self: start; max-height: calc(100vh - var(--krds-gap-9)); overflow: auto; }
 }
@@ -158,11 +159,10 @@
 .rb-about-links { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: var(--krds-gap-3); }
 .rb-about-links li { display: flex; align-items: center; gap: var(--krds-gap-2); color: var(--krds-color-text-subtle); }
 .rb-langs { display: flex; flex-direction: column; gap: var(--krds-gap-2); }
-.rb-lang-bar { display: flex; height: var(--krds-number-5); border-radius: var(--krds-radius-max); overflow: hidden; gap: var(--krds-number-1); }
 .rb-lang { display: block; min-width: var(--krds-number-2); }
 .rb-lang-list { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-4); }
 .rb-lang-list li { display: inline-flex; align-items: center; gap: var(--krds-gap-2); }
-.rb-lang-dot { width: var(--krds-number-5); height: var(--krds-number-5); border-radius: var(--krds-radius-max); }
+.rb-lang-dot { width: var(--krds-number-5); height: var(--krds-number-5); border-radius: var(--krds-radius-medium3); }
 .rb-lang-primary { background: var(--krds-color-element-primary); }
 .rb-lang-secondary { background: var(--krds-color-element-secondary); }
 .rb-lang-point { background: var(--krds-color-element-point); }
@@ -199,7 +199,7 @@
 /* R-03 파일 보기: 보기 전환, 줄바꿈, Blame 칸 */
 .rb-code-meta { display: flex; align-items: baseline; gap: var(--krds-gap-4); }
 .rb-code-views { display: flex; gap: var(--krds-gap-1); padding: var(--krds-padding-1); border: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); border-radius: var(--krds-radius-medium2); }
-.rb-code-view { padding: var(--krds-padding-2) var(--krds-padding-4); border: 0; background: none; color: var(--krds-color-text-subtle); border-radius: var(--krds-radius-small2); cursor: pointer; }
+.rb-code-view { padding: var(--krds-padding-2) var(--krds-padding-4); font-size: var(--rb-step-15); line-height: var(--rb-lh-15); border: 0; background: none; color: var(--krds-color-text-subtle); border-radius: var(--krds-radius-small2); cursor: pointer; }
 .rb-code-view:hover { background: var(--krds-color-action-secondary-hover); }
 .rb-code-view.active { background: var(--krds-color-action-secondary-selected); color: var(--krds-color-text-basic); font-weight: var(--krds-font-weight-bold); }
 .rb-code-scroll.is-wrap .rb-code-line code { white-space: pre-wrap; overflow-wrap: anywhere; }
@@ -245,3 +245,31 @@
 .rb-code-wrap.has-tree .rb-filetree { top: calc(var(--rb-header-h) + var(--rb-masthead-h) + var(--rb-top-extra) + var(--krds-gap-5)); max-height: calc(100dvh - var(--rb-header-h) - var(--rb-masthead-h) - var(--rb-top-extra) - var(--krds-gap-9)); }
 /* 파일 종류 아이콘(공공 깃랩 file_icons): 16, 글자 줄 가운데 */
 .rb-file-icon { display: inline-block; flex: none; width: var(--krds-number-8); height: var(--krds-number-8); vertical-align: middle; object-fit: contain; }
+
+/* M-8 README: Figma의 안쪽12/12/15/12에서 아래15는 D-16에 따라16.
+   기존 header/body 중첩 패딩을 제거하고 부품 루트 한 곳에서 간격을 관리한다. */
+.rb-readme-box { border-radius: 0; padding: var(--krds-number-7) var(--krds-number-7) var(--krds-number-8); gap: var(--krds-number-7); }
+.rb-readme-box > .rb-readme-head,
+.rb-readme-box > .rb-readme-body,
+.rb-readme-box > .rb-readme-toc { padding: 0; }
+
+/* D-21 파일 tbody 행42. 머리의 실측40.5는 기존 KRDS40을 유지한다. */
+.krds-table-wrap .rb-tree.tbl.data tbody td { height: var(--layout-file-row-h); }
+
+/* 실제 공공 깃랩 모바일 커밋 행: hash/시간/설명 토글/이력, 8+32+8=48. */
+.rb-commit-desktop { display: contents; }
+.rb-commit-mobile, .rb-commit-mobile-details { display: none; }
+@media (max-width: 767px) {
+  #root .rb-commit-bar { display: block; min-height: var(--krds-number-16); height: auto; padding: var(--krds-number-5) var(--krds-number-7); }
+  .rb-commit-desktop { display: none; }
+  .rb-commit-mobile { display: flex; align-items: center; justify-content: space-between; gap: var(--krds-number-5); min-width: 0; }
+  .rb-commit-mobile-main, .rb-commit-mobile-actions { display: flex; align-items: center; gap: var(--krds-number-5); min-width: 0; white-space: nowrap; }
+  .rb-commit-mobile .rb-commit-avatar { width: var(--krds-number-10); height: var(--krds-number-10); flex: none; }
+  .rb-commit-mobile-details:not([hidden]) { display: block; margin-top: var(--krds-number-5); white-space: pre-wrap; overflow-wrap: anywhere; }
+}
+@media (max-width: 767px) {
+  #root .rb-commit-mobile-actions .krds-btn { height: var(--krds-number-12); min-height: var(--krds-number-12); }
+}
+
+/* D-21 도구 줄 점 세 개도 IconButton small과 같은 32 조작 칸이다. */
+#root .rb-toolbar .rb-drop > .rb-iconbtn.is-small { width: var(--krds-size-height-5); height: var(--krds-size-height-5); min-height: var(--krds-size-height-5); padding: 0; }

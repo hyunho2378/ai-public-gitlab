@@ -7,19 +7,29 @@ import { Icon } from '../components/Code/Icon';
 
 const DAYS = u.RA_days;
 
-function Bars({ rows, unit, axis }) {
-  const max = Math.max(1, ...rows.map((r) => r[1]));
+function Bars({ rows, unit, axis, domain }) {
+  const largest = Math.max(0, ...rows.map((r) => Number(r[1]) || 0));
+  const step = Math.max(1, Math.ceil(largest / 5));
+  const top = domain || step * 5;
+  const ticks = Array.from({ length: 6 }, (_, i) => top * (5 - i) / 5);
   return (
     <figure className="rb-ra-chart">
-      <ul className="rb-ra-bars" aria-label={axis}>
-        {rows.map(([k, v]) => (
-          <li key={k} className="rb-ra-bar">
-            <span className="rb-ra-fill" style={{ height: `${(v / max) * 100}%` }} />
-            <span className="rb-ra-key">{k}</span>
-            <span className="sr-only">{`${k} ${v}${unit}`}</span>
-          </li>
-        ))}
-      </ul>
+      <div className="rb-ra-grid">
+        <ol className="rb-ra-yaxis" aria-hidden="true">
+          {ticks.map((n, i) => <li key={i} style={{ top: `${i * 20}%` }}>{Number(n.toFixed(2))}</li>)}
+        </ol>
+        <div className="rb-ra-plot">
+          <div className="rb-ra-gridlines" aria-hidden="true">{ticks.map((n, i) => <span key={i} style={{ top: `${i * 20}%` }} />)}</div>
+          <ul className="rb-ra-bars" aria-label={axis}>
+            {rows.map(([k, v]) => <li key={k} className="rb-ra-bar">
+              {v > 0 ? <span className="rb-ra-fill" style={{ height: `${Math.max(0, Math.min(100, v / top * 100))}%` }} /> : null}
+              <span className="sr-only">{`${k} ${v}${unit}`}</span>
+            </li>)}
+          </ul>
+        </div>
+        <span aria-hidden="true" />
+        <ul className="rb-ra-xaxis" aria-hidden="true">{rows.map(([k]) => <li key={k} title={k}>{k}</li>)}</ul>
+      </div>
       <figcaption className="rb-ra-axis">{axis}</figcaption>
     </figure>
   );
@@ -43,14 +53,15 @@ export default function RepoAnalytics() {
       <section className="rb-ra-sec">
         <h2 data-figma="section-title">{u.RA_langTitle}</h2>
         <p className="rb-subtle">{u.RA_langHint}</p>
-        {langs.length ? <Bars rows={langs} unit="%" axis={u.RA_langAxis} /> : <p>{u.RA_none}</p>}
+        {langs.length ? <Bars rows={langs} unit="%" axis={u.RA_langAxis} domain={100} /> : <p>{u.RA_none}</p>}
       </section>
       <section className="rb-ra-sec">
-        <h2>{u.RA_covTitle}</h2>
+        <h2 data-figma="section-title">{u.RA_covTitle}</h2>
         <div className="krds-alert-box rb-ra-note" role="status"><Icon name="ext/info" /><div><p className="rb-ra-note-t">{u.RA_covNone}</p><p>{u.RA_covBody}</p></div></div>
+        <Bars rows={[]} unit="%" axis={u.RA_covAxis} domain={100} />
       </section>
       <section className="rb-ra-sec">
-        <h2>{u.RA_commitTitle}</h2>
+        <h2 data-figma="section-title">{u.RA_commitTitle}</h2>
         <p className="rb-subtle">{u.RA_commitBasis(n)}</p>
         {n ? <Bars rows={byDay} unit={u.RA_commitUnit} axis={u.RA_dayAxis} /> : <p>{u.RA_none}</p>}
       </section>

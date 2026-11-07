@@ -102,7 +102,8 @@
    "code": {
     "path": "/projects/150",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -148,7 +149,8 @@
    "code": {
     "path": "/projects/150/code/src",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -192,7 +194,8 @@
    "code": {
     "path": "/projects/150/code/README.md",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -239,7 +242,8 @@
    "code": {
     "path": "/projects/150/changes",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -282,7 +286,8 @@
    "code": {
     "path": "/projects/150/changes/03f9484ed200a2b3e8ba824de7d0b651ef7bd528",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -325,7 +330,8 @@
    "code": {
     "path": "/projects/150/compare",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -369,7 +375,8 @@
    "code": {
     "path": "/projects/150/branches",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -416,7 +423,8 @@
    "code": {
     "path": "/projects/150/tags",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -459,7 +467,8 @@
    "code": {
     "path": "/projects/150/releases",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -502,7 +511,8 @@
    "code": {
     "path": "/projects/150/contributors",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -545,7 +555,8 @@
    "code": {
     "path": "/projects/150/issues",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -589,7 +600,8 @@
    "code": {
     "path": "/projects/150/issues/55",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -636,7 +648,8 @@
    "code": {
     "path": "/projects/150/boards",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -679,7 +692,8 @@
    "code": {
     "path": "/projects/150/labels",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -722,7 +736,8 @@
    "code": {
     "path": "/projects/150/milestones",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -765,7 +780,8 @@
    "code": {
     "path": "/projects/150/merge-requests",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -809,7 +825,8 @@
    "code": {
     "path": "/projects/150/merge-requests/56",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -856,7 +873,8 @@
    "code": {
     "path": "/projects/150/pipelines",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -899,7 +917,8 @@
    "code": {
     "path": "/projects/150/jobs",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -942,7 +961,8 @@
    "code": {
     "path": "/projects/150/packages",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -985,7 +1005,8 @@
    "code": {
     "path": "/projects/150/wiki",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1028,7 +1049,8 @@
    "code": {
     "path": "/projects/150/snippets",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1072,7 +1094,8 @@
    "code": {
     "path": "/projects/150/members",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1119,7 +1142,8 @@
    "code": {
     "path": "/projects/150/activity",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1162,7 +1186,8 @@
    "code": {
     "path": "/projects/150/analytics",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1205,7 +1230,8 @@
    "code": {
     "path": "/projects/150/settings",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1253,7 +1279,9 @@
    "code": {
     "path": "/projects/150/new",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00",
+     "file_name": "docs/사용안내.md"
     },
     "breakpoints": [
      1920,
@@ -1296,7 +1324,8 @@
    "code": {
     "path": "/projects/150/upload",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1339,7 +1368,8 @@
    "code": {
     "path": "/projects/150/branches/new",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1382,7 +1412,8 @@
    "code": {
     "path": "/projects/150/use",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1426,7 +1457,8 @@
    "code": {
     "path": "/",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1471,7 +1503,8 @@
    "code": {
     "path": "/search?q=kordoc",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -1513,7 +1546,9 @@
    ],
    "code": {
     "path": "/explore/topics",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1554,7 +1589,10 @@
    ],
    "code": {
     "path": "/organizations",
-    "query": {},
+    "query": {
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1595,7 +1633,9 @@
    ],
    "code": {
     "path": "/projects/new",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1636,7 +1676,10 @@
    ],
    "code": {
     "path": "/my",
-    "query": {},
+    "query": {
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1677,7 +1720,9 @@
    ],
    "code": {
     "path": "/notifications",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1716,7 +1761,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/login",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1755,7 +1802,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/login/failed",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1794,7 +1843,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/login/otp",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1833,7 +1884,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/register",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1872,7 +1925,9 @@
    "sidebarCurrent": [],
    "code": {
     "path": "/password",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1913,7 +1968,9 @@
    ],
    "code": {
     "path": "/error",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1954,7 +2011,9 @@
    ],
    "code": {
     "path": "/help",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -1995,7 +2054,9 @@
    ],
    "code": {
     "path": "/settings",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2037,7 +2098,8 @@
    "code": {
     "path": "/search?q=%EB%B3%B4%EA%B3%A0%EC%84%9C%20%EC%9E%91%EC%84%B1",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2079,9 +2141,10 @@
     "Project/개요"
    ],
    "code": {
-    "path": "/projects/150/about",
+    "path": "/projects/150",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2096,7 +2159,8 @@
     ],
     "authSwitch": "?auth=Signed-in(개발 서버만, api/devState.js)",
     "roles": [],
-    "variantsInCode": {}
+    "variantsInCode": {},
+    "mappingNote": "M8: Figma A-02는 저장소 홈 + AI 소개 카드. 소개 상세 /about와 비교하지 않는다."
    }
   },
   {
@@ -2124,7 +2188,8 @@
    "code": {
     "path": "/projects/150/publish-check",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2167,7 +2232,8 @@
    "code": {
     "path": "/projects/150/feedback",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2182,7 +2248,8 @@
     ],
     "authSwitch": "?auth=Signed-in(개발 서버만, api/devState.js)",
     "roles": [],
-    "variantsInCode": {}
+    "variantsInCode": {},
+    "note": "M-9 사용자 확정: UX/05·PRD 의견 화면. Figma A-04 의견 폼 재작성과 대응. 프로젝트 홈으로 치환하지 않음."
    }
   },
   {
@@ -2209,7 +2276,9 @@
    ],
    "code": {
     "path": "/requests",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2250,7 +2319,9 @@
    ],
    "code": {
     "path": "/insights",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2291,7 +2362,9 @@
    ],
    "code": {
     "path": "/mcp",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2333,7 +2406,8 @@
    "code": {
     "path": "/projects/150/handover",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2375,7 +2449,9 @@
    ],
    "code": {
     "path": "/collaborate",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2417,7 +2493,8 @@
    "code": {
     "path": "/projects/150/law-alerts",
     "query": {
-     "fixture": "kordoc"
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
     },
     "breakpoints": [
      1920,
@@ -2459,7 +2536,9 @@
    ],
    "code": {
     "path": "/checklist",
-    "query": {},
+    "query": {
+     "now": "2026-11-07T10:00:00+09:00"
+    },
     "breakpoints": [
      1920,
      1440,
@@ -2472,6 +2551,36 @@
      "Signed-in"
     ],
     "authSwitch": "?auth=Signed-in(개발 서버만, api/devState.js)",
+    "roles": [],
+    "variantsInCode": {}
+   }
+  },
+  {
+   "screen": "G-12",
+   "figmaSet": "G-12 User profile",
+   "oldName": "G-12 User profile",
+   "nodeId": "11328:46959",
+   "route": "/users/chrisryugj",
+   "figmaBoxes": [],
+   "variants": 3,
+   "variantProps": [
+    "Breakpoint"
+   ],
+   "sidebarCurrent": [],
+   "code": {
+    "path": "/users/chrisryugj",
+    "query": {
+     "fixture": "kordoc",
+     "now": "2026-11-07T10:00:00+09:00"
+    },
+    "breakpoints": [
+     1440,
+     768,
+     360
+    ],
+    "auth": [
+     "Guest"
+    ],
     "roles": [],
     "variantsInCode": {}
    }
@@ -2645,6 +2754,10 @@
   "collapse-sidebar": {
    "figmaNodeMatch": "n.name === 'Collapse sidebar'",
    "inCode": false
+  },
+  "gl-diff-bar": {
+   "figmaNodeMatch": "n.name === 'Diff bar'",
+   "inCode": true
   }
  },
  "codeTagsWithoutFigmaMatch": [],
@@ -3073,5 +3186,72 @@
   "count": 1103,
   "since": "2026-11-01 Figma 36차",
   "note": "833 + 흐름 K 브랜치 선택 270(K1·K2 1440 Guest, K3·K4 1920 Guest). 직접 연결 8(branch button 2, outside click 2, 메뉴 항목 2, Esc 2) + 복제 상태 262(사이드바 항목 item/관리·계획·코드·빌드·배포·운영·분석 각 4 = 28, 사이드바 접음 2, File row 폴더 112 + 파일 120 마우스 올림·누름 쌍 = 232). 흐름 H와 같은 방식. 목적지 누락 0. 부모 승인(968 기준) 후 1920 추가로 갱신"
+ },
+ "componentIdentity": {
+  "componentAttribute": "data-figma",
+  "screenBoxAttribute": "data-figma-key",
+  "note": "부품 이름과 화면 상자 역할 분리. data-figma-key 빈 값은 화면 비교 대상 아닌 내부 부품. 누락된 화면 상자를 허용하거나 제외하는 변경은 아님.",
+  "aliases": [
+   {
+    "file": "app/src/components/Layout/ProjectInfo.jsx",
+    "figma": "product/dock_panel",
+    "screenKey": "project-info"
+   },
+   {
+    "file": "app/src/components/Identity/GlobalBar.jsx",
+    "figma": "product/gitlab_topbar",
+    "screenKey": "topbar"
+   },
+   {
+    "file": "app/src/components/Navigation/Sidebar.jsx",
+    "figma": "product/gitlab_sidebar",
+    "screenKey": "gitlab-sidebar"
+   },
+   {
+    "file": "app/src/components/Feedback/NotifyRow.jsx",
+    "figma": "product/notify_row",
+    "screenKey": "",
+    "state": "registered-not-mounted"
+   }
+  ]
+ },
+ "measurementBindings": {
+  "filters": {
+   "file": "app/src/screens/P02_Search.jsx",
+   "selector": "aside#rb-s-side"
+  },
+  "results": {
+   "file": "app/src/screens/P02_Search.jsx",
+   "selector": "section.rb-s-results"
+  },
+  "steps": {
+   "file": "app/src/components/Help/RunSteps.jsx",
+   "selector": "section.rb-run"
+  },
+  "filter-search": {
+   "file": "app/src/screens/gl/parts.jsx",
+   "selector": ".gl-filter-go",
+   "when": "figma===gl-filter",
+   "explore": "app/src/screens/P01_Home.jsx .rb-x-searchbtn"
+  },
+  "tabs": {
+   "file": "app/src/components/Navigation/ProjectStateTabs.jsx",
+   "screens": [
+    "G-01",
+    "G-04"
+   ],
+   "legacyName": "gl-tabs",
+   "note": "기존 표시 그대로 공통 부품/이름 통일"
+  },
+  "search": {
+   "file": "app/src/screens/P11_Organizations.jsx",
+   "selector": "form.rb-x-search"
+  }
+ },
+ "measurementClock": {
+  "query": "now",
+  "iso": "2026-11-07T10:00:00+09:00",
+  "developmentOnly": true,
+  "note": "상대시간과 프로필 달력 기준. 배포본은 query를 무시한다."
  }
 }
