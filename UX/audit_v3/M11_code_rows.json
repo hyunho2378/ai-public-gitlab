@@ -54,7 +54,7 @@
   "frame": "A-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 695,
+  "target": 703,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -99,9 +99,9 @@
   "frame": "A-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 248,
+  "target": 256,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -111,9 +111,9 @@
   "frame": "A-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -231,9 +231,9 @@
   "frame": "A-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 437,
+  "target": 445,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -276,9 +276,9 @@
   "frame": "A-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 528,
+  "target": 536,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -440,7 +440,7 @@
   "frame": "A-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 695,
+  "target": 703,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -485,9 +485,9 @@
   "frame": "A-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 248,
+  "target": 256,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -497,9 +497,9 @@
   "frame": "A-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -617,9 +617,9 @@
   "frame": "A-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 437,
+  "target": 445,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -662,9 +662,9 @@
   "frame": "A-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 528,
+  "target": 536,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -826,7 +826,7 @@
   "frame": "A-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 635,
+  "target": 643,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -871,9 +871,9 @@
   "frame": "A-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 248,
+  "target": 256,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -883,9 +883,9 @@
   "frame": "A-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1003,9 +1003,9 @@
   "frame": "A-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 437,
+  "target": 445,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1048,9 +1048,9 @@
   "frame": "A-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 528,
+  "target": 536,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1212,7 +1212,7 @@
   "frame": "A-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 635,
+  "target": 643,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -1257,9 +1257,9 @@
   "frame": "A-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 248,
+  "target": 256,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -1269,9 +1269,9 @@
   "frame": "A-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1389,9 +1389,9 @@
   "frame": "A-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 437,
+  "target": 445,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1434,9 +1434,9 @@
   "frame": "A-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 528,
+  "target": 536,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1598,7 +1598,7 @@
   "frame": "A-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 635,
+  "target": 643,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -1643,9 +1643,9 @@
   "frame": "A-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 248,
+  "target": 256,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -1655,9 +1655,9 @@
   "frame": "A-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1775,9 +1775,9 @@
   "frame": "A-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 437,
+  "target": 445,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1820,9 +1820,9 @@
   "frame": "A-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 528,
+  "target": 536,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -1984,7 +1984,7 @@
   "frame": "A-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 635,
+  "target": 643,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -2029,9 +2029,9 @@
   "frame": "A-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 248,
+  "target": 256,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -2041,9 +2041,9 @@
   "frame": "A-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2161,9 +2161,9 @@
   "frame": "A-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 437,
+  "target": 445,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2206,9 +2206,9 @@
   "frame": "A-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 528,
+  "target": 536,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2326,7 +2326,7 @@
   "frame": "A-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 1057,
+  "target": 1065,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -2355,9 +2355,9 @@
   "frame": "A-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 284,
+  "target": 292,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -2367,9 +2367,9 @@
   "frame": "A-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2382,9 +2382,9 @@
   "frame": "A-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 509,
+  "target": 517,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2397,7 +2397,7 @@
   "frame": "A-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 1057,
+  "target": 1065,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -2426,9 +2426,9 @@
   "frame": "A-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 284,
+  "target": 292,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -2438,9 +2438,9 @@
   "frame": "A-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2453,9 +2453,9 @@
   "frame": "A-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 509,
+  "target": 517,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2468,7 +2468,7 @@
   "frame": "A-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 711,
+  "target": 719,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -2497,9 +2497,9 @@
   "frame": "A-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 284,
+  "target": 292,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -2509,9 +2509,9 @@
   "frame": "A-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2524,9 +2524,9 @@
   "frame": "A-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 509,
+  "target": 517,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2539,7 +2539,7 @@
   "frame": "A-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 711,
+  "target": 719,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -2568,9 +2568,9 @@
   "frame": "A-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 284,
+  "target": 292,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -2580,9 +2580,9 @@
   "frame": "A-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 0 0→0 0 8 0",
+  "target": "안쪽 0 0 8 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2595,39 +2595,9 @@
   "frame": "A-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 509,
+  "target": 517,
   "evidence": "Figma A-01; rb-taskfind 아래8 제거/compact 행 사이2→0/results gap8→12의 공통 원인",
-  "implementation": "미수정"
- },
- {
-  "kind": "box",
-  "name": "project-info",
-  "field": "y",
-  "figma": 121,
-  "code": 193,
-  "diff": 72,
-  "allowed": null,
-  "frame": "A-02_1024_Guest",
-  "owner": "D21",
-  "side": "코드",
-  "target": 121,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
- },
- {
-  "kind": "box",
-  "name": "project-info",
-  "field": "h",
-  "figma": 780,
-  "code": 910,
-  "diff": 130,
-  "allowed": null,
-  "frame": "A-02_1024_Guest",
-  "owner": "D21",
-  "side": "코드",
-  "target": 780,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -2836,36 +2806,6 @@
   "owner": "D21",
   "side": "코드",
   "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > project-info > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
- },
- {
-  "kind": "box",
-  "name": "project-info",
-  "field": "y",
-  "figma": 121,
-  "code": 193,
-  "diff": 72,
-  "allowed": null,
-  "frame": "A-02_1024_Signed-in",
-  "owner": "D21",
-  "side": "코드",
-  "target": 121,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
- },
- {
-  "kind": "box",
-  "name": "project-info",
-  "field": "h",
-  "figma": 780,
-  "code": 910,
-  "diff": 130,
-  "allowed": null,
-  "frame": "A-02_1024_Signed-in",
-  "owner": "D21",
-  "side": "코드",
-  "target": 780,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
   "implementation": "미수정"
  },
@@ -4056,10 +3996,10 @@
   "allowed": null,
   "frame": "A-02_360_Guest",
   "owner": "D21",
-  "side": "코드",
-  "target": 66,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 48,
+  "evidence": "실제 공공 GitLab 2026-11-07 10시대360 실측48, hash/시간/설명 토글/이력. Figma66과 코드154 모두 수정",
+  "implementation": "코드 모바일48 반영(Figma/공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -4239,10 +4179,10 @@
   "allowed": null,
   "frame": "A-02_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "target": 66,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 48,
+  "evidence": "실제 공공 GitLab 2026-11-07 10시대360 실측48, hash/시간/설명 토글/이력. Figma66과 코드154 모두 수정",
+  "implementation": "코드 모바일48 반영(Figma/공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -4708,7 +4648,7 @@
   "frame": "A-03_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 277,
+  "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -4723,7 +4663,7 @@
   "frame": "A-03_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 277,
+  "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -4738,7 +4678,7 @@
   "frame": "A-03_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 277,
+  "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -4753,7 +4693,7 @@
   "frame": "A-03_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 313,
+  "target": 161,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -4768,7 +4708,7 @@
   "frame": "A-03_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 1245,
+  "target": 540,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -4780,7 +4720,7 @@
   "frame": "A-03_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→12",
+  "target": "간격 20→12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -4795,7 +4735,7 @@
   "frame": "A-03_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 277,
+  "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -5060,9 +5000,9 @@
   "frame": "G-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5072,9 +5012,9 @@
   "frame": "G-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5084,7 +5024,7 @@
   "frame": "G-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -5135,9 +5075,9 @@
   "frame": "G-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5147,9 +5087,9 @@
   "frame": "G-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5159,7 +5099,7 @@
   "frame": "G-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -5210,9 +5150,9 @@
   "frame": "G-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5222,9 +5162,9 @@
   "frame": "G-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -5264,7 +5204,7 @@
   "frame": "G-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -5315,9 +5255,9 @@
   "frame": "G-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5327,9 +5267,9 @@
   "frame": "G-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -5369,7 +5309,7 @@
   "frame": "G-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -5420,9 +5360,9 @@
   "frame": "G-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5432,9 +5372,9 @@
   "frame": "G-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -5474,7 +5414,7 @@
   "frame": "G-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -5525,9 +5465,9 @@
   "frame": "G-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5537,9 +5477,9 @@
   "frame": "G-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -5579,7 +5519,7 @@
   "frame": "G-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -5630,9 +5570,9 @@
   "frame": "G-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5642,9 +5582,9 @@
   "frame": "G-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -5729,7 +5669,7 @@
   "frame": "G-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -5807,9 +5747,9 @@
   "frame": "G-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5819,9 +5759,9 @@
   "frame": "G-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -5906,7 +5846,7 @@
   "frame": "G-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -5984,9 +5924,9 @@
   "frame": "G-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -5996,9 +5936,9 @@
   "frame": "G-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -6008,7 +5948,7 @@
   "frame": "G-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -6059,9 +5999,9 @@
   "frame": "G-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 160,
+  "target": 168,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma); 동일 원인 묶음 판정 상속(복수 고칠 쪽은 임의 선택하지 않음)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -6071,9 +6011,9 @@
   "frame": "G-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 0→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -6083,7 +6023,7 @@
   "frame": "G-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 12 0 12→0 0 0 0",
+  "target": "모서리 8→0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7012,7 +6952,7 @@
   "frame": "G-04_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 44,
+  "target": 46,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7024,7 +6964,7 @@
   "frame": "G-04_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7036,9 +6976,9 @@
   "frame": "G-04_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -7048,7 +6988,7 @@
   "frame": "G-04_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 8→0",
+  "target": "안쪽 0 0 0 12→0 12 0 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7067,8 +7007,8 @@
   "side": "코드",
   "target": {
    "x": 40,
-   "y": 203,
-   "w": 26,
+   "y": 249,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7088,9 +7028,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 90,
-   "y": 203,
-   "w": 39,
+   "x": 112,
+   "y": 249,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7117,7 +7057,7 @@
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 44,
+  "target": 46,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7129,7 +7069,7 @@
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7141,9 +7081,9 @@
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -7153,7 +7093,7 @@
   "frame": "G-04_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 8→0",
+  "target": "안쪽 0 0 0 12→0 12 0 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7172,8 +7112,8 @@
   "side": "코드",
   "target": {
    "x": 40,
-   "y": 203,
-   "w": 26,
+   "y": 249,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7193,9 +7133,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 90,
-   "y": 203,
-   "w": 39,
+   "x": 112,
+   "y": 249,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7222,7 +7162,7 @@
   "frame": "G-04_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 44,
+  "target": 46,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7234,7 +7174,7 @@
   "frame": "G-04_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7246,9 +7186,9 @@
   "frame": "G-04_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -7258,7 +7198,7 @@
   "frame": "G-04_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 8→0",
+  "target": "안쪽 0 0 0 12→0 12 0 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7277,8 +7217,8 @@
   "side": "코드",
   "target": {
    "x": 296,
-   "y": 203,
-   "w": 26,
+   "y": 249,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7298,9 +7238,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 346,
-   "y": 203,
-   "w": 39,
+   "x": 368,
+   "y": 249,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7327,7 +7267,7 @@
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 44,
+  "target": 46,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7339,7 +7279,7 @@
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7351,9 +7291,9 @@
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -7363,7 +7303,7 @@
   "frame": "G-04_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 8→0",
+  "target": "안쪽 0 0 0 12→0 12 0 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7382,8 +7322,8 @@
   "side": "코드",
   "target": {
    "x": 296,
-   "y": 203,
-   "w": 26,
+   "y": 249,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7403,9 +7343,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 346,
-   "y": 203,
-   "w": 39,
+   "x": 368,
+   "y": 249,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7432,7 +7372,7 @@
   "frame": "G-04_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 44,
+  "target": 46,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7444,7 +7384,7 @@
   "frame": "G-04_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7456,9 +7396,9 @@
   "frame": "G-04_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -7468,7 +7408,7 @@
   "frame": "G-04_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 8→0",
+  "target": "안쪽 0 0 0 12→0 12 0 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7487,8 +7427,8 @@
   "side": "코드",
   "target": {
    "x": 480,
-   "y": 203,
-   "w": 26,
+   "y": 249,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7508,9 +7448,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 530,
-   "y": 203,
-   "w": 39,
+   "x": 552,
+   "y": 249,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7537,7 +7477,7 @@
   "frame": "G-04_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 44,
+  "target": 46,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7549,7 +7489,7 @@
   "frame": "G-04_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7561,9 +7501,9 @@
   "frame": "G-04_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -7573,7 +7513,7 @@
   "frame": "G-04_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 8→0",
+  "target": "안쪽 0 0 0 12→0 12 0 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7592,8 +7532,8 @@
   "side": "코드",
   "target": {
    "x": 480,
-   "y": 203,
-   "w": 26,
+   "y": 249,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7613,9 +7553,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 530,
-   "y": 203,
-   "w": 39,
+   "x": 552,
+   "y": 249,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7642,7 +7582,7 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 36,
+  "target": 38,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7654,7 +7594,7 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7666,9 +7606,9 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7681,7 +7621,7 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 73,
+  "target": 65,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7719,7 +7659,7 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 353,
+  "target": 346,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7734,7 +7674,7 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 458,
+  "target": 451,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7749,7 +7689,7 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 563,
+  "target": 556,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7778,7 +7718,7 @@
   "frame": "G-04_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "#f4f5f6 color/text/basic",
+  "target": "#cdd1d5 color/text/subtle",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7797,8 +7737,8 @@
   "side": "코드",
   "target": {
    "x": 16,
-   "y": 195,
-   "w": 26,
+   "y": 263,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7818,9 +7758,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 66,
-   "y": 195,
-   "w": 39,
+   "x": 88,
+   "y": 263,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -7847,7 +7787,7 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 36,
+  "target": 38,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7859,7 +7799,7 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7871,9 +7811,9 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -7886,7 +7826,7 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 73,
+  "target": 65,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -7924,7 +7864,7 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 353,
+  "target": 346,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7939,7 +7879,7 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 458,
+  "target": 451,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7954,7 +7894,7 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 563,
+  "target": 556,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -7983,7 +7923,7 @@
   "frame": "G-04_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "#f4f5f6 color/text/basic",
+  "target": "#cdd1d5 color/text/subtle",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -8002,8 +7942,8 @@
   "side": "코드",
   "target": {
    "x": 16,
-   "y": 195,
-   "w": 26,
+   "y": 263,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -8023,9 +7963,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 66,
-   "y": 195,
-   "w": 39,
+   "x": 88,
+   "y": 263,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -8052,7 +7992,7 @@
   "frame": "G-04_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 44,
+  "target": 46,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -8064,7 +8004,7 @@
   "frame": "G-04_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -8076,9 +8016,9 @@
   "frame": "G-04_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8088,7 +8028,7 @@
   "frame": "G-04_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 8→0",
+  "target": "안쪽 0 0 0 12→0 12 0 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -8107,8 +8047,8 @@
   "side": "코드",
   "target": {
    "x": 32,
-   "y": 203,
-   "w": 26,
+   "y": 249,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -8128,9 +8068,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 82,
-   "y": 203,
-   "w": 39,
+   "x": 104,
+   "y": 249,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -8157,7 +8097,7 @@
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 44,
+  "target": 46,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -8169,7 +8109,7 @@
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "안쪽 0 0 4 0→0 0 0 0",
+  "target": "안쪽 0 0 6 0→0 0 0 0",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -8181,9 +8121,9 @@
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 24→8",
+  "target": "간격 8→0",
   "evidence": "capture_map.md; 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "shape",
@@ -8193,7 +8133,7 @@
   "frame": "G-04_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 8→0",
+  "target": "안쪽 0 0 0 12→0 12 0 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md: 직접 정량 실측 없는 세부 속성은 Figma. D-xx 우선",
   "implementation": "미수정"
  },
@@ -8212,8 +8152,8 @@
   "side": "코드",
   "target": {
    "x": 32,
-   "y": 203,
-   "w": 26,
+   "y": 249,
+   "w": 64,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -8233,9 +8173,9 @@
   "owner": "D21",
   "side": "코드",
   "target": {
-   "x": 82,
-   "y": 203,
-   "w": 39,
+   "x": 104,
+   "y": 249,
+   "w": 65,
    "h": 2
   },
   "evidence": "UX/handson/gitlab/40_탐색_그룹.png; code_plan/figma_full.json",
@@ -9532,7 +9472,7 @@
   "frame": "G-12_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > sidebar-nav > main > footer",
+  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > sidebar-nav > main > profile-head > profile-activity > profile-info > profile-event > profile-event#2 > profile-event#3 > profile-event#4 > profile-event#5 > profile-event#6 > profile-event#7 > profile-event#",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -9592,36 +9532,6 @@
  },
  {
   "kind": "box",
-  "name": "project-info",
-  "field": "y",
-  "figma": 121,
-  "code": 193,
-  "diff": 72,
-  "allowed": null,
-  "frame": "R-01_1024_Guest",
-  "owner": "D21",
-  "side": "코드",
-  "target": 121,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
- },
- {
-  "kind": "box",
-  "name": "project-info",
-  "field": "h",
-  "figma": 939,
-  "code": 910,
-  "diff": -29,
-  "allowed": null,
-  "frame": "R-01_1024_Guest",
-  "owner": "D21",
-  "side": "코드",
-  "target": 792,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
- },
- {
-  "kind": "box",
   "name": "page-head",
   "field": "w",
   "figma": 624,
@@ -9755,7 +9665,7 @@
   "frame": "R-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 6176,
+  "target": 5918,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -9767,7 +9677,7 @@
   "frame": "R-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 12→0",
+  "target": "안쪽 12 12 14 12→12 12 16 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -9785,7 +9695,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -9872,37 +9781,7 @@
   "frame": "R-01_1024_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > project-info > toolbar > commit-bar > file-table > intro-card > readme > footer",
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
- },
- {
-  "kind": "box",
-  "name": "project-info",
-  "field": "y",
-  "figma": 121,
-  "code": 193,
-  "diff": 72,
-  "allowed": null,
-  "frame": "R-01_1024_Signed-in",
-  "owner": "D21",
-  "side": "코드",
-  "target": 121,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
- },
- {
-  "kind": "box",
-  "name": "project-info",
-  "field": "h",
-  "figma": 939,
-  "code": 910,
-  "diff": -29,
-  "allowed": null,
-  "frame": "R-01_1024_Signed-in",
-  "owner": "D21",
-  "side": "코드",
-  "target": 792,
+  "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > page-head > repo-actions > extra-reuse > project-info > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10041,7 +9920,7 @@
   "frame": "R-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 6176,
+  "target": 5918,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10053,7 +9932,7 @@
   "frame": "R-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 12→0",
+  "target": "안쪽 12 12 14 12→12 12 16 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10071,7 +9950,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -10158,7 +10036,7 @@
   "frame": "R-01_1024_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > project-info > toolbar > commit-bar > file-table > intro-card > readme > footer",
+  "target": "system-band > topbar > global-search > body > content-panel > breadcrumb > main > page-head > repo-actions > extra-reuse > project-info > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10188,7 +10066,7 @@
   "frame": "R-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 792,
+  "target": 939,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10327,7 +10205,7 @@
   "frame": "R-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 5640,
+  "target": 5494,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10345,7 +10223,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -10432,7 +10309,7 @@
   "frame": "R-01_1440_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > file-table > intro-card > readme > footer",
+  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > page-head > repo-actions > extra-reuse > project-info > sidebar-nav > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10462,7 +10339,7 @@
   "frame": "R-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 792,
+  "target": 939,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10601,7 +10478,7 @@
   "frame": "R-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 5640,
+  "target": 5494,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10619,7 +10496,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -10706,7 +10582,7 @@
   "frame": "R-01_1440_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > file-table > intro-card > readme > footer",
+  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > page-head > repo-actions > extra-reuse > project-info > sidebar-nav > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10736,7 +10612,7 @@
   "frame": "R-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 792,
+  "target": 939,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10875,7 +10751,7 @@
   "frame": "R-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 5464,
+  "target": 5270,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -10893,7 +10769,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -10980,7 +10855,7 @@
   "frame": "R-01_1920_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > file-table > intro-card > readme > footer",
+  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > page-head > repo-actions > extra-reuse > project-info > sidebar-nav > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11010,7 +10885,7 @@
   "frame": "R-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 792,
+  "target": 939,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11149,7 +11024,7 @@
   "frame": "R-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 5464,
+  "target": 5270,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11167,7 +11042,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -11254,7 +11128,7 @@
   "frame": "R-01_1920_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > project-info > sidebar-nav > toolbar > commit-bar > file-table > intro-card > readme > footer",
+  "target": "system-band > topbar > global-search > body > gitlab-sidebar > content-panel > breadcrumb > main > page-head > repo-actions > extra-reuse > project-info > sidebar-nav > toolbar > commit-bar > language-bar > file-table > intro-card > readme > footer",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11284,7 +11158,7 @@
   "frame": "R-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 225,
+  "target": 233,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11299,7 +11173,7 @@
   "frame": "R-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 746,
+  "target": 893,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11338,10 +11212,10 @@
   "allowed": null,
   "frame": "R-01_360_Guest",
   "owner": "D21",
-  "side": "코드",
-  "target": 66,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 48,
+  "evidence": "실제 공공 GitLab 2026-11-07 10시대360 실측48, hash/시간/설명 토글/이력. Figma66과 코드154 모두 수정",
+  "implementation": "코드 모바일48 반영(Figma/공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -11391,7 +11265,7 @@
   "frame": "R-01_360_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 12→0",
+  "target": "안쪽 12 12 10 12→12 12 16 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11409,7 +11283,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -11543,7 +11416,7 @@
   "frame": "R-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 225,
+  "target": 233,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11558,7 +11431,7 @@
   "frame": "R-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 746,
+  "target": 893,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11597,10 +11470,10 @@
   "allowed": null,
   "frame": "R-01_360_Signed-in",
   "owner": "D21",
-  "side": "코드",
-  "target": 66,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 48,
+  "evidence": "실제 공공 GitLab 2026-11-07 10시대360 실측48, hash/시간/설명 토글/이력. Figma66과 코드154 모두 수정",
+  "implementation": "코드 모바일48 반영(Figma/공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -11650,7 +11523,7 @@
   "frame": "R-01_360_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": "간격 12→0",
+  "target": "안쪽 12 12 10 12→12 12 16 12",
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11668,7 +11541,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -11802,7 +11674,7 @@
   "frame": "R-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 724,
+  "target": 871,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11881,7 +11753,7 @@
   "frame": "R-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 5842,
+  "target": 5548,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -11899,7 +11771,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -11946,7 +11817,7 @@
   "frame": "R-01_768_Guest",
   "owner": "D21",
   "side": "코드",
-  "target": 172,
+  "target": 331,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -12003,7 +11874,7 @@
   "frame": "R-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 724,
+  "target": 871,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -12082,7 +11953,7 @@
   "frame": "R-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 5842,
+  "target": 5548,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -12100,7 +11971,6 @@
   "owner": "D21",
   "side": "코드",
   "target": [
-   "bell",
    "copy"
   ],
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
@@ -12147,7 +12017,7 @@
   "frame": "R-01_768_Signed-in",
   "owner": "D21",
   "side": "코드",
-  "target": 172,
+  "target": 331,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -12473,10 +12343,10 @@
   "allowed": null,
   "frame": "R-02_360_Guest",
   "owner": "C1",
-  "side": "코드",
-  "target": 66,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 48,
+  "evidence": "실제 공공 GitLab 2026-11-07 10시대360 실측48, hash/시간/설명 토글/이력. Figma66과 코드154 모두 수정",
+  "implementation": "코드 모바일48 반영(Figma/공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -12533,10 +12403,10 @@
   "allowed": null,
   "frame": "R-02_360_Signed-in",
   "owner": "C1",
-  "side": "코드",
-  "target": 66,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 48,
+  "evidence": "실제 공공 GitLab 2026-11-07 10시대360 실측48, hash/시간/설명 토글/이력. Figma66과 코드154 모두 수정",
+  "implementation": "코드 모바일48 반영(Figma/공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -12704,7 +12574,7 @@
   "frame": "R-03_1024_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 5256,
+  "target": 5210,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -12773,7 +12643,7 @@
   "frame": "R-03_1024_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 5256,
+  "target": 5210,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -12842,7 +12712,7 @@
   "frame": "R-03_1440_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 5054,
+  "target": 5034,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -12911,7 +12781,7 @@
   "frame": "R-03_1440_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 5054,
+  "target": 5034,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -12980,7 +12850,7 @@
   "frame": "R-03_1920_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 4922,
+  "target": 4902,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -13049,7 +12919,7 @@
   "frame": "R-03_1920_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 4922,
+  "target": 4902,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -13097,10 +12967,10 @@
   "allowed": null,
   "frame": "R-03_360_Guest",
   "owner": "C1",
-  "side": "코드",
-  "target": 66,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 48,
+  "evidence": "실제 공공 GitLab 2026-11-07 10시대360 실측48, hash/시간/설명 토글/이력. Figma66과 코드154 모두 수정",
+  "implementation": "코드 모바일48 반영(Figma/공식 재측정 대기)"
  },
  {
   "kind": "icon",
@@ -13148,7 +13018,7 @@
   "frame": "R-03_360_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 9050,
+  "target": 8979,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -13196,10 +13066,10 @@
   "allowed": null,
   "frame": "R-03_360_Signed-in",
   "owner": "C1",
-  "side": "코드",
-  "target": 66,
-  "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "side": "둘 다",
+  "target": 48,
+  "evidence": "실제 공공 GitLab 2026-11-07 10시대360 실측48, hash/시간/설명 토글/이력. Figma66과 코드154 모두 수정",
+  "implementation": "코드 모바일48 반영(Figma/공식 재측정 대기)"
  },
  {
   "kind": "icon",
@@ -13247,7 +13117,7 @@
   "frame": "R-03_360_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 9050,
+  "target": 8979,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -13316,7 +13186,7 @@
   "frame": "R-03_768_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 5788,
+  "target": 5758,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -13385,7 +13255,7 @@
   "frame": "R-03_768_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 5788,
+  "target": 5758,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15277,7 +15147,7 @@
   "frame": "R-07_1024_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15358,7 +15228,7 @@
   "frame": "R-07_1024_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15439,7 +15309,7 @@
   "frame": "R-07_1440_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15520,7 +15390,7 @@
   "frame": "R-07_1440_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15601,7 +15471,7 @@
   "frame": "R-07_1920_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15682,7 +15552,7 @@
   "frame": "R-07_1920_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15763,7 +15633,7 @@
   "frame": "R-07_360_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15844,7 +15714,7 @@
   "frame": "R-07_360_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -15925,7 +15795,7 @@
   "frame": "R-07_768_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -16006,7 +15876,7 @@
   "frame": "R-07_768_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 243,
+  "target": 234,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -17137,7 +17007,7 @@
   "frame": "R-16_360_Guest",
   "owner": "C2",
   "side": "코드",
-  "target": 194,
+  "target": 187,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -17182,7 +17052,7 @@
   "frame": "R-16_360_Signed-in",
   "owner": "C2",
   "side": "코드",
-  "target": 194,
+  "target": 187,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18759,7 +18629,7 @@
   "side": "코드",
   "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -18772,7 +18642,7 @@
   "frame": "R-25_1024_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 520,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18789,7 +18659,7 @@
   "side": "코드",
   "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -18802,7 +18672,7 @@
   "frame": "R-25_1024_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 520,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18819,7 +18689,7 @@
   "side": "코드",
   "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -18832,7 +18702,7 @@
   "frame": "R-25_1440_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 520,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18849,7 +18719,7 @@
   "side": "코드",
   "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -18862,7 +18732,7 @@
   "frame": "R-25_1440_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 520,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18879,7 +18749,7 @@
   "side": "코드",
   "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -18892,7 +18762,7 @@
   "frame": "R-25_1920_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 520,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18909,7 +18779,7 @@
   "side": "코드",
   "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -18922,7 +18792,7 @@
   "frame": "R-25_1920_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 520,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18939,7 +18809,7 @@
   "side": "코드",
   "target": 161,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -18952,7 +18822,7 @@
   "frame": "R-25_360_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 530,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18967,7 +18837,7 @@
   "frame": "R-25_360_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 2,
+  "target": 56,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -18984,7 +18854,7 @@
   "side": "코드",
   "target": 161,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -18997,7 +18867,7 @@
   "frame": "R-25_360_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 530,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -19012,7 +18882,7 @@
   "frame": "R-25_360_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 2,
+  "target": 56,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -19029,7 +18899,7 @@
   "side": "코드",
   "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -19042,7 +18912,7 @@
   "frame": "R-25_768_Guest",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 520,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -19059,7 +18929,7 @@
   "side": "코드",
   "target": 169,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
-  "implementation": "미수정"
+  "implementation": "공통 수정(공식 재측정 대기)"
  },
  {
   "kind": "box",
@@ -19072,7 +18942,7 @@
   "frame": "R-25_768_Signed-in",
   "owner": "C1",
   "side": "코드",
-  "target": 169,
+  "target": 520,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -19087,7 +18957,7 @@
   "frame": "R-26_1024_Signed-in",
   "owner": "C2",
   "side": "코드",
-  "target": 24,
+  "target": 280,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
@@ -19102,7 +18972,7 @@
   "frame": "R-26_1024_Signed-in",
   "owner": "C2",
   "side": "코드",
-  "target": 960,
+  "target": 704,
   "evidence": "code_plan/figma_full.json; UX/audit_v3/capture_map.md(정량 실측 없는 속성은 Figma)",
   "implementation": "미수정"
  },
