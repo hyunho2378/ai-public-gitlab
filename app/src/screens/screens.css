@@ -131,3 +131,8 @@
 .rb-aside-col.rb-filter-pc { background: none; padding: 0; border-radius: 0; border-top: var(--krds-border-width-static-medium) solid var(--krds-color-divider-gray-dark); }
 .rb-filter-pc fieldset { padding-block: var(--krds-padding-6); border-bottom: var(--krds-border-width-static-regular) solid var(--krds-color-divider-gray-light); }
 .rb-filter-pc > h2 { padding-top: var(--krds-padding-6); }
+
+/* G-06 내 프로젝트 도구 줄: 새 프로젝트 단추를 오른쪽에(공공 깃랩 /dashboard/projects 머리 오른쪽 단추) */
+.rb-my-toolbar { display: flex; justify-content: flex-end; }
+/* 제목 → 도구 줄 → 탭 각 8(Figma G-06 169·217) */
+#root .rb-page > .rb-my-toolbar, #root .rb-page > .rb-my-toolbar + [data-figma="tabs"] { margin-top: calc(var(--krds-number-5) - var(--rb-rhythm)); }
