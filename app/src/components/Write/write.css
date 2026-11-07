@@ -64,3 +64,5 @@
   .rb-login:has(> .rb-login-notice) > .rb-login-notice { padding-inline-end: 0; border-inline-end: 0; }
   .rb-login:has(> .rb-login-notice) > * { width: 100%; box-sizing: border-box; }
 }
+/* 비로그인 쓰기 화면 안내(로그인 단추 포함). 빈 상태 묶음과 같은 간격 */
+.rb-write-gate { display: flex; flex-direction: column; align-items: flex-start; gap: var(--krds-gap-3); }
