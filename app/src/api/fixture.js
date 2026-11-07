@@ -23,6 +23,23 @@ function snapshotList(query) {
 // scripts/snapshot/fetch-users.mjs가 고정 저장한 응답(public/data/snapshot/users/{username}.json)을 쓴다. 측정 기준 시각보다 뒤의 활동은 뺀다(그 시각에 본 화면)
 const USERS = import.meta.glob('../../public/data/snapshot/users/*.json', { eager: true, import: 'default' });
 const userSnap = (pred) => Object.values(USERS).find(pred);
+// 그룹 찾아보기(G-04): scripts/snapshot/fetch-groups.mjs가 고정 저장한 첫 쪽 목록과 그룹별 개수(public/data/snapshot/groups/explore.json)
+const GROUPS = Object.values(import.meta.glob('../../public/data/snapshot/groups/explore.json', { eager: true, import: 'default' }))[0] || null;
+function groupFixture(p, query) {
+  if (!GROUPS) return null;
+  const q = new URLSearchParams(query);
+  const res = (data, total = null, nextPage = null) => ({ mock: false, source: 'snapshot/groups', fixture: 'kordoc', state: Array.isArray(data) && !data.length ? 'Empty' : 'Ideal', data, pagination: { nextPage, total } });
+  if (p === 'groups') {
+    if (q.get('archived') === 'true') return res([], 0);
+    const s = (q.get('search') || '').toLowerCase();
+    const list = s ? GROUPS.groups.filter((g) => `${g.name} ${g.full_path}`.toLowerCase().includes(s)) : GROUPS.groups;
+    return res(list, s ? list.length : GROUPS.total, s ? null : GROUPS.nextPage);
+  }
+  const m = p.match(/^groups\/(\d+)\/(subgroups|projects|members)$/);
+  if (!m || !GROUPS.counts[m[1]]) return null;
+  const n = GROUPS.counts[m[1]][m[2]];
+  return res(n == null ? null : [], n);
+}
 function userFixture(p, query) {
   const q = new URLSearchParams(query);
   const res = (data, total = null) => ({ mock: false, source: 'snapshot/users', fixture: 'kordoc', state: Array.isArray(data) && !data.length ? 'Empty' : 'Ideal', data, pagination: { nextPage: null, total } });
@@ -56,6 +73,7 @@ export function fixtureFor(path) {
   const p = path.replace(/^\/api\/gitlab\//, '').split('?')[0];
   const ok = (data) => ({ mock: false, source: 'sample/kordoc', fixture: 'kordoc', state: 'Ideal', data, pagination: { nextPage: null, total: null } });
   if (p === 'users' || p.startsWith('users/')) return userFixture(p, path.split('?')[1] || '');
+  if (p === 'groups' || /^groups\/\d+\/(subgroups|projects|members)$/.test(p)) return groupFixture(p, path.split('?')[1] || '');
   if (p === 'projects') { const r = snapshotList(path.split('?')[1] || ''); return { mock: false, source: 'snapshot', fixture: 'kordoc', state: r.data.length ? 'Ideal' : 'Empty', data: r.data, pagination: { nextPage: r.next, total: r.total } }; }
   if (/^projects\/[^/]+\/repository\/commits\/[0-9a-f]{7,40}\/refs$/.test(p)) return ok([{ type: 'branch', name: 'main' }, { type: 'tag', name: 'v4.24.21' }]);
   if (/^projects\/[^/]+\/repository\/commits\/[0-9a-f]{7,40}\/merge_requests$/.test(p)) return ok([]);

@@ -107,6 +107,10 @@ if (fs.existsSync(USERS)) {
   }
 }
 
+// 그룹 찾아보기(G-04): scripts/snapshot/fetch-groups.mjs의 고정 저장본
+const GROUPS_RAW = path.join(RAW, 'groups', 'explore.json');
+if (fs.existsSync(GROUPS_RAW)) { fs.mkdirSync(path.join(OUT, 'groups'), { recursive: true }); fs.copyFileSync(GROUPS_RAW, path.join(OUT, 'groups', 'explore.json')); }
+
 fs.writeFileSync(path.join(OUT, 'index.json'), JSON.stringify({
   meta: { fetchedDate: meta.fetchedDate || null, fetchedAt: meta.fetchedAt || null, source: 'data/raw(공개 목록, README, 파일 목록, languages) + sample/kordoc', projectCount: index.length, detailCount: details, readmeExcluded: noReadme.size },
   projects: index,
