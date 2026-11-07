@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T14:26:45.656Z",
+ "generated": "2026-11-07T14:42:42.366Z",
  "rules": "UX/audit_v3/parity_ledger.md 0절",
  "screens": {
   "A-01_1024_Guest": {
@@ -9007,8 +9007,8 @@
   "A-09_1024_Guest": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9045,24 +9045,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -9074,8 +9056,8 @@
   "A-09_1024_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9114,24 +9096,6 @@
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
     },
     {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
-    },
-    {
      "kind": "only-code",
      "name": "section-title",
      "allowed": "Page 부품이 첫 h2에 자동으로 붙이는 이름표"
@@ -9141,8 +9105,8 @@
   "A-09_1440_Guest": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9197,24 +9161,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -9226,8 +9172,8 @@
   "A-09_1440_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9284,24 +9230,6 @@
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
     },
     {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
-    },
-    {
      "kind": "only-code",
      "name": "section-title",
      "allowed": "Page 부품이 첫 h2에 자동으로 붙이는 이름표"
@@ -9311,8 +9239,8 @@
   "A-09_1920_Guest": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9367,24 +9295,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -9396,8 +9306,8 @@
   "A-09_1920_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9454,24 +9364,6 @@
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
     },
     {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
-    },
-    {
      "kind": "only-code",
      "name": "section-title",
      "allowed": "Page 부품이 첫 h2에 자동으로 붙이는 이름표"
@@ -9481,8 +9373,8 @@
   "A-09_360_Guest": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9525,24 +9417,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 56,
-     "code": 32,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -9554,8 +9428,8 @@
   "A-09_360_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9600,24 +9474,6 @@
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
     },
     {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 56,
-     "code": 32,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
-    },
-    {
      "kind": "only-code",
      "name": "section-title",
      "allowed": "Page 부품이 첫 h2에 자동으로 붙이는 이름표"
@@ -9627,8 +9483,8 @@
   "A-09_768_Guest": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9671,24 +9527,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -9700,8 +9538,8 @@
   "A-09_768_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -9744,24 +9582,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "같은 도구 제작 기관 연결"
-     ],
-     "code": "협업 모집",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -17027,8 +16847,8 @@
   "G-07_1024_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -17065,24 +16885,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "내 프로젝트/의견 활동"
-     ],
-     "code": "알림",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -17181,8 +16983,8 @@
   "G-07_1440_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -17237,24 +17039,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "내 프로젝트/의견 활동"
-     ],
-     "code": "알림",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -17353,8 +17137,8 @@
   "G-07_1920_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -17409,24 +17193,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "내 프로젝트/의견 활동"
-     ],
-     "code": "알림",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -17513,8 +17279,8 @@
   "G-07_360_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -17557,24 +17323,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 56,
-     "code": 32,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "내 프로젝트/의견 활동"
-     ],
-     "code": "알림",
-     "allowed": null
     },
     {
      "kind": "only-code",
@@ -17661,8 +17409,8 @@
   "G-07_768_Signed-in": {
    "owner": "D21",
    "counts": {
-    "box": 1,
-    "text": 1,
+    "box": 0,
+    "text": 0,
     "font": 0,
     "color": 0,
     "shape": 0,
@@ -17705,24 +17453,6 @@
      "name": "footer",
      "detail": "안쪽 24 0 24 0→0 0 0 0",
      "allowed": "Figma 바닥글 인스턴스는 안쪽 여백을 바깥 틀에, 코드는 안쪽 .inner에 둔다(상자 위치와 크기로 대조)"
-    },
-    {
-     "kind": "box",
-     "name": "page-head",
-     "field": "h",
-     "figma": 64,
-     "code": 40,
-     "diff": -24,
-     "allowed": null
-    },
-    {
-     "kind": "text",
-     "name": "page-head",
-     "figma": [
-      "내 프로젝트/의견 활동"
-     ],
-     "code": "알림",
-     "allowed": null
     },
     {
      "kind": "only-code",
