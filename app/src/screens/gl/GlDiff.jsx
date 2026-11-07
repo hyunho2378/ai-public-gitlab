@@ -217,7 +217,7 @@ export function GlDiff({ files, id, refName, webUrl }) {
             </div>
             <div className="gl-filter-field">
               <input type="search" className="gl-filter-input" value={q} placeholder={g.fileFilter} aria-label={g.fileFilter} onChange={(e) => setQ(e.target.value)} />
-              <span className="gl-filter-go"><Icon name="search" /></span>
+              <span className="gl-filter-go" data-figma="filter-search"><Icon name="search" /></span>
             </div>
             {view === 'tree' && !q ? <TreeNode node={treeOf(files)} stats={stats} /> : (
               <ul className="gl-pl-list">{shown.map((i) => <FileLine key={i} name={nameOf(files[i])} index={i} stat={stats[i]} />)}</ul>

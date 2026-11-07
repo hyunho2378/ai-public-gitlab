@@ -41,7 +41,7 @@ export default function Usage() {
   return (
     <ProjectFrame screenId="R-30" tab="/use" tabLabel={t.ProjectTabs_2} data={data} state={guide ? 'Ideal' : 'Empty'}>
       {/* 결정(부모, 11. 7.): 단계 표시(Steps) 장식 금지, Figma R-30도 없음. 내용은 아래 절 제목 순서로 남긴다 */}
-      <h2 className="krds-text-body-small-bold">{t.P07_8}</h2>
+      <h2 className="krds-text-body-small-bold" data-figma="section-title">{t.P07_8}</h2>
       <form className="rb-stack" onSubmit={check}>
         <fieldset className="rb-stack">
           <FieldsetTitle className="krds-text-body-small-bold">{t.P07_9}</FieldsetTitle>
@@ -68,7 +68,7 @@ export default function Usage() {
           <p className="krds-text-body-xsmall rb-subtle">{t.P07_14}</p>
         </div>
       )}
-      <h2 className="krds-text-body-small-bold">{t.P07_15}</h2>
+      <h2 className="krds-text-body-small-bold" data-figma="section-title">{t.P07_15}</h2>
       <RunSteps readme={readme} cloneUrl={cloneUrl} />
       {guide ? (
         <Readme source={guide} />
