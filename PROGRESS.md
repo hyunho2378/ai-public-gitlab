@@ -636,3 +636,23 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 10 | 위치/크기 filter-search x | 9 | 35 | -26 | C2 |
 새로 생긴 원인(5건 이상): 코드에만 extra-reuse 8(D21). 없어진 원인: 아이콘 file-table 20·readme 20, 모양 readme 8, 코드에만 gl-diff-bar 10, Figma에만 diff-tree 6, project-info·extra-field·language-bar y 각 8, section-title y 14, 색·모양 gl-filter 각 10, profile-activity h 9·w 6, filter-clear x 8, gl-tabs h 8
 담당별 작업 목록: UX/audit_v3/M17_owner_D21.md, M17_owner_C.md
+
+## 측정 라운드 M-18(11. 7. 20:50, M): 공식 합 140(이전 M-17 262, -122), 새 허용 0건, 563개
+코드 시작 HEAD 11aeb7d(대조 시점 HEAD d05b24a, 그 사이는 문서 커밋만, 작업 트리 app/src 변경 없음). Figma 합본 figma_full.json = 2026-11-07 20:34(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, R-27 file_name=docs/사용안내.md(URL 확인), G-04·G-12 fixture=kordoc. 방법 같음(스크롤바 잔존 0, 폭 불일치 0, 이미지 미완 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭)
+분류별: 위치/크기 25, 문구 0, 글자 속성 5, 색 0, 모서리·안쪽·간격 38, 아이콘 16, Figma에만 51, 코드에만 5, 순서 0
+담당: D21 80(-42) · C1 31(-50) · C2 29(-30)
+판정 쪽별 합계(합 140): Figma 47 · 자료 없음/보류 45 · 측정 매핑 15 · 신규 판정 필요 33. 담당별: D21 보류 30·Figma 23·신규 27 / C1 매핑 15·Figma 10·신규 6 / C2 보류 15·Figma 14. 연결: M16_decisions.md(6열, M17 행 포함) 행 단위, M15 행 단위 52행, M14 근사 24행, M13 15행, M11 12행, M16 4행, 판정 없음 33행. M17_hold.md는 행 단위 표가 아니라 읽지 않음. 신규 33건은 M-17에 없던 원인(section-title w·Figma에만 section-title, C1 filter-search·tabs)
+| 순위 | 원인 | 건수 | M-17 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | Figma에만 tabs | 20 | 25 | -5 | D21 |
+| 2 | 모서리·안쪽·간격 profile-activity | 20 | 23 | -3 | C2 |
+| 3 | 위치/크기 section-title w | 13 | 0 | +13 | D21 |
+| 4 | 아이콘 gitlab-sidebar | 12 | 8 | +4 | D21 4, C1 4, C2 4 |
+| 5 | 모서리·안쪽·간격 search | 10 | 8 | +2 | D21 |
+| 6 | Figma에만 section-title | 10 | 0 | +10 | D21 |
+| 7 | Figma에만 filter-search | 6 | 0 | +6 | C1 |
+| 8 | Figma에만 toolbar | 5 | 5 | 0 | D21 |
+| 9 | Figma에만 project-row | 5 | 5 | 0 | D21 |
+| 10 | Figma에만 comment-editor | 5 | 5 | 0 | C2 |
+새로 생긴 원인(5건 이상): section-title w 13·Figma에만 section-title 10(D21), Figma에만 filter-search 6·코드에만 tabs 5·tabs y 5·tabs 글자 5(C1). 없어진 원인: project-row y 28, 아이콘 diff-file 30, sidebar-nav h 24, 코드에만 extra-reuse 8, filter-search x 9, diff-area h 10·아이콘 10, 문구 section-title 5
+담당별 작업 목록: UX/audit_v3/M18_owner_D21.md, M18_owner_C.md
