@@ -329,3 +329,13 @@
   #root .gl-filetitle-row .rb-drop-full { display: inline-flex; }
   #root .gl-filetitle-row .rb-drop-compact { display: none; }
 }
+/* M15 R-05(부모 결정): 머리줄48 바로 아래 트리320 + 열 간격24 + 파일 열 남은 폭. 첫 파일 전체 펼침(줄 자르지 않음).
+   1023 이하는 트리 숨김(실측 768·360 숨김. 실측 1023은 보이지만 KRDS 구간1024로 맞춘 결정) */
+#root .gl-diff { gap: 0; }
+#root .gl-diff-bar { min-height: var(--layout-diff-head-h); }
+#root .gl-diff-main.has-panel { grid-template-columns: var(--layout-diff-tree-w) minmax(0, 1fr); column-gap: var(--layout-gutter); }
+@media (max-width: 1023px) {
+  #root .gl-diff-main.has-panel { grid-template-columns: minmax(0, 1fr); }
+  #root .gl-diff-main.has-panel > .gl-panel { display: none; }
+  #root .gl-diff-bar > .rb-iconbtn:first-child { display: none; }
+}

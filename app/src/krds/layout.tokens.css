@@ -225,6 +225,10 @@
   --layout-gutter: var(--krds-number-10);
   --layout-section-gap: var(--krds-number-10);
   --layout-info-col: calc(var(--krds-number-12) * 9 + var(--krds-number-5));
+  /* 커밋 변경 파일 트리 열(부모 결정 11. 7.: 실측 .rd-app-sidebar 목록 320). 파일 열은 남은 폭 전부, 사이 --layout-gutter */
+  --layout-diff-tree-w: calc(var(--krds-number-12) * 10);
+  /* 변경 파일 머리줄(실측 .rd-app-header 48) */
+  --layout-diff-head-h: calc(var(--krds-number-12) + var(--krds-number-8));
   /* G-12 사용자 프로필(공공 GitLab 캡처 70): 아바타 96, 활동 달력 칸 12, 사이 2, 달 이름 줄 20 */
   --layout-profile-avatar: calc(var(--krds-number-12) * 3);
   --layout-cal-cell: 1.2rem; /* 1023 이하 1.0rem(아래 미디어 구간) */
