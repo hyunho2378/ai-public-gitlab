@@ -85,7 +85,7 @@ export function projectMenu(id, { signedIn, role, issues, webUrl } = {}) {
       item(u.G_workItems, `${p}/issues`), item(u.G_boards, `${p}/boards`), item(u.G_milestones, `${p}/milestones`), item(u.G_wiki, `${p}/wiki`),
     ] },
     { name: u.G_code, icon: 'ext/code', items: [
-      item(u.G_mr, `${p}/merge-requests`), item(u.G_repository, `${p}/code`), item(u.G_branches, `${p}/branches`),
+      item(u.G_mr, `${p}/merge-requests`), item(u.G_repository, `${p}/code`, { also: [`${p}/new`, `${p}/upload`] }), item(u.G_branches, `${p}/branches`),
       item(u.G_commits, `${p}/changes`, { hint: t.Side_hintCommit }), item(u.G_tags, `${p}/tags`), item(u.G_graph, `${p}/graph`),
       item(u.G_compare, `${p}/compare`), item(u.G_snippets, `${p}/snippets`),
     ] },
@@ -137,6 +137,9 @@ function useTip() {
 }
 
 function SideLink({ it, tipApi, indent }) {
+  const { pathname } = useLocation();
+  // 실제 공공 깃랩: 새 파일·파일 올리기 화면에서도 코드 > 리포지토리가 현재 항목(UX/17 2절 묶음 펼침)
+  const alsoOn = (it.also || []).some((x) => pathname === x || pathname.startsWith(x + '/'));
   const id = 'rb-tip-' + (it.to || it.href).replace(/[^a-z0-9]/gi, '-');
   const tipOn = it.hint ? (e) => tipApi.show(e.currentTarget, it.hint, id) : undefined;
   const common = {
@@ -156,7 +159,7 @@ function SideLink({ it, tipApi, indent }) {
     return <a className={cls} href={it.href} {...newWindow(it.label)} title={u.G_newWindow} {...common}>{body}</a>;
   }
   return (
-    <NavLink end={!!it.end} to={it.to} className={({ isActive }) => cls + (isActive ? ' active' : '')} {...common}>
+    <NavLink end={!!it.end} to={it.to} className={({ isActive }) => cls + (isActive || alsoOn ? ' active' : '')} aria-current={alsoOn ? 'page' : undefined} {...common}>
       {body}
     </NavLink>
   );
@@ -164,7 +167,7 @@ function SideLink({ it, tipApi, indent }) {
 
 function Group({ group, tipApi, rail, onShow }) {
   const { pathname } = useLocation();
-  const hasActive = group.items.some((it) => it.to && (pathname === it.to || pathname.startsWith(it.to + '/')));
+  const hasActive = group.items.some((it) => it.to && [it.to, ...(it.also || [])].some((x) => pathname === x || pathname.startsWith(x + '/')));
   const [open, setOpen] = useState(group.open || hasActive);
   useEffect(() => { if (hasActive) setOpen(true); }, [hasActive]);
   if (group.heading) {
