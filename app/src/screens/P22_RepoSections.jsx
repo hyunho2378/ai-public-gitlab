@@ -44,7 +44,7 @@ function MembersView({ list }) {
           <input type="search" value={q} placeholder={rp.filterMembers} aria-label={rp.filterMembers} onChange={(e) => setQ(e.target.value)} />
           <FilterSearch label={u.List_searchLabel} />
         </div>
-        <span className="krds-btn small tertiary">{rp.sortAccount}</span>
+        <span className="krds-btn small tertiary">{rp.sortAccount}<Icon name="arrow-down" /></span>
         <IconButton icon="ext/sort-desc" label={rp.desc} />
       </div>
       <div className="gl-table-wrap gl-members">

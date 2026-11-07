@@ -90,7 +90,7 @@ export function Issues() {
             <IconButton icon="close" data-figma="filter-clear" label={w2.clearFilter} onClick={() => { setQuery(''); setSt('opened'); }} />
             <FilterSearch label={u.List_searchLabel} />
           </div>
-          <Drop label={w.display} align="right" button={<span>{w.display}</span>}>
+          <Drop label={w.display} align="right" toggle={false} button={<><Icon name="ext/sliders" /><span>{w.display}</span></>}>
             {(close) => (
               <ul className="drop-list" aria-label={u.List_sort}>
                 {SORTS.map(([k, n]) => (
