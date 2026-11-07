@@ -532,3 +532,23 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 10 | 위치/크기 page-head h | 25 | 25 | 0 | D21 17, C1 4, C2 4 |
 새로 생긴 원인(5건 이상): 모서리·안쪽·간격 commit-bar 6. 없어진 원인: 색 profile-event 60, 모서리 language-bar 40, gl-tabs 모양 20, task-search 높이 10·모양 10, intro-card 문구·모양 각 10, 색 topbar 5, page-head y 6
 담당별 작업 목록: UX/audit_v3/M12_owner_D21.md, M12_owner_C.md(M11>M10>M9>M8 판정 이어받음, 건수 기준 D21: M8 472·M9 193·M11 168·M10 76·신규 8, C: M8 481·M10 82·M9 51·신규 2)
+
+## 측정 라운드 M-13(11. 7. 11:11, M): 공식 합 1,331(이전 M-12 1,533, -202), 새 허용 0건, 563개
+코드: 측정 시작 HEAD 68d475b, 대조 시점 HEAD 594722c(측정 중 다른 담당 커밋 유입, 같은 작업 트리 5994). Figma 합본 figma_full.json = 2026-11-07 10:58(598 변형). 고정 시각: figma_name_map screens[].code.query.now = 2026-11-07T10:00:00+09:00 전 57화면 적용(URL ?now=...%2B09%3A00 확인). 방법: 스크롤 막대 0, 비동기 대기(대기 초과 0), G-12 profile-event 20개 3폭, 폭 불일치 0. 막대 잔존 4곳(#rb-scroll 안 막대, help 부근 변형으로 추정, 변형 키는 기록하지 못함)
+담당: D21 805(-112) · C1 275(-62) · C2 251(-28)
+판정 쪽별 합계(행 단위 M11>M10>M9>M8 이어받기): 코드 793 · Figma 284 · 측정 매핑 12 · 사용자 확인 5 · 둘 다 8 · 신규 판정 필요 229(합 1,331)
+담당별 판정 쪽: D21 코드 476·Figma 116·사용자확인 5·둘 다 4·신규 204 / C1 코드 180·Figma 76·둘 다 4·신규 15 / C2 코드 137·Figma 92·매핑 12·신규 10
+| 순위 | 원인 | 건수 | M-12 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row y | 44 | 36 | +8 | D21 |
+| 2 | 문구 section-title | 43 | 43 | 0 | D21 4, C1 34, C2 5 |
+| 3 | 색 extra-field | 40 | 0 | +40 | D21 |
+| 4 | 모서리·안쪽·간격 extra-field | 40 | 0 | +40 | D21 |
+| 5 | 위치/크기 sidebar-nav w | 40 | 40 | 0 | D21 4, C1 12, C2 24 |
+| 6 | 위치/크기 filter-search x | 34 | 34 | 0 | D21 2, C2 32 |
+| 7 | 위치/크기 page-head w | 28 | 20 | +8 | D21 |
+| 8 | Figma에만 tabs | 25 | 20 | +5 | D21 20, C1 5 |
+| 9 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 10 | 위치/크기 page-head h | 21 | 25 | -4 | D21 19, C1 2 |
+새로 생긴 원인(5건 이상): extra-field 색 40·모양 40·폭 20·글자 20·y 16(전부 D21). 없어진 원인: project-row x 66·w 66, 코드에만 extra-field 20, results x·w 각 12, filters 폭 12, 코드에만 repo-actions·extra-reuse 각 10, 문구 profile-event 18, search-clear x 10 등
+담당별 작업 목록: UX/audit_v3/M13_owner_D21.md, M13_owner_C.md(행 단위 판정 이어받기, 신규만 '판정 필요')
