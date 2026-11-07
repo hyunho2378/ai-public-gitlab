@@ -339,3 +339,5 @@
   #root .gl-diff-main.has-panel > .gl-panel { display: none; }
   #root .gl-diff-bar > .rb-iconbtn:first-child { display: none; }
 }
+/* M16 R-04: 필터 입력칸 안 자리표시·아이콘은 보조색(실제 공공 깃랩 필터 칸). 입력한 글은 .gl-filter-input이 본문색으로 따로 정한다 */
+#root .gl-filter-field { color: var(--krds-color-text-subtle); }
