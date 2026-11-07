@@ -46,11 +46,11 @@ export default function RepoAnalytics() {
         {langs.length ? <Bars rows={langs} unit="%" axis={u.RA_langAxis} /> : <p>{u.RA_none}</p>}
       </section>
       <section className="rb-ra-sec">
-        <h2>{u.RA_covTitle}</h2>
+        <h2 data-figma="section-title">{u.RA_covTitle}</h2>
         <div className="krds-alert-box rb-ra-note" role="status"><Icon name="ext/info" /><div><p className="rb-ra-note-t">{u.RA_covNone}</p><p>{u.RA_covBody}</p></div></div>
       </section>
       <section className="rb-ra-sec">
-        <h2>{u.RA_commitTitle}</h2>
+        <h2 data-figma="section-title">{u.RA_commitTitle}</h2>
         <p className="rb-subtle">{u.RA_commitBasis(n)}</p>
         {n ? <Bars rows={byDay} unit={u.RA_commitUnit} axis={u.RA_dayAxis} /> : <p>{u.RA_none}</p>}
       </section>
