@@ -24,6 +24,7 @@ import '../components/Code/code.css';
 import './parts/glWork.css';
 import './parts/glRepo.css';
 import { ActivityNotes } from './parts/ActivityNotes';
+import { CommentBox } from './parts/CommentBox';
 import { gql, Q } from './parts/glGraphql';
 import { useAuth } from '../components/Identity/useAuth';
 
@@ -175,6 +176,7 @@ export function Issue() {
           </div>
           <div className="rb-detail-body">{i.description ? <Readme source={i.description} /> : <p className="rb-subtle">{t.P19_noBody}</p>}</div>
           <ActivityNotes notes={notes.data || []} signedIn={signedIn} />
+          {signedIn ? <CommentBox webUrl={i.web_url} /> : null}
         </div>
       )}
     </ProjectFrame>
