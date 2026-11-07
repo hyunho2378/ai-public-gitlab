@@ -415,3 +415,8 @@ html[data-krds-mode="light"] #root .rb-gbar-search {
   #root .rb-taskfind .rb-prow { row-gap: var(--krds-number-3); }
   #root .rb-taskfind .rb-prow > .rb-icon { grid-row: 1 / span 2; }
 }
+/* M21 767 이하 목록 행: 아바타32(와 아이콘)가 첫 줄에만 있어 설명 없는 행에서 첫 줄이 32로 늘던 원인(근거 있는 최소 높이 아님).
+   두 줄에 걸쳐 제목22 → 4 → 숫자 줄 리듬을 설명 유무와 상관없이 같게 */
+@media (max-width: 767px) {
+  #root .rb-prow > .rb-avatar, #root .rb-prow > .rb-icon { grid-row: 1 / span 2; }
+}
