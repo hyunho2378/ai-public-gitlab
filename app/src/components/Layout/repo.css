@@ -57,7 +57,7 @@
 .rb-repo-body { display: flex; flex-direction: column; gap: var(--krds-gap-7); min-width: 0; }
 .rb-repo-info { display: flex; flex-direction: column; gap: var(--krds-gap-5); min-width: 0; }
 .rb-repo-info h2 { margin: 0; }
-@media (max-width: 1023px) {
+@media (max-width: 1279px) {
   .rb-repo-main.has-info { grid-template-columns: minmax(0, 1fr); row-gap: var(--krds-gap-7); }
 }
 .rb-dock-info { display: flex; flex-direction: column; gap: var(--krds-gap-6); }
@@ -165,7 +165,7 @@ a.rb-s-scope:hover { background: var(--krds-color-action-secondary-hover); }
 .rb-s-scope.is-current { background: var(--krds-color-action-secondary-selected); font-weight: var(--rb-fw-current); }
 .rb-s-arch { border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--krds-gap-2); }
 .rb-s-results { display: flex; flex-direction: column; gap: var(--krds-number-7); min-width: 0; }
-.rb-taskfind { display: flex; flex-direction: column; gap: var(--krds-gap-3); padding-bottom: 0; border-bottom: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); }
+.rb-taskfind { display: flex; flex-direction: column; gap: var(--krds-gap-3); padding-bottom: var(--krds-number-5); border-bottom: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); }
 .rb-taskfind h2 { margin: 0; }
 .rb-taskfind-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--krds-gap-3); }
 .rb-taskfind-list li:not(.rb-prow) { display: flex; flex-direction: column; gap: var(--krds-gap-1); }
@@ -187,7 +187,7 @@ a.rb-s-scope:hover { background: var(--krds-color-action-secondary-hover); }
 .rb-empty-center > .rb-icon { width: var(--krds-number-18); height: var(--krds-number-18); color: var(--krds-color-text-subtle); }
 /* 공공 깃랩 02: 제목 줄은 두 열 위. 52(모바일): 정보 열이 제목 아래, 도구 줄 위. 개수와 문서 링크는 가로로 줄바꿈 */
 .rb-repo-main.has-info > .rb-repo-title-row { grid-column: 1 / -1; }
-@media (max-width: 1023px) {
+@media (max-width: 1279px) {
   .rb-repo-main.has-info > .rb-repo-info { order: -1; position: static; }
   .rb-repo-main.has-info > .rb-repo-title-row { order: -2; }
   .rb-repo-main.has-info .rb-info-list { flex-direction: row; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-5); }
@@ -197,7 +197,7 @@ a.rb-s-scope:hover { background: var(--krds-color-action-secondary-hover); }
 .rb-x-search { padding-inline: var(--krds-number-7); gap: var(--krds-number-5); border-radius: var(--krds-radius-small2); border-color: var(--layout-panel-border); color: var(--krds-color-text-basic); }
 
 /* M-10 같은 상태 탭 부품: 두 칸80, 칸 사이0. 화면별 폭 보정 없음. */
-#root .rb-x-tabs .tab > ul { gap: 0; }
+#root .rb-x-tabs .tab > ul { gap: var(--krds-number-5); }
 #root .rb-x-tabs .tab .btn-tab { min-width: calc(var(--krds-number-16) + var(--krds-number-12)); }
 /* M-10 업무 검색 간단 행은 두 줄 사이0. 바깥 결과 간격12는 위 공통 부품에서 관리. */
 /* 실측 v3: 좁은 필터는 입력이 먼저, 정렬이 다음. 업무 분야가 있어도 두 줄. */
@@ -211,3 +211,6 @@ a.rb-s-scope:hover { background: var(--krds-color-action-secondary-hover); }
   #root .rb-x-filter > .rb-x-extra { grid-column: 1 / 3; grid-row: 2; justify-self: start; }
   #root .rb-x-filter:has(> .rb-x-extra) > .rb-x-sort { grid-column: 3 / -1; grid-row: 2; justify-self: end; }
 }
+
+/* 공통 저장소 화면 제목→첫 본문8, 이후 본문 묶음 사이24는 유지한다. */
+#root .rb-repo-main > .rb-frame-title + * { margin-top: calc(var(--krds-number-5) - var(--krds-gap-7)); }
