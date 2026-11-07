@@ -63,7 +63,8 @@ export default function Write({ mode }) {
   const frame = useProject();
   const branch = search.get('ref') || frame.data?.project.default_branch || 'main';
   const editPath = (params['*'] || '').replace(/\/$/, '');
-  const [name, setName] = useState(editPath);
+  // 공공 깃랩 새 파일 주소의 ?file_name=(예: 'README 추가' 링크)처럼 이름을 미리 채운다
+  const [name, setName] = useState(editPath || (mode === 'new' ? search.get('file_name') || '' : ''));
   const [text, setText] = useState('');
   const [files, setFiles] = useState([]);
   const [branchName, setBranchName] = useState('');
