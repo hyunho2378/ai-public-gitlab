@@ -596,3 +596,23 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 
 ## 측정 방법 보탬(11. 7., 코드 담당)
 - 판정 이어받기: M-16부터 UX/audit_v3/M15_decisions.md의 행 단위 표(`화면 | 요소 | 분류 | 항목 | 판정`)를 이어받기 기준으로 쓴다. 화면·요소·분류·항목 넷이 모두 같은 원장 행에만 붙이고, 원인 단위 문서(M14_decisions.md 등)로 근사 연결하지 않는다. 표에 없는 행만 이전 판정표 순서로 잇는다
+
+## 측정 라운드 M-16(11. 7. 19:29, M): 공식 합 481(이전 M-15 779, -298), 새 허용 0건, 563개
+코드 시작 HEAD 919348e(측정 중 변동 없음). Figma 합본 figma_full.json = 2026-11-07 19:13(598 변형). 고정 시각 now=2026-11-07T10:00:00+09:00, G-04·G-12 fixture=kordoc. 방법 보탬 반영: (1) README 외부 배지·이미지가 loading=lazy라 화면 밖 이미지는 영영 로드되지 않아(첫 시도에서 R-01 대기 초과 6건) 측정 전 loading을 eager로 바꾸고 모든 img complete까지 대기, 이후 이미지 미완 0곳, R-01 1024 readme h 5,152(4,683 아님). (2) R-05 머리줄: figma_name_map.json boxes에 gl-diff-bar 추가(figmaNodeMatch 'Diff bar'|'gl-diff-bar'), 코드에 data-figma가 없어 측정 실행기가 .gl-diff-bar 상자를 이름표 gl-diff-bar로 R-05에 직접 추가(1440 Guest 296/536/1088/48, M15_to_figma 표와 같음). Figma 내보내기에는 같은 이름 요소가 없어 코드에만 10건으로 잡힘(Figma 쪽 이름표 필요). 스크롤바 잔존 0, 폭 불일치 0, 비동기 대기 초과 0, G-12 profile-event 20개 3폭
+분류별: 위치/크기 276, 문구 5, 글자 속성 0, 색 12, 모서리·안쪽·간격 52, 아이콘 78, Figma에만 46, 코드에만 12, 순서 0
+담당: D21 229(-214) · C1 133(-52) · C2 119(-32)
+판정 쪽별 합계(합 481): Figma 337 · 코드 60 · 자료 없음/보류 45 · 측정 매핑 7 · 신규 판정 필요 32. 담당별: D21 Figma 161·코드 36·보류 30·신규 2 / C1 Figma 76·코드 22·매핑 5·신규 30 / C2 Figma 100·보류 15·코드 2·매핑 2. 연결: M15_decisions.md 행 단위(화면·요소·분류·항목 일치) 258행, 이어서 M14·M13 원인 단위 근사 130행, M8~M11 행 단위 61행, 판정 없음 32행
+| 순위 | 원인 | 건수 | M-15 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 위치/크기 project-row y | 36 | 52 | -16 | D21 |
+| 2 | 위치/크기 filter-search x | 35 | 35 | 0 | D21 2, C2 33 |
+| 3 | Figma에만 tabs | 25 | 25 | 0 | D21 20, C1 5 |
+| 4 | 위치/크기 sidebar-nav h | 24 | 24 | 0 | D21 4, C1 12, C2 8 |
+| 5 | 아이콘 file-table | 20 | 20 | 0 | D21 |
+| 6 | 아이콘 readme | 20 | 20 | 0 | D21 |
+| 7 | 모서리·안쪽·간격 profile-activity | 20 | 23 | -3 | C2 |
+| 8 | 위치/크기 project-info h | 16 | 16 | 0 | D21 |
+| 9 | 위치/크기 readme h | 16 | 20 | -4 | D21 |
+| 10 | 위치/크기 section-title y | 14 | 15 | -1 | D21 2, C1 12 |
+새로 생긴 원인(5건 이상): 코드에만 gl-diff-bar 10(C1), Figma에만 diff-tree 6(C1). 없어진 원인: 색 filters 12, results h 16, 색 search-filter 8, 모양 extra-field 20, 문구 filters 6, diff-area y 8, diff-file x·y·w·h 30, 모양 gl-tabs 10, 문구 profile-activity 10. 주의: R-05 1440 diff-area h는 Figma 1,898 대 코드 6,633(코드는 파일 전체 펼침)
+담당별 작업 목록: UX/audit_v3/M16_owner_D21.md, M16_owner_C.md

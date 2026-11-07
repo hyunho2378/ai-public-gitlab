@@ -2752,6 +2752,11 @@
   "collapse-sidebar": {
    "figmaNodeMatch": "n.name === 'Collapse sidebar'",
    "inCode": false
+  },
+  "gl-diff-bar": {
+   "figmaNodeMatch": "n.name === 'Diff bar' || n.name === 'gl-diff-bar'",
+   "inCode": true,
+   "note": "M-16: R-05 머리줄(.gl-diff-bar, 코드 data-figma 없음). 측정 실행기가 .gl-diff-bar 상자를 R-05 측정에 이름표 gl-diff-bar로 넣는다. Figma 내보내기에 같은 이름의 요소가 생기면 대조된다"
   }
  },
  "codeTagsWithoutFigmaMatch": [],
