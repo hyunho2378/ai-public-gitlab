@@ -317,3 +317,15 @@
 /* M14 R-02: 하위 폴더 제목 줄(폴더 이름 + 파일 찾기·코드). 실제 .tree-controls처럼 오른쪽, 좁으면 줄바꿈 */
 .gl-filetitle-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--krds-gap-3); min-width: 0; }
 .gl-filetitle-row > .gl-filetitle-name { flex: 1 1 auto; }
+/* M15 R-02 360: 실측 하위 폴더 머리(360) h1 24/30 → KRDS 24/32, 아래16에 '파일 찾기' 전체폭32, 그 아래8에 '코드' 전체폭32(.tree-controls 세로).
+   공통 모바일 화면 제목 단계(--layout-title-page-sm)를 쓰고 '코드'는 좁은 화면에서도 글 단추(실제와 같음). 더보기는 '코드' 옆 32 */
+@media (max-width: 767px) {
+  #root .gl-filetitle-row { flex-direction: column; align-items: stretch; gap: var(--krds-gap-5); }
+  #root .gl-filetitle-row > .gl-filetitle-name { font-size: var(--layout-title-page-sm); line-height: var(--layout-title-page-sm-lh); }
+  #root .gl-filetitle-row > .rb-toolbar-right { display: flex; flex-wrap: wrap; gap: var(--krds-gap-3); width: 100%; }
+  #root .gl-filetitle-row > .rb-toolbar-right > .rb-find-btn { flex: 1 0 100%; justify-content: center; }
+  #root .gl-filetitle-row > .rb-toolbar-right > .rb-drop:not(:last-child) { flex: 1 1 auto; }
+  #root .gl-filetitle-row > .rb-toolbar-right > .rb-drop:not(:last-child) > .drop-btn { width: 100%; justify-content: center; }
+  #root .gl-filetitle-row .rb-drop-full { display: inline-flex; }
+  #root .gl-filetitle-row .rb-drop-compact { display: none; }
+}
