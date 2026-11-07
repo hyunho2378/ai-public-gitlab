@@ -280,3 +280,7 @@
   #root .gl-tags-filter { flex-wrap: wrap; }
   #root .gl-tags-filter > .gl-filter-field { flex-basis: 100%; }
 }
+
+/* M-9 공통 검색 끝 슬롯: 부모 테두리 안쪽30 높이를 상속하지 않고32칸 유지. */
+.gl-filter-go { box-sizing: border-box; flex: none; width: var(--layout-filter-control-h); height: var(--layout-filter-control-h); padding: 0; border-color: var(--layout-panel-border); }
+.gl-filter-go .rb-icon { width: var(--krds-number-8); height: var(--krds-number-8); }
