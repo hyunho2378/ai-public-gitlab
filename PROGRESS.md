@@ -494,3 +494,23 @@ project-row 분포: y 102 = A-01 42 · G-01 36 · G-02 24 / h 80 = G-01 48 · A-
 새로 생긴 원인(5건 이상): 문구 language-bar 20, 모양 gl-tabs 20, 색 group-row 20, 문구 profile-activity 10, Figma에만 global-search 8, 위치 profile-activity w 6. 없어진 원인: group-row w 200, main 연쇄(body·content-panel·breadcrumb y 각 23), Figma에만 profile-event 40, A-04 홈 구조용 Figma 요소들, filter-search w·h 20, 색 body·content-panel·breadcrumb·footer 각 10 등
 G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만 2, 순서 1
 담당별 작업 목록: UX/audit_v3/M10_owner_D21.md, M10_owner_C.md(M9 판정 우선 이어받음. 건수 기준 D21: M9 495·M8 736·신규 111, C: M9 47·M8 521·신규 46)
+
+## 측정 라운드 M-11(11. 7. 09:50, M): 공식 합 1,812(이전 M-10 1,956, -144), 새 허용 0건, 563개
+코드 048cbbc, 개발 서버 5994. Figma 합본 figma_full.json = 2026-11-07 09:34(598 변형). 방법 M-10과 같음(스크롤 막대 0, 비동기 대기, 대기 초과 0, 폭 불일치 0, G-12 profile-event 20개 3폭)
+변수 연결 표본(합본 전수): 색 필드 47,192곳 — 채움 3,768, 선 2,915, 글자 40,509 — 모두 var 이름이 있어(연결됨) 원색만 있는 곳(var 없음) 0곳. 화면군별 A 8,942, D 39, G 13,049, R 25,162 모두 미연결 0. 주의: 합본에는 boundVariables 필드가 없고 var(변수 이름) 유무로 판정했다. 변수 이름이 있어도 실제 연결 객체인지는 Figma 쪽에서 확인해야 한다
+담당: D21 1,186(-156) · C1 347(+12) · C2 279(0)
+| 순위 | 원인 | 건수 | M-10 | 증감 | 담당 |
+|---:|---|---:|---:|---:|---|
+| 1 | 색 profile-event | 60 | 0 | +60 | D21 |
+| 2 | 위치/크기 project-row y | 52 | 64 | -12 | D21 |
+| 3 | 위치/크기 project-row x | 48 | 0 | +48 | D21 |
+| 4 | 위치/크기 project-row w | 48 | 0 | +48 | D21 |
+| 5 | 문구 section-title | 43 | 26 | +17 | D21 4, C1 34, C2 5 |
+| 6 | 모서리·안쪽·간격 language-bar | 40 | 40 | 0 | D21 |
+| 7 | 위치/크기 sidebar-nav w | 40 | 40 | 0 | D21 4, C1 12, C2 24 |
+| 8 | 위치/크기 section-title y | 40 | 30 | +10 | D21 10, C1 30 |
+| 9 | 위치/크기 filter-search x | 34 | 42 | -8 | D21 2, C2 32 |
+| 10 | 위치/크기 file-table h | 30 | 30 | 0 | D21 20, C1 10 |
+새로 생긴 원인(5건 이상): 색 profile-event 60, project-row x 48·w 48, results x·w 각 6, task-search x·w 각 6, body·content-panel·breadcrumb·page-head y 각 6, 색 topbar 5. 없어진 원인: 모서리 results 10, 문구 task-search 10, language-bar h·문구 각 20, 색 group-row 20, 코드에만 없는 global-search 8, extra-field-filter x 10, 문구 breadcrumb 10
+색 분류 93→146(+53): 색 profile-event 60이 대부분
+담당별 작업 목록: UX/audit_v3/M11_owner_D21.md, M11_owner_C.md(M10>M9>M8 판정 이어받음. 건수 기준 D21: M8 612·M9 270·M10 112·신규 192, C: M8 497·M10 82·M9 47)
