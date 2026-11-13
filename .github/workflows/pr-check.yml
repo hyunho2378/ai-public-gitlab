@@ -1,0 +1,29 @@
+name: PR 검사
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: 앱 의존성 설치
+        working-directory: app
+        run: npm ci
+      - name: 코드 규칙 검사(문구, 가운뎃점, 색, 사이드바, 로그인 배치)
+        working-directory: app
+        run: npm run audit:code
+      - name: 앱 빌드
+        working-directory: app
+        run: npm run build:pages
+      - name: 현황판 의존성 설치
+        working-directory: dashboard
+        run: npm ci
+      - name: 현황판 빌드
+        working-directory: dashboard
+        run: npm run build:pages
