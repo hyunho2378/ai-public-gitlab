@@ -136,3 +136,6 @@
 .rb-my-toolbar { display: flex; justify-content: flex-end; }
 /* 제목 → 도구 줄 → 탭 각 8(Figma G-06 169·217) */
 #root .rb-page > .rb-my-toolbar, #root .rb-page > .rb-my-toolbar + [data-figma="tabs"] { margin-top: calc(var(--krds-number-5) - var(--rb-rhythm)); }
+
+/* 메타 사이 구분(가운뎃점 대신 간격, UX/07 4장) */
+.rb-meta-gap { display: inline-block; inline-size: var(--krds-gap-3); }

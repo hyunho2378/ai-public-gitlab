@@ -284,14 +284,14 @@ export const u = {
   Q_place: "장소",
   Q_hint: "검색어 입력 후 Enter",
   // 탐색 > 주제, 스니펫(공공 깃랩 41, 42)
-  T_title: "주제 둘러보기 · AI 정부 실험실 공공 저장소",
+  T_title: "주제 둘러보기",
   T_filter: "이름으로 필터링",
   T_box: "주제",
   T_projects: "프로젝트 수",
-  Sn_title: "스니펫 탐색 · AI 정부 실험실 공공 저장소",
+  Sn_title: "스니펫 탐색",
   Sn_none: "공개 스니펫 없음",
   // 탐색 > 그룹(공공 깃랩 40)
-  Gr_title: "그룹 찾아보기 · AI 정부 실험실 공공 저장소",
+  Gr_title: "그룹 찾아보기",
   Gr_desc: "아래에서 공개 그룹을 모두 찾을 수 있고, 그룹 참여를 요청해 기여할 수 있다.",
   Gr_search: "검색",
   Gr_sortCreated: "만든 날짜",
@@ -303,7 +303,7 @@ export const u = {
   Gr_created: (rel) => `생성됨 ${rel}`,
   Gr_none: "그룹 없음",
   // D-21 4장 탐색 프로젝트 목록(공공 깃랩 01, 72 원문)
-  X_title: "프로젝트 둘러보기 · AI 정부 실험실 공공 저장소",
+  X_title: "프로젝트 둘러보기",
   X_active: "활성",
   X_inactive: "비활성",
   X_tabs: "프로젝트 상태",

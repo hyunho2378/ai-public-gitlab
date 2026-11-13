@@ -7,7 +7,7 @@ export function splitOwner(raw){const full=String(raw||'').trim();if(!full)retur
 // D-09 사람 이름을 지우지 않는다. 기관을 못 가리면 전체 이름을 그대로 쓴다.
 export function organizationName(raw){const{org,full}=splitOwner(raw);return org||full||null;}
 export const synonyms={출장:['여비','정산'],여비:['출장','정산'],문서:['한글','hwp','pdf'],요약:['summarizer','summary'],회의:['회의록'],엑셀:['excel','xlsx'],자동화:['자동','automation'],민원:['주민','상담']};
-export const synonymSource='본 프로젝트 업무용 편집 사전(잠정). 외부 표준·검증된 유의어 사전이 아님. UX U1의 쉬운 업무말 검색을 위한 규칙.';
+export const synonymSource='본 프로젝트 업무용 편집 사전(잠정). 외부 표준/검증된 유의어 사전이 아님. UX U1의 쉬운 업무말 검색을 위한 규칙.';
 export function createCatalog({csvText,snapshot}){const live=new Map(snapshot.items.map(p=>[p.id,p]));
 const projects=parseCsv(csvText).map(r=>({id:Number(r.id),name:r.name,path:r.path,organization:organizationName(r.owner),owner:r.owner,person:splitOwner(r.owner).person,last:r.last,language:r.lang,description:null,execution:'unknown',license:'unknown',classification:classify(r.name),webUrl:'https://gitlab.aigov.go.kr/'+r.path,sourceDate:'2026-10-25'}));
 

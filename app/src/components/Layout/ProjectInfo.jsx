@@ -144,7 +144,7 @@ function IntroCard({ id, card }) {
       </dl>
       <p className="rb-dock-more">
         <Link className="krds-link" to={`${p}/use`}>{u.I_more}</Link>
-        {Array.isArray(lines) && lines.length === 2 ? <> · <Link className="rb-plain-link rb-subtle" to={`${p}/code/README.md#L${lines[0]}-${lines[1]}`}>{u.C_evidence(lines[0], lines[1])}</Link></> : null}
+        {Array.isArray(lines) && lines.length === 2 ? <><span className="rb-meta-gap" /><Link className="rb-plain-link rb-subtle" to={`${p}/code/README.md#L${lines[0]}-${lines[1]}`}>{u.C_evidence(lines[0], lines[1])}</Link></> : null}
       </p>
     </section>
   );

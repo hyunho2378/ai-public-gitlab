@@ -488,7 +488,7 @@ export const t = {
   Cmt_write: "쓰기",
   Cmt_close: "작업 항목 닫기",
   Cmt_label: "의견",
-  Cmt_hint: "보내기·닫기는 공공 깃랩 원본 작업 항목 화면에서",
+  Cmt_hint: "보내기/닫기는 공공 깃랩 원본 작업 항목 화면에서",
   Settings_title: "설정",
   Settings_account: "계정",
   PSet_title: "프로젝트 설정",
@@ -846,7 +846,8 @@ export const t = {
     similar: (n) => `유사 도구 ${n}`,
     checkCount: (all, ok) => `자동 점검 ${ok}/${all} 통과`,
     updatedSuffix: (date) => ` / ${date} 갱신`,
-    docTitle: (title) => title,
+    // 브라우저 탭 제목 '이름: 서비스'(ProjectFrame '이름: 프로젝트'와 같은 규칙). 이미 ': '가 있으면 그대로
+    docTitle: (title) => (title.includes(': ') ? title : `${title}: 공공 깃랩`),
     stepNow: (n, all, label) => `${n}/${all}단계 ${label}`,
     step: (n) => `${n}단계`,
     loginNeed: (action) => `${action}: 계정 필요`,

@@ -63,7 +63,7 @@ function EventRow({ e, names }) {
           <strong>{pd ? (pd.ref_type === 'tag' ? p1.pushedTag(pd.ref) : p1.pushedBranch(pd.ref)) : `${e.action_name} ${e.target_title || ''}`}</strong>
           {where ? <> {pf.at} <Link to={`/projects/${e.project_id}`}>{where}</Link></> : null}
         </div>
-        {pd?.commit_title ? <div><code>{(pd.commit_to || '').slice(0, 8)}</code> · {pd.commit_title}</div> : null}
+        {pd?.commit_title ? <div><code>{(pd.commit_to || '').slice(0, 8)}</code><span className="rb-meta-gap" />{pd.commit_title}</div> : null}
         {pd?.commit_count > 1 ? <div className="rb-subtle">{p1.moreCommits(pd.commit_count - 1)}</div> : null}
       </div>
       <span className="gl-act-time">{ago(e.created_at)}</span>
