@@ -226,7 +226,7 @@ function ActivityView({ list }) {
                 <div className="gl-act-main">
                   <strong>{e.author?.name}</strong> <span className="rb-subtle">@{e.author?.username}</span>
                   <div>{pd ? (pd.ref_type === 'tag' ? p1.pushedTag(pd.ref) : p1.pushedBranch(pd.ref)) : `${t.P22_action[e.action_name] || e.action_name} ${e.target_title || ''}`}</div>
-                  {pd?.commit_title ? <div><code>{(pd.commit_to || '').slice(0, 8)}</code> · {pd.commit_title}</div> : null}
+                  {pd?.commit_title ? <div><code>{(pd.commit_to || '').slice(0, 8)}</code><span className="rb-meta-gap" />{pd.commit_title}</div> : null}
                   {pd?.commit_count > 1 ? <div>{p1.moreCommits(pd.commit_count - 1)}</div> : null}
                 </div>
                 <span className="gl-act-time">{ago(e.created_at)}</span>

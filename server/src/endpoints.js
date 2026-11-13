@@ -246,7 +246,7 @@ export const endpoints=[
     "F-35",
     "GET",
     "/requests",
-    "업무 요청 보드 조회",
+    "도구 요청 조회",
     null,
     {
       "items": [],

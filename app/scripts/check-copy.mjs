@@ -25,6 +25,8 @@ const PATTERNS = [
   ['금지 문장 본 화면은', /본 화면은/g],
   ['금지 문장 KRDS 출처', /KRDS 출처/g],
   ['금지 문장 이용하였습니다', /이용하였습니다/g],
+  // 2026-11-13 사용자: 가운뎃점 금지(화면 문구, 문서 제목)
+  ['가운뎃점', /·/g],
 ];
 // 조사 "와/과"가 아닌 낱말(결과, 통과 같은 명사, 도와 같은 동사 활용)은 건수에서 뺀다
 const NOT_PARTICLE = /(?:결과|성과|효과|경과|부과|교과|인과|학과|통과|과|도와|고와|나와|와)\s/;
@@ -61,6 +63,26 @@ for (const target of TARGETS) {
       }
     });
   }
+}
+
+// 가운뎃점: 화면 부품(JSX)의 글과 index.html도 본다. 주석은 뺀다. 공공 깃랩 실제 자료(README, 프로젝트 설명, 예시 자료)는 대상이 아니다
+async function walkJsx(dir) {
+  const out = [];
+  for (const e of await fs.readdir(dir, { withFileTypes: true })) {
+    const p = path.join(dir, e.name);
+    if (e.isDirectory()) out.push(...await walkJsx(p));
+    else if (/\.jsx$/.test(e.name)) out.push(p);
+  }
+  return out;
+}
+for (const file of [...await walkJsx('src'), 'index.html']) {
+  const lines = (await fs.readFile(file, 'utf8')).split('\n');
+  lines.forEach((raw, i) => {
+    if (/^\s*(\/\/|\/?\*)/.test(raw)) return;
+    const line = raw.replace(/\{\/\*.*?\*\/\}/g, '').replace(/\/\*.*?\*\//g, '').replace(/\s\/\/.*$/, '');
+    const k = line.indexOf('·');
+    if (k >= 0) hits.push({ file, line: i + 1, label: '가운뎃점', ctx: line.slice(Math.max(0, k - 12), k + 14).trim() });
+  });
 }
 
 // UX/07 10장: 프로젝트 설명 정리 함수를 실제 공개 자료 전체에 돌려 ' | ' 가 남는지 센다(README 본문은 대상이 아니다)

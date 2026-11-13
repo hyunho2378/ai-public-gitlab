@@ -34,8 +34,8 @@ export function CommitChart({ series, label }) {
         <path d={line} className="gl-chart-line" />
       </svg>
       <figcaption>
-        <span className="gl-chart-key" aria-hidden="true" /> {au.commitsChart} <span className="rb-subtle">{au.avg}: {(total / series.length).toFixed(2)} · {au.max}: {max}</span>
-        <span className="rb-subtle"> · {series[0][0]} ~ {series[series.length - 1][0]}</span>
+        <span className="gl-chart-key" aria-hidden="true" /> {au.commitsChart} <span className="rb-subtle">{au.avg}: {(total / series.length).toFixed(2)}<span className="rb-meta-gap" />{au.max}: {max}</span>
+        <span className="rb-subtle"><span className="rb-meta-gap" />{series[0][0]} ~ {series[series.length - 1][0]}</span>
       </figcaption>
     </figure>
   );

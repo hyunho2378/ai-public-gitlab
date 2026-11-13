@@ -149,9 +149,10 @@ export function GlobalBar({ onToggleNav, navOpen, hasNav = true, drawer = false,
             <IconButton icon="panel_close" label={u.G_sideExpand} size="medium" className="rb-gbar-sideopen" title={u.G_sideExpand} onClick={onShowSide} />
           ) : null}
           <Link className="rb-gbar-brand" to="/" aria-label={u.Brand_home}>
+            {/* 2026-11-13: 행정안전부 상징 24 + '공공 깃랩'(KRDS 본문 굵게). 옛 여우 로고와 영역 이름('탐색')을 대신한다 */}
             <Logo size={24} />
+            <span className="rb-gbar-brand-text">{t.Header_service}</span>
           </Link>
-          {hasNav && area ? <span className="rb-gbar-area">{area}</span> : null}
         </div>
         <GlobalSearch />
         <IconButton to="/search" icon="search" label={t.GlobalBar_searchLabel} size="medium" className="rb-gbar-searchlink" data-figma="global-search" />

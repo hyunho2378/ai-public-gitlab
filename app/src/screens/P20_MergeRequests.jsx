@@ -113,7 +113,7 @@ export function MergeRequests() {
                 <li className="gl-mr-row" data-figma="product/mr_row" data-figma-key="" key={m.iid}>
                   <div className="gl-mr-main">
                     <p className="gl-mr-title"><Link to={`/projects/${frame.id}/merge-requests/${m.iid}`}>{m.title}</Link>{m.task_completion_status?.count ? <span className="gl-mr-task"> {p1.mrChecklist(m.task_completion_status.completed_count, m.task_completion_status.count)}</span> : null}</p>
-                    <p className="gl-mr-meta">!{m.iid} · {ago(m.created_at)} {mr.createdBy(m.author?.name || '')}</p>
+                    <p className="gl-mr-meta">!{m.iid}<span className="rb-meta-gap" />{ago(m.created_at)} {mr.createdBy(m.author?.name || '')}</p>
                   </div>
                   <div className="gl-mr-side">
                     <span className="gl-mr-badges">
