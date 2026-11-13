@@ -1,3 +1,4 @@
+// Figma: Layout/Activity calendar (data-figma), 기존 화면 상자는 data-figma-key(activity-calendar)
 import { displayNow } from '../../lib/displayClock';
 // Figma: activity-calendar → activity-calendar
 // 활동 달력(공공 GitLab 사용자 프로필 '활동' 그대로): 52주 x 7일, 칸 하나 = 하루, 진할수록 활동이 많음.
@@ -48,7 +49,7 @@ export function ActivityCalendar({ cal, caption, cellLabel, aria, less, more }) 
   const ref = useRef(null);
   useEffect(() => { if (ref.current) ref.current.scrollLeft = ref.current.scrollWidth; }, [cal]);
   return (
-    <div className="rb-cal" data-figma="activity-calendar">
+    <div className="rb-cal" data-figma="Layout/Activity calendar" data-figma-key="activity-calendar">
       <div className="rb-cal-scroll" ref={ref}>
         {/* 한 격자: 1열은 요일, 2~53열은 주. 1행은 달 이름, 2~8행은 일~토 */}
         <div className="rb-cal-grid" role="img" aria-label={aria}>

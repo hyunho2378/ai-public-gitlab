@@ -1,4 +1,4 @@
-// Figma: pagination → pagination
+// Figma: Dashboard/Pagination (data-figma), 기존 화면 상자는 data-figma-key(pagination)
 // KRDS 페이지네이션 공식 마크업(pagination.html). 현재 쪽 앞뒤 2쪽과 처음, 끝.
 import { t } from '../copy/ko';
 
@@ -18,7 +18,7 @@ export function Pagination({ page, total, onPage }) {
   if (total <= 1) return null;
   const go = (p) => (e) => { e.preventDefault(); onPage(p); };
   return (
-    <nav className="krds-pagination" aria-label={t.pagination} data-figma="pagination">
+    <nav className="krds-pagination" aria-label={t.pagination} data-figma="Dashboard/Pagination" data-figma-key="pagination">
       {page === 1 ? <span className="page-navi prev disabled">{t.prev}</span> : <a className="page-navi prev" href="#" onClick={go(page - 1)}>{t.prev}</a>}
       <div className="page-links">
         {pages(page, total).map((p) => (typeof p === 'string'

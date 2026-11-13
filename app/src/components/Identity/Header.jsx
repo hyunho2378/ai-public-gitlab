@@ -1,4 +1,4 @@
-// Figma: product/app_header (data-figma), 기존 화면 상자는 data-figma-key
+// Figma: Identity/App header (data-figma), 기존 화면 상자는 data-figma-key
 // 서비스명과 기관 로고가 정해지기 전이라 로고 자리에는 서비스명 글자를 둔다. 정부 상징은 쓰지 않는다(공식 누리집이 아님).
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -108,7 +108,7 @@ export function Header() {
           </div>
         </div>
       </div>
-      <header data-figma="product/app_header" data-figma-key="" id="krds-header" data-krds="header">
+      <header data-figma="Identity/App header" data-figma-key="" id="krds-header" data-krds="header">
         <div className="header-in">
           <div className="header-container">
             <div className="inner">

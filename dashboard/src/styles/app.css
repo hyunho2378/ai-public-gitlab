@@ -162,7 +162,7 @@ table.sr-only { display: block; width: var(--krds-number-1); height: var(--krds-
 
 .dash-error { display: flex; align-items: center; gap: var(--krds-gap-5); }
 
-/* 바닥글: 피그마 product/footer(Context=Panel). 위 구분선 하나, 위아래 24, 줄 사이 16 */
+/* 바닥글: 피그마 Identity/Footer(Context=Panel). 위 구분선 하나, 위아래 24, 줄 사이 16 */
 .dash-footer { margin-top: auto; }
 .dash-foot { display: flex; flex-direction: column; gap: var(--krds-gap-5); padding-block: var(--krds-padding-8); }
 .dash-foot-top { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--krds-gap-7); }

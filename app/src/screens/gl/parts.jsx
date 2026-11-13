@@ -1,3 +1,4 @@
+// Figma: Code/Commit bar (GlCommitBar data-figma), 기존 화면 상자는 data-figma-key(commit-bar)
 // C1 공통 조각: 복사 단추, 소스 코드 내려받기 메뉴, 필터 줄. 공공 깃랩 15~19 캡처 구성.
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -71,7 +72,7 @@ export function GlCommitBar({ id, commit, owner, path }) {
   const who = owner && owner.path === commit.author_name ? owner.name : commit.author_name;
   const body = (commit.message || '').replace(commit.title, '').trim();
   return (
-    <div className="gl-cbar" data-figma="commit-bar">
+    <div className="gl-cbar" data-figma="Code/Commit bar" data-figma-key="commit-bar">
       <div className="gl-cbar-line">
         <Avatar className="is-32" name={commit.author_name} />
         <div className="gl-ref-main gl-grow">

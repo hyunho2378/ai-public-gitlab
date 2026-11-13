@@ -1,4 +1,4 @@
-// Figma: issue-row → issue-row
+// Figma: Dashboard/Issue row (data-figma), 기존 화면 상자는 data-figma-key(issue-row)
 import { t } from '../copy/ko';
 import { byRecent, relative } from '../lib/compute';
 import { Section } from './Section';
@@ -11,7 +11,7 @@ export function RecentIssues({ data, now }) {
       {list.length ? (
         <ul className="dash-rows">
           {list.map((i) => (
-            <li key={i.id} className="dash-row" data-figma="issue-row">
+            <li key={i.id} className="dash-row" data-figma="Dashboard/Issue row" data-figma-key="issue-row">
               <a className="krds-text-body-small-bold dash-link" href={i.web_url} target="_blank" rel="noreferrer" title={`#${i.iid} ${i.title}, ${t.newWindow}`}>#{i.iid} {i.title}</a>
               <p className="krds-text-body-xsmall dash-subtle">{byId[i.project_id]?.name || '-'} / {relative(i.created_at, now)}</p>
             </li>
