@@ -797,3 +797,27 @@ G-12(Figma 대 코드): 3폭 모두 위치 1~3, 문구 3, 모양 1, 코드에만
 | 위치/크기 · toolbar · y | 8 | D21 8 | 측정 환경(점검 띠 24px 밀림) 8 |
 | 글자 속성 · main | 5 | C2 5 | 신규 판정 필요 5 |
 행별: UX/audit_v3/M26_owner_D21.md, M26_owner_C.md
+
+## 2026. 11. 13. Figma 재구성(UX/19 단계 0~10 1차)
+- 세트 58 → 섹션 58, 프레임 598, export 598파일 7,277요소 차이 0, 반응 3,980/1,211/663 누락 0. 상세는 skills/user/krds-ui-kit/references/audits/figma_progress.md 71~74차.
+
+## 측정 라운드 M-27(11. 13. 18:37, M): 공식 합 145(이전 M-26 855, -710)
+코드 7f7d912(app/src = main e249201과 같음), Figma v2 섹션 합본 09:22Z. 사전 확인: 점검 띠 없음(fixture 경로). G-03(/explore/topics)은 fixture 없는 경로라 띠가 떠서 fixture=kordoc를 더해 재측정. 스크롤바·폭·이미지·대기 이상 0.
+담당: D21 30 · C1 10 · C2 105. 판정 쪽: 신규 판정 필요 145. 이름 변경으로 생긴 차이(Figma, 이름 반영 대기) 0. M-26의 환경 요인 706건은 해소, 나머지는 점검 띠와 무관하게 남은 차이
+원인 전체 목록:
+| 원인 | 건수 | 담당 | 판정 쪽 |
+|---|---:|---|---|
+| 위치/크기 · readme · h | 20 | D21 20 | 신규 판정 필요 |
+| Figma에만 · filter-search | 20 | C2 20 | 신규 판정 필요 |
+| 문구 · checks | 10 | D21 10 | 신규 판정 필요 |
+| 위치/크기 · preview · h | 10 | C1 10 | 신규 판정 필요 |
+| 위치/크기 · profile-activity · h | 10 | C2 10 | 신규 판정 필요 |
+| 문구 · profile-activity | 10 | C2 10 | 신규 판정 필요 |
+| Figma에만 · gl-filter | 10 | C2 10 | 신규 판정 필요 |
+| Figma에만 · filter-display | 10 | C2 10 | 신규 판정 필요 |
+| Figma에만 · filter-settings | 10 | C2 10 | 신규 판정 필요 |
+| Figma에만 · filter-expand | 10 | C2 10 | 신규 판정 필요 |
+| Figma에만 · gl-tabs | 10 | C2 10 | 신규 판정 필요 |
+| 문구 · gl-tabs | 10 | C2 10 | 신규 판정 필요 |
+| 글자 속성 · main | 5 | C2 5 | 신규 판정 필요 |
+행별: UX/audit_v3/M27_owner_D21.md, M27_owner_C.md

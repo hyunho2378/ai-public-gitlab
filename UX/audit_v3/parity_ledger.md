@@ -1,6 +1,6 @@
 # Figma 대 코드 전수 대조 원장(parity ledger)
 
-- 생성: 2026-11-13T09:01:44.672Z. 입력: code_plan/figma_full.json, code_plan/measured_full.json, code_plan/parity_allow.json
+- 생성: 2026-11-13T09:37:17.344Z. 입력: code_plan/figma_full.json, code_plan/measured_full.json, code_plan/parity_allow.json
 - 다시 만들기: 개발 서버에서 측정(app/scripts/export-code-boxes.mjs 또는 Aside 탭에서 export-code-boxes.js) 뒤 `npm run check:parity`
 
 ## 0. 해소 규칙
@@ -20,26 +20,19 @@
 
 | 순위 | 원인(분류 · 요소 · 항목) | 건수 | 담당 화면 분포 | 해소 쪽 | 비고 | 예 |
 |---:|---|---:|---|---|---|---|
-| 1 | 위치/크기 · body · y | 60 | D21 40, C1 10, C2 10 | 미정 |  | A-02_1024_Guest |
-| 2 | 위치/크기 · topbar · y | 60 | D21 40, C1 10, C2 10 | 미정 |  | A-02_1024_Guest |
-| 3 | 위치/크기 · content-panel · y | 60 | D21 40, C1 10, C2 10 | 미정 |  | A-02_1024_Guest |
-| 4 | 위치/크기 · global-search · y | 60 | D21 40, C1 10, C2 10 | 미정 |  | A-02_1024_Guest |
-| 5 | 위치/크기 · breadcrumb · y | 60 | D21 40, C1 10, C2 10 | 미정 |  | A-02_1024_Guest |
-| 6 | 위치/크기 · main · y | 60 | D21 40, C1 10, C2 10 | 코드 | A 화면 경로 줄 없음 → 경로 줄 넣기 | A-02_1024_Guest |
-| 7 | 코드에만 · snapshot-band | 60 | D21 40, C1 10, C2 10 | 미정 |  | A-02_1024_Guest |
-| 8 | 위치/크기 · page-head · y | 50 | D21 40, C2 10 | 미정 |  | A-02_1024_Guest |
-| 9 | 위치/크기 · gitlab-sidebar · y | 24 | D21 16, C1 4, C2 4 | 미정 |  | A-02_1440_Guest |
-| 10 | 위치/크기 · sidebar-nav · y | 24 | D21 16, C1 4, C2 4 | 미정 |  | A-02_1440_Guest |
-| 11 | 위치/크기 · project-info · y | 20 | D21 20 | 미정 |  | A-02_1024_Guest |
-| 12 | 위치/크기 · repo-actions · y | 20 | D21 20 | 미정 |  | A-02_1024_Guest |
-| 13 | 위치/크기 · readme · h | 20 | D21 20 | 미정 |  | A-02_1024_Guest |
-| 14 | 위치/크기 · extra-reuse · y | 20 | D21 20 | 미정 |  | A-02_1024_Guest |
-| 15 | 위치/크기 · extra-field · y | 20 | D21 20 | 미정 |  | A-02_1024_Guest |
-| 16 | 위치/크기 · language-bar · y | 20 | D21 20 | 미정 |  | A-02_1024_Guest |
-| 17 | Figma에만 · filter-search | 20 | C2 20 | 미정 |  | R-13_1024_Guest |
-| 18 | 위치/크기 · commit-bar · y | 18 | D21 8, C1 10 | 미정 |  | A-02_1440_Guest |
-| 19 | 위치/크기 · file-table · y | 18 | D21 8, C1 10 | 미정 |  | A-02_1440_Guest |
-| 20 | 위치/크기 · checks · y | 10 | D21 10 | 미정 |  | A-03_1024_Guest |
+| 1 | 위치/크기 · readme · h | 20 | D21 20 | 미정 |  | A-02_1024_Guest |
+| 2 | Figma에만 · filter-search | 20 | C2 20 | 미정 |  | R-13_1024_Guest |
+| 3 | 문구 · checks | 10 | D21 10 | 미정 |  | A-03_1024_Guest |
+| 4 | 위치/크기 · preview · h | 10 | C1 10 | 미정 |  | R-03_1024_Guest |
+| 5 | 위치/크기 · profile-activity · h | 10 | C2 10 | 미정 |  | R-12_1024_Guest |
+| 6 | 문구 · profile-activity | 10 | C2 10 | 미정 |  | R-12_1024_Guest |
+| 7 | Figma에만 · gl-filter | 10 | C2 10 | 미정 |  | R-13_1024_Guest |
+| 8 | Figma에만 · filter-display | 10 | C2 10 | 미정 |  | R-13_1024_Guest |
+| 9 | Figma에만 · filter-settings | 10 | C2 10 | 미정 |  | R-13_1024_Guest |
+| 10 | Figma에만 · filter-expand | 10 | C2 10 | 미정 |  | R-13_1024_Guest |
+| 11 | Figma에만 · gl-tabs | 10 | C2 10 | 미정 |  | R-14_1024_Guest |
+| 12 | 문구 · gl-tabs | 10 | C2 10 | 미정 |  | R-19_1024_Guest |
+| 13 | 글자 속성 · main | 5 | C2 5 | 미정 |  | R-22_1024_Guest |
 
 ## 0-2. 로그인 상태(Signed-in) 대조
 
@@ -119,26 +112,26 @@
 | A-01_360_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | A-01_768_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
 | A-01_768_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 |
-| A-02_1024_Guest | D21 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 | 16 |
-| A-02_1024_Signed-in | D21 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 | 16 |
-| A-02_1440_Guest | D21 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 | 18 |
-| A-02_1440_Signed-in | D21 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 | 18 |
-| A-02_1920_Guest | D21 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 | 18 |
-| A-02_1920_Signed-in | D21 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 | 18 |
-| A-02_360_Guest | D21 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 14 | 19 |
-| A-02_360_Signed-in | D21 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 14 | 19 |
-| A-02_768_Guest | D21 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 | 18 |
-| A-02_768_Signed-in | D21 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 | 18 |
-| A-03_1024_Guest | D21 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 8 |
-| A-03_1024_Signed-in | D21 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 9 |
-| A-03_1440_Guest | D21 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 12 |
-| A-03_1440_Signed-in | D21 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 13 |
-| A-03_1920_Guest | D21 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 12 |
-| A-03_1920_Signed-in | D21 | 10 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 13 |
-| A-03_360_Guest | D21 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 10 |
-| A-03_360_Signed-in | D21 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 10 |
-| A-03_768_Guest | D21 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 10 |
-| A-03_768_Signed-in | D21 | 8 | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 10 |
+| A-02_1024_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 13 |
+| A-02_1024_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 13 |
+| A-02_1440_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 17 |
+| A-02_1440_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 17 |
+| A-02_1920_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 17 |
+| A-02_1920_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 17 |
+| A-02_360_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 18 |
+| A-02_360_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 18 |
+| A-02_768_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 18 |
+| A-02_768_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 18 |
+| A-03_1024_Guest | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 6 |
+| A-03_1024_Signed-in | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 7 |
+| A-03_1440_Guest | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 9 |
+| A-03_1440_Signed-in | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 10 |
+| A-03_1920_Guest | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 9 |
+| A-03_1920_Signed-in | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 10 |
+| A-03_360_Guest | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 8 |
+| A-03_360_Signed-in | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 8 |
+| A-03_768_Guest | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 8 |
+| A-03_768_Signed-in | D21 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 8 |
 | A-04_1024_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | A-04_1024_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 |
 | A-04_1440_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 |
@@ -239,16 +232,16 @@
 | G-02_360_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-02_768_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-02_768_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
-| G-03_1024_Guest | D21 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 | 10 |
-| G-03_1024_Signed-in | D21 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 | 10 |
-| G-03_1440_Guest | D21 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 15 |
-| G-03_1440_Signed-in | D21 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 15 |
-| G-03_1920_Guest | D21 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 15 |
-| G-03_1920_Signed-in | D21 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 15 |
-| G-03_360_Guest | D21 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 | 11 |
-| G-03_360_Signed-in | D21 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 | 11 |
-| G-03_768_Guest | D21 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 | 11 |
-| G-03_768_Signed-in | D21 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 8 | 11 |
+| G-03_1024_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
+| G-03_1024_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
+| G-03_1440_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
+| G-03_1440_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
+| G-03_1920_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
+| G-03_1920_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 12 |
+| G-03_360_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
+| G-03_360_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
+| G-03_768_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
+| G-03_768_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-04_1024_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-04_1024_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-04_1440_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
@@ -372,26 +365,26 @@
 | G-12_1440_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 11 |
 | G-12_360_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
 | G-12_768_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 8 |
-| R-01_1024_Guest | D21 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 | 16 |
-| R-01_1024_Signed-in | D21 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 | 16 |
-| R-01_1440_Guest | D21 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 | 18 |
-| R-01_1440_Signed-in | D21 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 | 18 |
-| R-01_1920_Guest | D21 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 | 18 |
-| R-01_1920_Signed-in | D21 | 18 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 19 | 18 |
-| R-01_360_Guest | D21 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 14 | 19 |
-| R-01_360_Signed-in | D21 | 13 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 14 | 19 |
-| R-01_768_Guest | D21 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 | 18 |
-| R-01_768_Signed-in | D21 | 14 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 15 | 18 |
-| R-02_1024_Guest | C1 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 9 |
-| R-02_1024_Signed-in | C1 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 9 |
-| R-02_1440_Guest | C1 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 14 |
-| R-02_1440_Signed-in | C1 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 14 |
-| R-02_1920_Guest | C1 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 14 |
-| R-02_1920_Signed-in | C1 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 14 |
-| R-02_360_Guest | C1 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 10 |
-| R-02_360_Signed-in | C1 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 10 |
-| R-02_768_Guest | C1 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 10 |
-| R-02_768_Signed-in | C1 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 10 |
+| R-01_1024_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 13 |
+| R-01_1024_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 13 |
+| R-01_1440_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 17 |
+| R-01_1440_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 17 |
+| R-01_1920_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 17 |
+| R-01_1920_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 17 |
+| R-01_360_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 18 |
+| R-01_360_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 18 |
+| R-01_768_Guest | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 18 |
+| R-01_768_Signed-in | D21 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 18 |
+| R-02_1024_Guest | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
+| R-02_1024_Signed-in | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
+| R-02_1440_Guest | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
+| R-02_1440_Signed-in | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
+| R-02_1920_Guest | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
+| R-02_1920_Signed-in | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
+| R-02_360_Guest | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
+| R-02_360_Signed-in | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
+| R-02_768_Guest | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
+| R-02_768_Signed-in | C1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | R-03_1024_Guest | C1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 12 |
 | R-03_1024_Signed-in | C1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 12 |
 | R-03_1440_Guest | C1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 16 |
@@ -532,16 +525,16 @@
 | R-16_360_Signed-in | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | R-16_768_Guest | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | R-16_768_Signed-in | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
-| R-17_1024_Guest | C2 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 13 |
-| R-17_1024_Signed-in | C2 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 13 |
-| R-17_1440_Guest | C2 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 17 |
-| R-17_1440_Signed-in | C2 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 17 |
-| R-17_1920_Guest | C2 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 17 |
-| R-17_1920_Signed-in | C2 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 12 | 17 |
-| R-17_360_Guest | C2 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 14 |
-| R-17_360_Signed-in | C2 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 14 |
-| R-17_768_Guest | C2 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 14 |
-| R-17_768_Signed-in | C2 | 9 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 10 | 14 |
+| R-17_1024_Guest | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
+| R-17_1024_Signed-in | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 13 |
+| R-17_1440_Guest | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 |
+| R-17_1440_Signed-in | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 |
+| R-17_1920_Guest | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 |
+| R-17_1920_Signed-in | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 17 |
+| R-17_360_Guest | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
+| R-17_360_Signed-in | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
+| R-17_768_Guest | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
+| R-17_768_Signed-in | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 14 |
 | R-18_1024_Guest | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
 | R-18_1024_Signed-in | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 6 |
 | R-18_1440_Guest | C2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 9 |
@@ -672,7 +665,7 @@
 | R-30_360_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | R-30_768_Guest | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
 | R-30_768_Signed-in | D21 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
-| **합** |  | 690 | 30 | 5 | 0 | 0 | 0 | 70 | 60 | 0 | 855 |  |
+| **합** |  | 40 | 30 | 5 | 0 | 0 | 0 | 70 | 0 | 0 | 145 |  |
 
 - 코드 측정 없음: D-01_1440_Guest, D-01_360_Guest, D-01_768_Guest
 
@@ -680,887 +673,185 @@
 
 ## 2. 화면별 세부(허용 아님)
 
-### A-02_1024_Guest (D21, 15건)
+### A-02_1024_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | project-info | y Figma 193 / 코드 217 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | intro-card | y Figma 540 / 코드 563 (+23) |
 | 위치/크기 | readme | h Figma 5152 / 코드 4684 (-468) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | extra-field | y Figma 269 / 코드 293 (+24) |
-| 위치/크기 | language-bar | y Figma 309 / 코드 333 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_1024_Signed-in (D21, 15건)
+### A-02_1024_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | project-info | y Figma 193 / 코드 217 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | intro-card | y Figma 540 / 코드 563 (+23) |
 | 위치/크기 | readme | h Figma 5152 / 코드 4684 (-468) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | extra-field | y Figma 269 / 코드 293 (+24) |
-| 위치/크기 | language-bar | y Figma 309 / 코드 333 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_1440_Guest (D21, 19건)
+### A-02_1440_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | project-info | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | toolbar | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | commit-bar | y Figma 233 / 코드 257 (+24) |
-| 위치/크기 | file-table | y Figma 315 / 코드 339 (+24) |
 | 위치/크기 | readme | h Figma 5473 / 코드 5099 (-374) |
-| 위치/크기 | extra-field | y Figma 327 / 코드 351 (+24) |
-| 위치/크기 | language-bar | y Figma 367 / 코드 391 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_1440_Signed-in (D21, 19건)
+### A-02_1440_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | project-info | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | toolbar | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | commit-bar | y Figma 233 / 코드 257 (+24) |
-| 위치/크기 | file-table | y Figma 315 / 코드 339 (+24) |
 | 위치/크기 | readme | h Figma 5473 / 코드 5099 (-374) |
-| 위치/크기 | extra-field | y Figma 327 / 코드 351 (+24) |
-| 위치/크기 | language-bar | y Figma 367 / 코드 391 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_1920_Guest (D21, 19건)
+### A-02_1920_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | project-info | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | toolbar | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | commit-bar | y Figma 233 / 코드 257 (+24) |
-| 위치/크기 | file-table | y Figma 315 / 코드 339 (+24) |
 | 위치/크기 | readme | h Figma 5248 / 코드 4815 (-433) |
-| 위치/크기 | extra-field | y Figma 327 / 코드 351 (+24) |
-| 위치/크기 | language-bar | y Figma 367 / 코드 391 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_1920_Signed-in (D21, 19건)
+### A-02_1920_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | project-info | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | toolbar | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | commit-bar | y Figma 233 / 코드 257 (+24) |
-| 위치/크기 | file-table | y Figma 315 / 코드 339 (+24) |
 | 위치/크기 | readme | h Figma 5248 / 코드 4815 (-433) |
-| 위치/크기 | extra-field | y Figma 327 / 코드 351 (+24) |
-| 위치/크기 | language-bar | y Figma 367 / 코드 391 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_360_Guest (D21, 14건)
+### A-02_360_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | project-info | y Figma 245 / 코드 269 (+24) |
 | 위치/크기 | readme | h Figma 6144 / 코드 6027 (-117) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 181 / 코드 205 (+24) |
-| 위치/크기 | extra-field | y Figma 365 / 코드 389 (+24) |
-| 위치/크기 | language-bar | y Figma 405 / 코드 429 (+24) |
-| 위치/크기 | extra-reuse | y Figma 181 / 코드 205 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_360_Signed-in (D21, 14건)
+### A-02_360_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | project-info | y Figma 245 / 코드 269 (+24) |
 | 위치/크기 | readme | h Figma 6144 / 코드 6027 (-117) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 181 / 코드 205 (+24) |
-| 위치/크기 | extra-field | y Figma 365 / 코드 389 (+24) |
-| 위치/크기 | language-bar | y Figma 405 / 코드 429 (+24) |
-| 위치/크기 | extra-reuse | y Figma 181 / 코드 205 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_768_Guest (D21, 15건)
+### A-02_768_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | project-info | y Figma 193 / 코드 217 (+24) |
 | 위치/크기 | readme | h Figma 5504 / 코드 5165 (-339) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | intro-card | y Figma 561 / 코드 585 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | extra-field | y Figma 291 / 코드 315 (+24) |
-| 위치/크기 | language-bar | y Figma 331 / 코드 355 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-02_768_Signed-in (D21, 15건)
+### A-02_768_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | project-info | y Figma 193 / 코드 217 (+24) |
 | 위치/크기 | readme | h Figma 5504 / 코드 5165 (-339) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | intro-card | y Figma 561 / 코드 585 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | extra-field | y Figma 291 / 코드 315 (+24) |
-| 위치/크기 | language-bar | y Figma 331 / 코드 355 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_1024_Guest (D21, 10건)
+### A-03_1024_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 169 / 코드 193 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_1024_Signed-in (D21, 10건)
+### A-03_1024_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 169 / 코드 193 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_1440_Guest (D21, 12건)
+### A-03_1440_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 169 / 코드 193 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_1440_Signed-in (D21, 12건)
+### A-03_1440_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 169 / 코드 193 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_1920_Guest (D21, 12건)
+### A-03_1920_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 169 / 코드 193 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_1920_Signed-in (D21, 12건)
+### A-03_1920_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 169 / 코드 193 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_360_Guest (D21, 10건)
+### A-03_360_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 161 / 코드 185 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_360_Signed-in (D21, 10건)
+### A-03_360_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 161 / 코드 185 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_768_Guest (D21, 10건)
+### A-03_768_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 169 / 코드 193 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### A-03_768_Signed-in (D21, 10건)
+### A-03_768_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | checks | y Figma 169 / 코드 193 (+24) |
 | 문구 | checks | Figma 글 '자동 점검 7/8 통과' 없음. 코드: '자동 점검 5/8 통과 공개 승인 아님 기관 확인 별도 있음 올리지 않을 파일 목록(.gitignore) 있음 설명서(README) 있음 하는 일 설명 있음 사용 방법 설명 보완 필요 실행 환경 설명 있음 이용 조건' |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### G-03_1024_Guest (D21, 8건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_1024_Signed-in (D21, 8건)
+### R-01_1024_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_1440_Guest (D21, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 118 / 코드 142 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_1440_Signed-in (D21, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 118 / 코드 142 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_1920_Guest (D21, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 118 / 코드 142 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_1920_Signed-in (D21, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 118 / 코드 142 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_360_Guest (D21, 8건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_360_Signed-in (D21, 8건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_768_Guest (D21, 8건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### G-03_768_Signed-in (D21, 8건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-01_1024_Guest (D21, 15건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | project-info | y Figma 193 / 코드 217 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | intro-card | y Figma 540 / 코드 563 (+23) |
 | 위치/크기 | readme | h Figma 5152 / 코드 4684 (-468) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | extra-field | y Figma 269 / 코드 293 (+24) |
-| 위치/크기 | language-bar | y Figma 309 / 코드 333 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_1024_Signed-in (D21, 15건)
+### R-01_1024_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | project-info | y Figma 193 / 코드 217 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | intro-card | y Figma 540 / 코드 563 (+23) |
 | 위치/크기 | readme | h Figma 5152 / 코드 4684 (-468) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | extra-field | y Figma 269 / 코드 293 (+24) |
-| 위치/크기 | language-bar | y Figma 309 / 코드 333 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_1440_Guest (D21, 19건)
+### R-01_1440_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | project-info | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | toolbar | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | commit-bar | y Figma 233 / 코드 257 (+24) |
-| 위치/크기 | file-table | y Figma 315 / 코드 339 (+24) |
 | 위치/크기 | readme | h Figma 5473 / 코드 5099 (-374) |
-| 위치/크기 | extra-field | y Figma 327 / 코드 351 (+24) |
-| 위치/크기 | language-bar | y Figma 367 / 코드 391 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_1440_Signed-in (D21, 19건)
+### R-01_1440_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | project-info | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | toolbar | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | commit-bar | y Figma 233 / 코드 257 (+24) |
-| 위치/크기 | file-table | y Figma 315 / 코드 339 (+24) |
 | 위치/크기 | readme | h Figma 5473 / 코드 5099 (-374) |
-| 위치/크기 | extra-field | y Figma 327 / 코드 351 (+24) |
-| 위치/크기 | language-bar | y Figma 367 / 코드 391 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_1920_Guest (D21, 19건)
+### R-01_1920_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | project-info | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | toolbar | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | commit-bar | y Figma 233 / 코드 257 (+24) |
-| 위치/크기 | file-table | y Figma 315 / 코드 339 (+24) |
 | 위치/크기 | readme | h Figma 5248 / 코드 4815 (-433) |
-| 위치/크기 | extra-field | y Figma 327 / 코드 351 (+24) |
-| 위치/크기 | language-bar | y Figma 367 / 코드 391 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_1920_Signed-in (D21, 19건)
+### R-01_1920_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | project-info | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | toolbar | y Figma 185 / 코드 209 (+24) |
-| 위치/크기 | commit-bar | y Figma 233 / 코드 257 (+24) |
-| 위치/크기 | file-table | y Figma 315 / 코드 339 (+24) |
 | 위치/크기 | readme | h Figma 5248 / 코드 4815 (-433) |
-| 위치/크기 | extra-field | y Figma 327 / 코드 351 (+24) |
-| 위치/크기 | language-bar | y Figma 367 / 코드 391 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_360_Guest (D21, 14건)
+### R-01_360_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | project-info | y Figma 245 / 코드 269 (+24) |
 | 위치/크기 | readme | h Figma 6144 / 코드 6027 (-117) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 181 / 코드 205 (+24) |
-| 위치/크기 | extra-field | y Figma 365 / 코드 389 (+24) |
-| 위치/크기 | language-bar | y Figma 405 / 코드 429 (+24) |
-| 위치/크기 | extra-reuse | y Figma 181 / 코드 205 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_360_Signed-in (D21, 14건)
+### R-01_360_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | project-info | y Figma 245 / 코드 269 (+24) |
 | 위치/크기 | readme | h Figma 6144 / 코드 6027 (-117) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | repo-actions | y Figma 181 / 코드 205 (+24) |
-| 위치/크기 | extra-field | y Figma 365 / 코드 389 (+24) |
-| 위치/크기 | language-bar | y Figma 405 / 코드 429 (+24) |
-| 위치/크기 | extra-reuse | y Figma 181 / 코드 205 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_768_Guest (D21, 15건)
+### R-01_768_Guest (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | project-info | y Figma 193 / 코드 217 (+24) |
 | 위치/크기 | readme | h Figma 5504 / 코드 5165 (-339) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | intro-card | y Figma 561 / 코드 585 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | extra-field | y Figma 291 / 코드 315 (+24) |
-| 위치/크기 | language-bar | y Figma 331 / 코드 355 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
-### R-01_768_Signed-in (D21, 15건)
+### R-01_768_Signed-in (D21, 1건)
 
 | 분류 | 요소 | 내용 |
 |---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | project-info | y Figma 193 / 코드 217 (+24) |
 | 위치/크기 | readme | h Figma 5504 / 코드 5165 (-339) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | intro-card | y Figma 561 / 코드 585 (+24) |
-| 위치/크기 | repo-actions | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | extra-field | y Figma 291 / 코드 315 (+24) |
-| 위치/크기 | language-bar | y Figma 331 / 코드 355 (+24) |
-| 위치/크기 | extra-reuse | y Figma 125 / 코드 149 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_1024_Guest (C1, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 225 / 코드 249 (+24) |
-| 위치/크기 | file-table | y Figma 307 / 코드 331 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_1024_Signed-in (C1, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 225 / 코드 249 (+24) |
-| 위치/크기 | file-table | y Figma 307 / 코드 331 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_1440_Guest (C1, 12건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 225 / 코드 249 (+24) |
-| 위치/크기 | file-table | y Figma 307 / 코드 331 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_1440_Signed-in (C1, 12건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 225 / 코드 249 (+24) |
-| 위치/크기 | file-table | y Figma 307 / 코드 331 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_1920_Guest (C1, 12건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 225 / 코드 249 (+24) |
-| 위치/크기 | file-table | y Figma 307 / 코드 331 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_1920_Signed-in (C1, 12건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 225 / 코드 249 (+24) |
-| 위치/크기 | file-table | y Figma 307 / 코드 331 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_360_Guest (C1, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 305 / 코드 329 (+24) |
-| 위치/크기 | file-table | y Figma 369 / 코드 393 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_360_Signed-in (C1, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 305 / 코드 329 (+24) |
-| 위치/크기 | file-table | y Figma 369 / 코드 393 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_768_Guest (C1, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 225 / 코드 249 (+24) |
-| 위치/크기 | file-table | y Figma 307 / 코드 331 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-02_768_Signed-in (C1, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | section-title | y Figma 169 / 코드 193 (+24) |
-| 위치/크기 | commit-bar | y Figma 225 / 코드 249 (+24) |
-| 위치/크기 | file-table | y Figma 307 / 코드 331 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
 ### R-03_1024_Guest (C1, 1건)
 
@@ -1861,164 +1152,6 @@
 |---|---|---|
 | Figma에만 | gl-tabs | 코드에 이름표 없음(Figma 32,121 704x49) |
 | Figma에만 | filter-search | 코드에 이름표 없음(Figma 611,130 32x32) |
-
-### R-17_1024_Guest (C2, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 209 / 코드 233 (+24) |
-| 위치/크기 | code-button | y Figma 125 / 코드 149 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_1024_Signed-in (C2, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 209 / 코드 233 (+24) |
-| 위치/크기 | code-button | y Figma 125 / 코드 149 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_1440_Guest (C2, 12건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 209 / 코드 233 (+24) |
-| 위치/크기 | code-button | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_1440_Signed-in (C2, 12건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 209 / 코드 233 (+24) |
-| 위치/크기 | code-button | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_1920_Guest (C2, 12건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 209 / 코드 233 (+24) |
-| 위치/크기 | code-button | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_1920_Signed-in (C2, 12건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | gitlab-sidebar | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | global-search | y Figma 32 / 코드 56 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 209 / 코드 233 (+24) |
-| 위치/크기 | code-button | y Figma 125 / 코드 149 (+24) |
-| 위치/크기 | sidebar-nav | y Figma 154 / 코드 178 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_360_Guest (C2, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 297 / 코드 321 (+24) |
-| 위치/크기 | code-button | y Figma 137 / 코드 161 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_360_Signed-in (C2, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 297 / 코드 321 (+24) |
-| 위치/크기 | code-button | y Figma 137 / 코드 161 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_768_Guest (C2, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 237 / 코드 261 (+24) |
-| 위치/크기 | code-button | y Figma 125 / 코드 149 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
-
-### R-17_768_Signed-in (C2, 10건)
-
-| 분류 | 요소 | 내용 |
-|---|---|---|
-| 위치/크기 | body | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | topbar | y Figma 24 / 코드 48 (+24) |
-| 위치/크기 | content-panel | y Figma 72 / 코드 96 (+24) |
-| 위치/크기 | breadcrumb | y Figma 81 / 코드 105 (+24) |
-| 위치/크기 | main | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | global-search | y Figma 26 / 코드 50 (+24) |
-| 위치/크기 | page-head | y Figma 121 / 코드 145 (+24) |
-| 위치/크기 | tabs | y Figma 237 / 코드 261 (+24) |
-| 위치/크기 | code-button | y Figma 125 / 코드 149 (+24) |
-| 코드에만 | snapshot-band | Figma에 없음 |
 
 ### R-19_1024_Guest (C2, 1건)
 
