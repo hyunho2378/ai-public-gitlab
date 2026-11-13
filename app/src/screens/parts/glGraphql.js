@@ -3,10 +3,31 @@
 const URL_GQL = 'https://gitlab.aigov.go.kr/api/graphql';
 const cache = new Map();
 
+// 고정 저장본(app/public/data/snapshot/graphql/kordoc.json, scripts/snapshot/fetch-graphql.mjs): 질의 이름 + 변수로 찾는다.
+// 개발 ?fixture=kordoc(측정)에서는 먼저 쓰고, 그 밖에는 공공 깃랩이 답하지 않을 때만 쓴다(점검 중 POST 405, 2026. 11. 13.)
+let pinnedP = null;
+const pinned = () => (pinnedP ||= fetch(`${import.meta.env.BASE_URL || '/'}data/snapshot/graphql/kordoc.json`).then((r) => (r.ok ? r.json() : null)).catch(() => null));
+const fixtureOn = () => import.meta.env.DEV && new URLSearchParams(window.location.search).get('fixture') === 'kordoc';
+async function fromPinned(query, variables) {
+  const name = Object.keys(Q).find((k) => Q[k] === query);
+  const store = name ? await pinned() : null;
+  return store?.items?.[`${name}:${JSON.stringify(variables)}`] || null;
+}
+
 export async function gql(query, variables = {}) {
   const key = query + JSON.stringify(variables);
   if (cache.has(key)) return cache.get(key);
   const run = (async () => {
+    if (fixtureOn()) { const hit = await fromPinned(query, variables); if (hit) return hit; }
+    try { return await live(query, variables); } catch (e) { const hit = await fromPinned(query, variables); if (hit) return hit; throw e; }
+  })();
+  cache.set(key, run);
+  run.catch(() => cache.delete(key));
+  return run;
+}
+
+async function live(query, variables) {
+  {
     let r;
     try {
       r = await fetch(URL_GQL, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ query, variables }), signal: AbortSignal.timeout(10000) });
@@ -17,10 +38,7 @@ export async function gql(query, variables = {}) {
     const j = await r.json();
     if (j.errors?.length || !j.data) throw Object.assign(new Error(j.errors?.[0]?.message || '자료 없음'), { status: 502, code: 'SNAPSHOT_MISSING' });
     return j.data;
-  })();
-  cache.set(key, run);
-  run.catch(() => cache.delete(key));
-  return run;
+  }
 }
 
 export const Q = {

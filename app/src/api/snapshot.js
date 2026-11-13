@@ -122,6 +122,11 @@ export async function snapshotGet(sub, query) {
   const tot = d.totals || {};
   if (rest === 'repository/tree') {
     const p = q.get('path') || '';
+    // recursive=true: 실시간과 같이 경로 아래 전체를 100개씩(공개 준비 점검 입력). 펼친 목록이 없으면 아래 한 단계 목록으로
+    if (q.get('recursive') === 'true' && Array.isArray(d.treeRecursive)) {
+      const pre = p ? `${p}/` : '';
+      return page(d.treeRecursive.filter((x) => !pre || x.path.startsWith(pre)), q);
+    }
     const t = d.trees ? d.trees[p] : p === '' ? d.tree : null;
     if (!t) throw new SnapshotMissing();
     return ok(t, t.length);

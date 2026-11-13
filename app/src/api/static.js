@@ -35,7 +35,9 @@ async function fetchOrSnapshot(url, init) {
   const timer = setTimeout(() => ctl.abort(), FETCH_TIMEOUT_MS);
   try {
     const r = await fetch(url, { ...init, signal: ctl.signal });
-    if (r.ok || (r.status < 500 && r.status !== 429)) return r;
+    // 점검 중 공공 깃랩은 API 주소에도 200 HTML 점검 안내를 돌려준다(2026. 11. 13. 확인). 원문 파일(/raw)이 아닌데 HTML이면 저장 자료로
+    const html = /text\/html/.test(r.headers.get('content-type') || '') && !/\/raw(\?|$)/.test(url);
+    if (!html && (r.ok || (r.status < 500 && r.status !== 429))) return r;
   } catch { /* 저장된 자료로 */ } finally { clearTimeout(timer); }
   const u = new URL(url);
   try {
@@ -87,6 +89,7 @@ async function fetchOnce(url, raw) {
   const timer = setTimeout(() => ctl.abort(), FETCH_TIMEOUT_MS);
   try {
     const r = await fetch(url, { headers: { Accept: 'application/json' }, signal: ctl.signal });
+    if (r.ok && /text\/html/.test(r.headers.get('content-type') || '')) throw new StaticError('공공 깃랩 점검 중', 503);
     if (r.ok) return { r, data: raw ? await r.text() : await r.json() };
     throw new StaticError(r.status === 404 ? '자료를 찾을 수 없습니다.' : '공개 저장소 조회 실패', r.status);
   } catch (e) {
