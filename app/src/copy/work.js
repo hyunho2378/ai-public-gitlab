@@ -82,7 +82,7 @@ export const p1 = {
   tokenSuggest: ['작성자', '담당자', '리뷰어', '라벨', '마일스톤', '대상 브랜치', '소스 브랜치', '이 텍스트 검색'],
 };
 
-// 요청 보드(A-05) 탭 줄
+// 도구 요청(A-05) 탭 줄
 export const rq = { byVotes: '공감 많은 순', recent: '최근', mine: (n) => `내가 쓴 요청 ${n}`, code: '코드' };
 
 export const bd = { display: '표시 옵션', settings: '보드 설정', expand: '확대' };
