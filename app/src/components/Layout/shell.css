@@ -31,7 +31,8 @@
   color: var(--krds-color-text-inverse-static);
   font-weight: var(--krds-font-weight-bold);
 }
-.rb-gbar-brand-text { font-weight: var(--krds-font-weight-bold); }
+.rb-gbar-brand-text { font-size: var(--krds-font-size-body-small); line-height: var(--rb-lh-15); font-weight: var(--krds-font-weight-bold); white-space: nowrap; }
+.rb-gbar-brand .rb-logo { display: block; flex: none; }
 .rb-gbar-btn {
   display: inline-flex;
   align-items: center;
