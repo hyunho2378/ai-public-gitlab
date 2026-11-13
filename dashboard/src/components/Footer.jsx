@@ -1,5 +1,5 @@
-// Figma: footer, footer-top, footer-logo, footer-info, footer-bottom → footer, footer-top, footer-logo, footer-info, footer-bottom
-// 바닥글: 피그마 product/footer(Context=Panel)와 같은 구조. 값은 행정안전부 누리집에 실제로 있는 것만(D-20).
+// Figma: Identity/Footer (data-figma), 기존 화면 상자는 data-figma-key(footer, footer-top, footer-logo, footer-info, footer-bottom)
+// 바닥글: 피그마 Identity/Footer(Context=Panel)와 같은 구조. 값은 행정안전부 누리집에 실제로 있는 것만(D-20).
 import { t } from '../copy/ko';
 
 const BASE = import.meta.env.BASE_URL;
@@ -8,7 +8,7 @@ const nw = (label) => ({ target: '_blank', rel: 'noreferrer', title: `${label}, 
 
 export function Footer() {
   return (
-    <footer className="dash-footer" data-figma="footer">
+    <footer className="dash-footer" data-figma="Identity/Footer" data-figma-key="footer">
       <div className="dash-inner">
         <div className="dash-foot">
           <div className="dash-foot-top" data-figma="footer-top">

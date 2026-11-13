@@ -1,4 +1,4 @@
-// Figma: product/dock_panel (data-figma), 기존 화면 상자는 data-figma-key
+// Figma: Layout/Project info (data-figma), 기존 화면 상자는 data-figma-key
 // D-21 6장 프로젝트 홈 오른쪽 '프로젝트 정보' 열(공공 깃랩 02 그대로, 상시).
 // 설명(4줄 더보기), 주제, 언어 막대, 개수 목록(아이콘 + 굵은 숫자 + 이름), README·라이선스·변경 로그, 생성 날짜.
 // 덧붙임은 맨 아래 '사용 전 확인' 묶음 하나(라벨/값 세로 쌍 4개 + 더보기, UX/14 3-2).
@@ -68,7 +68,7 @@ export function ProjectInfo({ id, project, readme, totals, stats, languages, roo
   const card = card0 && [card0.oneLine, card0.form, card0.license, card0.refs].some((f) => cardValue(f) != null || f?.label) ? card0 : null;
   const field = card ? [].concat(cardValue(card.fields) ?? [])[0] : null;
   return (
-    <aside className="rb-repo-info" aria-labelledby="rb-info-title" data-figma="product/dock_panel" data-figma-key="project-info">
+    <aside className="rb-repo-info" aria-labelledby="rb-info-title" data-figma="Layout/Project info" data-figma-key="project-info">
       <h2 id="rb-info-title" className="krds-text-body-small-bold">{u.G_projectInfo}</h2>
       {intro ? <FoldText lines={4} className="rb-info-intro">{intro}</FoldText> : null}
       {topics.length || field ? (

@@ -33,6 +33,9 @@ function detail(id) {
 // 띠 표시: 대체 중인지와 조회 날짜를 앱에 알린다
 export const snapshotState = { on: false, date: null };
 export function setSnapshotOn(on, date = snapshotState.date) {
+  // 측정 전용(개발 모드 ?fixture=kordoc): 고정 예시 자료는 원래 저장 자료를 쓰는 모드라 '저장 자료로 보는 중' 띠를 띄우지 않는다.
+  // 공공 깃랩 점검 중에도 측정 화면 높이가 바뀌지 않게(M-26 띠 24로 646건 밀림). 배포본은 import.meta.env.DEV가 거짓이라 동작 그대로
+  if (import.meta.env.DEV && new URLSearchParams(window.location.search).get('fixture') === 'kordoc') on = false;
   if (snapshotState.on === on && snapshotState.date === date) return;
   snapshotState.on = on;
   snapshotState.date = date;

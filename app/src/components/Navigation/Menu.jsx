@@ -1,11 +1,11 @@
-// Figma: product/menu (data-figma), 기존 화면 상자는 data-figma-key
+// Figma: Navigation/Menu (data-figma), 기존 화면 상자는 data-figma-key
 // 공통 메뉴 부품(UX-007 12장). 더보기, 드롭다운, 정렬, 화면 설정, 아바타, 사이드바 묶음이 모두 이 하나를 쓴다.
 // 항목은 한 줄(nowrap) 높이 32, 간격 0, 폭은 가장 긴 항목 + 좌우 12(160~320). 버튼 아래 왼쪽/오른쪽 끝 정렬이고 화면 가장자리 12 안으로 들어온다.
 // 항목 마크업: <ul className="drop-list"><li><a|button className="item-link">글자</a></li></ul>, 묶음 이름은 <p className="rb-menu-title">
 import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import { Icon } from '../Code/Icon';
 
-export function Menu({ label, button, btnClass = 'krds-btn small tertiary', btnProps = {}, className = '', align = 'right', side = false, toggle = true, panelClass = '', figma = 'product/menu', children }) {
+export function Menu({ label, button, btnClass = 'krds-btn small tertiary', btnProps = {}, className = '', align = 'right', side = false, toggle = true, panelClass = '', figma = 'Navigation/Menu', children }) {
   const [open, setOpen] = useState(false);
   const [pos, setPos] = useState(null);
   const wrap = useRef(null);

@@ -1,4 +1,4 @@
-// Figma: product/branch_menu, product/code_dropdown, product/file_row (data-figma), 기존 화면 상자는 data-figma-key
+// Figma: Code/Branch select, Code/Code dropdown, Code/File row, Code/Commit bar (data-figma), 기존 화면 상자는 data-figma-key
 import { FileIcon } from './FileIcon';
 import { gitlab } from '../../api/client';
 const fetchTree = async (id, ref, page) => (await gitlab.treeAll(id, ref, page)).data || [];
@@ -43,7 +43,7 @@ export function BranchSelect({ id, current, branches = [], path }) {
   const list = (branches.length ? branches : [{ name: current }]).filter((b) => !q || b.name.toLowerCase().includes(q.toLowerCase()));
   // 공공 깃랩: 브랜치 단추는 회색 채움 32, 열면 맨 위에 'Git 리비전으로 검색' 입력(audit_v3 02-10, 02-15)
   return (
-    <Drop figma="product/branch_menu" label={t.Home_branchSelect} align="left" btnClass="rb-branch-btn rb-btn-fill" button={<><Icon name="ext/branch" /><span className="rb-ellipsis">{current}</span></>}>
+    <Drop figma="Code/Branch select" label={t.Home_branchSelect} align="left" btnClass="rb-branch-btn rb-btn-fill" button={<><Icon name="ext/branch" /><span className="rb-ellipsis">{current}</span></>}>
       {(close) => (
         <div className="rb-branch-menu">
           <p className="rb-menu-title">{u.R_switchRef}</p>
@@ -93,7 +93,7 @@ export function CodeMenu({ id, zipUrl, cloneUrl, sshUrl }) {
   return (
     <>
       {/* 단추 이름은 Menu의 aria-label(코드)이 이미 준다. 좁은 화면 아이콘 안 sr-only 중복 글을 두지 않는다 */}
-      <Drop figma="product/code_dropdown" label={t.Home_code} btnClass="rb-btn-light" button={<><span className="rb-drop-full">{t.Home_code}</span><span className="rb-drop-compact"><Icon name="download" /></span><Icon name="arrow-down" /></>}>
+      <Drop figma="Code/Code dropdown" label={t.Home_code} btnClass="rb-btn-light" button={<><span className="rb-drop-full">{t.Home_code}</span><span className="rb-drop-compact"><Icon name="download" /></span><Icon name="arrow-down" /></>}>
         {(close) => (
           <div className="rb-code-menu">
             {sshUrl ? (
@@ -231,7 +231,7 @@ export function CommitBar({ id, commit, count, more, path, owner, pipeline }) {
   // 커밋 자료는 계정 이름(chrisryugj)만 준다. 그 계정이 이 프로젝트 소유자면 공개 이름을 쓴다.
   const org = owner && owner.path === commit.author_name ? owner.name : orgLabel(commit.author_name);
   return (
-    <div className="rb-commit-bar" data-figma="commit-bar">
+    <div className="rb-commit-bar" data-figma="Code/Commit bar" data-figma-key="commit-bar">
       <div className="rb-commit-desktop">
       <Avatar className="rb-commit-avatar" src={owner?.avatar_url} name={org} />
       <span className="rb-commit-texts">
@@ -297,7 +297,7 @@ export function FileTable({ id, path, items, log, pending, filter, refQuery }) {
             const c = log?.[f.path];
             const wait = !c && pending?.has(f.path);
             return (
-              <tr data-figma="product/file_row" data-figma-key="" key={f.path}>
+              <tr data-figma="Code/File row" data-figma-key="" key={f.path}>
                 <td>
                   <Link className="rb-tree-name" to={`/projects/${id}/code/${f.path}${refQuery}`}>
                     {f.type === 'tree' ? <Icon name="ext/folder" label={t.P16_folder} /> : <FileIcon name={f.name} label={t.P16_file} />}

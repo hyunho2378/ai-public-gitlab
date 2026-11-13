@@ -1,4 +1,4 @@
-// Figma: product/global_sidebar, product/sidebar_item (data-figma), 기존 화면 상자는 data-figma-key
+// Figma: Navigation/Global sidebar, Navigation/Sidebar item (data-figma), 기존 화면 상자는 data-figma-key
 // D-21 왼쪽 세로 바. 공공 깃랩 사이드바(UX/handson/README.md 1절, 캡처 01, 03) 항목과 순서를 그대로 옮긴다.
 // 폭 240, 항목 높이 32, 글자 15(현재 항목만 굵게 + 회색 면). 묶음은 꺾쇠로 접고 편다. 맨 아래 '도움말', '사이드바 접음'.
 // 접으면 완전히 숨기고 상단 바의 펼침 단추로 다시 연다(공공 깃랩 방식). 쉬운 풀이는 항목 옆이 아니라 툴팁.
@@ -143,7 +143,7 @@ function SideLink({ it, tipApi, indent }) {
   const id = 'rb-tip-' + (it.to || it.href).replace(/[^a-z0-9]/gi, '-');
   const tipOn = it.hint ? (e) => tipApi.show(e.currentTarget, it.hint, id) : undefined;
   const common = {
-    "data-figma": "product/sidebar_item", "data-figma-key": "",
+    "data-figma": "Navigation/Sidebar item", "data-figma-key": "",
     onMouseEnter: tipOn, onFocus: tipOn, onMouseLeave: it.hint ? tipApi.hide : undefined, onBlur: it.hint ? tipApi.hide : undefined,
     'aria-describedby': tipApi.tip?.id === id ? id : undefined,
   };
@@ -229,8 +229,8 @@ export function Sidebar({ project, open, onClose, onHide, onShow, hidden = false
   return (
     <>
       {open ? <div className="rb-side-dim" onClick={onClose} /> : null}
-      <div className="rb-side-wrap" data-figma="product/gitlab_sidebar" data-figma-key="gitlab-sidebar">
-        <nav data-figma="product/global_sidebar" data-figma-key="" id="rb-sidebar" className={'rb-side' + (open ? ' is-open' : '') + (rail ? ' is-rail' : '')} aria-label={project ? t.Side_labelProject : t.Side_label}>
+      <div className="rb-side-wrap" data-figma="Navigation/Sidebar" data-figma-key="gitlab-sidebar">
+        <nav data-figma="Navigation/Global sidebar" data-figma-key="" id="rb-sidebar" className={'rb-side' + (open ? ' is-open' : '') + (rail ? ' is-rail' : '')} aria-label={project ? t.Side_labelProject : t.Side_label}>
           <div className="rb-side-scroll">
             <p className="rb-side-title">{project ? u.G_project : menu.title}</p>
             {project ? (

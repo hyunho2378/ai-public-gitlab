@@ -1,4 +1,4 @@
-// Figma: product/issue_row (data-figma), 기존 화면 상자는 data-figma-key
+// Figma: Data/Issue row (data-figma), 기존 화면 상자는 data-figma-key
 // P-19 이슈 목록과 상세(F-31 연동). GitHub Issues 목록 구성: 열림/닫힘, 제목, 라벨, 번호, 날짜, 댓글 수.
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
@@ -110,7 +110,7 @@ export function Issues() {
             {list.length ? (
               <ul className="rb-row-list">
                 {list.map((i) => (
-                  <li className="rb-row" data-figma="product/issue_row" data-figma-key="" key={i.iid}>
+                  <li className="rb-row" data-figma="Data/Issue row" data-figma-key="" key={i.iid}>
                     <div className="rb-row-main">
                       <p className="rb-row-title">
                         <Link className="krds-link krds-text-body-small rb-ellipsis" to={`/projects/${frame.id}/issues/${i.iid}`}>{i.title}</Link>

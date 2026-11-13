@@ -1,4 +1,4 @@
-// Figma: header → header
+// Figma: Dashboard/Header (data-figma), 기존 화면 상자는 data-figma-key(header)
 import { t } from '../copy/ko';
 
 const BASE = import.meta.env.BASE_URL;
@@ -7,7 +7,7 @@ const GITLAB_URL = import.meta.env.VITE_GITLAB_URL || 'https://gitlab.aigov.go.k
 
 export function Header() {
   return (
-    <header className="dash-header" data-figma="header">
+    <header className="dash-header" data-figma="Dashboard/Header" data-figma-key="header">
       <div className="dash-inner dash-header-inner">
         <a className="dash-brand" href={`${BASE}`} aria-label={`${t.ministry} ${t.service}`}>
           <img className="dash-brand-logo" src={`${BASE}brand/mois-logo-horizontal-inline.svg`} alt="" />

@@ -1,4 +1,4 @@
-// Figma: calendar-grid → calendar-grid
+// Figma: Dashboard/Registration calendar (data-figma), 기존 화면 상자는 data-figma-key(calendar-grid)
 // 공개 프로젝트 등록 달력(GitHub/GitLab 활동 달력 방식). 칸 하나 = 하루, 진할수록 그날 등록이 많음.
 // 색: 0은 회색, 1~4단계는 KRDS 주색 20/40/60/80(공공 GitLab 사용자 활동 달력의 파랑 단계에 대응)
 import { useEffect, useRef } from 'react';
@@ -15,7 +15,7 @@ export function Heatmap({ cal }) {
   return (
     <Section id="sec-cal" title={t.calTitle(num(cal.total))} aside={t.calAside(dayLabel(cal.first))} figma="calendar">
       <div className="dash-cal-scroll" ref={ref}>
-        <div className="dash-cal" role="img" aria-label={t.calAria(num(cal.total))} data-figma="registration-calendar" data-figma-key="calendar-grid">
+        <div className="dash-cal" role="img" aria-label={t.calAria(num(cal.total))} data-figma="Dashboard/Registration calendar" data-figma-key="calendar-grid">
           <div className="dash-cal-rows" aria-hidden="true">
             <span />
             {ROW_LABEL.map((l, i) => <span key={i} className="krds-text-body-xsmall dash-subtle">{l}</span>)}

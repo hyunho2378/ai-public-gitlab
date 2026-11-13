@@ -1,4 +1,4 @@
-// Figma: footer → footer
+// Figma: Identity/Footer (data-figma), 기존 화면 상자는 data-figma-key(footer)
 // D-20: 공공기관 하단 형식(KRDS 푸터 지침: 로고, 연락처, 유틸리티 링크, 정책 링크, 저작권). 값은 행정안전부 누리집에 실제로 있는 것만.
 // 출처 표시(공공누리 제1유형)는 바닥글에 두지 않고 도움말 '이 서비스에 대해'의 '출처' 절과 README에 둔다.
 import { u } from '../../copy/ui';
@@ -18,7 +18,7 @@ export { SERVICE_NAME };
 
 export function Footer() {
   return (
-    <footer data-figma="footer" id="krds-footer" data-krds="footer">
+    <footer data-figma="Identity/Footer" data-figma-key="footer" id="krds-footer" data-krds="footer">
       <div className="inner rb-foot">
         <div className="rb-foot-top">
           <MoisLogoHorizontal label={u.Login_moisAlt} />

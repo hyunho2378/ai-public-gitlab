@@ -1,4 +1,4 @@
-// Figma: filters, project-table, project-row → filters, project-table, project-row
+// Figma: Dashboard/Filter field, Dashboard/Table row (data-figma), 기존 화면 상자는 data-figma-key(filters, project-table, project-row)
 import { useMemo, useState } from 'react';
 import { t } from '../copy/ko';
 import { commits, filterSort, formatDate, num, relative, splitDescription, stats } from '../lib/compute';
@@ -22,7 +22,7 @@ export function ProjectTable({ data, now, fields }) {
 
   return (
     <Section id="sec-table" title={t.table} aside={t.count(num(list.length), num(data.projects.length))} figma="table">
-      <form className="dash-filters" role="search" onSubmit={(e) => e.preventDefault()} data-figma="dash/filter field" data-figma-key="filters">
+      <form className="dash-filters" role="search" onSubmit={(e) => e.preventDefault()} data-figma="Dashboard/Filter field" data-figma-key="filters">
         <div className="form-group dash-filter-q">
           <div className="form-tit"><label htmlFor="f-q">{t.search}</label></div>
           <div className="form-conts"><input id="f-q" type="search" className="krds-input medium" placeholder={t.searchHint} value={q} onChange={set(setQ)} /></div>
@@ -64,7 +64,7 @@ export function ProjectTable({ data, now, fields }) {
                 const st = stats(data, p);
                 const c = commits(data, p);
                 return (
-                  <tr key={p.id} data-figma="dash/table row" data-figma-key="project-row">
+                  <tr key={p.id} data-figma="Dashboard/Table row" data-figma-key="project-row">
                     <td className="dash-cell-project">
                       <div className="dash-cell-project-inner">
                         <a className="krds-text-body-small-bold dash-link dash-name" href={p.web_url} target="_blank" rel="noreferrer" title={`${p.name}, ${t.newWindow}`}>{p.name}</a>

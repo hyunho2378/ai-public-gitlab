@@ -1,4 +1,4 @@
-// Figma: product/gitlab_topbar (data-figma), 기존 화면 상자는 data-figma-key
+// Figma: Identity/Topbar (data-figma), 기존 화면 상자는 data-figma-key
 // D-08 전역 틀. 공공 깃랩(gitlab.aigov.go.kr) 상단 바 배치를 그대로 따른다.
 // 왼쪽: 사이드바 여닫기, 로고와 서비스명, "탐색" / 가운데: 검색 또는 이동(단축키 /) / 오른쪽: 화면 설정, 등록, 로그인 또는 내 계정.
 // 부품과 값은 KRDS만 쓴다.
@@ -138,7 +138,7 @@ export function GlobalBar({ onToggleNav, navOpen, hasNav = true, drawer = false,
   const [mode, setMode] = useScreenMode();
   const loginTo = `/login?returnTo=${encodeURIComponent(location.pathname + location.search)}`;
   return (
-    <header className={'rb-gbar' + (drawer ? ' is-drawer' : '')} data-figma="product/gitlab_topbar" data-figma-key="topbar" data-krds="header" data-auth={signedIn ? 'Signed-in' : 'Guest'}>
+    <header className={'rb-gbar' + (drawer ? ' is-drawer' : '')} data-figma="Identity/Topbar" data-figma-key="topbar" data-krds="header" data-auth={signedIn ? 'Signed-in' : 'Guest'}>
       <div className="rb-gbar-in">
         <div className="rb-gbar-left">
           {hasNav ? (

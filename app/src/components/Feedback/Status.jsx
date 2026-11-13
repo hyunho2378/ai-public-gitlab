@@ -1,4 +1,4 @@
-// Figma: product/status_block, product/empty_state (data-figma), 기존 화면 상자는 data-figma-key
+// Figma: Feedback/Status block, Feedback/Empty state (data-figma), 기존 화면 상자는 data-figma-key
 // 데이터 상태 표시. Loading은 KRDS spinner, Error는 KRDS 오류 안내 구조.
 import { phrase } from '../Help/Phrase';
 import { t } from '../../copy/ko';
@@ -16,7 +16,7 @@ export function Skeleton({ widths = SKEL_WIDTHS, inline = false }) {
 export function Status({ state, error, retry, status, code }) {
   if (state === 'Loading') {
     return (
-      <div role="status" aria-busy="true" className="rb-skel-group" data-figma="product/status_block" data-figma-key="" data-state="Loading">
+      <div role="status" aria-busy="true" className="rb-skel-group" data-figma="Feedback/Status block" data-figma-key="" data-state="Loading">
         <span className="sr-only">{t.Status_1}</span>
         <Skeleton />
       </div>
@@ -27,7 +27,7 @@ export function Status({ state, error, retry, status, code }) {
   if (state === 'Error') {
     const notFound = status === 404;
     return (
-      <div role="alert" className="rb-status" data-figma="product/status_block" data-figma-key="" data-state="Error">
+      <div role="alert" className="rb-status" data-figma="Feedback/Status block" data-figma-key="" data-state="Error">
         <h2 className="krds-text-body-small-bold">{notFound ? t.Status_2 : t.Status_3}</h2>
         <p>{phrase(notFound ? t.Status_4 : error || t.Status_5)}</p>
         <div className="rb-actions">
@@ -49,7 +49,7 @@ export function Status({ state, error, retry, status, code }) {
 /** 빈 상태: 이유와 다음 행동을 함께 준다(UX 원칙 U6). */
 export function EmptyState({ title, children, actions }) {
   return (
-    <div className="rb-status" data-figma="product/empty_state" data-figma-key="" data-state="Empty">
+    <div className="rb-status" data-figma="Feedback/Empty state" data-figma-key="" data-state="Empty">
       <h2 className="krds-text-body-small-bold">{phrase(title)}</h2>
       {children && <p className="rb-subtle">{phrase(children)}</p>}
       {actions && <div className="rb-actions">{actions}</div>}

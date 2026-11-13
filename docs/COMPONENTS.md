@@ -1,6 +1,7 @@
 # 공통 부품 대응
 
-- 기준: 코드 이름표 data-figma, 측정용 화면 상자 이름 data-figma-key
+- 기준: 코드 이름표 data-figma(Figma 부품 이름, Category/Name), 측정용 화면 상자 이름 data-figma-key
+- 이름 대응표: code_plan/component_name_map.json(옛 이름에서 새 이름)
 - 미등록: Figma 컴포넌트 실물 미확인 부품, 이름표 기준 인스턴스 일치 판정 제외
 - 생성: 부품 파일의 내보내기 이름, 이름표, 가져다 쓰는 파일(2026. 11. 13. 기준)
 
@@ -44,7 +45,7 @@
   - 이름표: 호출부 전달 또는 미지정
   - 쓰는 파일: screens/P19_Issues.jsx, screens/P20_MergeRequests.jsx
 - enc, Ago, BranchSelect, AddFileMenu, CodeMenu, RepoMoreMenu, FileFind, CommitBar, FileTable, ReadmeBox, About, RepoMenuList: app/src/components/Code/RepoParts.jsx
-  - 이름표: about, commit-bar, file-table, product/file_row, readme
+  - 이름표: Code/Branch select, Code/Code dropdown, Code/Commit bar, Code/File row, about, file-table, readme
   - 쓰는 파일: screens/P16_Code.jsx, screens/gl/GlFile.jsx
 - RepoSubNav: app/src/components/Code/RepoSubNav.jsx
   - 이름표: 호출부 전달 또는 미지정
@@ -59,13 +60,13 @@
   - 이름표: 호출부 전달 또는 미지정
   - 쓰는 파일: app/App.jsx
 - NotifyRow: app/src/components/Feedback/NotifyRow.jsx
-  - 이름표: product/notify_row
+  - 이름표: Data/Notify row
   - 쓰는 파일: 현재 미사용
 - ShortcutsDialog: app/src/components/Feedback/ShortcutsDialog.jsx
   - 이름표: 호출부 전달 또는 미지정
   - 쓰는 파일: app/App.jsx
 - Skeleton, Status, EmptyState: app/src/components/Feedback/Status.jsx
-  - 이름표: product/empty_state, product/status_block
+  - 이름표: Feedback/Empty state, Feedback/Status block
   - 쓰는 파일: components/Code/RepoParts.jsx, components/Layout/ProjectFrame.jsx, screens/P01_Home.jsx, screens/P02_Search.jsx, screens/P03_Fields.jsx, screens/P04_Project.jsx, screens/P06_Changes.jsx, screens/P07_Usage.jsx, screens/P09_Publish.jsx, screens/P10_MyProjects.jsx, screens/P11_Organizations.jsx, screens/P15_Requests.jsx, screens/P16_Code.jsx, screens/P17_Commit.jsx, screens/P18_Refs.jsx, screens/P19_Issues.jsx, screens/P20_MergeRequests.jsx, screens/P21_Contributors.jsx, screens/P22_RepoSections.jsx, screens/P24_NewIssue.jsx, screens/P25_Compare.jsx, screens/P26_Insights.jsx, screens/P27_Account.jsx, screens/P29_Explore.jsx, screens/P30_Jobs.jsx, screens/P31_PublishCheck.jsx, screens/P33_Profile.jsx
 - toast, Toasts: app/src/components/Feedback/Toast.jsx
   - 이름표: 호출부 전달 또는 미지정
@@ -89,22 +90,22 @@
 ## components/Identity
 
 - Footer: app/src/components/Identity/Footer.jsx
-  - 이름표: footer
+  - 이름표: Identity/Footer
   - 쓰는 파일: app/App.jsx
 - SERVICE_NAME, GlobalBar: app/src/components/Identity/GlobalBar.jsx
-  - 이름표: global-search, product/gitlab_topbar
+  - 이름표: Identity/Topbar, global-search
   - 쓰는 파일: app/App.jsx
 - SERVICE_NAME, MAIN_MENU, Header: app/src/components/Identity/Header.jsx
-  - 이름표: product/app_header
+  - 이름표: Identity/App header
   - 쓰는 파일: components/Identity/Footer.jsx
 - Logo: app/src/components/Identity/Logo.jsx
-  - 이름표: product/brand_logo
+  - 이름표: Identity/Logo
   - 쓰는 파일: components/Identity/GlobalBar.jsx
 - Masthead: app/src/components/Identity/Masthead.jsx
-  - 이름표: snapshot-band, system-band
+  - 이름표: Identity/System band, snapshot-band
   - 쓰는 파일: app/App.jsx
 - MoisLogo, MoisLogoHorizontal: app/src/components/Identity/MoisLogo.jsx
-  - 이름표: product/brand_mois, product/brand_mois_horizontal
+  - 이름표: Identity/MOIS logo, Identity/MOIS logo horizontal
   - 쓰는 파일: components/Identity/Footer.jsx, screens/P12_Login.jsx
 - useScreenMode, useFontSize, useMotion, ScreenModeOptions, ScreenModeItems: app/src/components/Identity/ScreenMode.jsx
   - 이름표: 호출부 전달 또는 미지정
@@ -125,7 +126,7 @@
 ## components/Layout
 
 - buildCalendar, ActivityCalendar: app/src/components/Layout/ActivityCalendar.jsx
-  - 이름표: activity-calendar
+  - 이름표: Layout/Activity calendar
   - 쓰는 파일: screens/P33_Profile.jsx
 - avatarUrl, avatarTone, Avatar: app/src/components/Layout/Avatar.jsx
   - 이름표: 호출부 전달 또는 미지정
@@ -137,16 +138,16 @@
   - 이름표: 호출부 전달 또는 미지정
   - 쓰는 파일: components/Layout/DecisionPanel.jsx, components/Layout/ProjectInfo.jsx, components/Layout/ProjectRow.jsx, screens/P14_Help.jsx
 - Page: app/src/components/Layout/Page.jsx
-  - 이름표: main, page-head
+  - 이름표: page-head
   - 쓰는 파일: components/Layout/ProjectFrame.jsx, screens/P01_Home.jsx, screens/P02_Search.jsx, screens/P03_Fields.jsx, screens/P09_Publish.jsx, screens/P10_MyProjects.jsx, screens/P11_Organizations.jsx, screens/P12_Login.jsx, screens/P12b_LoginStates.jsx, screens/P13_Error.jsx, screens/P14_Help.jsx, screens/P15_Requests.jsx, screens/P26_Insights.jsx, screens/P27_Account.jsx, screens/P28_NewProject.jsx, screens/P29_Explore.jsx, screens/P33_Profile.jsx
 - organizationOf, useProject, ProjectFrame: app/src/components/Layout/ProjectFrame.jsx
   - 이름표: extra-reuse, main, page-head, repo-actions
   - 쓰는 파일: screens/P04_Project.jsx, screens/P06_Changes.jsx, screens/P07_Usage.jsx, screens/P08_Feedback.jsx, screens/P16_Code.jsx, screens/P17_Commit.jsx, screens/P18_Refs.jsx, screens/P19_Issues.jsx, screens/P20_MergeRequests.jsx, screens/P21_Contributors.jsx, screens/P22_RepoSections.jsx, screens/P23_Write.jsx, screens/P24_NewIssue.jsx, screens/P25_Compare.jsx, screens/P26_Insights.jsx, screens/P27_Account.jsx, screens/P30_Jobs.jsx, screens/P31_PublishCheck.jsx, screens/P32_RepoAnalytics.jsx
 - ProjectInfo: app/src/components/Layout/ProjectInfo.jsx
-  - 이름표: extra-field, intro-card, language-bar, product/dock_panel
+  - 이름표: Layout/Project info, extra-field, intro-card, language-bar
   - 쓰는 파일: components/Layout/ProjectFrame.jsx
 - ProjectRow: app/src/components/Layout/ProjectRow.jsx
-  - 이름표: 호출부 전달 또는 미지정
+  - 이름표: Layout/Project row, Layout/Search result row
   - 쓰는 파일: screens/P01_Home.jsx, screens/P02_Search.jsx, screens/P10_MyProjects.jsx, screens/P33_Profile.jsx
 - ProjectList: app/src/components/Layout/StructuredList.jsx
   - 이름표: 호출부 전달 또는 미지정
@@ -158,7 +159,7 @@
   - 이름표: breadcrumb
   - 쓰는 파일: app/App.jsx, components/Layout/ProjectFrame.jsx, screens/P09_Publish.jsx, screens/P14_Help.jsx, screens/P15_Requests.jsx, screens/P33_Profile.jsx
 - Menu: app/src/components/Navigation/Menu.jsx
-  - 이름표: 호출부 전달 또는 미지정
+  - 이름표: Navigation/Menu
   - 쓰는 파일: components/Code/DownloadMenu.jsx, components/Code/Drop.jsx, components/Identity/GlobalBar.jsx, components/Identity/Header.jsx, components/Layout/ProjectRow.jsx, screens/P01_Home.jsx, screens/P06_Changes.jsx, screens/P11_Organizations.jsx, screens/P17_Commit.jsx, screens/P25_Compare.jsx, screens/gl/GlDiff.jsx, screens/gl/GlFile.jsx, screens/gl/parts.jsx
 - Pagination: app/src/components/Navigation/Pagination.jsx
   - 이름표: 호출부 전달 또는 미지정
@@ -167,10 +168,10 @@
   - 이름표: gl-tabs
   - 쓰는 파일: screens/P01_Home.jsx, screens/P11_Organizations.jsx
 - ProjectTabs: app/src/components/Navigation/ProjectTabs.jsx
-  - 이름표: product/repo_tabs
+  - 이름표: Navigation/Repo tabs
   - 쓰는 파일: 현재 미사용
 - globalMenu, profileMenu, projectMenu, Sidebar: app/src/components/Navigation/Sidebar.jsx
-  - 이름표: product/gitlab_sidebar, product/global_sidebar, sidebar-nav
+  - 이름표: Navigation/Global sidebar, Navigation/Sidebar, Navigation/Sidebar item, sidebar-nav
   - 쓰는 파일: app/App.jsx
 - Steps: app/src/components/Navigation/StepIndicator.jsx
   - 이름표: 호출부 전달 또는 미지정
