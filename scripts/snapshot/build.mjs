@@ -77,6 +77,8 @@ for (const p of index) {
       readmePath: 'README.md',
       tree: trees[''],
       trees,
+      // 펼친 파일 목록(recursive=true, 100개씩 받은 tree_1~3). 공개 준비 점검이 실시간과 같은 입력을 받게
+      treeRecursive: [...new Map(['tree_1', 'tree_2', 'tree_3'].flatMap((f) => k(f) || []).map((x) => [x.path, x])).values()],
       languages: k('languages'),
       totals: kTotals,
       commits: k('commits'), commit: k('commit_latest'), commitDiff: k('commit_latest_diff'),
