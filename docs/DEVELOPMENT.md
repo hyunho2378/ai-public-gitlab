@@ -85,6 +85,7 @@ npm test
 - GITLAB_TOKEN: 인증 어댑터용 예약 환경변수, 공개 프록시 미사용
 - 인증: OAuth, 세션, CSRF, 관리자 전용 보안 상세 권한 검사, OAuth 앱 등록 전 503 응답
 - /mcp: JSON-RPC 초기화와 검색 도구(search_projects) 호출
+- 로컬 MCP(stdio): `node server/src/mcp-stdio.js` (도구 search_projects, get_project, find_similar, 시험 기록 docs/mcp-test.md)
 - GitLab 업데이트: 화면 직접 덮어쓰기 금지, API 버전과 계약 테스트 유지
 
 ## 서버 기능

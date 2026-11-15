@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {handleMcp,loadData,TOOLS}from'../src/mcp-tools.js';
+const call=async(name,args,deps)=>{const r=await handleMcp({jsonrpc:'2.0',id:1,method:'tools/call',params:{name,arguments:args}},deps);return{...r.result,body:JSON.parse(r.result.content[0].text)}};
+const data=loadData();
+test('자료 읽기와 버전',()=>{assert.ok(data.cards.length>0);assert.match(data.meta.version,/^\d{4}-\d{2}-\d{2}-[0-9a-f]{8}$/)});
+test('도구 세 개',async()=>{const r=await handleMcp({jsonrpc:'2.0',id:1,method:'tools/list'});assert.deepEqual(r.result.tools.map(t=>t.name),['search_projects','get_project','find_similar']);assert.equal(TOOLS.length,3)});
+test('search_projects: 자료 버전, 원문 주소, 근거 포함, AI 주소 없으면 fallback',async()=>{const r=await call('search_projects',{query:'출장 여비 계산'});assert.equal(r.body.status,'fallback');assert.equal(r.body.dataVersion,data.meta.version);assert.ok(r.body.items.length);assert.match(r.body.items[0].url,/^https:\/\//)});
+test('search_projects 입력 오류와 분야 조건',async()=>{const a=await call('search_projects',{query:'가'});assert.equal(a.body.status,'invalid');assert.equal(a.isError,true);const b=await call('search_projects',{query:'출장 여비 계산',fields:['회계/예산/출장']});assert.ok(b.body.items.every(i=>i.field==='회계/예산/출장'))});
+test('get_project: 배포된 카드와 같음, 없는 번호는 not-found',async()=>{const c=data.cards.find(x=>x.basis==='readme');const r=await call('get_project',{id:c.id});assert.equal(r.body.project.card.oneLine.value,c.oneLine.v);assert.deepEqual(r.body.project.card.oneLine.evidence,c.oneLine.e);assert.equal(r.body.project.status,c.status);const n=await call('get_project',{id:999999});assert.equal(n.body.status,'not-found')});
+test('find_similar: 유사 판단 미수행 표시',async()=>{const r=await call('find_similar',{description:'부처별 예산 자료를 내려받는 기능'});assert.equal(r.body.similarityJudged,false);assert.equal(r.body.fallback,true)});
+test('AI 함수가 있으면 호출하고 검증 통과 결과만 반환',async()=>{const id=data.cards[0].id;const ok=async()=>({ok:true,json:async()=>({items:[{id,reason:'시험',basisLines:null,level:'high'}]})});const r=await call('search_projects',{query:'아무 업무 설명'},{aiUrl:'https://x',fetchImpl:ok});assert.equal(r.body.status,'ok');assert.equal(r.body.fallback,false);const bad=async()=>({ok:true,json:async()=>({items:[{id:-1,reason:'x'}]})});const f=await call('search_projects',{query:'아무 업무 설명'},{aiUrl:'https://x',fetchImpl:bad});assert.equal(f.body.status,'fallback')});
+test('자료를 읽지 못하면 data-unreadable, 없는 프로젝트와 구분',async()=>{const d={data:()=>null};assert.equal((await call('get_project',{id:1},d)).body.status,'data-unreadable');assert.equal((await call('search_projects',{query:'출장 여비'},d)).body.status,'data-unreadable')});
+test('자료 버전 불일치',async()=>{const f=async()=>({ok:true,json:async()=>({dataVersion:'2099-01-01-deadbeef',items:[]})});const r=await call('search_projects',{query:'출장 여비 계산'},{aiUrl:'https://x',fetchImpl:f});assert.equal(r.body.status,'version-mismatch')});

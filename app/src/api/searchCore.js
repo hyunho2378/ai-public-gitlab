@@ -84,7 +84,7 @@ export function localSearch(data, query, { fields = [], excludeIds = [], limit =
     .filter((x) => x.score >= minScore)
     .sort((a, b) => b.score - a.score || a.c.id - b.c.id)
     .slice(0, limit)
-    .map(({ c, best }) => ({ id: c.id, reason: best ? `${LABEL[best]}이(가) 입력 내용과 겹침` : '입력 내용과 겹침', basisLines: basisLinesOf(c), level: null }));
+    .map(({ c, best }) => ({ id: c.id, reason: best ? `${LABEL[best]} 문구가 입력 내용과 겹침` : '입력 내용과 겹침', basisLines: basisLinesOf(c), level: null }));
 }
 
 /** AI 응답 검증. 수집 목록에 없는 id, 중복 id, 조건 밖 후보, 형식 오류가 하나라도 있으면 전체 폐기 */
