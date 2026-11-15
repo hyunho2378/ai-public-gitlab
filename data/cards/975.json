@@ -79,18 +79,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "노동위원회 판정서 PDF를 AI로 분석해 위키로 쌓는 시스템",
+   "evidence": {
+    "lines": [
+     3,
+     10
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "판정서 검색·조회·편집 관리",
+   "evidence": {
+    "lines": [
+     9,
+     10
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     10
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -141,5 +158,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.112Z",
  "rulesAt": "2026-10-30T13:35:13.112Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.023Z"
 }

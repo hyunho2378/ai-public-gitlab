@@ -116,29 +116,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "인터넷 없이 PDF 압축·편집·변환을 하는 윈도우 프로그램",
+   "evidence": {
+    "lines": [
+     4,
+     6
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "공문서·학교 첨부파일 PDF 압축과 편집",
+   "evidence": {
+    "lines": [
+     4,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     1,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "PenPDF.exe를 내려받아 원하는 폴더에 두고 더블클릭해 실행합니다.",
+   "evidence": {
+    "lines": [
+     21,
+     23
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "윈도우 환경에서 동작하는 단독 실행 파일입니다.",
+   "evidence": {
+    "lines": [
+     19,
+     19
+    ]
+   },
    "source": "ai"
   }
  },
@@ -178,5 +205,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.167Z",
  "rulesAt": "2026-10-30T13:35:13.167Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.840Z"
 }

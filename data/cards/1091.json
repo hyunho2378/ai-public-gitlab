@@ -148,29 +148,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "충주시 초·중학교 통학구역을 검색하는 웹 화면",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "초·중학교 통학구역·중학구 조회 안내",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     13
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "index.html과 연도별 CSV를 정적 웹 호스팅에 올리며, 내 PC에서 볼 때는 간이 HTTP 서버를 띄워 엽니다.",
+   "evidence": {
+    "lines": [
+     41,
+     68
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "도로명주소로는 검색되지 않으며, 조회 결과가 학구 고시 원문과 다르면 고시가 우선합니다.",
+   "evidence": {
+    "lines": [
+     11,
+     12
+    ]
+   },
    "source": "ai"
   }
  },
@@ -210,5 +237,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.173Z",
  "rulesAt": "2026-10-30T13:35:13.173Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.852Z"
 }

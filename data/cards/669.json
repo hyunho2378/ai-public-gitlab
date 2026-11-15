@@ -86,29 +86,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "MarkAny 복호화 화면을 순서대로 자동 조작하는 Windows 도구",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "MarkAny 문서 복호화 반복 작업 자동화",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "빌드한 exe를 실행하거나 pywinauto·tkinterdnd2 설치 후 markany_auto.py를 실행하고, ESC로 멈춘다",
+   "evidence": {
+    "lines": [
+     61,
+     70
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "python markany_auto.py"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "수집한 UI 정보 JSON에 문서명 등이 들어갈 수 있어 공유 전 확인이 필요하다",
+   "evidence": {
+    "lines": [
+     24,
+     24
+    ]
+   },
    "source": "ai"
   }
  },
@@ -148,5 +175,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.966Z",
  "rulesAt": "2026-10-30T13:35:12.966Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.438Z"
 }

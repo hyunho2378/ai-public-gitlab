@@ -134,29 +134,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "엑셀 주소 목록을 주민 안내용 공개 지도로 바꾸는 웹 도구",
+   "evidence": {
+    "lines": [
+     8,
+     8
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "주민 안내용 시설 지도 제작",
+   "evidence": {
+    "lines": [
+     8,
+     21
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     8,
+     21
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "웹앱에 접속해 엑셀을 올리고 주소 위치를 확인·검토한 뒤 공개 링크를 만든다.",
+   "evidence": {
+    "lines": [
+     19,
+     25
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run dev"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "공개 지도 기능만 모은 배포본으로 업무용 작업실·내부 회원관리는 포함하지 않는다.",
+   "evidence": {
+    "lines": [
+     17,
+     50
+    ]
+   },
    "source": "ai"
   }
  },
@@ -196,5 +223,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.157Z",
  "rulesAt": "2026-10-30T13:35:13.157Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.554Z"
 }

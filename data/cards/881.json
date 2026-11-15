@@ -121,29 +121,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "페이지 병합·편집·용량 줄이기를 하는 포터블 PDF 편집기",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "일상적인 PDF 문서 편집",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "포터블 zip을 풀어 exe를 실행하거나 MSI·DMG로 설치해 실행한다",
+   "evidence": {
+    "lines": [
+     24,
+     44
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "HWP/HWPX 열기는 Windows에 한컴 오피스 한글이 설치되어 있어야 한다",
+   "evidence": {
+    "lines": [
+     55,
+     55
+    ]
+   },
    "source": "ai"
   }
  },
@@ -183,5 +210,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.072Z",
  "rulesAt": "2026-10-30T13:35:13.072Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.705Z"
 }

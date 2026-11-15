@@ -89,29 +89,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "빈 LLM 위키 지식베이스 골격을 폴더에 설치하는 Claude 스킬",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "LLM이 정리하는 지식베이스(위키) 초기 구성",
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "스킬 폴더에 복제한 뒤 Claude Code에서 /llm-wiki-init 명령에 설치할 폴더를 지정한다",
+   "evidence": {
+    "lines": [
+     10,
+     25
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "/llm-wiki-init <설치할 폴더 경로> [목적 한 줄]"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "예시 요약이나 개체 페이지 같은 자료는 만들지 않고 구조와 규칙만 생성한다",
+   "evidence": {
+    "lines": [
+     6,
+     6
+    ]
+   },
    "source": "ai"
   }
  },
@@ -151,5 +178,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.046Z",
  "rulesAt": "2026-10-30T13:35:13.046Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.214Z"
 }

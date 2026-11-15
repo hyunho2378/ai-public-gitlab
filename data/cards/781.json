@@ -84,13 +84,23 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "의성군 AI데이터팀이 만든 공공 AI 도구를 소개하는 계정 페이지",
+   "evidence": {
+    "lines": [
+     18,
+     19
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "의성군 공개 AI 도구 목록 확인",
+   "evidence": {
+    "lines": [
+     35,
+     45
+    ]
+   },
    "source": "ai"
   },
   "fields": {
@@ -146,5 +156,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.023Z",
  "rulesAt": "2026-10-30T13:35:13.023Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.950Z"
 }

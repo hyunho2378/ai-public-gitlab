@@ -180,29 +180,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "건설공사 법정 절차와 개략사업비를 미리 그려 보는 도구",
+   "evidence": {
+    "lines": [
+     13,
+     15
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "시설직 공무원의 공사 절차 확인과 사업비 산정",
+   "evidence": {
+    "lines": [
+     13,
+     15
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "시설·안전·재난"
+   ],
+   "evidence": {
+    "lines": [
+     13,
+     36
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "「매니저 실행.bat」을 더블클릭하면 검은 창과 함께 브라우저가 열린다",
+   "evidence": {
+    "lines": [
+     66,
+     68
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "모든 값은 개략 추정치라 실제 예산 편성과 절차 이행은 원문 규정으로 다시 확인해야 한다",
+   "evidence": {
+    "lines": [
+     43,
+     47
+    ]
+   },
    "source": "ai"
   }
  },
@@ -242,5 +269,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.069Z",
  "rulesAt": "2026-10-30T13:35:13.069Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.467Z"
 }

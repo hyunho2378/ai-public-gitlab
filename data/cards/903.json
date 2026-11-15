@@ -111,29 +111,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "한글 보고서를 공문서 모양으로 다듬어 주는 후처리 도구",
+   "evidence": {
+    "lines": [
+     6,
+     7
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "한글 보고서 마무리 서식 정리",
+   "evidence": {
+    "lines": [
+     3,
+     7
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "무설치 exe를 받아 실행하고 한글 문서를 넣은 뒤 정리 시작을 누른다",
+   "evidence": {
+    "lines": [
+     6,
+     16
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "한/글이 설치된 Windows 10·11에서 쓰는 도구다",
+   "evidence": {
+    "lines": [
+     25,
+     25
+    ]
+   },
    "source": "ai"
   }
  },
@@ -173,5 +200,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.084Z",
  "rulesAt": "2026-10-30T13:35:13.084Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.742Z"
 }

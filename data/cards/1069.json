@@ -116,23 +116,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공무원 국외출장 여비를 계산하는 HTML 웹 계산기",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "국외출장 일비·숙박비·식비·운임 산정",
+   "evidence": {
+    "lines": [
+     3,
+     17
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "HTML 파일을 내려받아 브라우저로 열면 별도 설치 없이 바로 쓸 수 있습니다.",
+   "evidence": {
+    "lines": [
+     46,
+     48
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -178,5 +200,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.164Z",
  "rulesAt": "2026-10-30T13:35:13.164Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.833Z"
 }

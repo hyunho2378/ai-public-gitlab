@@ -95,23 +95,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "보도자료를 올리면 카드뉴스 이미지를 만들어 주는 웹서비스",
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "정책 보도자료 카드뉴스 제작과 SNS 발행",
+   "evidence": {
+    "lines": [
+     6,
+     6
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "영상·이미지·음성"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Streamlit 화면에서 보도자료 선택, 기획안 확정, 디자인 설정, 카드 생성, 내려받기 순서로 진행합니다.",
+   "evidence": {
+    "lines": [
+     29,
+     66
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -157,5 +179,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.178Z",
  "rulesAt": "2026-10-30T13:35:13.178Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.872Z"
 }

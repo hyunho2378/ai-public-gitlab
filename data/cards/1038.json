@@ -84,25 +84,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "달력·반복 일정·알림을 한 창에서 쓰는 Windows 일정 패널",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "개인 업무 일정 관리",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     17
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "소스를 받아 dotnet run으로 실행한 뒤 아래 입력창에 날짜·시간·제목을 적어 일정을 추가한다.",
+   "evidence": {
+    "lines": [
+     29,
+     51
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "dotnet run --project EonjeoderaScheduler\\EonjeoderaScheduler.csproj"
   },
   "limitations": {
    "value": null,
@@ -146,5 +168,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.149Z",
  "rulesAt": "2026-10-30T13:35:13.149Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.526Z"
 }

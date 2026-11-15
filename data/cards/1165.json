@@ -126,23 +126,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "파일 검색·탐색기·일정 관리를 한 화면에 모은 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 파일 찾기와 일정 관리",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "배포 폴더째 둔 상태에서 Sen-Desk.exe를 실행하고 관리자 권한을 허용합니다.",
+   "evidence": {
+    "lines": [
+     19,
+     20
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -188,5 +210,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.210Z",
  "rulesAt": "2026-10-30T13:35:13.210Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.374Z"
 }

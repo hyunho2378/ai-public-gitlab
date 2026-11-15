@@ -110,7 +110,7 @@
  },
  "ai": {
   "oneLine": {
-   "value": "경기도교육청 e-Dasan Q&A와 지침·매뉴얼 등을 근거로 답하는 교육행정 챗봇",
+   "value": "e-Dasan Q&A와 지침을 근거로 답하는 교육행정 챗봇",
    "evidence": {
     "lines": [
      3,
@@ -194,5 +194,6 @@
  ],
  "generatedAt": "2026-10-30T12:48:35.454Z",
  "rulesAt": "2026-10-30T13:35:12.851Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:25.430Z"
 }

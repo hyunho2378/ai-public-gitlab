@@ -101,7 +101,7 @@
  },
  "ai": {
   "oneLine": {
-   "value": "금융감독원 전자공시(OpenDART) 정보를 AI 도구에서 말로 물어 조회하는 연결 서버",
+   "value": "전자공시(OpenDART) 정보를 AI 도구에서 조회하는 연결 서버",
    "evidence": {
     "lines": [
      3,
@@ -122,8 +122,7 @@
   },
   "fields": {
    "value": [
-    "데이터·통계·분석",
-    "생성형 AI·챗봇·검색"
+    "데이터·통계·분석"
    ],
    "evidence": {
     "lines": [
@@ -186,5 +185,6 @@
  ],
  "generatedAt": "2026-10-30T12:38:40.920Z",
  "rulesAt": "2026-10-30T13:35:12.719Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:24.435Z"
 }

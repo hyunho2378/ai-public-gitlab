@@ -104,7 +104,7 @@
  },
  "ai": {
   "oneLine": {
-   "value": "한국어 설문 자유응답을 PC에서 개인정보 마스킹과 토픽 분석해 Excel·Word·PowerPoint 보고서로 만드는 도구",
+   "value": "설문 자유응답을 마스킹하고 토픽 분석해 보고서로 만드는 도구",
    "evidence": {
     "lines": [
      11,
@@ -188,5 +188,6 @@
  ],
  "generatedAt": "2026-10-30T12:48:35.512Z",
  "rulesAt": "2026-10-30T13:35:12.928Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:25.987Z"
 }

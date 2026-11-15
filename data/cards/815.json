@@ -229,29 +229,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "법제처 법령 XML을 AI용 마크다운 문서로 정리하는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "법령·행정규칙 원문 수집과 AI 활용용 정리",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "파이썬 가상환경을 만들어 필요한 패키지를 설치하고 법제처 Open API 인증값을 설정한다",
+   "evidence": {
+    "lines": [
+     50,
+     70
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "생성 결과는 공식 법령 원문이나 해석을 대체하지 않아 최신 원문과 시행일을 따로 확인해야 한다",
+   "evidence": {
+    "lines": [
+     7,
+     7
+    ]
+   },
    "source": "ai"
   }
  },
@@ -291,5 +318,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.039Z",
  "rulesAt": "2026-10-30T13:35:13.039Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.200Z"
 }

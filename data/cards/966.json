@@ -86,23 +86,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "문자 구성을 지정해 비밀번호를 만드는 웹 도구",
+   "evidence": {
+    "lines": [
+     5,
+     8
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "계정 발급 시 초기 비밀번호 생성",
+   "evidence": {
+    "lines": [
+     8,
+     8
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     8
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "password-generator.html 파일을 브라우저로 열고 옵션을 정한 뒤 생성·복사 버튼을 누른다.",
+   "evidence": {
+    "lines": [
+     36,
+     58
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -148,5 +170,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.106Z",
  "rulesAt": "2026-10-30T13:35:13.106Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.012Z"
 }

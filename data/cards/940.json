@@ -103,29 +103,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "스마트폰으로 실시간 다국어 통역 음성을 송출하는 앱",
+   "evidence": {
+    "lines": [
+     3,
+     12
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "행사 현장 다국어 통역방송",
+   "evidence": {
+    "lines": [
+     3,
+     23
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "영상·이미지·음성"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     12
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "송신 폰에 앱을 설치해 언어와 모델을 준비하고 방송을 시작하면, 청취자는 같은 네트워크에서 QR 주소로 접속해 듣는다.",
+   "evidence": {
+    "lines": [
+     50,
+     54
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "./gradlew :app:assembleDebug"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Android 11 이상 ARM64 기기용 시험판이며 모든 기기의 지연·음질·무중단 운영을 보증하지 않는다.",
+   "evidence": {
+    "lines": [
+     27,
+     31
+    ]
+   },
    "source": "ai"
   }
  },
@@ -165,5 +192,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.097Z",
  "rulesAt": "2026-10-30T13:35:13.097Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.988Z"
 }

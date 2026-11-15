@@ -99,29 +99,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공사계약 공개 자료를 모아 검색·안내하는 통합지원 시스템",
+   "evidence": {
+    "lines": [
+     1,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "교육청 공사계약 절차 안내와 계획~하자관리 업무",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     1,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "pnpm으로 설치·자료 수집·색인을 한 뒤 API와 웹 개발 서버를 띄운다",
+   "evidence": {
+    "lines": [
+     8,
+     17
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "pnpm dev:web"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "첨부파일 다운로드는 robots.txt에 따라 기본 차단된다",
+   "evidence": {
+    "lines": [
+     21,
+     21
+    ]
+   },
    "source": "ai"
   }
  },
@@ -161,5 +188,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.061Z",
  "rulesAt": "2026-10-30T13:35:13.061Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.445Z"
 }

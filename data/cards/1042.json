@@ -99,29 +99,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "지역사회보장지표를 지역별로 비교·분석하는 대시보드",
+   "evidence": {
+    "lines": [
+     1,
+     41
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "지역사회보장 지표 분석",
+   "evidence": {
+    "lines": [
+     1,
+     1
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     1,
+     41
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "대시보드 웹 주소에 접속해 쓴다.",
+   "evidence": {
+    "lines": [
+     3,
+     7
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "접속 권한은 Streamlit 공유 설정을 따르며, 확인 시점에는 로그인 후에만 접속되었다.",
+   "evidence": {
+    "lines": [
+     9,
+     11
+    ]
+   },
    "source": "ai"
   }
  },
@@ -161,5 +188,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.151Z",
  "rulesAt": "2026-10-30T13:35:13.151Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.529Z"
 }

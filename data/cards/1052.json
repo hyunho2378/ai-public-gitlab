@@ -103,18 +103,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "서버·네트워크 등 정보시스템 자산을 통합 관리하는 웹 시스템",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "정보시스템 자산·랙·IP·배선 관리",
+   "evidence": {
+    "lines": [
+     3,
+     38
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -165,5 +182,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.156Z",
  "rulesAt": "2026-10-30T13:35:13.156Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.551Z"
 }

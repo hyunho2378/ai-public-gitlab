@@ -108,23 +108,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "모은 자료로 한글(hwpx) 보고서를 만드는 작성 파이프라인",
+   "evidence": {
+    "lines": [
+     3,
+     33
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "망분리 환경의 보고서 조사·작성·hwpx 변환",
+   "evidence": {
+    "lines": [
+     3,
+     20
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     33
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "웹앱용 스킬 파일을 올리고 대화창에 자료를 붙여넣은 뒤 아웃라인과 초안 단계에서 확인한다.",
+   "evidence": {
+    "lines": [
+     40,
+     43
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -170,5 +192,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.119Z",
  "rulesAt": "2026-10-30T13:35:13.119Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.214Z"
 }

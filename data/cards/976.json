@@ -105,29 +105,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "기차·버스 영수증을 모아 출장 왕복 증빙 PDF를 만드는 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "출장 여비 정산 증빙 준비",
+   "evidence": {
+    "lines": [
+     10,
+     14
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     14
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "설치 파일을 실행해 설치한 뒤 정산월을 고르고 코레일·코버스에 로그인해 영수증을 확인하고 PDF로 저장한다.",
+   "evidence": {
+    "lines": [
+     28,
+     31
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows 64비트용 서명 안 된 시험판이며 기관 PC 사용은 보안부서 확인이 필요하다.",
+   "evidence": {
+    "lines": [
+     5,
+     46
+    ]
+   },
    "source": "ai"
   }
  },
@@ -167,5 +194,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.113Z",
  "rulesAt": "2026-10-30T13:35:13.113Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.028Z"
 }

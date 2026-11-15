@@ -103,29 +103,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "윈도우 바탕화면에 붙여 쓰는 가벼운 스티커 메모 프로그램",
+   "evidence": {
+    "lines": [
+     6,
+     8
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 중 간단한 메모",
+   "evidence": {
+    "lines": [
+     6,
+     16
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     6,
+     16
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "README의 다운로드 링크에서 OmxStickyNotesSingle.exe를 받아 실행한다",
+   "evidence": {
+    "lines": [
+     43,
+     43
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "powershell.exe -NoProfile -ExecutionPolicy Bypass -STA -File .\\src\\OmxStickyNotesSingle\\app\\StickyNotes.ps1"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "메모는 현재 Windows 계정에 묶여 암호화되어 다른 계정이나 PC로 파일만 옮기면 열 수 없다",
+   "evidence": {
+    "lines": [
+     70,
+     70
+    ]
+   },
    "source": "ai"
   }
  },
@@ -165,5 +192,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.984Z",
  "rulesAt": "2026-10-30T13:35:12.984Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.478Z"
 }

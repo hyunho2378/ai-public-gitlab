@@ -95,29 +95,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공문서 맞춤법·띄어쓰기를 오프라인으로 검토하는 웹 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "공문서·보고서 맞춤법과 공공언어 1차 검토",
+   "evidence": {
+    "lines": [
+     3,
+     12
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     12
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "index.html 파일을 브라우저로 열고 글을 붙여넣거나 파일을 불러와 검사하기를 누른다",
+   "evidence": {
+    "lines": [
+     6,
+     14
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "구형 .hwp 형식은 지원하지 않고, 표·글상자·머리말 등 일부 글자는 추출되지 않을 수 있다",
+   "evidence": {
+    "lines": [
+     18,
+     19
+    ]
+   },
    "source": "ai"
   }
  },
@@ -157,5 +184,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.032Z",
  "rulesAt": "2026-10-30T13:35:13.032Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.169Z"
 }

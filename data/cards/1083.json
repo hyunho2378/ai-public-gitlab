@@ -105,29 +105,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "조건을 고르면 받을 수 있는 정부 혜택을 보여주는 웹 화면",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "국민 생애주기별 정부 혜택 안내",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "npm install 후 npm run dev로 실행하고 브라우저에서 localhost:5173에 접속합니다.",
+   "evidence": {
+    "lines": [
+     11,
+     15
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run dev"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "정책 구상용 데모로 일부 단가·요건은 예시이며 실제 수급 여부와 다를 수 있습니다.",
+   "evidence": {
+    "lines": [
+     8,
+     8
+    ]
+   },
    "source": "ai"
   }
  },
@@ -167,5 +194,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.168Z",
  "rulesAt": "2026-10-30T13:35:13.168Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.846Z"
 }

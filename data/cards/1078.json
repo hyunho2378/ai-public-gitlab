@@ -94,29 +94,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "지자체 공장행정 담당자의 실무를 돕는 지원 플랫폼",
+   "evidence": {
+    "lines": [
+     19,
+     20
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "공장설립 승인·공장등록 등 공장행정 실무",
+   "evidence": {
+    "lines": [
+     22,
+     24
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     19,
+     24
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "설치파일을 내려받아 설치한 뒤 바탕화면이나 시작메뉴에서 실행합니다.",
+   "evidence": {
+    "lines": [
+     34,
+     40
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm start"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "공개 초기버전은 코드서명이 없어 처음 실행 시 SmartScreen 안내가 표시될 수 있습니다.",
+   "evidence": {
+    "lines": [
+     44,
+     45
+    ]
+   },
    "source": "ai"
   }
  },
@@ -156,5 +183,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.166Z",
  "rulesAt": "2026-10-30T13:35:13.166Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.836Z"
 }

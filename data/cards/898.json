@@ -93,18 +93,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "로컬 AI 요약·검색과 데스크톱 펫을 갖춘 스티키 메모 앱",
+   "evidence": {
+    "lines": [
+     7,
+     42
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 메모 작성·검색·알림",
+   "evidence": {
+    "lines": [
+     13,
+     14
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     7,
+     14
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -155,5 +172,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.082Z",
  "rulesAt": "2026-10-30T13:35:13.082Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.738Z"
 }

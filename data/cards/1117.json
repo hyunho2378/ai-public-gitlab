@@ -103,29 +103,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "부서별 엑셀 명단을 하나로 모아 정렬하는 웹 도구",
+   "evidence": {
+    "lines": [
+     38,
+     44
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "부서별 엑셀 명단 취합과 부서·직급순 정렬",
+   "evidence": {
+    "lines": [
+     38,
+     44
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     33,
+     44
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "처음 한 번 파이썬 패키지를 설치한 뒤 '모으소 실행.bat'을 더블클릭하면 브라우저가 자동으로 열립니다.",
+   "evidence": {
+    "lines": [
+     7,
+     7
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "python server.py"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "시트가 하나인 .xlsx 파일만 처리하고 수식·매크로 파일은 거부하며, 사내 접근 제어는 아직 구현되지 않았습니다.",
+   "evidence": {
+    "lines": [
+     35,
+     56
+    ]
+   },
    "source": "ai"
   }
  },
@@ -165,5 +192,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.186Z",
  "rulesAt": "2026-10-30T13:35:13.186Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.154Z"
 }

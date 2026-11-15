@@ -95,29 +95,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "연수 운영·만족도·강사 현황 도구를 묶은 단일 HTML 허브",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "교육행정연수 운영 관리",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "인사·교육"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "EduFit_Manager.html을 내려받아 브라우저로 열고 왼쪽 사이드바에서 도구를 고른다",
+   "evidence": {
+    "lines": [
+     19,
+     23
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "교육훈련 개요는 .hwpx 형식만 인식하고 구버전 .hwp 파일은 인식하지 않는다",
+   "evidence": {
+    "lines": [
+     34,
+     34
+    ]
+   },
    "source": "ai"
   }
  },
@@ -157,5 +184,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.062Z",
  "rulesAt": "2026-10-30T13:35:13.062Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.448Z"
 }

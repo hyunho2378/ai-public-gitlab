@@ -92,29 +92,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "국회 요구자료 HWP를 의원별·날짜별로 병합하는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "국회 요구자료 정리와 합본 작성",
+   "evidence": {
+    "lines": [
+     3,
+     12
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     12
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "가상환경에 패키지를 설치하고 hwp_merge_gui.py를 실행한 뒤 파일·출력 폴더·옵션을 골라 실행한다",
+   "evidence": {
+    "lines": [
+     20,
+     32
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": ".venv\\Scripts\\python.exe hwp_merge_gui.py"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows와 한컴오피스 한글 자동화 COM이 필요하고, 파일명에 의원명·날짜·요구번호가 있어야 한다",
+   "evidence": {
+    "lines": [
+     16,
+     34
+    ]
+   },
    "source": "ai"
   }
  },
@@ -154,5 +181,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.971Z",
  "rulesAt": "2026-10-30T13:35:12.971Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.453Z"
 }

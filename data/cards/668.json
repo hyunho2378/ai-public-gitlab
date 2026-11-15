@@ -117,29 +117,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "OCI에 서버를 만들고 포털·모니터링 화면을 띄우는 설치 키트",
+   "evidence": {
+    "lines": [
+     3,
+     10
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "클라우드 서버 구축과 서버 상태 모니터링",
+   "evidence": {
+    "lines": [
+     3,
+     21
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     10
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "저장소 주소와 AI 설치 안내 요청문을 AI 코딩 도구에 전달하고, OCI 가입·비용 확인·서버 생성 승인은 직접 한다",
+   "evidence": {
+    "lines": [
+     25,
+     28
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "OCI 가입, 비용 확인, 실제 서버 생성 승인, 비밀번호 입력은 사용자가 직접 해야 한다",
+   "evidence": {
+    "lines": [
+     28,
+     31
+    ]
+   },
    "source": "ai"
   }
  },
@@ -179,5 +206,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.965Z",
  "rulesAt": "2026-10-30T13:35:12.965Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.432Z"
 }
