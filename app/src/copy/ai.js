@@ -238,6 +238,7 @@ export const a = {
   Mcp_ready: ['Node.js 설치', '저장소 내려받기'],
   Mcp_readyTitle: '실행 준비',
   Mcp_edit: '<저장소 경로> 부분만 수정',
+  Mcp_pathMark: '<저장소 경로>',
   Copy: '복사',
   Copied: '복사됨',
   Mcp_copied: '설정 복사',

@@ -1,0 +1,13 @@
+/* A-07 연결 안내(UX/23 3-5-2): 단계 세로 목록, 도구 3개는 구분선 행(카드 아님) */
+.rb-a07 { gap: var(--krds-gap-6); }
+.rb-a07 p { margin: 0; }
+.rb-mcp-steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--krds-gap-8); }
+.rb-mcp-step { display: flex; flex-direction: column; gap: var(--krds-gap-4); min-width: 0; }
+.rb-mcp-step h2 { display: flex; align-items: center; gap: var(--krds-gap-3); margin: 0; }
+.rb-mcp-num { display: inline-flex; align-items: center; justify-content: center; width: var(--layout-basis-badge-h); height: var(--layout-basis-badge-h); border-radius: var(--layout-basis-badge-radius); background: var(--krds-color-surface-gray-subtle); font-size: var(--rb-step-13); }
+.rb-mcp-ready { margin: 0; padding-inline-start: var(--krds-padding-8); display: flex; flex-direction: column; gap: var(--krds-gap-1); }
+.rb-mcp-tools { list-style: none; margin: 0; padding: 0; }
+.rb-mcp-tool { display: flex; flex-direction: column; gap: var(--krds-gap-3); padding-block: var(--krds-padding-8); border-top: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); min-width: 0; }
+.rb-mcp-toolhead { display: flex; flex-wrap: wrap; align-items: center; gap: var(--krds-gap-4); }
+.rb-mcp-toolhead code { font-family: 'D2Coding', ui-monospace, monospace; font-size: var(--rb-step-13); }
+.rb-mcp-table { min-width: 100%; }
