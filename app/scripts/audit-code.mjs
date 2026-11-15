@@ -85,6 +85,24 @@ async function tealCheck() {
   }
 }
 await tealCheck();
+
+// D-28: 어두운 화면의 글자, 아이콘, 링크 색은 연한 파스텔(밝기 0.68 이상, 채도 0.2 이상) 금지. 생성 값에 dark.overrides.css를 덮어 쓴 최종 값으로 검사한다.
+async function paleDarkCheck() {
+  const gen = await fs.readFile('src/krds/dark.generated.css', 'utf8');
+  const ov = await fs.readFile('src/krds/dark.overrides.css', 'utf8');
+  const tok = await fs.readFile('public/krds/resources/css/token/krds_tokens.css', 'utf8');
+  const prim = {};
+  for (const m of tok.matchAll(/(--krds-color-light-[a-z]+-\d+):\s*(#[0-9a-fA-F]{6})/g)) prim[m[1]] = m[2];
+  const val = {};
+  for (const m of gen.matchAll(/(--krds-dark-color-(?:text|icon|link)-[a-z-]+):\s*(#[0-9a-fA-F]{6})/g)) val[m[1]] = m[2];
+  for (const m of ov.matchAll(/(--krds-dark-color-(?:text|icon|link)-[a-z-]+):\s*var\((--krds-color-light-[a-z]+-\d+)\)/g)) { if (!prim[m[2]]) issues.push('dark.overrides.css: 없는 KRDS 원색 변수 ' + m[2]); else val[m[1]] = prim[m[2]]; }
+  for (const [k, hex] of Object.entries(val)) {
+    const n = parseInt(hex.slice(1), 16); const r = (n >> 16) / 255; const g = ((n >> 8) & 255) / 255; const b = (n & 255) / 255;
+    const mx = Math.max(r, g, b); const mn = Math.min(r, g, b); const l = (mx + mn) / 2; const s = mx === mn ? 0 : (mx - mn) / (1 - Math.abs(2 * l - 1));
+    if (l >= 0.68 && s >= 0.2) issues.push('어두운 화면 연한 색 ' + k + ' ' + hex + ' (D-28, src/krds/dark.overrides.css에서 선명한 단계로 덮어쓰기)');
+  }
+}
+await paleDarkCheck();
 await walk('src');
 console.log(issues.length ? issues.join('\n') : 'PASS: source code forbidden patterns 0');
 if (issues.length) process.exitCode = 1;

@@ -1,6 +1,7 @@
 import { createRoot } from 'react-dom/client';
 import { App } from './app/App';
 import './krds/dark.generated.css';
+import './krds/dark.overrides.css';
 import './krds/syntax.generated.css';
 import './krds/layout.tokens.css';
 import './krds/status.tokens.css';
