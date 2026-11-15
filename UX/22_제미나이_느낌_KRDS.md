@@ -83,7 +83,7 @@
 | G1 | 넓은 여백 | 패널 첫 상태에서만 인사 위아래 여백 40, 본문 화면 밀도는 UX/07 그대로 | `--layout-ai-empty-gap`(number-14, 40) | 없음 |
 | G2 | 큰 인사 문구 | 패널 안 한 줄, heading-medium 24/32 굵기 bold, 왼쪽 정렬. 본문 화면 큰 안내 문장은 만들지 않음 | `--krds-pc-font-size-heading-medium`, `--rb-lh-24`, 키 `A_greet` | 정부 사이트식 큰 안내 문장 금지(UX/07 0장)와 충돌 피함: 패널 안 1줄 3어절, 본문 머리 아님 |
 | G3 | 큰 둥근 입력칸 | 높이 56 시작, 최대 120까지 늘어남, 모서리 12, 흰 면, 입력칸 테두리 1 gray-30, 그림자 1단계(본문 진입칸만) | `--layout-ai-composer-*`, KRDS 입력 테두리 `--krds-color-border-gray` | 알약 금지: 모서리 32 대신 KRDS radius-xlarge1 12. 완전한 원 없음 |
-| G4 | 모드 전환 | 입력칸 아래 KRDS 선형 탭 small 두 개 `업무로 찾기`, `만들 기능`, `/search` 두 탭과 같은 값 | Navigation/Tabs Size=Small | 알약 단추 대신 선형 탭 |
+| G4 | 모드 전환 | 입력칸 아래 KRDS 선형 탭 small 두 개 `도구 찾기`, `비슷한 프로젝트`, `/search` 두 탭과 같은 값 | Navigation/Tabs Size=Small | 알약 단추 대신 선형 탭 |
 | G5 | 칩 없음 | 제안 질문은 칩이 아니라 전체 폭 글자 행 4개(아이콘 16과 글자) | Assistant/Suggestion row | 알약, 같은 크기 카드 나열 금지와 맞음 |
 | G6 | 반짝임 | 기존 `ext/sparkle`(Pajamas 반짝임) 한 가지, 단색 primary-50, 크기 16과 24 두 단계. AI가 만든 자리에만 | Assistant/Spark mark, `--layout-ai-accent` | 이모지 아님(SVG 아이콘). 사이드바 AI 카탈로그 아이콘과 겹침은 결정 필요 3 |
 | G7 | 색 번짐 바탕 | 사용 안 함. 바탕은 판 흰 면(어두운 화면 gray-95) | `--layout-panel-bg` | 보라 그라데이션 금지, 연한 채움 금지. 그라데이션 한 곳 허용 여부는 결정 필요 1 |
@@ -197,7 +197,7 @@
 3. 대화 영역(세로 스크롤, 좌우 16, 차례 사이 24)
 4. 입력 묶음(아래 고정, 위 구분선 없음, 위아래 12)
    - Assistant/Composer Context=Panel
-   - 모드 탭: Navigation/Tabs Size=Small `업무로 찾기`, `만들 기능`
+   - 모드 탭: Navigation/Tabs Size=Small `도구 찾기`, `비슷한 프로젝트`
    - 입력 기준 줄: `2~500자`(기존 `Q_rule`), 오류 때 같은 자리 오류 줄
 
 ### 3-5. 첫 상태
@@ -211,10 +211,10 @@
 
 | 순서 | 화면 글자 | 모드 | 모드 라벨 | 키 |
 |---|---|---|---|---|
-| 1 | 출장비 정산 | 업무로 찾기 | 업무 | `Q_exTask[0]` |
-| 2 | 회의록 요약 | 업무로 찾기 | 업무 | `Q_exTask[1]` |
-| 3 | 민원 접수 챗봇 | 만들 기능 | 기능 | `Q_exBuild[0]` |
-| 4 | 엑셀 일괄 변환 | 만들 기능 | 기능 | `Q_exBuild[1]` |
+| 1 | 출장비 정산 | 도구 찾기 | 업무 | `Q_exTask[0]` |
+| 2 | 회의록 요약 | 도구 찾기 | 업무 | `Q_exTask[1]` |
+| 3 | 민원 접수 챗봇 | 비슷한 프로젝트 | 기능 | `Q_exBuild[0]` |
+| 4 | 엑셀 일괄 변환 | 비슷한 프로젝트 | 기능 | `Q_exBuild[1]` |
 
 - 누르면: 모드 탭이 행 모드로 바뀌고 실제 검색 실행(고정 예시 결과 아님)
 - 상황 문장형(정부24 "~할 때")으로 바꿀지 여부: UX-021 결정 항목 그대로 이어받음
@@ -225,7 +225,7 @@
 
 1. 질문 덩어리(Assistant/Turn question)
    - 오른쪽 정렬, 최대 폭 패널 안쪽의 85%, gray-5 면, 모서리 12, 안쪽 12 16
-   - 글자: 입력 원문 그대로, 위 13/20 text/subtle 모드 라벨(`업무로 찾기` 또는 `만들 기능`)
+   - 글자: 입력 원문 그대로, 위 13/20 text/subtle 모드 라벨(`도구 찾기` 또는 `비슷한 프로젝트`)
 2. 답변 덩어리(Assistant/Turn answer), 면 없음, 왼쪽 정렬
    1. 상태 머리: Spark mark 16과 `AI 추천 n`(`Q_recTitle(n)`) 또는 `비슷한 프로젝트 n`(`Q_simTitle(n)`), 대체 검색이면 반짝임 없이 `일반 결과 n`(`Q_kwTitle(n)`)
    2. 해석 줄(Assistant/Reading line, UX-021 안 2 흡수)
@@ -240,7 +240,7 @@
       - 동작 줄: `비슷한 프로젝트`(Action/Button Type=text Size=small, `A_similar`)
    4. 일반 결과 링크: `일반 결과 n건`(`A_moreResults(n)`), `/search?q=&mode=&field=`로 이동, 같은 요청의 일반 결과 묶음
 3. 이어 묻기(비슷한 프로젝트)
-   - 행의 `비슷한 프로젝트` 누름: 새 차례, 질문 덩어리 글자 `{이름} 비슷한 프로젝트`(`A_similarQ(name)`), 모드 라벨 `만들 기능`
+   - 행의 `비슷한 프로젝트` 누름: 새 차례, 질문 덩어리 글자 `{이름} 비슷한 프로젝트`(`A_similarQ(name)`), 모드 라벨 `비슷한 프로젝트`
    - 답변: Kind=Similar 행 최대 5, 기준 프로젝트 제외, 행 오른쪽 위 유사 수준 글자(`Q_simHigh`, `Q_simMid`, `Q_simUnknown`), 관련 이유 줄과 차이 줄 끝마다 Basis mark, 차이 근거 없음은 `차이 정보 부족`과 Basis mark None
    - 함수: A-02 비슷한 프로젝트 구역(UX-020 7장)과 같은 함수 같은 결과
 4. 자유 이어 묻기: 입력칸에 새 문장, 새 F1 또는 F4 요청(이전 차례 내용을 함수에 넘기지 않음, 이전 분야 유지 여부는 결정 필요 7)
@@ -268,7 +268,7 @@
 | 결과 없음 | 비움 | 상태 머리 `검색 결과 없음`(`Q_none`), 해석 줄, 본문 `분야 해제 / 다른 표현`(`Q_noneBody`) | `분야 전체로`(분야 선택 때만, `Q_allFields`), 해석 줄 고치기 | `Q_none` |
 | 입력 오류 | 값 유지, 입력칸 State=Error, 오류 줄 | 새 차례 만들지 않음 | 입력칸 초점 | `Q_errEmpty`, `Q_errShort`, `Q_errLong(n)` |
 | 처리 실패 | 비움 | Feedback/Status block State=Error, 제목 `검색 실패`(`Q_fail`), 본문 `AI 추천 실패 / 대체 검색 실패`(`Q_failBody`) | `다시 시도`(tertiary small, 같은 질문 새 차례) | `Q_fail` |
-| 대체 검색 수행 | 비움 | Feedback/Status block State=Notice `AI 추천 실패 / 일반 검색 대체`(`Q_fbTask`) 또는 `유사 판단 실패 / 일반 검색 대체`(`Q_fbBuild`), 해석 줄 `일반 검색`, 일반 결과 행(Kind=Explore Compact) 최대 5, 만들 기능 모드 행 오른쪽 `유사 판단 미수행` | 안내 줄 `AI 추천 다시 시도`(`Q_retryAi`) | `Q_fb*` |
+| 대체 검색 수행 | 비움 | Feedback/Status block State=Notice `AI 추천 실패 / 일반 검색 대체`(`Q_fbTask`) 또는 `유사 판단 실패 / 일반 검색 대체`(`Q_fbBuild`), 해석 줄 `일반 검색`, 일반 결과 행(Kind=Explore Compact) 최대 5, 비슷한 프로젝트 모드 행 오른쪽 `유사 판단 미수행` | 안내 줄 `AI 추천 다시 시도`(`Q_retryAi`) | `Q_fb*` |
 
 추가 구분(기획안 A-01 상태 처리와 같음)
 
@@ -323,7 +323,7 @@
 
 - 추가 자리: 정렬 줄 위, 필터 막대 아래 한 줄 진입칸(Assistant/Composer Context=Page), 폭 컨테이너 전체, 높이 48(`--krds-number-16`), 모서리 12, 그림자 1단계
 - 진입칸 구성: 왼쪽 Spark mark 16, 안내 글자 `업무 설명 입력`(`Q_phTask`), 오른쪽 보내기 단추 32
-- 동작: 보내면 패널이 열리고 그 질문을 `업무로 찾기`로 실행, 목록과 분야 조건은 그대로(검색하기와 프로젝트 열기 구분, 기획안 G-01)
+- 동작: 보내면 패널이 열리고 그 질문을 `도구 찾기`로 실행, 목록과 분야 조건은 그대로(검색하기와 프로젝트 열기 구분, 기획안 G-01)
 - 큰 인사와 안내 문장: 없음(UX/07 0장)
 - 근거 범례 한 줄: UX-021 5장 그대로(`L_legend`)
 - 360: 진입칸 폭 전체, 보내면 바텀 시트
