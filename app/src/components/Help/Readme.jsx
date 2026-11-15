@@ -48,6 +48,6 @@ export function sectionLines(source, pattern) {
 }
 
 /** README와 이슈 본문 그리기. base({ id, rawBase })가 있으면 저장소 안 그림과 링크가 열린다. */
-export function Readme({ source, base }) {
-  return <Markdown source={source} base={base} />;
+export function Readme({ source, base, lineAnchors = false }) {
+  return <Markdown source={source} base={base} lineAnchors={lineAnchors} />;
 }

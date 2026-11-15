@@ -200,9 +200,19 @@ function Blocks({ nodes, base }) {
 }
 
 /** base: { id: 프로젝트 번호, rawBase: 저장소 원본 파일 주소(끝에 /) }. 없으면 상대 경로 그림과 링크는 글자로만 나온다. */
-export function Markdown({ source, base }) {
+export function Markdown({ source, base, lineAnchors = false }) {
   const nodes = parseMarkdown(source);
-  return <div className="rb-md"><Blocks nodes={nodes} base={base} /></div>;
+  if (!lineAnchors) return <div className="rb-md"><Blocks nodes={nodes} base={base} /></div>;
+  // UX/23 5-4 근거 줄 앵커: 블록마다 원문 시작 줄 id(readme-L{n})와 줄 범위. 근거 표식이 이 범위로 이동하고 강조한다
+  return (
+    <div className="rb-md">
+      {nodes.map((n, i) => (
+        <div key={i} className="rb-md-l" id={`readme-L${n.line}`} data-readme-line="" data-l0={n.line} data-l1={n.endLine}>
+          <Blocks nodes={[n]} base={base} />
+        </div>
+      ))}
+    </div>
+  );
 }
 
 export { plainText };

@@ -266,7 +266,13 @@ function indentOf(line) { return /^ */.exec(line)[0].length; }
 function parseBlocks(lines, ctx) {
   const out = [];
   let i = 0;
+  // UX/23 5-4: 블록마다 원문 시작 줄과 끝 줄(1부터)을 적는다. README 근거 줄(readme-L{n}) 앵커와 강조에 쓴다
+  let mark = 0;
+  let from = 0;
+  const close = () => { for (let k = mark; k < out.length; k += 1) { if (out[k].line == null) { out[k].line = from + 1; out[k].endLine = Math.max(from + 1, i); } } mark = out.length; };
   while (i < lines.length) {
+    close();
+    from = i;
     const line = lines[i];
     if (!line.trim()) { i += 1; continue; }
     let m = FENCE.exec(line);
@@ -394,6 +400,7 @@ function parseBlocks(lines, ctx) {
     if (setext) out.push(makeHeading(setext, para.join(' '), ctx));
     else out.push({ t: 'p', c: parseInline(para.map((l) => l.replace(/^\s+/, '')).join('\n'), ctx) });
   }
+  close();
   return out;
 }
 
@@ -440,8 +447,8 @@ function takeDefinitions(lines) {
   for (const l of lines) {
     if (/^ {0,3}(```|~~~)/.test(l)) inFence = !inFence;
     const m = !inFence && /^ {0,3}\[([^\]]+)\]:\s*<?([^\s>]+)>?(?:\s+["'(](.*)["')])?\s*$/.exec(l);
-    if (m) refs[m[1].toLowerCase()] = { url: m[2], title: m[3] || '' };
-    else kept.push(l);
+    // 줄 번호를 지키려고 정의 줄은 빈 줄로 남긴다(근거 줄 번호가 원문과 같아야 함)
+    if (m) { refs[m[1].toLowerCase()] = { url: m[2], title: m[3] || '' }; kept.push(''); } else kept.push(l);
   }
   return { refs, kept };
 }

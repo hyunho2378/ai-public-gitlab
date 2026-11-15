@@ -1,0 +1,42 @@
+/* 3차 신뢰 부품(UX/23 5-3). 값은 KRDS 변수와 layout.tokens.css 변수만. 채움은 배지 두 가지(primary, secondary)와 회색 면만 */
+.rb-basis-badge { display: inline-flex; align-items: center; height: var(--layout-basis-badge-h); padding: 0 var(--krds-padding-4); border-radius: var(--layout-basis-badge-radius); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); font-weight: var(--rb-fw-current); white-space: nowrap; vertical-align: middle; flex: none; }
+.rb-basis-badge.is-readme { background: var(--krds-color-element-primary); color: var(--krds-color-text-inverse-static); }
+.rb-basis-badge.is-code { background: var(--krds-color-element-secondary); color: var(--krds-color-text-inverse-static); }
+.rb-basis-badge.is-none { background: var(--krds-color-surface-gray-subtle); color: var(--krds-color-text-subtle); }
+.rb-basis-badge:focus-visible { outline: var(--krds-border-width-variable-medium) solid var(--krds-color-border-focus); outline-offset: var(--krds-number-1); }
+.rb-basis-mark { font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--krds-color-text-subtle); overflow-wrap: anywhere; }
+a.rb-basis-mark, .rb-basis-link { color: var(--krds-color-link-default); text-decoration: none; }
+a.rb-basis-mark:hover, .rb-basis-link:hover { text-decoration: underline; }
+.rb-madeby { display: inline-flex; align-items: center; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-3); margin: 0; color: var(--krds-color-text-subtle); }
+.rb-databasis { margin: 0; color: var(--krds-color-text-subtle); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); }
+.rb-fieldtag { display: inline-flex; align-items: center; height: var(--layout-basis-badge-h); padding: 0 var(--krds-padding-4); border-radius: var(--layout-basis-badge-radius); background: var(--krds-color-surface-gray-subtle); color: var(--krds-color-text-basic); text-decoration: none; white-space: nowrap; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); }
+.rb-fieldtag.is-check, .rb-fieldtag.is-none { color: var(--krds-color-text-subtle); }
+a.rb-fieldtag:hover { text-decoration: underline; }
+.rb-spark { display: inline-block; flex: none; width: var(--layout-ai-icon); height: var(--layout-ai-icon); background: var(--layout-ai-accent); -webkit-mask-size: contain; mask-size: contain; -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat; -webkit-mask-position: center; mask-position: center; vertical-align: middle; }
+.rb-spark.is-24 { width: var(--layout-ai-icon-lg); height: var(--layout-ai-icon-lg); }
+.rb-spark.is-pulse { animation: rb-spark-pulse calc(var(--rb-motion-slow) * 2) var(--rb-motion-ease) infinite alternate; }
+@keyframes rb-spark-pulse { from { opacity: 1; } to { opacity: 0.48; } }
+@media (prefers-reduced-motion: reduce) { .rb-spark.is-pulse { animation: none; } }
+html.rb-reduce-motion .rb-spark.is-pulse { animation: none; }
+
+/* Layout/Intro item */
+.rb-intro-list { margin: 0; display: flex; flex-direction: column; }
+.rb-intro-item { display: grid; grid-template-columns: var(--layout-intro-label-w) minmax(0, 1fr); gap: var(--krds-gap-4); padding-block: var(--krds-padding-6); border-top: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); }
+.rb-intro-item:first-child { border-top: 0; }
+.rb-intro-item dt, .rb-intro-item dd { margin: 0; min-width: 0; }
+.rb-intro-value { display: flex; flex-direction: column; gap: var(--krds-gap-3); }
+.rb-intro-basis { display: flex; flex-wrap: wrap; align-items: center; gap: var(--krds-gap-3); }
+.rb-intro-item.is-compact { display: flex; flex-direction: column; gap: var(--krds-gap-2); padding-block: var(--krds-padding-3); border: 0; }
+.rb-intro-item.is-compact dt { display: flex; align-items: center; gap: var(--krds-gap-3); }
+@media (max-width: 767px) { .rb-intro-item:not(.is-compact) { grid-template-columns: minmax(0, 1fr); gap: var(--krds-gap-2); } }
+
+/* Feedback/Status block State=Notice: 높이 32, 안쪽 0 12, 모서리 4, 회색 면, 테두리 없음 */
+.rb-notice { display: flex; align-items: center; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-4); min-height: var(--layout-notice-h); padding: var(--krds-padding-2) var(--krds-padding-6); border-radius: var(--layout-basis-badge-radius); background: var(--krds-color-surface-gray-subtle); color: var(--krds-color-text-basic); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); margin: 0; box-sizing: border-box; }
+.rb-notice > .rb-icon { width: var(--layout-ai-icon); height: var(--layout-ai-icon); color: var(--krds-color-text-subtle); }
+.rb-notice-act { margin-inline-start: auto; }
+
+/* Code/Copy block */
+.rb-copyblock { position: relative; min-width: 0; }
+.rb-copyblock-pre { margin: 0; padding: var(--krds-padding-6) var(--krds-padding-8); padding-inline-end: calc(var(--krds-number-21) * 1); background: var(--krds-color-surface-gray-subtler); border-radius: var(--krds-radius-medium3); font-family: 'D2Coding', ui-monospace, monospace; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); overflow-x: auto; white-space: pre; user-select: text; }
+.rb-copyblock-btn { position: absolute; top: var(--krds-number-4); right: var(--krds-number-4); }
+.rb-copyblock-fail { margin: var(--krds-gap-2) 0 0; }

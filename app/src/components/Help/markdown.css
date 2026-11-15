@@ -62,3 +62,7 @@ ol.rb-md-list { list-style: decimal; }
 .rb-md { font-size: var(--rb-step-15); line-height: var(--rb-lh-15); }
 .rb-md-list { gap: var(--krds-gap-2); }
 .rb-md-pre { margin-block: var(--krds-number-4); }
+/* UX/23 5-4 근거 줄 앵커와 강조: 블록 면 gray-10(어두운 화면 gray-80), 왼쪽 막대 없음. 1.2초 유지 뒤 280ms 사라짐 */
+.rb-md-l { display: flex; flex-direction: column; gap: var(--krds-gap-4); min-width: 0; border-radius: var(--krds-radius-small2); scroll-margin-top: var(--krds-number-12); transition: background-color var(--rb-motion-slow) var(--rb-motion-ease); }
+.rb-md-l:first-child > :first-child { margin-top: 0; }
+.rb-md-l.is-evidence { background-color: var(--layout-evidence-bg); outline: none; }
