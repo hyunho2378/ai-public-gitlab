@@ -37,8 +37,14 @@ function score(q, c) {
 function store(data) {
   const cards = data.cards || [];
   const byId = new Map(cards.map((c) => [c.id, c]));
+  // UX/23 3-3: 분야 상태(확정, 분류 확인 필요, 미분류). 전체 목록은 미확정 포함
+  const inField = (c, key) => (key === 'check' ? c.fields?.check === true : key === 'unclassified' ? !c.fields?.v && !c.fields?.check : c.fields?.v === key);
   return {
     meta: data.meta || {},
+    raw: data,
+    all: () => cards,
+    inField: (key) => cards.filter((c) => inField(c, key)),
+    stateCounts: () => ({ total: cards.length, check: cards.filter((c) => inField(c, 'check')).length, unclassified: cards.filter((c) => inField(c, 'unclassified')).length }),
     get: (id) => byId.get(Number(id)) || null,
     fields: () => (data.fields || []).filter((f) => f.count > 0),
     idsInField: (name) => cards.filter((c) => [].concat(val(c.fields) ?? []).includes(name)).map((c) => c.id),
