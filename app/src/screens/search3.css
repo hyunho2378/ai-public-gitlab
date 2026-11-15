@@ -1,0 +1,29 @@
+/* G-02 업무 검색 두 탭(UX/23 3-1-2). 값은 KRDS 변수와 layout 토큰만 */
+.rb-q-title { margin: 0 0 var(--krds-gap-5); }
+.rb-q-tabs { display: flex; gap: var(--krds-gap-5); border-bottom: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); margin-bottom: var(--krds-gap-5); overflow-x: auto; }
+.rb-q-tab { height: var(--krds-number-16); padding: 0 var(--krds-padding-2); border: 0; background: none; color: var(--krds-color-text-subtle); font-size: var(--rb-step-15); line-height: var(--rb-lh-15); cursor: pointer; white-space: nowrap; box-shadow: inset 0 calc(var(--krds-number-2) * -1) 0 transparent; transition: box-shadow var(--rb-motion-fast) var(--rb-motion-ease), color var(--rb-motion-fast) var(--rb-motion-ease); }
+.rb-q-tab.is-on { color: var(--krds-color-text-basic); font-weight: var(--rb-fw-current); box-shadow: inset 0 calc(var(--krds-number-2) * -1) 0 var(--krds-color-border-primary); }
+.rb-q-panel { display: flex; flex-direction: column; gap: var(--krds-gap-4); }
+.rb-q-purpose { margin: 0; }
+.rb-q-form { display: flex; flex-direction: column; gap: var(--krds-gap-2); max-width: calc(var(--krds-number-21) * 7 + var(--krds-number-16)); }
+.rb-q-row { display: flex; gap: var(--krds-gap-3); }
+.rb-q-row .krds-input { flex: 1; min-width: 0; }
+.rb-q-form.is-error .krds-input { border-color: var(--krds-color-text-danger); }
+.rb-q-rule { display: flex; justify-content: space-between; margin: 0; min-height: var(--rb-lh-13); color: var(--krds-color-text-subtle); }
+.rb-q-rule.is-error { color: var(--krds-color-text-danger); }
+.rb-q-examples { display: flex; flex-wrap: wrap; align-items: center; gap: var(--krds-gap-2) var(--krds-gap-4); margin: 0; }
+.rb-q-examples .krds-btn { white-space: normal; text-align: left; height: auto; min-height: var(--krds-number-12); }
+.rb-q-body { margin-top: var(--krds-gap-4); }
+.rb-q-fields { border: 0; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--krds-gap-3); }
+.rb-q-results { display: flex; flex-direction: column; gap: var(--krds-gap-5); min-width: 0; padding-inline-start: var(--rb-gutter); }
+.rb-q-cond { display: flex; flex-wrap: wrap; align-items: center; gap: var(--krds-gap-2) var(--krds-gap-4); }
+.rb-q-toai { margin-inline-start: auto; }
+.rb-q-group { display: flex; flex-direction: column; gap: var(--krds-gap-3); animation: rb-q-rise var(--rb-motion-base) var(--rb-motion-ease); }
+.rb-q-group + .rb-q-group { animation-delay: var(--layout-ai-stagger); animation-fill-mode: both; }
+.rb-q-sep { border: 0; border-top: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); margin: var(--krds-gap-7) 0; width: 100%; }
+.rb-q-busy { display: flex; flex-direction: column; gap: var(--krds-gap-5); }
+@keyframes rb-q-rise { from { opacity: 0; transform: translateY(var(--layout-ai-rise)); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .rb-q-group { animation: none; } }
+html.rb-reduce-motion .rb-q-group { animation: none; }
+@media (max-width: 1023px) { .rb-q-results { padding-inline-start: 0; } }
+@media (max-width: 767px) { .rb-q-row { flex-wrap: wrap; } .rb-q-row .krds-btn { flex: none; } .rb-q-tab { font-size: var(--rb-step-13); } }
