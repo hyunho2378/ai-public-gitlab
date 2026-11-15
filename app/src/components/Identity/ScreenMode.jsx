@@ -24,8 +24,11 @@ function applyMode(mode) {
 
 // UX-007 1장: 기본은 어두운 화면이다. 저장된 값(localStorage)이 있으면 그가만, 주소 파라미터 mode가 가장 우선
 // 개발 모드(?state=&auth=&role=&mode=) 비교용 주소는 저장하지 않는다
+// 2026-11-15: G-02 검색 탭도 주소 mode(task, similar)를 쓰므로 화면 모드 값만 받는다
+const SCREEN_MODES = ['light', 'dark', 'high-contrast', 'theme'];
+const urlMode = () => { const m = typeof location !== 'undefined' && new URLSearchParams(location.search).get('mode'); return SCREEN_MODES.includes(m) ? m : null; };
 function initialMode() {
-  const fromUrl = new URLSearchParams(location.search).get('mode');
+  const fromUrl = urlMode();
   if (fromUrl) return fromUrl;
   try {
     const saved = localStorage.getItem(STORAGE_KEY);
@@ -36,7 +39,7 @@ function initialMode() {
 
 export function useScreenMode() {
   const [mode, setModeState] = useState(initialMode);
-  const fromUrl = typeof location !== 'undefined' && new URLSearchParams(location.search).get('mode');
+  const fromUrl = urlMode();
   const setMode = (next) => {
     setModeState(next);
     if (!fromUrl) {

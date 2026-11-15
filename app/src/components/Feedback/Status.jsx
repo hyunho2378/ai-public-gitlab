@@ -62,10 +62,10 @@ export function EmptyState({ title, children, actions }) {
 /** Feedback/Status block State=Notice(UX/23 5-3): 대체 검색, 버전 불일치, 시연 표시. 회색 면, 정보 아이콘, 테두리 없음 */
 export function Notice({ children, action = null, live = false }) {
   return (
-    <p className="rb-notice" data-figma="Feedback/Status block" data-state="Notice" role={live ? 'status' : undefined}>
+    <p className="rb-infonote" data-figma="Feedback/Status block" data-state="Notice" role={live ? 'status' : undefined}>
       <Icon name="ext/info" />
       <span>{children}</span>
-      {action ? <span className="rb-notice-act">{action}</span> : null}
+      {action ? <span className="rb-infonote-act">{action}</span> : null}
     </p>
   );
 }

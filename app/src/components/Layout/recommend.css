@@ -22,3 +22,12 @@
   .rb-rec-level { margin-inline-start: 0; flex-basis: 100%; order: -1; }
 }
 .rb-rec .rb-clamp-2, .rb-intro-item .rb-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+/* A-01 목록 행 하는 일 줄: 1440 한 줄 말줄임, 360 두 줄(UX/23 3-2-6) */
+.rb-prow-oneline { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+@media (max-width: 767px) { .rb-prow-oneline { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; } }
+.rb-a01-basis { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--krds-gap-2) var(--krds-gap-5); margin-block: var(--krds-gap-4) 0; }
+.rb-a01-entry { margin-block-start: var(--krds-gap-5); }
+.rb-fieldmenu-count { margin-inline-start: auto; padding-inline-start: var(--krds-gap-5); color: var(--krds-color-text-subtle); font-size: var(--rb-step-13); }
+.rb-fieldmenu .item-link { display: flex; align-items: center; min-height: var(--krds-number-12); }
+.rb-fieldmenu-sep { height: 0; border-top: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); margin-block: var(--krds-gap-2); list-style: none; }
+@media (max-width: 767px) { .rb-fieldmenu .item-link { min-height: var(--krds-number-15); } }

@@ -31,9 +31,9 @@ html.rb-reduce-motion .rb-spark.is-pulse { animation: none; }
 @media (max-width: 767px) { .rb-intro-item:not(.is-compact) { grid-template-columns: minmax(0, 1fr); gap: var(--krds-gap-2); } }
 
 /* Feedback/Status block State=Notice: 높이 32, 안쪽 0 12, 모서리 4, 회색 면, 테두리 없음 */
-.rb-notice { display: flex; align-items: center; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-4); min-height: var(--layout-notice-h); padding: var(--krds-padding-2) var(--krds-padding-6); border-radius: var(--layout-basis-badge-radius); background: var(--krds-color-surface-gray-subtle); color: var(--krds-color-text-basic); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); margin: 0; box-sizing: border-box; }
-.rb-notice > .rb-icon { width: var(--layout-ai-icon); height: var(--layout-ai-icon); color: var(--krds-color-text-subtle); }
-.rb-notice-act { margin-inline-start: auto; }
+.rb-infonote { display: flex; align-items: center; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-4); min-height: var(--layout-notice-h); padding: var(--krds-padding-2) var(--krds-padding-6); border-radius: var(--layout-basis-badge-radius); background: var(--krds-color-surface-gray-subtle); color: var(--krds-color-text-basic); font-size: var(--rb-step-13); line-height: var(--rb-lh-13); margin: 0; box-sizing: border-box; }
+.rb-infonote > .rb-icon { width: var(--layout-ai-icon); height: var(--layout-ai-icon); color: var(--krds-color-text-subtle); }
+.rb-infonote-act { margin-inline-start: auto; }
 
 /* Code/Copy block */
 .rb-copyblock { position: relative; min-width: 0; }

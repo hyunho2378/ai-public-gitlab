@@ -43,6 +43,7 @@ function useDismiss(open, onClose) {
  *  Esc나 바깥을 누르면 닫히고 초점은 검색 단추로 돌아온다(audit_v3 G-05, G-07). */
 function GlobalSearch() {
   const navigate = useNavigate();
+  const here = useLocation();
   const btn = useRef(null);
   const input = useRef(null);
   const [value, setValue] = useState('');
@@ -79,7 +80,9 @@ function GlobalSearch() {
     return () => { live = false; };
   }, [value]);
   function close() { setOpen(false); requestAnimationFrame(() => btn.current?.focus()); }
-  const go = (to) => { setOpen(false); navigate(to); };
+  // UX/23 2-3: A-01에서 상단 검색으로 G-02에 가면 목록의 분야 조건(field)을 함께 넘긴다(미확정 분야는 G-02가 해제와 안내)
+  const listField = here.pathname === '/' ? new URLSearchParams(here.search).get('field') : null;
+  const go = (to) => { setOpen(false); navigate(listField && to.startsWith('/search?q=') ? `${to}&field=${encodeURIComponent(listField)}` : to); };
   const q = value.trim();
   return (
     <div className="rb-gsearch">

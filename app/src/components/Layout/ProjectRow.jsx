@@ -11,6 +11,10 @@ import { iconBtnClass } from '../Action/IconButton';
 import { cleanDescription } from './description';
 import { newWindow } from './newWindow';
 import { FoldText } from './FoldText';
+import { a } from '../../copy/ai';
+import { BasisBadge } from '../Feedback/BasisBadge';
+import { FieldTag } from '../Data/FieldTag';
+import './recommend.css';
 
 function Stat({ icon, label, n, href }) {
   return (
@@ -23,7 +27,8 @@ function Stat({ icon, label, n, href }) {
   );
 }
 
-export function ProjectRow({ p, mrs, issues, compact = false }) {
+/** card: 소개 카드(cards.min.json). 있으면 UX/23 3-2-6대로 제목 끝 대표 근거 배지, 하는 일 줄, 주제 줄 맨 앞 분야 태그, 이름은 A-02로 */
+export function ProjectRow({ p, mrs, issues, compact = false, card = null }) {
   const owner = p.namespace?.name || '';
   const topics = p.topics || p.tag_list || [];
   const { rel, full } = t.fn.relativeDate(p.last_activity_at);
@@ -35,13 +40,18 @@ export function ProjectRow({ p, mrs, issues, compact = false }) {
       <Avatar src={p.avatar_url} name={owner || p.name} seed={p.id} className="is-32" />
       <div className="rb-prow-main">
         <p className="rb-prow-title">
-          <Link to={`/projects/${p.id}`} state={{ project: p }}>{owner && !compact ? `${owner} / ` : ''}{p.name}</Link>
+          <Link to={card ? `/projects/${p.id}/about` : `/projects/${p.id}`} state={{ project: p, from: 'list' }}>{owner && !compact ? `${owner} / ` : ''}{p.name}</Link>
           <Icon name="globe" label={u.X_public} />
+          {card ? <BasisBadge basis={card.oneLine?.b || card.basis} /> : null}
         </p>
+        {card && card.status === 'failed' && !compact ? <p className="rb-prow-desc rb-rec-warn"><Icon name="sys_danger_mark" />{a.S_failed}</p> : null}
+        {card && card.status !== 'failed' && card.oneLine?.v && !compact ? <p className="rb-prow-desc rb-prow-oneline" title={card.oneLine.v}>{card.oneLine.v}</p> : null}
         {/* 공공 깃랩 탐색 행: 설명은 2줄 말줄임, 펼침 단추 없음(실측) */}
-        {desc && !compact ? <p className="rb-prow-desc rb-clamp-2" title={desc}>{desc}</p> : null}
+        {desc && !compact && !(card && (card.oneLine?.v || card.status === 'failed')) ? <p className="rb-prow-desc rb-clamp-2" title={desc}>{desc}</p> : null}
+        {card && !compact && !topics.length ? <p className="rb-prow-topics"><FieldTag fields={card.fields} /></p> : null}
         {topics.length && !compact ? (
           <p className="rb-prow-topics">
+            {card ? <FieldTag fields={card.fields} /> : null}
             <span className="rb-subtle">{u.X_topics}</span>
             <span className="krds-tag-wrap small">
               {topics.slice(0, 3).map((x) => <span key={x} className="krds-btn-tag rb-topic">{x}</span>)}
