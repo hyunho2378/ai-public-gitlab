@@ -122,29 +122,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "웹 ChatGPT가 내 PC 프로젝트를 다루게 하는 로컬 MCP 서버",
+   "evidence": {
+    "lines": [
+     30,
+     30
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "ChatGPT를 이용한 로컬 코드 탐색·수정·테스트",
+   "evidence": {
+    "lines": [
+     30,
+     38
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     30,
+     38
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "GitLab Releases에서 설치 파일을 받아 해시를 확인한 뒤 설치한다",
+   "evidence": {
+    "lines": [
+     65,
+     69
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "(Get-FileHash .\\GPT-chat-connect-Setup.exe -Algorithm SHA256).Hash"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "작업에 필요한 파일 내용·명령 출력·스크린샷은 ChatGPT로 전송될 수 있다",
+   "evidence": {
+    "lines": [
+     40,
+     40
+    ]
+   },
    "source": "ai"
   }
  },
@@ -184,5 +211,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.089Z",
  "rulesAt": "2026-10-30T13:35:13.089Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.747Z"
 }

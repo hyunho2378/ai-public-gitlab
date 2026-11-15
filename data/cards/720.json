@@ -138,29 +138,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "복지 업무 매뉴얼을 검색해 근거로 답하는 로컬 AI 비서",
+   "evidence": {
+    "lines": [
+     15,
+     15
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "복지 업무 매뉴얼·제도 질의응답",
+   "evidence": {
+    "lines": [
+     15,
+     15
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     15,
+     15
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "릴리스 페이지에서 받기 도우미(.cmd)를 내려받아 실행하면 설치 파일을 받아 검증한 뒤 설치한다",
+   "evidence": {
+    "lines": [
+     61,
+     69
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows 10/11 64비트용이며, Windows 10에서는 받기 도우미가 파일을 받지 못할 수 있다",
+   "evidence": {
+    "lines": [
+     53,
+     57
+    ]
+   },
    "source": "ai"
   }
  },
@@ -200,5 +227,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.988Z",
  "rulesAt": "2026-10-30T13:35:12.988Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.678Z"
 }

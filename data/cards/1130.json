@@ -102,29 +102,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "민원인이 화면 안내로 신청서를 채워 인쇄하는 키오스크 앱",
+   "evidence": {
+    "lines": [
+     14,
+     15
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "민원실 신청 서식 작성 지원",
+   "evidence": {
+    "lines": [
+     14,
+     15
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     14,
+     15
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "서식 HTML 파일 하나를 브라우저에서 바로 열어 사용합니다.",
+   "evidence": {
+    "lines": [
+     20,
+     20
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "현재 서식 8종만 지원하며, 시범운영 중이라 다른 기관은 main 대신 태그 판을 받아야 합니다.",
+   "evidence": {
+    "lines": [
+     3,
+     15
+    ]
+   },
    "source": "ai"
   }
  },
@@ -164,5 +191,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.192Z",
  "rulesAt": "2026-10-30T13:35:13.192Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.164Z"
 }

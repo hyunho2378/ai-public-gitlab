@@ -87,29 +87,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "민원 속 공격적 표현을 가려 보고 변경점을 비교하는 웹",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "반복·특이민원 검토와 담당자 보호",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "PC에서 Python 서버를 실행한 뒤 브라우저로 사용합니다.",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "민원 분류·종결·이용 제한을 자동 결정하지 않으며, 실제 AI 분석은 별도 호환 API가 필요한 개인 PC용 시제품입니다.",
+   "evidence": {
+    "lines": [
+     5,
+     15
+    ]
+   },
    "source": "ai"
   }
  },
@@ -149,5 +176,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.198Z",
  "rulesAt": "2026-10-30T13:35:13.198Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.174Z"
 }

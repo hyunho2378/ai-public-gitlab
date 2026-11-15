@@ -93,29 +93,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "학생편성 엑셀로 시험 시간표·고사실·학생 배정을 만드는 웹 앱",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "학교 시험 시간표와 고사실 배정",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "인사·교육"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     12
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "npm install 후 .env에 Gemini API 키를 넣고 npm run dev로 실행해 Chrome에서 localhost:5181을 연다",
+   "evidence": {
+    "lines": [
+     16,
+     39
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run dev"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Gemini API 키가 필요하고, 많은 학생과 교실을 다룰 때는 데스크톱 화면을 권장한다",
+   "evidence": {
+    "lines": [
+     5,
+     23
+    ]
+   },
    "source": "ai"
   }
  },
@@ -155,5 +182,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.969Z",
  "rulesAt": "2026-10-30T13:35:12.969Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.450Z"
 }

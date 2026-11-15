@@ -88,23 +88,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "대상자 주소를 인근 랜드마크 주소로 바꿔 익명화하는 웹 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "인사 배치 시 대상자 주소 개인정보 익명화",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "인사·교육"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "웹 주소에 접속해 카카오 지도 JavaScript 키를 넣고 대상자 주소를 입력한 뒤 변환을 실행한다",
+   "evidence": {
+    "lines": [
+     23,
+     55
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -150,5 +172,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.036Z",
  "rulesAt": "2026-10-30T13:35:13.036Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.187Z"
 }

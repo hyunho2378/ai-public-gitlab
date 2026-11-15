@@ -79,7 +79,8 @@ async function main(){
     const ai=old?.ai||blankAI();
     const status=r.rule.readmeStatus.value;
     if(status!=='present'){ // README 없음/기본 템플릿이면 쉬운 말 칸은 null 고정
-      for(const k of Object.keys(ai)){ai[k].value=null;ai[k].evidence=null;if('rawCommands' in ai[k])ai[k].rawCommands=null}}
+      for(const k of Object.keys(ai)){if(k==='fields'&&ai[k].evidence?.description)continue; // 설명 기반 분야(apply-desc-fields.mjs)는 README와 무관해 유지
+        ai[k].value=null;ai[k].evidence=null;if('rawCommands' in ai[k])ai[k].rawCommands=null}}
     const card={id:p.id,name:p.name,path:p.path_with_namespace,webUrl:p.web_url,topics:p.topics||[],
       ...r.rule,ai,checks:r.publicChecks,generatedAt:old?.generatedAt||new Date().toISOString(),rulesAt:new Date().toISOString(),sourceDate:meta?.fetchedDate};
     await fs.writeFile(cp,JSON.stringify(card,null,1));made++;

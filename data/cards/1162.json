@@ -97,29 +97,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "국회 농해수위 회의록을 지식그래프로 엮어 보여주는 웹",
+   "evidence": {
+    "lines": [
+     7,
+     8
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "국정감사 준비와 정부 약속 이행 추적",
+   "evidence": {
+    "lines": [
+     7,
+     8
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     7,
+     8
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "패키지를 설치하고 인증키를 넣은 뒤 회의록을 수집하고 serve 명령으로 웹 화면을 띄웁니다.",
+   "evidence": {
+    "lines": [
+     32,
+     38
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "python -m agrisea serve --port 8000"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "요약·약속 판별과 이행 판정은 규칙 기반이라 놓치거나 잘못 잡을 수 있습니다.",
+   "evidence": {
+    "lines": [
+     62,
+     62
+    ]
+   },
    "source": "ai"
   }
  },
@@ -159,5 +186,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.207Z",
  "rulesAt": "2026-10-30T13:35:13.207Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.369Z"
 }

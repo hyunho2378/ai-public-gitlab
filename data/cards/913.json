@@ -86,23 +86,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "탐색기 우클릭으로 여러 PDF를 하나로 합치는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "여러 PDF 파일 병합",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "배포본을 풀고 설치.bat을 실행한 뒤 PDF 여러 개를 골라 우클릭해 병합한다",
+   "evidence": {
+    "lines": [
+     33,
+     37
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -148,5 +170,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.086Z",
  "rulesAt": "2026-10-30T13:35:13.086Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.744Z"
 }

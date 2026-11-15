@@ -167,29 +167,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "지자체 통합돌봄 사업과 복지정보를 검색·비교하는 웹사이트",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "통합돌봄 사업·복지제도·예산·통계 업무 참고",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "운영 사이트에 접속해 대시보드·복지제도·예산·통계 화면에서 자료를 찾아봅니다.",
+   "evidence": {
+    "lines": [
+     7,
+     22
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "돌봄자원과 법령정보는 이용자 제공 범위에서 제외되어 있습니다.",
+   "evidence": {
+    "lines": [
+     9,
+     9
+    ]
+   },
    "source": "ai"
   }
  },
@@ -229,5 +256,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.209Z",
  "rulesAt": "2026-10-30T13:35:13.209Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.371Z"
 }

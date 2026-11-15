@@ -101,9 +101,15 @@
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
-   "source": "ai"
+   "value": [
+    "법령·규제·감사",
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "description": true
+   },
+   "source": "ai",
+   "note": "README 없이 프로젝트 설명과 이름으로 분류"
   },
   "runSummary": {
    "value": null,
@@ -153,5 +159,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.094Z",
  "rulesAt": "2026-10-30T13:35:13.094Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "fieldsAt": "2026-11-15T08:48:48.966Z"
 }

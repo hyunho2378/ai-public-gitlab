@@ -115,23 +115,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "에듀파인 공사정보로 공사 단계별 서류를 만드는 웹 도구",
+   "evidence": {
+    "lines": [
+     5,
+     8
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "학교 공사 계약·착공·준공·하자 서류 작성",
+   "evidence": {
+    "lines": [
+     5,
+     8
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "시설·안전·재난"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     25
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "웹 주소에 접속해 에듀파인 공사정보를 불러오고, 단계별 서류를 입력·미리보기한 뒤 인쇄하거나 PDF로 저장한다.",
+   "evidence": {
+    "lines": [
+     10,
+     55
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -177,5 +199,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.107Z",
  "rulesAt": "2026-10-30T13:35:13.107Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.016Z"
 }

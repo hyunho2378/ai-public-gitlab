@@ -123,29 +123,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "목록형 엑셀을 지도 마커 KML로 바꾸는 도구를 만드는 생성기",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "지도에 올릴 항목별 KML 변환 도구 제작",
+   "evidence": {
+    "lines": [
+     16,
+     20
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "gen_tools.py의 LAYERS 목록에 항목 설정을 추가하고 실행하면 항목별 변환 스크립트와 사용법이 만들어진다.",
+   "evidence": {
+    "lines": [
+     61,
+     69
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "python gen_tools.py"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "좌표가 이미 적힌 표는 대상이 아니며 별도의 엑셀 좌표-KML 변환 도구를 써야 한다.",
+   "evidence": {
+    "lines": [
+     14,
+     14
+    ]
+   },
    "source": "ai"
   }
  },
@@ -185,5 +212,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.117Z",
  "rulesAt": "2026-10-30T13:35:13.117Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.205Z"
 }

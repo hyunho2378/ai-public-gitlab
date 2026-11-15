@@ -100,25 +100,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "뉴스·공공데이터를 AI로 분석해 우수기업 근거를 검증하는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "ICT기금사업 우수기업 평가 자료 준비",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": ".env에 키를 채우고 npm install 후 scripts/dev.sh로 개발 서버를 띄운 뒤 관리자 계정을 발급한다.",
+   "evidence": {
+    "lines": [
+     49,
+     56
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "./scripts/dev.sh"
   },
   "limitations": {
    "value": null,
@@ -162,5 +184,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.122Z",
  "rulesAt": "2026-10-30T13:35:13.122Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.221Z"
 }

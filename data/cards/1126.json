@@ -101,18 +101,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "침해사고 신고의 24시간 초과 여부를 검토하는 도구",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "침해사고 신고 기한 검증과 과태료 대상 검토",
+   "evidence": {
+    "lines": [
+     14,
+     18
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     14,
+     18
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -122,8 +139,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "출력은 언제나 검토 초안이며 최종 판단은 담당자가 합니다.",
+   "evidence": {
+    "lines": [
+     20,
+     21
+    ]
+   },
    "source": "ai"
   }
  },
@@ -163,5 +185,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.190Z",
  "rulesAt": "2026-10-30T13:35:13.190Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.160Z"
 }

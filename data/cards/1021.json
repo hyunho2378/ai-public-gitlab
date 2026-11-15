@@ -102,23 +102,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "발간물 정리 엑셀을 앱용 통계 파일 하나로 묶는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "통계연보·백서 자료를 앱·웹에 게시",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "묶음 zip을 풀어 input 폴더에 엑셀을 넣고 실행하기.bat을 두 번 누르면 output 폴더에 통계 파일이 나온다.",
+   "evidence": {
+    "lines": [
+     58,
+     63
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -164,5 +186,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.138Z",
  "rulesAt": "2026-10-30T13:35:13.138Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.276Z"
 }

@@ -90,23 +90,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "퇴근 때 열린 문서·폴더·웹페이지를 다음 날 다시 여는 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 창 저장과 다음 날 이어하기",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "WorkOnOff.exe를 실행해 다음날 하기로 저장하고, 다음 날 세션을 골라 업무 이어하기를 누른다",
+   "evidence": {
+    "lines": [
+     26,
+     43
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -152,5 +174,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.077Z",
  "rulesAt": "2026-10-30T13:35:13.077Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.723Z"
 }

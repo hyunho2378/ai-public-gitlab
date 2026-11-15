@@ -129,25 +129,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "보수·수당·세금 관련 법령과 지침을 찾는 검색 위젯",
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "급여·인사 담당자의 보수 법령·지침 확인",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "인사·교육"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "npm install 후 .env.local에 법제처 API 키 등을 넣고 npm run dev로 실행한다",
+   "evidence": {
+    "lines": [
+     31,
+     42
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run dev"
   },
   "limitations": {
    "value": null,
@@ -191,5 +213,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.014Z",
  "rulesAt": "2026-10-30T13:35:13.014Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.922Z"
 }

@@ -98,25 +98,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "책상 화면에 띄워 두는 AI 대화형 반려식물 위젯",
+   "evidence": {
+    "lines": [
+     14,
+     15
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 스트레스 관리와 짧은 문장 다듬기",
+   "evidence": {
+    "lines": [
+     49,
+     61
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "기타"
+   ],
+   "evidence": {
+    "lines": [
+     14,
+     15
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "실행파일 zip을 풀고 마음지킴이.exe를 더블클릭하거나 소스에서 python main.py를 실행한다",
+   "evidence": {
+    "lines": [
+     28,
+     29
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "python main.py"
   },
   "limitations": {
    "value": null,
@@ -160,5 +182,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.005Z",
  "rulesAt": "2026-10-30T13:35:13.005Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.707Z"
 }

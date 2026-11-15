@@ -108,18 +108,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "서울교육청 업무추진비 공개자료를 지도에 표시하는 도구",
+   "evidence": {
+    "lines": [
+     6,
+     24
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "기관별 업무추진비 사용처 검토",
+   "evidence": {
+    "lines": [
+     13,
+     24
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     6,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -129,8 +146,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "서울특별시교육청 산하 공개자료 전용이다.",
+   "evidence": {
+    "lines": [
+     6,
+     6
+    ]
+   },
    "source": "ai"
   }
  },
@@ -170,5 +192,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.108Z",
  "rulesAt": "2026-10-30T13:35:13.108Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.019Z"
 }

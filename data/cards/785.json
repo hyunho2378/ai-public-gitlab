@@ -118,29 +118,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "회의 음성을 실시간 자막으로 바꿔 내부망에 띄우는 시스템",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "회의 실시간 자막 제공",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "영상·이미지·음성"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "서버 PC의 localhost:8765/admin에서 녹음과 회의를 제어하고, 다른 PC는 서버IP:8765로 접속해 자막을 본다",
+   "evidence": {
+    "lines": [
+     35,
+     35
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "TXT 저장은 화면을 열어 둔 동안 받은 자막만 담고 서버의 과거 회의 전체는 조회하지 않는다",
+   "evidence": {
+    "lines": [
+     51,
+     51
+    ]
+   },
    "source": "ai"
   }
  },
@@ -180,5 +207,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.026Z",
  "rulesAt": "2026-10-30T13:35:13.026Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.958Z"
 }

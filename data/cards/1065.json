@@ -85,29 +85,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "지반침하 사고와 탐사 기록을 지도로 보여주는 웹앱",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "지반침하 사고 현황과 반복 발생 지역 확인",
+   "evidence": {
+    "lines": [
+     3,
+     15
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "시설·안전·재난"
+   ],
+   "evidence": {
+    "lines": [
+     1,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "dist 폴더를 정적 HTTP 서버로 제공한 뒤 브라우저에서 지역·연도·원인으로 사고를 찾아봅니다.",
+   "evidence": {
+    "lines": [
+     39,
+     39
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "수치는 관측·등록 건수일 뿐 사고 확률이나 안전등급이 아니며, 관로·지질·강수 자료 등은 아직 연결되지 않았습니다.",
+   "evidence": {
+    "lines": [
+     37,
+     57
+    ]
+   },
    "source": "ai"
   }
  },
@@ -147,5 +174,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.162Z",
  "rulesAt": "2026-10-30T13:35:13.162Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.826Z"
 }

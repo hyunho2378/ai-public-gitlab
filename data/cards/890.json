@@ -101,25 +101,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "바탕화면에 붙여 쓰는 데스크톱 달력 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "바탕화면에서 일정 확인과 관리",
+   "evidence": {
+    "lines": [
+     3,
+     45
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "개발 환경에서는 npm install 후 npm run dev로 실행한다",
+   "evidence": {
+    "lines": [
+     55,
+     58
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run dev"
   },
   "limitations": {
    "value": null,
@@ -163,5 +185,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.078Z",
  "rulesAt": "2026-10-30T13:35:13.078Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.727Z"
 }

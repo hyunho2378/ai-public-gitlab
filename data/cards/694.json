@@ -99,29 +99,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "기준 문서와 대상 문서를 비교해 규정 충돌을 찾는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "법령·내규 기준 대비 정책·보고서 적합성 검토",
+   "evidence": {
+    "lines": [
+     24,
+     28
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "npm ci, .env 복사, Ollama 모델 내려받기 후 npm run dev로 실행하고 브라우저에서 127.0.0.1:5173을 연다",
+   "evidence": {
+    "lines": [
+     13,
+     20
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run dev"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "스캔 PDF OCR, 레거시 HWP, 암호화 문서는 지원하지 않는다",
+   "evidence": {
+    "lines": [
+     30,
+     30
+    ]
+   },
    "source": "ai"
   }
  },
@@ -161,5 +188,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.979Z",
  "rulesAt": "2026-10-30T13:35:12.979Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.469Z"
 }

@@ -90,29 +90,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "스캔 PDF 첫 장의 제목을 읽어 파일 이름을 바꿔 주는 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "복합기 스캔 파일 이름 정리",
+   "evidence": {
+    "lines": [
+     20,
+     23
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Releases에서 ScanRenamer.exe를 받아 실행하고 스캔 파일이 저장되는 폴더를 지정한다",
+   "evidence": {
+    "lines": [
+     28,
+     30
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "완벽한 제목을 만드는 것이 목표가 아니라 파일을 알아볼 정도의 이름을 붙인다",
+   "evidence": {
+    "lines": [
+     23,
+     24
+    ]
+   },
    "source": "ai"
   }
  },
@@ -152,5 +179,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.063Z",
  "rulesAt": "2026-10-30T13:35:13.063Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.451Z"
 }

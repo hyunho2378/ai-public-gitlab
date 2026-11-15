@@ -97,29 +97,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "수당 지급자료로 인건비 집행현황 VBA 코드를 만드는 웹앱",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "인건비 예산과목별 집행현황 정리",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "npm install 후 npm run dev로 실행하고 더미 엑셀 2개를 올려 분류 규칙을 확인한 뒤 VBA를 생성한다",
+   "evidence": {
+    "lines": [
+     15,
+     33
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run dev"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "실제 개인정보가 담긴 원자료는 올리면 안 되며 더미 엑셀로 규칙을 검증하는 방식이다",
+   "evidence": {
+    "lines": [
+     3,
+     10
+    ]
+   },
    "source": "ai"
   }
  },
@@ -159,5 +186,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.013Z",
  "rulesAt": "2026-10-30T13:35:13.013Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.918Z"
 }

@@ -118,29 +118,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "폐쇄망 개발 도구에 코드 보안 자문을 주는 MCP 서버",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "생성·변경 코드의 보안 점검 자문",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "토큰과 설정 파일을 준비하고 의존성 wheel을 받아 Docker 이미지를 빌드한 뒤 docker compose로 기동한다",
+   "evidence": {
+    "lines": [
+     21,
+     61
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "KODA_MCP_CONFIG_PATH=/run/secrets/koda_mcp.json docker compose -f deploy/compose.yaml up -d"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "클라이언트가 보낸 변경·생성 텍스트 파일만 검사하는 부분 자문이며 저장소 전체나 런타임은 판정하지 않는다",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   }
  },
@@ -180,5 +207,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.997Z",
  "rulesAt": "2026-10-30T13:35:12.997Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.694Z"
 }

@@ -102,29 +102,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공공 포스터·인포그래픽 제작을 돕는 AI 디자인 작업 지침",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "행사 포스터·정책 인포그래픽·카드뉴스 제작",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "영상·이미지·음성"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Codex는 스킬 폴더를 프로젝트에 넣어 호출하고, ChatGPT 프로젝트나 Claude에는 지침·스킬 ZIP을 올려 사용합니다.",
+   "evidence": {
+    "lines": [
+     21,
+     28
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "일반 웹·앱 UI 개발이나 정책 조사만 필요한 작업용은 아니며, 플러그인의 웹 계정 설치·실행은 미검증입니다.",
+   "evidence": {
+    "lines": [
+     17,
+     30
+    ]
+   },
    "source": "ai"
   }
  },
@@ -164,5 +191,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.183Z",
  "rulesAt": "2026-10-30T13:35:13.183Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.141Z"
 }

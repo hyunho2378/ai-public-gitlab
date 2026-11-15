@@ -100,29 +100,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "관내출장 보행 왕복거리를 계산해 2km 이내를 확인하는 도구",
+   "evidence": {
+    "lines": [
+     5,
+     7
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "관내여비 지급 검토",
+   "evidence": {
+    "lines": [
+     5,
+     29
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "에듀파인 관내여비 엑셀을 올리고 근무지를 정한 뒤 거리점검을 실행한다.",
+   "evidence": {
+    "lines": [
+     51,
+     65
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "여비 지급액을 자동 확정하지 않으며 최종 지급 여부는 관련 지침과 기관 기준으로 판단해야 한다.",
+   "evidence": {
+    "lines": [
+     29,
+     29
+    ]
+   },
    "source": "ai"
   }
  },
@@ -162,5 +189,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.145Z",
  "rulesAt": "2026-10-30T13:35:13.145Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.513Z"
 }

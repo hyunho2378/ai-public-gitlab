@@ -119,23 +119,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "개인정보침해 사건 조사와 보고서 작성을 돕는 웹 작업 공간",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "개인정보침해 사건 조사·자문과 보고서 초안 작성",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Node.js·Python·LibreOffice 등을 설치한 뒤 저장소를 내려받아 npm 설치·빌드 명령을 차례로 실행합니다.",
+   "evidence": {
+    "lines": [
+     11,
+     70
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -181,5 +203,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.201Z",
  "rulesAt": "2026-10-30T13:35:13.201Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.183Z"
 }

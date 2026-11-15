@@ -89,29 +89,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "현장에 맞는 안전표지를 골라 출력하는 Windows 도구",
+   "evidence": {
+    "lines": [
+     38,
+     63
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "산업현장 안전표지 출력",
+   "evidence": {
+    "lines": [
+     38,
+     63
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "시설·안전·재난"
+   ],
+   "evidence": {
+    "lines": [
+     38,
+     63
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "실행판 ZIP을 모두 풀고 내편표지.exe를 실행한다.",
+   "evidence": {
+    "lines": [
+     10,
+     10
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "전문 번역 감수·실물 인쇄·다른 Windows 배율은 검증하지 않았다.",
+   "evidence": {
+    "lines": [
+     10,
+     10
+    ]
+   },
    "source": "ai"
   }
  },
@@ -151,5 +178,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.143Z",
  "rulesAt": "2026-10-30T13:35:13.143Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.507Z"
 }

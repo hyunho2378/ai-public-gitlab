@@ -93,29 +93,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "한자 섞인 저화질 고문서 스캔본을 글자로 바꾸는 OCR 도구",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "고문서·옛 도서의 텍스트 복원",
+   "evidence": {
+    "lines": [
+     3,
+     8
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     8
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "최초 1회 setup.bat을 실행한 뒤 고문서OCR-실행.bat을 더블클릭하면 브라우저에 화면이 열린다",
+   "evidence": {
+    "lines": [
+     54,
+     57
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "uvicorn backend.main:app --host 127.0.0.1 --port 8000"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "한글 병기 보정은 OpenAI API 키가 있어야 하고, 없으면 한자가 병기 없이 나온다",
+   "evidence": {
+    "lines": [
+     37,
+     38
+    ]
+   },
    "source": "ai"
   }
  },
@@ -155,5 +182,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.995Z",
  "rulesAt": "2026-10-30T13:35:12.995Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.693Z"
 }

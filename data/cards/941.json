@@ -88,18 +88,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "RAG·MCP·모델·워크플로우를 조합하는 AI 바탕 시스템",
+   "evidence": {
+    "lines": [
+     8,
+     12
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "등록한 문서를 근거로 한 질의응답과 업무 절차 구성",
+   "evidence": {
+    "lines": [
+     66,
+     70
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     8,
+     12
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -150,5 +167,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.098Z",
  "rulesAt": "2026-10-30T13:35:13.098Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.994Z"
 }

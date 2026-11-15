@@ -113,29 +113,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "용역 발주 준비를 안내하고 협조전 작성을 돕는 서비스",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "내규에 따른 용역 발주 준비와 계약부서 협조전 작성",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     9
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "pnpm으로 의존성을 설치하고 pnpm dev로 실행한 뒤 127.0.0.1:3000에 접속합니다.",
+   "evidence": {
+    "lines": [
+     54,
+     61
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "pnpm dev"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "인증 도입 전 로컬 단일 사용자용이며, 사업 준비 가이드 외 전체 흐름은 개발 중입니다.",
+   "evidence": {
+    "lines": [
+     23,
+     27
+    ]
+   },
    "source": "ai"
   }
  },
@@ -175,5 +202,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.184Z",
  "rulesAt": "2026-10-30T13:35:13.184Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.147Z"
 }

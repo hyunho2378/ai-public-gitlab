@@ -85,18 +85,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "회의 영상·음성으로 회의록을 만들고 검색하는 AI 서비스",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "회의록 작성과 회의내용 검색·질의응답",
+   "evidence": {
+    "lines": [
+     5,
+     13
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     13
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -147,5 +164,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.978Z",
  "rulesAt": "2026-10-30T13:35:12.978Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.466Z"
 }

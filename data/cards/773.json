@@ -105,23 +105,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "인사랑·e-호조 화면을 다크모드와 읽기 쉬운 글꼴로 바꾸는 확장",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "인사랑·e-호조 장시간 사용 시 눈 피로 줄이기",
+   "evidence": {
+    "lines": [
+     3,
+     11
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     11
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "저장소를 받아 chrome://extensions에서 개발자 모드를 켜고 압축해제된 확장 프로그램으로 로드한다",
+   "evidence": {
+    "lines": [
+     61,
+     69
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -167,5 +189,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.017Z",
  "rulesAt": "2026-10-30T13:35:13.017Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.933Z"
 }

@@ -96,29 +96,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "자세 분류 실험용 합성 스켈레톤 이미지 공개 데이터셋",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "7·9 동작 자세 분류 모델 학습·실험",
+   "evidence": {
+    "lines": [
+     9,
+     16
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "영상·이미지·음성"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     16
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "GitHub Release나 GitLab Release에서 데이터 아카이브 3개를 내려받아 쓴다",
+   "evidence": {
+    "lines": [
+     51,
+     62
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "완성된 AI 모델이나 구조 신고 서비스가 아니며, 7·9는 공인된 조난 신호가 아니다",
+   "evidence": {
+    "lines": [
+     9,
+     18
+    ]
+   },
    "source": "ai"
   }
  },
@@ -158,5 +185,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.031Z",
  "rulesAt": "2026-10-30T13:35:13.031Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.966Z"
 }

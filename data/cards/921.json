@@ -116,29 +116,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "온나라 화면 가독성 개선과 부서 문서대장 통합검색 확장",
+   "evidence": {
+    "lines": [
+     4,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "온나라 문서시스템 사용과 문서등록대장 검색",
+   "evidence": {
+    "lines": [
+     4,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     4,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "배포 ZIP으로 확장 폴더를 덮어쓴 뒤 브라우저 확장 관리 페이지에서 새로고침한다",
+   "evidence": {
+    "lines": [
+     15,
+     22
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "실제 기관 내부망의 문서 이송·저장 업무 검증은 별도로 필요하다",
+   "evidence": {
+    "lines": [
+     20,
+     20
+    ]
+   },
    "source": "ai"
   }
  },
@@ -178,5 +205,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.090Z",
  "rulesAt": "2026-10-30T13:35:13.090Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.751Z"
 }

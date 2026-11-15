@@ -88,29 +88,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공공기관 AI 관련 자료를 매일 모아 보여주는 홈페이지 시안",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "정부·공공기관 AI 소식과 공고 모아보기",
+   "evidence": {
+    "lines": [
+     3,
+     25
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "폴더에서 로컬 웹서버를 실행한 뒤 브라우저에서 localhost:8000을 엽니다.",
+   "evidence": {
+    "lines": [
+     5,
+     11
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "python -m http.server 8000"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "기관 홈페이지 자동 수집, AI 요약, 관리자 검토 화면, 실제 데이터베이스 저장은 아직 연동이 필요합니다.",
+   "evidence": {
+    "lines": [
+     27,
+     32
+    ]
+   },
    "source": "ai"
   }
  },
@@ -150,5 +177,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.177Z",
  "rulesAt": "2026-10-30T13:35:13.177Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.869Z"
 }

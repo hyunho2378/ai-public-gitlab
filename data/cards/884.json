@@ -112,29 +112,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "제주 정책·지원사업·법령·의정 정보를 한곳에서 찾는 웹 서비스",
+   "evidence": {
+    "lines": [
+     6,
+     7
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "제주 도정·정부 정책과 행정 정보 검색",
+   "evidence": {
+    "lines": [
+     6,
+     7
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     6,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "서비스 주소로 접속해 사용한다",
+   "evidence": {
+    "lines": [
+     10,
+     10
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "공식 자료를 대체하지 않는 참고용 개인 서비스이며 일부 오류가 있을 수 있다",
+   "evidence": {
+    "lines": [
+     8,
+     12
+    ]
+   },
    "source": "ai"
   }
  },
@@ -174,5 +201,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.073Z",
  "rulesAt": "2026-10-30T13:35:13.073Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.712Z"
 }

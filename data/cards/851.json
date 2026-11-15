@@ -91,29 +91,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "HWPX 문서 속 큰 이미지를 줄여 새 파일로 저장하는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "메일 첨부·보관용 한글 문서 용량 줄이기",
+   "evidence": {
+    "lines": [
+     9,
+     9
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     9
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Releases에서 ZIP을 받아 exe를 실행하고 HWPX 파일을 끌어놓은 뒤 용량 줄이기를 누른다",
+   "evidence": {
+    "lines": [
+     25,
+     29
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "메일 첨부용·목표 용량 방식은 문서에 따라 설정한 용량까지 줄어들지 않을 수 있다",
+   "evidence": {
+    "lines": [
+     41,
+     41
+    ]
+   },
    "source": "ai"
   }
  },
@@ -153,5 +180,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.060Z",
  "rulesAt": "2026-10-30T13:35:13.060Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.443Z"
 }

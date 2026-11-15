@@ -89,23 +89,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "브라우저에서 급히 발표자료를 만드는 프레젠테이션 제작기",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "급한 발표자료 작성",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     16
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "index.html을 브라우저로 열어 슬라이드를 만들고 프로젝트로 저장하거나 PPTX로 내보낸다.",
+   "evidence": {
+    "lines": [
+     20,
+     22
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -151,5 +173,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.133Z",
  "rulesAt": "2026-10-30T13:35:13.133Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.260Z"
 }

@@ -112,29 +112,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "문서 속 개인정보를 찾아 비식별 파일로 만드는 오프라인 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "텍스트·Office·한글 문서 개인정보 비식별화",
+   "evidence": {
+    "lines": [
+     3,
+     19
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     19
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "PowerShell에서 빌드 스크립트를 실행해 설치파일(PII-Cleaner-Setup.exe)을 만든다",
+   "evidence": {
+    "lines": [
+     59,
+     65
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": ".\\build-windows.ps1"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "구형 .doc·.xls·.hwp는 원본 형식으로 다시 저장하려면 별도 편집기나 변환기 연동이 필요하다",
+   "evidence": {
+    "lines": [
+     25,
+     25
+    ]
+   },
    "source": "ai"
   }
  },
@@ -174,5 +201,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.037Z",
  "rulesAt": "2026-10-30T13:35:13.037Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.192Z"
 }

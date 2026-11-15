@@ -98,29 +98,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 PC 설정 변경·백업·문서 최적화를 한 화면에서 하는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무용 PC 설정과 즐겨찾기·GPKI 백업",
+   "evidence": {
+    "lines": [
+     7,
+     19
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     19
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "AI_PC_Doctor_Gov.exe를 실행해 기능 카드를 고르고 설명을 확인한 뒤 '조치 실행'을 누른다",
+   "evidence": {
+    "lines": [
+     23,
+     26
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": ".\\.venv\\Scripts\\python.exe -m app.main"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows PC용이며 시스템 설정을 바꾸는 작업은 관리자 권한 확인이 필요할 수 있다",
+   "evidence": {
+    "lines": [
+     3,
+     24
+    ]
+   },
    "source": "ai"
   }
  },
@@ -160,5 +187,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.968Z",
  "rulesAt": "2026-10-30T13:35:12.968Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.446Z"
 }

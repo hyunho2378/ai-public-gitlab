@@ -89,29 +89,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "도서관 상호대차 AI 에이전트용 MCP 참조 서버",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "상호대차 도서 검색·규정 판정·신청 도구 구현",
+   "evidence": {
+    "lines": [
+     22,
+     35
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "python3로 적합성 시험 스크립트를 실행해 동작을 확인한다",
+   "evidence": {
+    "lines": [
+     65,
+     69
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "python3 tests/run_scenarios.py"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "알파스 커넥터와 회원 데이터는 모의이고 일부 규정 값은 예시다",
+   "evidence": {
+    "lines": [
+     45,
+     47
+    ]
+   },
    "source": "ai"
   }
  },
@@ -151,5 +178,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.058Z",
  "rulesAt": "2026-10-30T13:35:13.058Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.431Z"
 }

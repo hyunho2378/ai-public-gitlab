@@ -168,29 +168,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "AI가 법령·판례를 실시간 조회하게 하는 법령검토 MCP 서버",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "감사 대비 법령·조문 근거 확인",
+   "evidence": {
+    "lines": [
+     9,
+     11
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     11
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Node.js 20 이상에서 저장소를 받아 npm run setup을 실행하면 법제처 OC 확인과 MCP 등록을 차례로 안내한다",
+   "evidence": {
+    "lines": [
+     41,
+     59
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run setup"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "법제처 OPEN API OC가 있어야 하며, OC가 없으면 설치가 신청 안내 단계에서 멈춘다",
+   "evidence": {
+    "lines": [
+     53,
+     55
+    ]
+   },
    "source": "ai"
   }
  },
@@ -230,5 +257,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.022Z",
  "rulesAt": "2026-10-30T13:35:13.022Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.946Z"
 }

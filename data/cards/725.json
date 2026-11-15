@@ -104,29 +104,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "사내망에서 오프라인으로 대화·문서검색·회의록을 돕는 AI 비서",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "사내 문서 검색, 일정 관리, 회의록 작성",
+   "evidence": {
+    "lines": [
+     19,
+     27
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     27
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "bootstrap 스크립트로 설치하고 web 폴더에서 npm install 후 ./새싹이.sh를 실행해 출력된 주소를 브라우저로 연다",
+   "evidence": {
+    "lines": [
+     46,
+     60
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "./새싹이.sh"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "TTS·ASR 모델은 따로 받아야 하고, 마이크 음성 입력은 HTTPS에서만 동작한다",
+   "evidence": {
+    "lines": [
+     51,
+     69
+    ]
+   },
    "source": "ai"
   }
  },
@@ -166,5 +193,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.992Z",
  "rulesAt": "2026-10-30T13:35:12.992Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.687Z"
 }

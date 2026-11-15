@@ -93,29 +93,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "오라클 DB 테이블 명세와 쿼리를 한곳에서 관리하는 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "DB 테이블 명세서·쿼리·업무 문서 관리",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "zip을 원하는 폴더에 압축 해제한 뒤 DB돋보기.exe를 실행한다",
+   "evidence": {
+    "lines": [
+     27,
+     29
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows 10 이상 64bit용이며 zip 안에서 바로 실행하면 데이터가 저장되지 않는다",
+   "evidence": {
+    "lines": [
+     23,
+     28
+    ]
+   },
    "source": "ai"
   }
  },
@@ -155,5 +182,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.987Z",
  "rulesAt": "2026-10-30T13:35:12.987Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.675Z"
 }

@@ -103,23 +103,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "어항 현황과 보수보강 이력 엑셀을 KML로 바꾸는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "어항 위치·등급과 보수보강 이력 지도화",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "묶음 zip을 풀어 두 도구의 input 폴더에 엑셀을 넣고 실행하기 bat 파일 두 개를 차례로 누르면 output 폴더에 KML이 나온다.",
+   "evidence": {
+    "lines": [
+     52,
+     57
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -165,5 +187,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.123Z",
  "rulesAt": "2026-10-30T13:35:13.123Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.224Z"
 }

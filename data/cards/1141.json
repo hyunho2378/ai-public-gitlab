@@ -158,29 +158,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "법령 조문 간 인용 관계를 3D 지도로 탐색하는 도구",
+   "evidence": {
+    "lines": [
+     7,
+     11
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "법령 조문 연결 확인과 국세 개정안 검토",
+   "evidence": {
+    "lines": [
+     11,
+     15
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     11,
+     15
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "공개 웹 버전을 열면 서버 없이 브라우저에서 조문 본문과 인용·역인용을 확인할 수 있습니다.",
+   "evidence": {
+    "lines": [
+     19,
+     21
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "모든 분야가 실험적 베타이고 개정안 자동 검토는 국세만 지원하며, 관련 자료의 완전 수집을 보장하지 않습니다.",
+   "evidence": {
+    "lines": [
+     5,
+     66
+    ]
+   },
    "source": "ai"
   }
  },
@@ -220,5 +247,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.202Z",
  "rulesAt": "2026-10-30T13:35:13.202Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.186Z"
 }

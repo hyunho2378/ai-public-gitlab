@@ -84,29 +84,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "국회 의안·대안 심사 진행상황을 조회해 CSV로 저장하는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "법안 심사 진행상황 추적",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "실행파일 폴더에 인증키 파일과 조회할 의안번호 목록 파일을 두고 실행하면 result 폴더에 CSV가 생긴다.",
+   "evidence": {
+    "lines": [
+     10,
+     16
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "소스코드만 올라와 있어 Visual Studio에서 .NET Framework 콘솔 앱으로 직접 만들어야 한다.",
+   "evidence": {
+    "lines": [
+     5,
+     6
+    ]
+   },
    "source": "ai"
   }
  },
@@ -146,5 +173,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.101Z",
  "rulesAt": "2026-10-30T13:35:13.101Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.999Z"
 }

@@ -90,29 +90,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공문 오타 검수와 기관 서식 관리를 돕는 Windows 도구",
+   "evidence": {
+    "lines": [
+     26,
+     26
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "공문 작성 검수와 기관 서식 찾기",
+   "evidence": {
+    "lines": [
+     26,
+     26
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     26,
+     36
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "실행판 ZIP을 모두 풀고 내편공문.exe를 실행하면 기본 브라우저가 열린다.",
+   "evidence": {
+    "lines": [
+     62,
+     62
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "보안 인증이나 모든 악성 파일 차단을 보증하지 않으며, 결과를 한글로 편집하려면 한글 프로그램이 필요하다.",
+   "evidence": {
+    "lines": [
+     50,
+     62
+    ]
+   },
    "source": "ai"
   }
  },
@@ -152,5 +179,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.136Z",
  "rulesAt": "2026-10-30T13:35:13.136Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.268Z"
 }

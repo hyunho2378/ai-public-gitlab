@@ -97,9 +97,14 @@
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
-   "source": "ai"
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "description": true
+   },
+   "source": "ai",
+   "note": "README 없이 프로젝트 설명과 이름으로 분류"
   },
   "runSummary": {
    "value": null,
@@ -149,5 +154,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.135Z",
  "rulesAt": "2026-10-30T13:35:13.135Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "fieldsAt": "2026-11-15T08:48:48.758Z"
 }

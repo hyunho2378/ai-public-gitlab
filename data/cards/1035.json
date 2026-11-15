@@ -91,8 +91,13 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "Codex 데스크톱 앱에 제주 캐릭터 펫 3종을 설치하는 패키지",
+   "evidence": {
+    "lines": [
+     7,
+     11
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
@@ -101,19 +106,36 @@
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "기타"
+   ],
+   "evidence": {
+    "lines": [
+     7,
+     11
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "설치 파일을 내려받아 더블클릭한 뒤 Codex에서 펫을 다시 선택한다.",
+   "evidence": {
+    "lines": [
+     32,
+     34
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows용이며 설치 파일에 코드 서명이 없다.",
+   "evidence": {
+    "lines": [
+     11,
+     38
+    ]
+   },
    "source": "ai"
   }
  },
@@ -153,5 +175,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.148Z",
  "rulesAt": "2026-10-30T13:35:13.148Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.523Z"
 }

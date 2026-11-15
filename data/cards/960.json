@@ -105,29 +105,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "에듀파인 엑셀로 학교회계 예산을 한눈에 보여주는 웹 도구",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "학교 사업 예산과 집행현황 확인",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "에듀파인에서 사업관리카드 엑셀을 내려받아 웹 화면에 불러오거나 끌어놓으면 된다.",
+   "evidence": {
+    "lines": [
+     14,
+     26
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "세출예산집행현황목록 파일은 지급액 열이 없어 원인행위 기준까지만 표시한다.",
+   "evidence": {
+    "lines": [
+     22,
+     22
+    ]
+   },
    "source": "ai"
   }
  },
@@ -167,5 +194,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.104Z",
  "rulesAt": "2026-10-30T13:35:13.104Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.008Z"
 }

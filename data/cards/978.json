@@ -88,23 +88,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "물품 구매·재고·창고 위치를 기록하는 로컬 장부 프로그램",
+   "evidence": {
+    "lines": [
+     17,
+     52
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "물품 구매와 재고·증빙 관리",
+   "evidence": {
+    "lines": [
+     29,
+     33
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     29,
+     33
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Python 3.9 이상이 있는 Windows에서 실행용 bat 파일을 더블클릭하고 브라우저로 http://127.0.0.1:8765 를 연다.",
+   "evidence": {
+    "lines": [
+     5,
+     6
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -150,5 +172,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.114Z",
  "rulesAt": "2026-10-30T13:35:13.114Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.031Z"
 }
