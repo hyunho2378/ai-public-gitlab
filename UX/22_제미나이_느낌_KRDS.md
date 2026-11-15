@@ -83,7 +83,7 @@
 | G1 | 넓은 여백 | 패널 첫 상태에서만 인사 위아래 여백 40, 본문 화면 밀도는 UX/07 그대로 | `--layout-ai-empty-gap`(number-14, 40) | 없음 |
 | G2 | 큰 인사 문구 | 패널 안 한 줄, heading-medium 24/32 굵기 bold, 왼쪽 정렬. 본문 화면 큰 안내 문장은 만들지 않음 | `--krds-pc-font-size-heading-medium`, `--rb-lh-24`, 키 `A_greet` | 정부 사이트식 큰 안내 문장 금지(UX/07 0장)와 충돌 피함: 패널 안 1줄 3어절, 본문 머리 아님 |
 | G3 | 큰 둥근 입력칸 | 높이 56 시작, 최대 120까지 늘어남, 모서리 12, 흰 면, 입력칸 테두리 1 gray-30, 그림자 1단계(본문 진입칸만) | `--layout-ai-composer-*`, KRDS 입력 테두리 `--krds-color-border-gray` | 알약 금지: 모서리 32 대신 KRDS radius-xlarge1 12. 완전한 원 없음 |
-| G4 | 모드 전환 | 입력칸 아래 KRDS 선형 탭 small 두 개 `도구 찾기`, `비슷한 프로젝트`, `/search` 두 탭과 같은 값 | Navigation/Tabs Size=Small | 알약 단추 대신 선형 탭 |
+| G4 | 모드 전환 | 입력칸 아래 KRDS 선형 탭 small 두 개 `도구 찾기`, `유사 프로젝트`, `/search` 두 탭과 같은 값 | Navigation/Tabs Size=Small | 알약 단추 대신 선형 탭 |
 | G5 | 칩 없음 | 제안 질문은 칩이 아니라 전체 폭 글자 행 4개(아이콘 16과 글자) | Assistant/Suggestion row | 알약, 같은 크기 카드 나열 금지와 맞음 |
 | G6 | 반짝임 | 기존 `ext/sparkle`(Pajamas 반짝임) 한 가지, 단색 primary-50, 크기 16과 24 두 단계. AI가 만든 자리에만 | Assistant/Spark mark, `--layout-ai-accent` | 이모지 아님(SVG 아이콘). 사이드바 AI 카탈로그 아이콘과 겹침은 결정 필요 3 |
 | G7 | 색 번짐 바탕 | 사용 안 함. 바탕은 판 흰 면(어두운 화면 gray-95) | `--layout-panel-bg` | 보라 그라데이션 금지, 연한 채움 금지. 그라데이션 한 곳 허용 여부는 결정 필요 1 |
@@ -183,7 +183,7 @@
 | 상단 바 오른쪽 묶음 첫 자리(만들기 + 단추 앞) | Action/Icon button 32, 아이콘 `ext/sparkle` 16, 접근성 이름 `업무 도우미` | 패널 열고 닫기, `aria-expanded`, `aria-controls="rb-assistant"` | `assistant-open-topbar` |
 | 사이드바 `업무 지원` 묶음 첫 항목 | 기존 사이드바 항목 28, 아이콘 `ext/sparkle`, 글자 `업무 도우미`, 오른쪽 단축키 힌트 | 같음(링크가 아니라 단추) | `assistant-open-sidebar` |
 | 첫 화면 목록 위 진입칸 | Assistant/Composer Context=Page | 보내면 패널 열고 그 질문 실행 | `assistant-entry-home` |
-| 소개 카드 비슷한 프로젝트 구역 제목 오른쪽 | Action/Button Type=text Size=small `도우미로 이어 찾기` | 패널 열고 이 프로젝트 기준 F4 실행 | `assistant-open-similar` |
+| 소개 카드 유사 프로젝트 구역 제목 오른쪽 | Action/Button Type=text Size=small `도우미로 이어 찾기` | 패널 열고 이 프로젝트 기준 F4 실행 | `assistant-open-similar` |
 | A-07 질문 예시 옆 | Action/Button Type=text Size=small `웹에서 같은 질문` | 패널 열고 예시 질문 채움(전송은 사용자) | `assistant-open-mcp` |
 
 - 360: 상단 바 아이콘 단추와 서랍 안 사이드바 항목 두 곳, 터치 영역 44(UX/17 5장)
@@ -197,7 +197,7 @@
 3. 대화 영역(세로 스크롤, 좌우 16, 차례 사이 24)
 4. 입력 묶음(아래 고정, 위 구분선 없음, 위아래 12)
    - Assistant/Composer Context=Panel
-   - 모드 탭: Navigation/Tabs Size=Small `도구 찾기`, `비슷한 프로젝트`
+   - 모드 탭: Navigation/Tabs Size=Small `도구 찾기`, `유사 프로젝트`
    - 입력 기준 줄: `2~500자`(기존 `Q_rule`), 오류 때 같은 자리 오류 줄
 
 ### 3-5. 첫 상태
@@ -213,8 +213,8 @@
 |---|---|---|---|---|
 | 1 | 출장비 정산 | 도구 찾기 | 업무 | `Q_exTask[0]` |
 | 2 | 회의록 요약 | 도구 찾기 | 업무 | `Q_exTask[1]` |
-| 3 | 민원 접수 챗봇 | 비슷한 프로젝트 | 기능 | `Q_exBuild[0]` |
-| 4 | 엑셀 일괄 변환 | 비슷한 프로젝트 | 기능 | `Q_exBuild[1]` |
+| 3 | 민원 접수 챗봇 | 유사 프로젝트 | 기능 | `Q_exBuild[0]` |
+| 4 | 엑셀 일괄 변환 | 유사 프로젝트 | 기능 | `Q_exBuild[1]` |
 
 - 누르면: 모드 탭이 행 모드로 바뀌고 실제 검색 실행(고정 예시 결과 아님)
 - 상황 문장형(정부24 "~할 때")으로 바꿀지 여부: UX-021 결정 항목 그대로 이어받음
@@ -225,9 +225,9 @@
 
 1. 질문 덩어리(Assistant/Turn question)
    - 오른쪽 정렬, 최대 폭 패널 안쪽의 85%, gray-5 면, 모서리 12, 안쪽 12 16
-   - 글자: 입력 원문 그대로, 위 13/20 text/subtle 모드 라벨(`도구 찾기` 또는 `비슷한 프로젝트`)
+   - 글자: 입력 원문 그대로, 위 13/20 text/subtle 모드 라벨(`도구 찾기` 또는 `유사 프로젝트`)
 2. 답변 덩어리(Assistant/Turn answer), 면 없음, 왼쪽 정렬
-   1. 상태 머리: Spark mark 16과 `AI 추천 n`(`Q_recTitle(n)`) 또는 `비슷한 프로젝트 n`(`Q_simTitle(n)`), 대체 검색이면 반짝임 없이 `일반 결과 n`(`Q_kwTitle(n)`)
+   1. 상태 머리: Spark mark 16과 `AI 추천 n`(`Q_recTitle(n)`) 또는 `유사 프로젝트 n`(`Q_simTitle(n)`), 대체 검색이면 반짝임 없이 `일반 결과 n`(`Q_kwTitle(n)`)
    2. 해석 줄(Assistant/Reading line, UX-021 안 2 흡수)
       - 라벨 `해석`(`A_read`), 분야 태그 1개(기존 `krds-btn-tag`, 확정 분야 이름 또는 `전체`), 핵심어 태그 1~3개, 오른쪽 `고치기` 텍스트 단추(`A_edit`)
       - 값 원천: 분야는 F1 함수 응답의 분야 칸(확정 분야 10개 목록 안 값만), 핵심어는 함수 응답 칸 중 입력 원문에 들어 있는 단어만 표시
@@ -237,12 +237,12 @@
       - 제목 줄: 이름(A-02 링크 `/projects/:id/about`), 공개 아이콘, Feedback/Basis badge
       - 하는 일 줄: 카드 `oneLine.v`
       - 추천 이유 줄: 라벨 `추천 이유`와 함수 응답 이유 글자, 끝에 Feedback/Basis mark `README 3~5줄`(링크 `/projects/:id/code/README.md#L3-5`) 또는 `package.json 외 1`
-      - 동작 줄: `비슷한 프로젝트`(Action/Button Type=text Size=small, `A_similar`)
+      - 동작 줄: `유사 프로젝트`(Action/Button Type=text Size=small, `A_similar`)
    4. 일반 결과 링크: `일반 결과 n건`(`A_moreResults(n)`), `/search?q=&mode=&field=`로 이동, 같은 요청의 일반 결과 묶음
-3. 이어 묻기(비슷한 프로젝트)
-   - 행의 `비슷한 프로젝트` 누름: 새 차례, 질문 덩어리 글자 `{이름} 비슷한 프로젝트`(`A_similarQ(name)`), 모드 라벨 `비슷한 프로젝트`
+3. 이어 묻기(유사 프로젝트)
+   - 행의 `유사 프로젝트` 누름: 새 차례, 질문 덩어리 글자 `{이름} 유사 프로젝트`(`A_similarQ(name)`), 모드 라벨 `유사 프로젝트`
    - 답변: Kind=Similar 행 최대 5, 기준 프로젝트 제외, 행 오른쪽 위 유사 수준 글자(`Q_simHigh`, `Q_simMid`, `Q_simUnknown`), 관련 이유 줄과 차이 줄 끝마다 Basis mark, 차이 근거 없음은 `차이 정보 부족`과 Basis mark None
-   - 함수: A-02 비슷한 프로젝트 구역(UX-020 7장)과 같은 함수 같은 결과
+   - 함수: A-02 유사 프로젝트 구역(UX-020 7장)과 같은 함수 같은 결과
 4. 자유 이어 묻기: 입력칸에 새 문장, 새 F1 또는 F4 요청(이전 차례 내용을 함수에 넘기지 않음, 이전 분야 유지 여부는 결정 필요 7)
 
 ### 3-7. 답변 재료 규칙
@@ -264,11 +264,11 @@
 |---|---|---|---|---|
 | 최초 | 비움, 기준 줄 2~500자 | 첫 상태(3-5) | 제안 질문 4행 | `A_greet`, `Q_ex*` |
 | 처리 중 | 값 비움(질문 덩어리로 옮김), 보내기 단추 누름 차단, 기준 줄 자리 `찾는 중` | 반짝임 등장 다음 Skeleton 3행(160ms 넘을 때만), `aria-busy` | 같은 요청 재실행 차단, Esc 누르면 요청 취소 | `A_thinking` |
-| 정상 | 비움, 초점 유지 | 상태 머리, 해석 줄, 행 1~5, 일반 결과 링크 | 행 이동, 비슷한 프로젝트, 고치기 | 3-6 키 |
+| 정상 | 비움, 초점 유지 | 상태 머리, 해석 줄, 행 1~5, 일반 결과 링크 | 행 이동, 유사 프로젝트, 고치기 | 3-6 키 |
 | 결과 없음 | 비움 | 상태 머리 `검색 결과 없음`(`Q_none`), 해석 줄, 본문 `분야 해제 / 다른 표현`(`Q_noneBody`) | `분야 전체로`(분야 선택 때만, `Q_allFields`), 해석 줄 고치기 | `Q_none` |
 | 입력 오류 | 값 유지, 입력칸 State=Error, 오류 줄 | 새 차례 만들지 않음 | 입력칸 초점 | `Q_errEmpty`, `Q_errShort`, `Q_errLong(n)` |
 | 처리 실패 | 비움 | Feedback/Status block State=Error, 제목 `검색 실패`(`Q_fail`), 본문 `AI 추천 실패 / 대체 검색 실패`(`Q_failBody`) | `다시 시도`(tertiary small, 같은 질문 새 차례) | `Q_fail` |
-| 대체 검색 수행 | 비움 | Feedback/Status block State=Notice `AI 추천 실패 / 일반 검색 대체`(`Q_fbTask`) 또는 `유사 판단 실패 / 일반 검색 대체`(`Q_fbBuild`), 해석 줄 `일반 검색`, 일반 결과 행(Kind=Explore Compact) 최대 5, 비슷한 프로젝트 모드 행 오른쪽 `유사 판단 미수행` | 안내 줄 `AI 추천 다시 시도`(`Q_retryAi`) | `Q_fb*` |
+| 대체 검색 수행 | 비움 | Feedback/Status block State=Notice `AI 추천 실패 / 일반 검색 대체`(`Q_fbTask`) 또는 `유사 판단 실패 / 일반 검색 대체`(`Q_fbBuild`), 해석 줄 `일반 검색`, 일반 결과 행(Kind=Explore Compact) 최대 5, 유사 프로젝트 모드 행 오른쪽 `유사 판단 미수행` | 안내 줄 `AI 추천 다시 시도`(`Q_retryAi`) | `Q_fb*` |
 
 추가 구분(기획안 A-01 상태 처리와 같음)
 
@@ -276,7 +276,7 @@
 |---|---|---|
 | 대체 검색 후 결과 없음 | 대체 검색 안내 줄과 `대체 검색 결과 없음` | `Q_fbNone` |
 | 자료 기준 불일치 | 안내 줄 `자료 기준 불일치 / 일반 검색 대체`, 일반 결과만, 아래 `자료 갱신 필요` | `Q_versionMismatch`, `Q_versionNeed` |
-| 기준 프로젝트 확인 불가(비슷한 프로젝트 이어 묻기) | Status block State=Error `현재 프로젝트 확인 불가` | `Q_baseMissing` |
+| 기준 프로젝트 확인 불가(유사 프로젝트 이어 묻기) | Status block State=Error `현재 프로젝트 확인 불가` | `Q_baseMissing` |
 
 - 실패와 결과 없음, 대체 검색 세 상태는 서로 다른 글자와 모양
 - 최신 요청 유지: 차례마다 요청 번호, 처리 중에 새 질문을 보내면 이전 요청 취소 다음 새 차례
@@ -342,7 +342,7 @@
 
 - 카드 머리 작성 주체 줄 앞 Spark mark 16(카드가 AI 생성이라는 표시, 기존 `AI 정리` 글자 대체)
 - 근거 줄 누름: README 원문 구역 해당 줄로 이동, 줄 강조 1.2초 다음 280ms 사라짐(2-4)
-- 비슷한 프로젝트 구역 제목 오른쪽 `도우미로 이어 찾기`: 이 프로젝트 기준 F4 차례로 패널 열림
+- 유사 프로젝트 구역 제목 오른쪽 `도우미로 이어 찾기`: 이 프로젝트 기준 F4 차례로 패널 열림
 - 시연 묶음(F7, F8): 반짝임 없음(AI 결과 아님), `시연용 예시` 표시 유지, 예시 초안 패널 열림은 패널 열림 모션 값(200ms) 재사용
 
 ### 4-4. 현황판 `/dashboard/`
@@ -426,7 +426,7 @@
 - 검색 연결: 새 함수 없음, `api/search.js`의 F1, F4 함수와 후보 검증 재사용. 해석 칸(분야, 핵심어)만 응답 형식 추가(결정 필요 12)
 - 확장 부품: Layout/Project row에 Layout=Stacked Density=Compact 조합으로 `similarAction`(boolean) 추가, Navigation/Tabs에 Size=Small
 - 고칠 기존 파일: `components/Navigation/Sidebar.jsx`(업무 지원 첫 항목, 단추 항목 형식), `components/Identity/GlobalBar.jsx`(상단 바 열기 단추, `a` 단축키), `components/Feedback/ShortcutsDialog.jsx`(단축키 한 줄), `screens/P01_Home.jsx`(진입칸), `screens/P02_Search.jsx`(반짝임과 이어 찾기), `screens/P04_Project.jsx`(이어 찾기 단추), `copy/ui.js`(A_ 키)
-- 문구 키 추가: `A_name`(업무 도우미), `A_greet`(업무로 프로젝트 찾기), `A_thinking`(찾는 중), `A_read`(해석), `A_readFallback`(일반 검색), `A_edit`(고치기), `A_rerun`(다시 찾기), `A_similar`(비슷한 프로젝트), `A_similarQ(name)`, `A_moreResults(n)`(일반 결과 n건), `A_new`(새 대화), `A_close`(닫기), `A_openSimilar`(도우미로 이어 찾기), `A_askWeb`(웹에서 같은 질문), `A_modeTask`(업무), `A_modeBuild`(기능)
+- 문구 키 추가: `A_name`(업무 도우미), `A_greet`(업무로 프로젝트 찾기), `A_thinking`(찾는 중), `A_read`(해석), `A_readFallback`(일반 검색), `A_edit`(고치기), `A_rerun`(다시 찾기), `A_similar`(유사 프로젝트), `A_similarQ(name)`, `A_moreResults(n)`(일반 결과 n건), `A_new`(새 대화), `A_close`(닫기), `A_openSimilar`(도우미로 이어 찾기), `A_askWeb`(웹에서 같은 질문), `A_modeTask`(업무), `A_modeBuild`(기능)
 
 ### 5-3. 점검표(구현과 Figma 공통)
 
