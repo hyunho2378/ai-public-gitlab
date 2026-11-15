@@ -1,0 +1,71 @@
+/* Assistant/* 업무 도우미(UX/22 5-1, UX/23 3-10). 값은 --layout-ai-* 와 KRDS 변수만. 알약 없음(모서리 12 이하), 그라데이션 없음, 전환은 transform, opacity, 면 색만 */
+.rb-ai-panel { position: fixed; z-index: var(--layout-ai-z); display: flex; flex-direction: column; box-sizing: border-box; background: var(--layout-panel-bg); color: var(--krds-color-text-basic); }
+.rb-ai-panel.is-side {
+  top: calc(var(--rb-header-h) + var(--rb-masthead-h) + var(--rb-top-extra) + var(--layout-ai-panel-gap)); right: var(--layout-ai-panel-gap); bottom: var(--layout-ai-panel-gap);
+  width: min(var(--layout-ai-panel-w), calc(100vw - var(--layout-ai-panel-gap) * 2));
+  border-radius: var(--layout-ai-panel-radius); box-shadow: var(--layout-ai-shadow-3);
+  opacity: 0; transform: translateX(var(--layout-ai-slide));
+  transition: opacity var(--rb-motion-fast) var(--rb-motion-ease), transform var(--rb-motion-fast) var(--rb-motion-ease);
+}
+.rb-ai-panel.is-side.is-shown { opacity: 1; transform: none; transition-duration: var(--rb-motion-base); }
+html[data-krds-mode="dark"] .rb-ai-panel.is-side, html[data-krds-mode="high-contrast"] .rb-ai-panel.is-side { border: var(--krds-border-width-static-regular) solid var(--layout-panel-border); }
+.rb-ai-dim { position: fixed; inset: 0; z-index: var(--layout-ai-z); background: var(--layout-ai-dim); opacity: 0; transition: opacity var(--rb-motion-base) var(--rb-motion-ease); }
+.rb-ai-dim.is-shown { opacity: 1; transition-duration: var(--rb-motion-slow); }
+.rb-ai-panel.is-sheet { left: 0; right: 0; bottom: 0; top: var(--layout-ai-sheet-top); border-radius: var(--layout-ai-panel-radius) var(--layout-ai-panel-radius) 0 0; transform: translateY(100%); transition: transform var(--rb-motion-base) var(--rb-motion-ease); }
+.rb-ai-panel.is-sheet.is-shown { transform: none; transition-duration: var(--rb-motion-slow); }
+
+.rb-ai-head { display: flex; align-items: center; gap: var(--krds-gap-2); min-height: var(--layout-ai-head-h); padding-inline: var(--layout-ai-panel-pad-x) var(--krds-padding-4); box-sizing: border-box; }
+.rb-ai-title { display: flex; align-items: center; gap: var(--krds-gap-3); margin: 0 auto 0 0; }
+.rb-ai-basis { padding-inline: var(--layout-ai-panel-pad-x); }
+.rb-ai-convo { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: var(--layout-ai-block-gap) var(--layout-ai-panel-pad-x); display: flex; flex-direction: column; gap: var(--layout-ai-turn-gap); outline: none; }
+.rb-ai-foot { padding: var(--layout-ai-block-gap) var(--layout-ai-panel-pad-x); border-top: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); }
+
+.rb-ai-empty { display: flex; flex-direction: column; gap: var(--layout-ai-block-gap); padding-top: var(--layout-ai-empty-gap); }
+.rb-ai-greet { margin: 0; font-size: var(--rb-step-24); line-height: var(--rb-lh-32); font-weight: var(--rb-fw-current); color: var(--krds-color-text-bolder); }
+.rb-ai-suggests { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.rb-ai-suggest { display: flex; align-items: center; gap: var(--krds-gap-3); width: 100%; min-height: var(--layout-ai-suggest-h); padding: var(--krds-padding-3) var(--krds-padding-4); border: 0; background: none; border-radius: var(--krds-radius-medium3); color: var(--krds-color-text-basic); text-align: left; cursor: pointer; font-size: var(--rb-step-15); line-height: var(--rb-lh-15); transition: background-color var(--rb-motion-fast) var(--rb-motion-ease); }
+.rb-ai-suggest:hover, .rb-ai-suggest:focus-visible { background: var(--layout-ai-question-bg); }
+.rb-ai-suggest .rb-icon { width: var(--layout-ai-icon); height: var(--layout-ai-icon); color: var(--krds-color-text-subtle); flex: none; }
+.rb-ai-suggest-text { flex: 1; min-width: 0; }
+.rb-ai-suggest-mode { color: var(--krds-color-text-subtle); flex: none; }
+
+.rb-ai-turn { display: flex; flex-direction: column; gap: var(--layout-ai-block-gap); }
+.rb-ai-q { align-self: flex-end; max-width: 85%; display: flex; flex-direction: column; gap: var(--krds-gap-1); padding: var(--krds-padding-6) var(--krds-padding-8); background: var(--layout-ai-question-bg); border-radius: var(--layout-ai-composer-radius); animation: rb-ai-rise var(--rb-motion-fast) var(--rb-motion-ease); }
+.rb-ai-q-mode { color: var(--krds-color-text-subtle); }
+.rb-ai-q-text { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.rb-ai-a { display: flex; flex-direction: column; gap: var(--krds-gap-3); margin: 0; animation: rb-ai-rise var(--rb-motion-base) var(--rb-motion-ease); }
+.rb-ai-a .rb-rec-list { animation: rb-ai-rise var(--rb-motion-base) var(--rb-motion-ease) var(--layout-ai-stagger) both; }
+.rb-ai-a-head { display: flex; align-items: center; gap: var(--krds-gap-3); margin: 0; }
+.rb-ai-a p { margin: 0; }
+.rb-ai-acts { display: flex; flex-wrap: wrap; gap: var(--krds-gap-3); }
+.rb-ai-cond { color: var(--krds-color-text-subtle); }
+.rb-ai-read { display: flex; flex-wrap: wrap; align-items: center; gap: var(--krds-gap-2) var(--krds-gap-3); }
+.rb-ai-kw { display: inline-flex; align-items: center; gap: var(--krds-gap-1); padding: 0 var(--krds-padding-3); background: var(--krds-color-surface-gray-subtle); border-radius: var(--layout-basis-badge-radius); }
+@keyframes rb-ai-rise { from { opacity: 0; transform: translateY(var(--layout-ai-rise)); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .rb-ai-q, .rb-ai-a, .rb-ai-a .rb-rec-list { animation: none; } }
+html.rb-reduce-motion .rb-ai-q, html.rb-reduce-motion .rb-ai-a, html.rb-reduce-motion .rb-ai-a .rb-rec-list { animation: none; }
+
+/* Assistant/Composer */
+.rb-ai-composer { display: flex; flex-direction: column; gap: var(--krds-gap-3); margin: 0; }
+.rb-ai-tabs { display: flex; gap: var(--krds-gap-2); }
+.rb-ai-tab { height: var(--krds-number-12); padding: 0 var(--krds-padding-5); border: 0; border-radius: var(--krds-radius-medium3); background: none; color: var(--krds-color-text-subtle); cursor: pointer; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); transition: background-color var(--rb-motion-fast) var(--rb-motion-ease); }
+.rb-ai-tab:hover { background: var(--layout-ai-question-bg); }
+.rb-ai-tab.is-on { color: var(--krds-color-text-basic); font-weight: var(--rb-fw-current); background: var(--krds-color-surface-gray-subtle); }
+.rb-ai-field { position: relative; display: flex; align-items: flex-end; gap: var(--krds-gap-3); background: var(--krds-color-surface-white, var(--layout-panel-bg)); border: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray); border-radius: var(--layout-ai-composer-radius); padding: var(--krds-padding-4) var(--krds-padding-4) var(--krds-padding-4) var(--krds-padding-8); box-sizing: border-box; min-height: var(--layout-ai-composer-h); }
+.rb-ai-field:focus-within { border-color: var(--krds-color-border-focus); box-shadow: inset 0 0 0 var(--krds-number-1) var(--krds-color-border-focus); }
+.rb-ai-composer.is-error .rb-ai-field { border-color: var(--krds-color-text-danger); }
+.rb-ai-field textarea { flex: 1; min-width: 0; resize: none; border: 0; outline: none; background: none; color: inherit; font: inherit; font-size: var(--rb-step-15); line-height: var(--rb-lh-15); padding: var(--krds-padding-2) 0; max-height: var(--layout-ai-composer-max-h); overflow-y: auto; }
+.rb-ai-send { display: inline-flex; align-items: center; justify-content: center; flex: none; width: var(--layout-ai-send); height: var(--layout-ai-send); border: 0; border-radius: var(--krds-radius-medium3); background: var(--krds-color-element-primary); color: var(--krds-color-text-inverse-static); cursor: pointer; }
+.rb-ai-send .rb-icon { width: var(--layout-ai-icon); height: var(--layout-ai-icon); }
+.rb-ai-send:disabled { opacity: 0.48; cursor: default; }
+.rb-ai-rule { display: flex; justify-content: space-between; gap: var(--krds-gap-3); margin: 0; min-height: var(--rb-lh-13); color: var(--krds-color-text-subtle); }
+.rb-ai-rule.is-error { color: var(--krds-color-text-danger); }
+.rb-ai-composer.is-page .rb-ai-field { min-height: var(--layout-ai-entry-h); align-items: center; padding-block: var(--krds-padding-2); box-shadow: var(--layout-ai-shadow-1); }
+.rb-ai-composer.is-page .rb-ai-field textarea { white-space: nowrap; overflow: hidden; height: var(--rb-lh-15); }
+.rb-ai-composer.is-page { max-width: calc(var(--krds-number-21) * 7 + var(--krds-number-16)); }
+.rb-ai-entry { display: flex; align-items: center; gap: var(--krds-gap-3); }
+/* 사이드바 '업무 도우미' 항목: 링크와 같은 모양의 단추, 오른쪽 단축키 글자 */
+.rb-side-btn { width: 100%; border: 0; background: none; font: inherit; text-align: left; cursor: pointer; }
+.rb-side-btn .rb-icon[data-icon="ext/sparkle"] { color: var(--layout-ai-accent); }
+.rb-side-kbd { margin-inline-start: auto; font-family: inherit; font-size: var(--rb-step-13); line-height: var(--rb-lh-13); color: var(--krds-color-text-subtle); }
+.rb-gbar-ai .rb-spark { width: var(--layout-ai-icon); height: var(--layout-ai-icon); }

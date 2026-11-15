@@ -12,6 +12,8 @@ import { Avatar } from '../Layout/Avatar';
 import { useAuth } from '../Identity/useAuth';
 import { newWindow } from '../Layout/newWindow';
 import { pf } from '../../copy/work';
+import { a } from '../../copy/ai';
+import { useAssistant } from '../Assistant/AssistantContext';
 
 const GITLAB = 'https://gitlab.aigov.go.kr';
 
@@ -22,11 +24,14 @@ const item = (label, to, extra = {}) => ({ label, to, ...extra });
 export function globalMenu({ signedIn } = {}) {
   // 덧붙임 묶음 '업무 지원'(2026-11-13 이름 변경: 도구 찾기, 도구 요청, 이용 현황, 공동 개발. 경로는 그대로).
   // 업무 분야는 탐색 필터 막대(UX/14 2번), 내 작업·알림은 상단 바, 새 프로젝트·점검표·AI 코딩 도구 연결은 각 화면 진입점에 둔다(한 화면 덧붙임 하나)
+  // UX/23 0-3: 업무 지원 묶음 맨 위 '업무 도우미'(누르면 패널 열기, 단축키 a). 사이드바 '도구 찾기'는 이름 유지(부모 결정)
   const extra = [
+    item(a.A_name, null, { assistant: true, icon: 'ext/sparkle' }),
     item(u.C_task, '/search', { icon: 'search' }),
     item(t.Side_requests, '/requests', { icon: 'inquiry' }),
     item(t.Insights_title, '/insights', { icon: 'analytics' }),
     item(t.Collab_title, '/collaborate', { icon: 'multi' }),
+    item(a.Mcp_title, '/mcp', { icon: 'ext/code' }),
   ];
   return {
     title: u.G_explore,
@@ -136,11 +141,21 @@ function useTip() {
   };
 }
 
+function AssistantItem({ cls, body, common }) {
+  const ai = useAssistant();
+  return (
+    <button type="button" className={cls + ' rb-side-btn'} {...common} aria-expanded={!!ai?.open} aria-controls="rb-assistant" aria-keyshortcuts="a" onClick={(e) => ai && (ai.open ? ai.closePanel() : ai.openPanel(e.currentTarget))}>
+      {body}
+      <kbd className="rb-side-kbd" aria-hidden="true">{a.A_key}</kbd>
+    </button>
+  );
+}
+
 function SideLink({ it, tipApi, indent }) {
   const { pathname } = useLocation();
   // 실제 공공 깃랩: 새 파일·파일 올리기 화면에서도 코드 > 리포지토리가 현재 항목(UX/17 2절 묶음 펼침)
   const alsoOn = (it.also || []).some((x) => pathname === x || pathname.startsWith(x + '/'));
-  const id = 'rb-tip-' + (it.to || it.href).replace(/[^a-z0-9]/gi, '-');
+  const id = 'rb-tip-' + (it.to || it.href || 'assistant').replace(/[^a-z0-9]/gi, '-');
   const tipOn = it.hint ? (e) => tipApi.show(e.currentTarget, it.hint, id) : undefined;
   const common = {
     "data-figma": "Navigation/Sidebar item", "data-figma-key": "",
@@ -155,6 +170,7 @@ function SideLink({ it, tipApi, indent }) {
     </>
   );
   const cls = 'rb-side-link' + (indent ? ' is-sub' : '');
+  if (it.assistant) return <AssistantItem cls={cls} body={body} common={common} />;
   if (it.href) {
     return <a className={cls} href={it.href} {...newWindow(it.label)} title={u.G_newWindow} {...common}>{body}</a>;
   }
@@ -176,7 +192,7 @@ function Group({ group, tipApi, rail, onShow }) {
       <div className="rb-side-group is-heading">
         <p className="rb-side-title">{group.name}</p>
         <ul className="rb-side-list">
-          {group.items.map((it) => <li key={(it.to || it.href) + it.label}><SideLink it={it} tipApi={tipApi} /></li>)}
+          {group.items.map((it) => <li key={(it.to || it.href || '') + it.label}><SideLink it={it} tipApi={tipApi} /></li>)}
         </ul>
       </div>
     );
@@ -184,7 +200,7 @@ function Group({ group, tipApi, rail, onShow }) {
   if (!group.name) {
     const list = (
       <ul className="rb-side-list">
-        {group.items.map((it) => <li key={(it.to || it.href) + it.label}><SideLink it={it} tipApi={tipApi} /></li>)}
+        {group.items.map((it) => <li key={(it.to || it.href || '') + it.label}><SideLink it={it} tipApi={tipApi} /></li>)}
       </ul>
     );
     return group.sep ? <div className="rb-side-group has-sep">{list}</div> : list;
@@ -201,7 +217,7 @@ function Group({ group, tipApi, rail, onShow }) {
       {/* D-22: 목록은 늘 그려 두고 grid-template-rows 0fr↔1fr로 접는다(조건부 렌더링은 끊김 원인) */}
       <div className={'rb-side-fold' + (open ? ' is-open' : '')}>
         <ul id={listId} className="rb-side-list" aria-hidden={!open || undefined} ref={(el) => { if (el) el.inert = !open; }}>
-          {group.items.map((it) => <li key={(it.to || it.href) + it.label}><SideLink it={it} tipApi={tipApi} indent /></li>)}
+          {group.items.map((it) => <li key={(it.to || it.href || '') + it.label}><SideLink it={it} tipApi={tipApi} indent /></li>)}
         </ul>
       </div>
     </div>

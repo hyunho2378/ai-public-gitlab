@@ -15,6 +15,8 @@ import { useProjectNav } from './projectNav';
 import { u } from '../copy/ui';
 import { t } from '../copy/ko';
 import { breakpoint, useBoolPref, useMinWidth } from './prefs';
+import { AssistantProvider, useAssistant } from '../components/Assistant/AssistantContext';
+import { AssistantPanel } from '../components/Assistant/AssistantPanel';
 import '../components/Layout/shell.css';
 import '../components/Layout/v2-measure.css';
 
@@ -100,7 +102,7 @@ const PATH_CRUMB = {
  *  전역: ? 목록, s 또는 / 검색(GlobalBar), f 필터 막대, ⌘(Ctrl)+\ 사이드바, Shift+h 홈, Shift+p 내 프로젝트
  *  프로젝트: g o 개요, g f 파일, g c 커밋, g n 리포지토리 그래프, g r 릴리스, g i 작업 항목, g m 머지 리퀘스트, g p 파이프라인, g j 작업, Shift+c 브랜치 비교, t 파일 찾기(RepoParts) */
 const G_KEYS = { o: '', f: '/code', c: '/changes', n: '/graph', r: '/releases', i: '/issues', m: '/merge-requests', p: '/pipelines', j: '/jobs' };
-function useShortcuts({ toggleSide, openKeys, project }) {
+function useShortcuts({ toggleSide, openKeys, project, openAssistant }) {
   const navigate = useNavigate();
   useEffect(() => {
     let g = 0;
@@ -117,6 +119,8 @@ function useShortcuts({ toggleSide, openKeys, project }) {
         if (to != null) { e.preventDefault(); navigate(`/projects/${project.id}${to}`); return; }
       }
       if (e.key === 'g' && !e.shiftKey) { g = Date.now(); return; }
+      // UX/23 3-10-5: a 업무 도우미(입력칸 초점 중에는 위에서 이미 무시)
+      if (e.key === 'a' && !e.shiftKey && openAssistant) { e.preventDefault(); openAssistant(); return; }
       if (e.shiftKey && e.key === 'H') { e.preventDefault(); navigate('/'); return; }
       if (e.shiftKey && e.key === 'P') { e.preventDefault(); navigate('/my'); return; }
       if (e.shiftKey && e.key === 'C' && project) { e.preventDefault(); navigate(`/projects/${project.id}/compare`); return; }
@@ -127,7 +131,7 @@ function useShortcuts({ toggleSide, openKeys, project }) {
     };
     document.addEventListener('keydown', onKey);
     return () => document.removeEventListener('keydown', onKey);
-  }, [toggleSide, openKeys, project, navigate]);
+  }, [toggleSide, openKeys, project, navigate, openAssistant]);
 }
 
 function Shell() {
@@ -145,7 +149,9 @@ function Shell() {
   const [keys, setKeys] = useState(false);
   const toggleSide = useCallback(() => (mobile ? setNavOpen((v) => !v) : setHidden(!hidden)), [mobile, hidden, setHidden]);
   const openKeys = useCallback(() => setKeys((v) => !v), []);
-  useShortcuts({ toggleSide, openKeys, project });
+  const ai = useAssistant();
+  const openAssistant = useCallback(() => ai.openPanel(document.activeElement), [ai.openPanel]);
+  useShortcuts({ toggleSide, openKeys, project, openAssistant });
   const crumb = PATH_CRUMB[pathname];
   return (
     <>
@@ -187,6 +193,7 @@ function Shell() {
         </div>
       </div>
       {keys ? <ShortcutsDialog onClose={() => setKeys(false)} /> : null}
+      {bare ? null : <AssistantPanel />}
       <Toasts />
     </>
   );
@@ -195,7 +202,9 @@ function Shell() {
 export function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
-      <Shell />
+      <AssistantProvider>
+        <Shell />
+      </AssistantProvider>
     </BrowserRouter>
   );
 }

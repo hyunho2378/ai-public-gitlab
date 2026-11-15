@@ -15,6 +15,9 @@ import { Logo } from './Logo';
 import { Avatar } from '../Layout/Avatar';
 import { snapshotIndex } from '../../api/snapshot';
 import { useAuth } from './useAuth';
+import { a } from '../../copy/ai';
+import { useAssistant } from '../Assistant/AssistantContext';
+import { SparkMark } from '../Assistant/SparkMark';
 
 export const SERVICE_NAME = t.Header_service;
 
@@ -131,6 +134,16 @@ function GlobalSearch() {
   );
 }
 
+function AssistantOpen() {
+  const ai = useAssistant();
+  if (!ai) return null;
+  return (
+    <button type="button" className="rb-gbar-icon rb-gbar-ai" data-figma="assistant-open" aria-label={a.A_name} title={a.A_name} aria-expanded={ai.open} aria-controls="rb-assistant" onClick={(e) => (ai.open ? ai.closePanel() : ai.openPanel(e.currentTarget))}>
+      <SparkMark />
+    </button>
+  );
+}
+
 export function GlobalBar({ onToggleNav, navOpen, hasNav = true, drawer = false, sideHidden = false, onShowSide, area }) {
   const location = useLocation();
   const { signedIn, user } = useAuth();
@@ -157,6 +170,8 @@ export function GlobalBar({ onToggleNav, navOpen, hasNav = true, drawer = false,
         <GlobalSearch />
         <IconButton to="/search" icon="search" label={t.GlobalBar_searchLabel} size="medium" className="rb-gbar-searchlink" data-figma="global-search" />
         <div className="rb-gbar-right">
+          {/* UX/23 3-0-4: 상단 바 오른쪽 묶음 첫 자리 업무 도우미 반짝임 단추(Show assistant) */}
+          <AssistantOpen />
           {signedIn ? (
             <>
               {/* 공공 깃랩 로그인 상단 바 순서: 만들기, 작업 항목, 머지 리퀘스트, 알림(할 일), 계정 */}

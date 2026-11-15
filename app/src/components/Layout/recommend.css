@@ -1,0 +1,24 @@
+/* Layout/Project row Kind=Recommend, Similar, Explore(UX/23 3-1-6). 행 사이 구분선, 카드 상자 없음 */
+.rb-rec-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.rb-rec { display: flex; align-items: flex-start; gap: var(--krds-gap-4); padding-block: var(--krds-padding-6); border-top: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); transition: background-color var(--rb-motion-fast) var(--rb-motion-ease); }
+.rb-rec:first-child { border-top: 0; }
+.rb-rec-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: var(--krds-gap-2); }
+.rb-rec-title { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: var(--krds-gap-3); }
+.rb-rec-title > a { color: var(--krds-color-text-basic); text-decoration: none; overflow-wrap: anywhere; }
+.rb-rec-title > a:hover { text-decoration: underline; }
+.rb-rec-level { margin-inline-start: auto; color: var(--krds-color-text-subtle); white-space: nowrap; }
+.rb-rec-level.is-strong { color: var(--krds-color-text-basic); font-weight: var(--rb-fw-current); }
+.rb-rec-line { margin: 0; color: var(--krds-color-text-basic); overflow-wrap: anywhere; }
+.rb-rec-line b { font-weight: var(--rb-fw-current); }
+.rb-rec-one { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.rb-rec-warn { display: flex; align-items: center; gap: var(--krds-gap-2); color: var(--krds-color-text-basic); }
+.rb-rec-warn .rb-icon { width: var(--layout-ai-icon); height: var(--layout-ai-icon); color: var(--krds-color-element-warning); }
+.rb-rec-meta { margin: 0; display: flex; flex-wrap: wrap; align-items: center; gap: var(--krds-gap-2) var(--krds-gap-4); }
+.rb-rec-similar { margin-inline-start: auto; }
+.rb-rec-head { display: flex; align-items: center; gap: var(--krds-gap-3); margin: 0; }
+.rb-rec.is-stacked .rb-rec-level { margin-inline-start: 0; flex-basis: 100%; order: -1; }
+@media (max-width: 767px) {
+  .rb-rec-one { white-space: normal; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+  .rb-rec-level { margin-inline-start: 0; flex-basis: 100%; order: -1; }
+}
+.rb-rec .rb-clamp-2, .rb-intro-item .rb-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
