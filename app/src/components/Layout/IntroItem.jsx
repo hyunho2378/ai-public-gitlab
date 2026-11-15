@@ -8,6 +8,10 @@ import '../Feedback/trust.css';
 
 /** item: 카드 항목({ v, e, b, label }), b가 없으면 근거 줄(e.lines)로 readme 추정 */
 export function itemBasis(item) {
+  // 규칙 칸(실행 형태)은 값이 파일 목록(e 경로)에서 나왔는데 자료 b가 none으로 들어와 있다(2026-11-15 자료 기준). 경로 근거가 있으면 코드 추정으로 본다
+  const paths = Array.isArray(item?.e) ? item.e : item?.e?.paths;
+  if (item?.b && item.b !== 'none') return item.b;
+  if (item?.v != null && Array.isArray(paths) && paths.length) return 'code';
   if (item?.b) return item.b;
   return item?.e?.lines ? 'readme' : 'none';
 }

@@ -119,6 +119,7 @@ export const a = {
   X_fieldPicked: (name) => `업무 분야 ${name}`,
   X_count: (n) => `${n0(n)}`,
   P_openOrigin: '공공 깃랩에서 열기',
+  P_reuse: '써 봤어요',
   P_stars: (n) => `별표 ${n0(n)}`,
   P_rowMenu: '프로젝트 작업',
   P_newWindow: '공공 깃랩에서 열기, 새 창',

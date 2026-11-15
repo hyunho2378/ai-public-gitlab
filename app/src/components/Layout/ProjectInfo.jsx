@@ -12,6 +12,8 @@ import { decisionRows, loadDecision } from './DecisionPanel';
 import { FoldText, InfoPair } from './FoldText';
 import { cardValue, loadCards } from '../../api/cards';
 import { newWindow } from './newWindow';
+import { a } from '../../copy/ai';
+import { IntroItem } from './IntroItem';
 
 const LANG_KEYS = ['typescript', 'javascript', 'python', 'java', 'shell'];
 const langVar = (name) => {
@@ -41,8 +43,9 @@ function LangBar({ languages }) {
 const ymd = (iso) => { const d = new Date(iso); return u.I_ymd(d.getFullYear(), String(d.getMonth() + 1).padStart(2, '0'), String(d.getDate()).padStart(2, '0')); };
 const fmt = (n) => (n == null ? null : Number(n).toLocaleString('ko-KR'));
 
-export function ProjectInfo({ id, project, readme, totals, stats, languages, root }) {
-  const d = useData(() => loadDecision(id), [id]);
+export function ProjectInfo({ id, project, readme, totals, stats, languages, root, hideCheck = false }) {
+  // A-02는 실제 점검 요약(사용 전 확인)을 숨긴다(부모 결정, F9 시연 원칙). 점검 요청도 하지 않음
+  const d = useData(() => (hideCheck ? Promise.resolve(null) : loadDecision(id)), [id, hideCheck]);
   const p = `/projects/${id}`;
   const intro = cleanDescription(project.description);
   const topics = project.topics || [];
@@ -65,7 +68,7 @@ export function ProjectInfo({ id, project, readme, totals, stats, languages, roo
   const cs = useData(loadCards, []);
   const card0 = cs.data ? cs.data.get(id) : null;
   // 네 칸이 모두 비면 카드 대신 사용 전 확인(빈 칸만 늘어놓지 않는다)
-  const card = card0 && [card0.oneLine, card0.form, card0.license, card0.refs].some((f) => cardValue(f) != null || f?.label) ? card0 : null;
+  const card = card0 || null;
   const field = card ? [].concat(cardValue(card.fields) ?? [])[0] : null;
   return (
     <aside className="rb-repo-info" aria-labelledby="rb-info-title" data-figma="Layout/Project info" data-figma-key="project-info">
@@ -101,7 +104,7 @@ export function ProjectInfo({ id, project, readme, totals, stats, languages, roo
         </div>
       ) : null}
       {/* 덧붙임 자리(UX/14 1, 5, 6, 8): 소개 카드가 있으면 카드 4줄, 없으면 사용 전 확인 4줄. 한 묶음, 4줄 + 더보기 */}
-      {card ? <IntroCard id={id} card={card} /> : (
+      {card ? <IntroCard id={id} card={card} /> : hideCheck ? null : (
         <section className="rb-info-sep rb-info-extra" data-figma="intro-card" aria-labelledby="rb-info-extra">
           <h3 id="rb-info-extra" className="krds-text-body-small-bold">{u.I_extra}</h3>
           {d.data ? (
@@ -118,34 +121,19 @@ export function ProjectInfo({ id, project, readme, totals, stats, languages, roo
   );
 }
 
-/** UX/14 1 소개 카드: 하는 일, 실행 형태 + 바로 열기, 이용 조건, 기준 날짜. 값이 없으면 '미기재', AI가 정리한 값은 'AI 정리' 표시, 근거 줄 링크 */
+/** UX/23 3-2-2 정보 열: Layout/Intro item Variant=Compact 4개(하는 일, 실행 형태, 이용 조건, 한계), 라벨 옆 근거 배지, 맨 아래 소개 카드 전체 */
 function IntroCard({ id, card }) {
-  const p = `/projects/${id}`;
-  const ai = (f) => (f?.s === 'ai' && cardValue(f) != null ? <span className="rb-card-ai">{u.C_ai}</span> : null);
-  const text = (f) => { const v = cardValue(f); return v == null ? u.C_none : Array.isArray(v) ? v.join(', ') : String(v); };
-  const run = cardValue(card.run);
-  const lines = card.readme?.e?.lines;
-  const rows = [
-    [u.C_does, text(card.oneLine), ai(card.oneLine)],
-    [u.C_form, card.form?.label || text(card.form), ai(card.form), typeof run === 'string' && /^https?:/.test(run) ? run : null],
-    [u.C_license, text(card.license), ai(card.license)],
-    [u.C_refs, text(card.refs), ai(card.refs)],
-  ];
+  const readme = card.readme?.v === 'present' || card.readme?.v === 'template';
   return (
     <section className="rb-info-sep rb-info-extra" data-figma="intro-card" aria-labelledby="rb-info-card">
-      <h3 id="rb-info-card" className="krds-text-body-small-bold">{u.C_title}</h3>
-      <dl className="rb-dock-list">
-        {rows.map(([label, value, mark, open]) => (
-          <InfoPair key={label} label={<>{label}{mark}</>}>
-            <FoldText lines={1}>{value}</FoldText>
-            {open ? <a className="krds-link" href={open} {...newWindow(u.C_open)}>{u.C_open}</a> : null}
-          </InfoPair>
-        ))}
+      <h3 id="rb-info-card" className="krds-text-body-small-bold">{a.C_cardTitle}</h3>
+      <dl className="rb-intro-list">
+        <IntroItem variant="Compact" label={a.C_oneLine} item={card.oneLine} id={id} readme={readme} />
+        <IntroItem variant="Compact" label={a.C_form} item={card.form} id={id} readme={readme} />
+        <IntroItem variant="Compact" label={a.C_license} item={card.license} id={id} readme={readme} />
+        <IntroItem variant="Compact" label={a.C_limits} item={card.limits} id={id} readme={readme} />
       </dl>
-      <p className="rb-dock-more">
-        <Link className="krds-link" to={`${p}/use`}>{u.I_more}</Link>
-        {Array.isArray(lines) && lines.length === 2 ? <><span className="rb-meta-gap" /><Link className="rb-plain-link rb-subtle" to={`${p}/code/README.md#L${lines[0]}-${lines[1]}`}>{u.C_evidence(lines[0], lines[1])}</Link></> : null}
-      </p>
+      <p className="rb-dock-more"><Link className="krds-link" to={`/projects/${id}/about#intro-card`}>{a.C_cardAll}</Link></p>
     </section>
   );
 }

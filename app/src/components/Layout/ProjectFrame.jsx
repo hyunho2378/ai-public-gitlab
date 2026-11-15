@@ -9,7 +9,7 @@ import { auth, gitlab, readmeOrEmpty } from '../../api/client';
 import { cleanDescription } from './StructuredList';
 import { LoginRequiredModal } from '../Feedback/LoginRequiredModal';
 import { Icon } from '../Code/Icon';
-import { ReuseAction } from '../../screens/parts/ReuseAction';
+import { a } from '../../copy/ai';
 import { orgLabel } from './orgLabel';
 import { Avatar } from './Avatar';
 import './repo.css';
@@ -40,15 +40,7 @@ export function useProject(extra = async () => ({})) {
 
 /** Figma: Repo/Header. GitHub 저장소 머리처럼 기관 / 이름, 한 줄 설명, 행동 버튼을 한 줄에 둔다(D-04). */
 function RepoHeader({ project, id }) {
-  const [params, setParams] = useSearchParams();
   const [loginFor, setLoginFor] = useState(null);
-  const reuseOpen = params.get('reuse') === '1';
-  const setReuse = (open) => {
-    const next = new URLSearchParams(params);
-    if (open) next.set('reuse', '1');
-    else next.delete('reuse');
-    setParams(next, { replace: true });
-  };
   const star = async () => {
     const s = await auth.session().catch(() => ({ authenticated: false }));
     if (!s.authenticated) setLoginFor(t.RepoHead_star);
@@ -71,10 +63,10 @@ function RepoHeader({ project, id }) {
             </button>
             <a className="rb-split-count" href={`${project.web_url}/-/starrers`} {...newWindow(`${u.I_starrers} ${project.star_count ?? 0}`)}>{project.star_count ?? 0}</a>
           </span>
-          {/* 덧붙임(UX/14 6): 별표 옆 '사용 기록' 단추 하나 */}
-          <button type="button" className="krds-btn small tertiary" data-figma="extra-reuse" title={u.Tip_usage} aria-expanded={reuseOpen} onClick={() => setReuse(!reuseOpen)}>
-            {t.RepoHead_reuse}
-          </button>
+          {/* UX/23 3-8-1(부모 결정): 별표 옆 '써 봤어요'는 A-02 시연 구역(#reuse-demo)으로 이동. 서버 기록과 로그인 안내 대신 */}
+          <Link className="krds-btn small tertiary" data-figma="extra-reuse" to={`/projects/${id}/about#reuse-demo`}>
+            {a.P_reuse}
+          </Link>
           <Drop label={u.I_projectMore} btnClass={iconBtnClass('small')} toggle={false} button={<Icon name="ellipsis_vertical" />}>
             {(close) => (
               <ul className="drop-list">
@@ -86,7 +78,6 @@ function RepoHeader({ project, id }) {
           </Drop>
         </div>
       </div>
-      {reuseOpen && <ReuseAction id={id} onClose={() => setReuse(false)} />}
       {loginFor && <LoginRequiredModal action={loginFor} onClose={() => setLoginFor(null)} />}
     </>
   );
@@ -97,7 +88,7 @@ const clip = (s) => (s.length > 80 ? `${s.slice(0, 79)}…` : s);
 
 const PAGE_HEAD = new Set(['A-03', 'A-08', 'A-10', 'R-30', 'R-27', 'R-28', 'R-29']);
 
-export function ProjectFrame({ screenId, tab, tabLabel, crumbs, data, children, state, stats, wide = false, hideCrumbs = false, title = false, info = false, headExtra = null }) {
+export function ProjectFrame({ screenId, tab, tabLabel, crumbs, data, children, state, stats, wide = false, hideCrumbs = false, title = false, info = false, headExtra = null, hideCheck = false }) {
   // 프로젝트 알림: 왼쪽 바(프로젝트 메뉴, 작업 항목 수)에 쓴다. 화면을 떠나면 지운다.
   // 목록에서 눌러 들어오면 그 행의 프로젝트 자료(state.project)로 경로와 제목을 먼저 그린다(빈 제목 670ms 방지, audit_v3 05-17)
   const seed = useLocation().state?.project;
@@ -139,7 +130,7 @@ export function ProjectFrame({ screenId, tab, tabLabel, crumbs, data, children, 
           {seeded ? <Status {...data} /> : children}
         </div>
         {info && !seeded ? (
-            <ProjectInfo id={data.id} project={project} readme={data.data.readme} totals={data.data.totals} stats={stats} languages={data.data.languages} root={data.data.root} />
+            <ProjectInfo id={data.id} project={project} readme={data.data.readme} totals={data.data.totals} stats={stats} languages={data.data.languages} root={data.data.root} hideCheck={hideCheck} />
         ) : null}
       </div>
     </Page>
