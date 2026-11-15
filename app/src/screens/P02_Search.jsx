@@ -78,6 +78,8 @@ function Search() {
     const v = validateQuery(value);
     if (!v.ok) { setError({ reason: v.reason, length: v.length }); input.current?.focus(); return; }
     setError(null);
+    // 처리 중 같은 요청 재실행은 막고, 다른 입력이면 새 요청(이전 결과는 stale로 버림)
+    if (v.query === q && busy) return;
     if (v.query === q) setNonce((n) => n + 1);
     set({ q: v.query, mode, field: fieldKey });
   };
@@ -137,7 +139,7 @@ function Search() {
               onChange={(e) => { setText(e.target.value); if (error) setError(null); }}
               onKeyDown={(e) => { if (e.key === 'Escape' && busy) { cancelPending(); guard.cancel(); setBusy(false); setShowSkel(false); } if (e.key === 'Enter' && e.nativeEvent.isComposing) e.preventDefault(); }}
             />
-            <button type="submit" className="krds-btn small primary" disabled={busy}>{busy ? a.Q_busy : a.Q_submit}</button>
+            <button type="submit" className="krds-btn small primary" aria-busy={busy}>{busy ? a.Q_busy : a.Q_submit}</button>
           </div>
           <p id="rb-q-rule" className={'rb-q-rule krds-text-body-xsmall' + (error ? ' is-error' : '')} role={error ? 'alert' : undefined}>
             {error ? ERR[error.reason](error.length) : a.Q_rule}
