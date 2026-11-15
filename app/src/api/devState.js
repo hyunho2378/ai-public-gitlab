@@ -58,3 +58,37 @@ export function shapeList(response, mode) {
 
 /** 자료가 있는 상태(Ideal, Min, Max) */
 export const hasData = (state) => state === 'Ideal' || state === 'Min' || state === 'Max';
+
+/**
+ * 개발 서버 전용 모의 AI 검색 함수(검색 함수 VITE_SEARCH_URL이 아직 없어 상태 7종을 화면에서 재현하려고 둔다, UX/23 7-4).
+ * ?ai=ok|empty|timeout|bad|mismatch|down 을 한 번 붙이면 새로고침 전까지 유지. 배포본(DEV false)에서는 항상 null.
+ * ok: 수집 자료 일반 점수 상위 후보를 AI 응답 형식으로 돌려줌(추천 이유는 일반 점수 이유 그대로, 실제 AI 판단 아님)
+ */
+let aiMode;
+export function devAi(data) {
+  if (!import.meta.env.DEV || typeof window === 'undefined') return null;
+  if (aiMode === undefined) {
+    const m = new URLSearchParams(window.location.search).get('ai');
+    aiMode = ['ok', 'empty', 'timeout', 'bad', 'mismatch', 'down'].includes(m) ? m : null;
+  }
+  if (!aiMode) return null;
+  const mode = aiMode;
+  const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+  return {
+    url: 'dev://ai',
+    timeoutMs: 1500,
+    fallbackSearch: mode === 'down' ? async () => { throw new Error('dev down'); } : null,
+    fetchImpl: async (_url, init) => {
+      const body = JSON.parse(init.body);
+      await wait(mode === 'timeout' ? 3000 : 700);
+      if (init.signal?.aborted) throw new Error('aborted');
+      if (mode === 'down') throw new Error('dev down');
+      const { localSearch } = await import('./searchCore.js');
+      const hits = localSearch(data, body.query, { fields: body.fields, excludeIds: body.excludeIds, limit: 5 });
+      const levels = ['high', 'medium', 'medium', 'low', null];
+      const items = mode === 'empty' ? [] : hits.map((h, i) => ({ ...h, level: body.mode === 'similar' ? levels[i] : null }));
+      if (mode === 'bad') items.push({ id: 999999, reason: 'x', basisLines: null, level: null });
+      return { ok: true, json: async () => ({ dataVersion: mode === 'mismatch' ? 'dev-other-version' : data.meta?.version, items }) };
+    },
+  };
+}

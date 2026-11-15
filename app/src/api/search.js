@@ -3,8 +3,9 @@
 // 비밀값은 이 파일에 두지 않는다. AI 키는 서버리스 함수 쪽에만 있다.
 import { loadCards, taskSearch } from './cards.js';
 import { runSearch, createLatestGuard, validateQuery } from './searchCore.js';
+import { devAi } from './devState.js';
 
-export { STATUS, MIN_LEN, MAX_LEN, validateQuery, matchesFields, FIELD_CHECK, FIELD_NONE } from './searchCore.js';
+export { STATUS, MIN_LEN, MAX_LEN, validateQuery, matchesFields, FIELD_CHECK, FIELD_NONE, createLatestGuard } from './searchCore.js';
 
 const guard = createLatestGuard();
 
@@ -33,20 +34,27 @@ async function fallbackSearch(query, { mode }) {
  * 입력 오류는 요청 번호를 올리지 않아 직전 결과가 유지된다.
  */
 export async function search(input, deps = {}) {
+  // 화면마다 요청 번호를 따로 셀 수 있게 guard를 받는다(G-02와 업무 도우미가 서로의 결과를 stale로 만들지 않음, 2026-11-15 주현호)
+  const g = deps.guard || guard;
   const v = validateQuery(input?.query);
-  if (!v.ok) return { requestId: guard.current, stale: false, status: 'invalid', items: [], fallback: false, error: v.reason, length: v.length };
-  const requestId = guard.next();
+  if (!v.ok) return { requestId: g.current, stale: false, status: 'invalid', items: [], fallback: false, error: v.reason, length: v.length };
+  const requestId = g.next();
   const d = deps.data ?? (await data());
-  if (!d) return { requestId, stale: !guard.isLatest(requestId), status: 'failed', items: [], fallback: false, error: 'data-unreadable', dataVersion: null, fetchedDate: null };
+  if (!d) return { requestId, stale: !g.isLatest(requestId), status: 'failed', items: [], fallback: false, error: 'data-unreadable', dataVersion: null, fetchedDate: null };
+  // 개발 서버 전용 모의 AI(?ai=ok 등, devState.js). 배포본에서는 null
+  const dev = deps.aiUrl === undefined && !deps.fetchImpl ? devAi(d) : null;
   const res = await runSearch(input, {
     data: d,
-    aiUrl: deps.aiUrl !== undefined ? deps.aiUrl : import.meta.env?.VITE_SEARCH_URL,
-    fetchImpl: deps.fetchImpl,
-    fallbackSearch: deps.fallbackSearch || fallbackSearch,
-    timeoutMs: deps.timeoutMs,
+    aiUrl: dev ? dev.url : deps.aiUrl !== undefined ? deps.aiUrl : import.meta.env?.VITE_SEARCH_URL,
+    fetchImpl: dev ? dev.fetchImpl : deps.fetchImpl,
+    fallbackSearch: dev?.fallbackSearch || deps.fallbackSearch || fallbackSearch,
+    timeoutMs: dev?.timeoutMs ?? deps.timeoutMs,
   });
-  return { ...res, requestId, stale: !guard.isLatest(requestId) };
+  return { ...res, requestId, stale: !g.isLatest(requestId) };
 }
+
+/** 카드 원자료(cards.min.json) 한 번 읽기. 화면의 자료 기준 줄과 버전 대조에 쓴다 */
+export const cardsData = () => data();
 
 /** 입력, 탭, 분야가 바뀔 때 호출하면 진행 중 요청 결과가 stale로 돌아온다 */
 export const cancelPending = () => guard.cancel();
