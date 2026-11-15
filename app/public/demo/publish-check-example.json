@@ -1,0 +1,25 @@
+{
+  "note": "시연용 고정 예시. 실제 점검 결과 아님, 가상 파일명과 문장",
+  "target": "출장비 정산 도우미(가상)",
+  "groups": [
+    {
+      "key": "doc",
+      "items": [
+        { "id": "readme", "name": "README", "verdict": "ok", "check": "저장소 맨 위 README.md 파일 존재", "reason": "예시 파일 목록에 README.md 있음", "fix": "없음", "evidence": "README.md(예시 파일명)" },
+        { "id": "purpose", "name": "하는 일", "verdict": "ok", "check": "README 첫 문단에 도구 목적 한 문장", "reason": "예시 README 첫 문단에 목적 문장 있음", "fix": "없음", "evidence": "\"출장 기록 표에서 정산서를 만드는 도구\"(예시 문장)" },
+        { "id": "usage", "name": "사용 방법", "verdict": "fix", "check": "실행 순서와 입력 파일 설명", "reason": "예시 README에 입력 파일 서식 설명 없음", "fix": "입력 파일 서식과 실행 순서 추가", "evidence": "README.md 사용 방법 절 없음(예시)", "draft": true },
+        { "id": "env", "name": "실행 환경", "verdict": "unknown", "check": "필요한 프로그램과 버전", "reason": "예시 자료만으로 실행 환경 판단 불가", "fix": "필요한 프로그램과 버전 명시", "evidence": "requirements.txt(예시 파일명), 버전 표기 없음", "draft": true },
+        { "id": "license", "name": "이용 조건", "verdict": "fix", "check": "LICENSE 파일 또는 README 이용 조건 절", "reason": "예시 파일 목록에 LICENSE 없음", "fix": "기관 확인 뒤 이용 조건 명시", "evidence": "LICENSE 파일 없음(예시)", "draft": true }
+      ]
+    },
+    {
+      "key": "review",
+      "items": [
+        { "id": "gitignore", "name": ".gitignore", "verdict": "ok", "check": "빌드 결과와 개인 설정 제외 목록", "reason": "예시 파일 목록에 .gitignore 있음", "fix": "없음", "evidence": ".gitignore(예시 파일명)" },
+        { "id": "test", "name": "테스트", "verdict": "unknown", "check": "테스트 파일과 실행 방법", "reason": "예시 자료만으로 테스트 범위 판단 불가", "fix": "테스트 실행 방법 README에 추가", "evidence": "tests/ 폴더(예시), 실행 방법 없음" },
+        { "id": "ci", "name": "자동 검사 설정", "verdict": "fix", "check": "자동 검사 설정 파일", "reason": "예시 파일 목록에 자동 검사 설정 없음", "fix": "자동 검사 설정 추가 검토", "evidence": ".gitlab-ci.yml 없음(예시)" },
+        { "id": "secret", "name": "민감정보 확인", "verdict": "unknown", "check": "인증정보, 개인정보 포함 여부", "reason": "파일명만으로 민감정보 포함 여부 판단 불가", "fix": "기관 보안 담당 별도 검토", "evidence": "config.example.ini(예시 파일명), 값은 가상" }
+      ]
+    }
+  ]
+}
