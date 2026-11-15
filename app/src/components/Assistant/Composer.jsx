@@ -17,7 +17,7 @@ export function Composer({ context = 'Panel', value, onChange, mode = 'task', on
     el.style.height = 'auto';
     el.style.height = `${el.scrollHeight}px`;
   }, [value, context, ref]);
-  const send = (e) => { e?.preventDefault(); if (!busy) onSubmit(value, mode); };
+  const send = (e) => { e?.preventDefault(); onSubmit(value, mode); };
   const errId = `${id}-rule`;
   const len = [...String(value || '')].length;
   return (
@@ -45,7 +45,7 @@ export function Composer({ context = 'Panel', value, onChange, mode = 'task', on
           onCompositionEnd={() => setComposing(false)}
           onKeyDown={(e) => { if (e.key === 'Enter' && !e.shiftKey && !composing && !e.nativeEvent.isComposing) send(e); }}
         />
-        <button type="submit" className="rb-ai-send" aria-label={a.A_send} title={a.A_send} disabled={busy}>
+        <button type="submit" className="rb-ai-send" aria-label={a.A_send} title={a.A_send} aria-busy={busy}>
           <Icon name={context === 'Page' ? 'search' : 'arrow-right'} />
         </button>
       </div>

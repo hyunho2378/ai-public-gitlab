@@ -58,6 +58,9 @@ export function AssistantPanel() {
   }, [mounted, desk]);
 
   const submit = async (value, m) => {
+    // 처리 중 같은 질문 재전송은 막는다(새 질문이면 이전 요청 취소 뒤 새 차례)
+    const last = ai.turns[ai.turns.length - 1];
+    if (busy && last && last.query === String(value).trim() && last.mode === m) return;
     const r = await ai.ask({ query: value, mode: m, fields: [] });
     if (r?.error) { setError({ reason: r.error, length: r.length }); input.current?.focus(); return; }
     setText('');
