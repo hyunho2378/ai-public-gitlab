@@ -1,0 +1,27 @@
+/* A-03 공개 준비 점검 예시(UX/23 3-9-5): 판정은 아이콘과 글자, 채움과 배지 없음. 아코디언 행 구분선 */
+.rb-a03 { gap: var(--krds-gap-5); }
+.rb-a03 p { margin: 0; }
+.rb-pc-result, .rb-pc-group { display: flex; flex-direction: column; gap: var(--krds-gap-3); animation: rb-q-rise var(--rb-motion-base) var(--rb-motion-ease); }
+.rb-pc-group h2 { margin: var(--krds-gap-4) 0 0; }
+.rb-pc-legend { display: flex; flex-wrap: wrap; gap: var(--krds-gap-2) var(--krds-gap-6); }
+.rb-pc-verdict { display: inline-flex; align-items: center; gap: var(--krds-gap-2); color: var(--krds-color-text-basic); }
+.rb-pc-verdict .rb-icon { width: var(--layout-ai-icon); height: var(--layout-ai-icon); flex: none; }
+.rb-pc-verdict.is-ok .rb-icon { color: var(--krds-color-element-success); }
+.rb-pc-verdict.is-fix .rb-icon { color: var(--krds-color-element-warning); }
+.rb-pc-verdict.is-unknown { color: var(--krds-color-text-subtle); }
+.rb-pc-verdict.is-unknown .rb-icon { color: var(--krds-color-text-subtle); }
+.rb-pc-list { list-style: none; margin: 0; padding: 0; }
+.rb-pc-item { border-top: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); }
+.rb-pc-item:last-child { border-bottom: var(--krds-border-width-static-regular) solid var(--krds-color-border-gray-light); }
+.rb-pc-head { display: flex; align-items: center; gap: var(--krds-gap-4); width: 100%; min-height: var(--krds-number-16); padding: var(--krds-padding-3) var(--krds-padding-2); border: 0; background: none; color: var(--krds-color-text-basic); text-align: left; cursor: pointer; transition: background-color var(--rb-motion-fast) var(--rb-motion-ease); }
+.rb-pc-head:hover { background: var(--layout-ai-question-bg); }
+.rb-pc-head > .krds-text-body-small { flex: 1; min-width: 0; }
+.rb-pc-head > .rb-icon[data-icon="arrow-down"] { width: var(--layout-ai-icon); height: var(--layout-ai-icon); transition: transform var(--rb-motion-base) var(--rb-motion-ease); }
+.rb-pc-head[aria-expanded="true"] > .rb-icon[data-icon="arrow-down"] { transform: rotate(180deg); }
+.rb-pc-body { margin: 0; padding: 0 var(--krds-padding-2) var(--krds-padding-6); display: grid; gap: var(--krds-gap-2); animation: rb-q-rise var(--rb-motion-base) var(--rb-motion-ease); }
+.rb-pc-body > div { display: grid; grid-template-columns: var(--layout-intro-label-w) minmax(0, 1fr); gap: var(--krds-gap-4); }
+.rb-pc-body dt { font-weight: var(--rb-fw-current); }
+.rb-pc-body dd { margin: 0; overflow-wrap: anywhere; }
+@media (max-width: 767px) { .rb-pc-body > div { grid-template-columns: minmax(0, 1fr); gap: 0; } }
+@media (prefers-reduced-motion: reduce) { .rb-pc-result, .rb-pc-group, .rb-pc-body { animation: none; } }
+html.rb-reduce-motion .rb-pc-result, html.rb-reduce-motion .rb-pc-group, html.rb-reduce-motion .rb-pc-body { animation: none; }

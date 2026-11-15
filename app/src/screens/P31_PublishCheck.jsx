@@ -1,47 +1,103 @@
-// A-03 공개 준비 점검. 프로젝트 안 화면. 서버의 점검 결과(F-21)를 이 프로젝트의 파일 목록과 설명서로 받아 항목별로 보인다.
-// 공개 승인이 아님을 화면에서 분명히 한다.
-import { CHECK_LABEL } from './parts/checkLabels';
-import { Link, useParams } from 'react-router-dom';
-import { phrase } from '../components/Help/Phrase';
-import { t } from '../copy/ko';
-import { product } from '../api/client';
-import { useData } from '../api/useData';
+// A-03 공개 준비 점검 예시(F9, UX/23 3-9). 고정 예시 파일(app/public/demo/publish-check-example.json)만 표시. 실제 점검 계산, 업로드, 입력 칸, 진행률 없음.
+// 판정 3종(충족, 보완 필요, 확인 불가)과 이유, 보완 안내, 예시 근거. 불러오기 실패는 전체 통과로 바꾸지 않는다
+import { useRef, useState } from 'react';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { a } from '../copy/ai';
 import { ProjectFrame, useProject } from '../components/Layout/ProjectFrame';
-import { Status } from '../components/Feedback/Status';
-import '../components/Code/code.css';
+import { Notice } from '../components/Feedback/Status';
+import { Icon } from '../components/Code/Icon';
+import { toast } from '../components/Feedback/Toast';
+import './parts/a02.css';
+import './parts/a03.css';
 
+const BASE = import.meta.env.BASE_URL || '/';
+const VERDICT = {
+  ok: { icon: 'sys_success_mark', label: a.D9_ok, cls: 'is-ok' },
+  fix: { icon: 'sys_danger_mark', label: a.D9_fix, cls: 'is-fix' },
+  unknown: { icon: 'ext/info', label: a.D9_unknown, cls: 'is-unknown' },
+};
+const GROUP = { doc: a.D9_groupDoc, review: a.D9_groupReview };
 
 export default function PublishCheck() {
-  const { id } = useParams();
   const frame = useProject();
-  const body = useData(async () => (await product.post('/publication-checks', { projectId: Number(id) })).data, [id]);
+  const loc = useLocation();
+  const navigate = useNavigate();
+  const fromId = loc.state?.fromId ?? null;
+  const [st, setSt] = useState({ s: 'initial' });
+  const [openIds, setOpenIds] = useState(() => new Set());
+  const openBtn = useRef(null);
+  const load = () => {
+    setSt({ s: 'loading' });
+    fetch(`${BASE}demo/publish-check-example.json`, { cache: 'no-cache' })
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
+      .then((d) => { if (!Array.isArray(d.groups)) throw new Error('shape'); setSt({ s: 'open', d }); setOpenIds(new Set([d.groups[0]?.items[2]?.id].filter(Boolean))); })
+      .catch(() => setSt({ s: 'fail' }));
+  };
+  const reset = () => { setSt({ s: 'initial' }); setOpenIds(new Set()); setTimeout(() => openBtn.current?.focus(), 0); };
+  const toggle = (id) => setOpenIds((s) => { const n = new Set(s); if (n.has(id)) n.delete(id); else n.add(id); return n; });
+  const toDraft = () => { if (fromId) navigate(`/projects/${fromId}/about#readme-demo`); else { toast(a.D9_pickProject); navigate('/'); } };
   if (!frame.data) return <ProjectFrame screenId="A-03" data={frame} />;
-  const check = body.data;
-  const passed = check ? check.checks.filter((c) => c.pass).length : 0;
-  const allPass = check && passed === check.checks.length;
+  const name = frame.data.project.name;
+  const total = st.d ? st.d.groups.reduce((n, g) => n + g.items.length, 0) : 0;
   return (
-    <ProjectFrame screenId="A-03" tab="" tabLabel={t.PubCheck_title} crumbs={[[t.Settings_title, `/projects/${frame.id}/settings`], [t.PubCheck_title, null]]} data={frame} state={check ? (allPass ? 'Pass' : 'NeedsWork') : body.state}>
-      <div className="rb-code-area">
-        {/* M13 A-03: Figma는 제목 바로 아래 점검 묶음(근거 범위 문장은 묶음 끝에 있음) */}
-        {!check ? (
-          <Status {...body} />
-        ) : (
-          <section className="rb-stack" aria-live="polite" data-figma="checks">
-            <h3 className="krds-text-body-small-bold">{allPass ? t.P09_24 : t.fn.checkCount(check.checks.length, passed)}</h3>
-            <p className="krds-text-body-small">{phrase(t.P09_25)}</p>
-            <ul className="rb-checklist">
-              {check.checks.map((c) => (
-                <li key={c.id} className={c.pass ? 'is-pass' : 'is-fail'}>
-                  <span className={`rb-status-text ${c.pass ? 'is-success' : 'is-warning'}`}>{c.pass ? t.P09_26 : t.P09_27}</span> {CHECK_LABEL[c.id] || c.id}
-                </li>
-              ))}
-            </ul>
-            <p className="krds-text-body-xsmall rb-subtle">{phrase(t.PubCheck_scope)}</p>
-            {check.security?.notice && <p className="krds-text-body-xsmall rb-subtle">{check.security.notice}</p>}
+    <ProjectFrame screenId="A-03" tab="" tabLabel={a.D9_title} crumbs={[[a.D9_title, null]]} data={frame} state={st.s}>
+      <div className="rb-one-col rb-a03" data-figma="publish-check-demo">
+        <Notice>{a.D9_scope}</Notice>
+        <p className="krds-text-body-xsmall rb-demo-target"><span>{a.D9_target}</span><span>{fromId ? a.D9_current(name) : a.D9_noCurrent}</span></p>
+        {st.s === 'initial' || st.s === 'loading' ? (
+          <p><button type="button" ref={openBtn} className="krds-btn small primary" onClick={load} disabled={st.s === 'loading'}>{a.D9_open}</button></p>
+        ) : null}
+        {st.s === 'fail' ? (
+          <div role="alert" className="rb-status" data-figma="Feedback/Status block" data-state="Error">
+            <h2 className="krds-text-body-small-bold">{a.D9_loadFail}</h2>
+            <div className="rb-actions">
+              <button type="button" className="krds-btn small tertiary" onClick={load}>{a.Q_retry}</button>
+              {fromId ? <Link className="krds-btn text small" to={`/projects/${fromId}/about`}>{a.D9_back}</Link> : null}
+            </div>
+          </div>
+        ) : null}
+        {st.s === 'open' ? (
+          <section className="rb-pc-result" aria-live="polite">
+            <p className="rb-pc-legend krds-text-body-xsmall">
+              {Object.entries(VERDICT).map(([k, v]) => <span key={k} className={'rb-pc-verdict ' + v.cls}><Icon name={v.icon} />{v.label}<span className="rb-subtle">{k === 'ok' ? a.D9_legendOk : k === 'fix' ? a.D9_legendFix : a.D9_legendUnknown}</span></span>)}
+            </p>
+            <p className="krds-text-body-xsmall rb-subtle">{a.D9_count(total)}</p>
+            {st.d.groups.map((g) => (
+              <section key={g.key} className="rb-pc-group" aria-labelledby={`rb-pc-${g.key}`}>
+                <h2 id={`rb-pc-${g.key}`} className="krds-text-body-small-bold">{GROUP[g.key] || g.key}</h2>
+                <ul className="rb-pc-list">
+                  {g.items.map((it) => {
+                    const v = VERDICT[it.verdict] || VERDICT.unknown;
+                    const on = openIds.has(it.id);
+                    return (
+                      <li key={it.id} className="rb-pc-item">
+                        <button type="button" className="rb-pc-head" aria-expanded={on} aria-controls={`rb-pc-body-${it.id}`} onClick={() => toggle(it.id)}>
+                          <span className="krds-text-body-small">{it.name}</span>
+                          <span className={'rb-pc-verdict krds-text-body-xsmall ' + v.cls}><Icon name={v.icon} />{v.label}</span>
+                          <Icon name="arrow-down" />
+                        </button>
+                        {on ? (
+                          <dl id={`rb-pc-body-${it.id}`} className="rb-pc-body krds-text-body-xsmall">
+                            <div><dt>{a.D9_check}</dt><dd>{it.check}</dd></div>
+                            <div><dt>{a.D9_reason}</dt><dd>{it.reason}</dd></div>
+                            <div><dt>{a.D9_fixGuide}</dt><dd>{it.fix}{it.draft ? <> <button type="button" className="krds-btn text small" onClick={toDraft}>{a.D9_draftLink}</button></> : null}</dd></div>
+                            <div><dt>{a.D9_evidence}</dt><dd>{it.evidence} <span className="rb-subtle">{a.D_example}</span></dd></div>
+                          </dl>
+                        ) : null}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </section>
+            ))}
           </section>
-        )}
-        <p className="krds-text-body-xsmall rb-subtle">
-          <Link className="krds-link" to={`/projects/${id}`}>{t.PubCheck_back}</Link>
+        ) : null}
+        <p className="krds-text-body-xsmall rb-subtle">{a.D9_notApproval}</p>
+        <p className="krds-text-body-xsmall rb-subtle">{a.D9_notSecurity}</p>
+        <p className="rb-actions">
+          {st.s === 'open' ? <button type="button" className="krds-btn text small" onClick={reset}>{a.D9_reset}</button> : null}
+          {fromId ? <Link className="krds-btn small tertiary" to={`/projects/${fromId}/about`}>{a.D9_back}</Link> : null}
+          <Link className="krds-btn text small" to="/">{a.Q_toList}</Link>
         </p>
       </div>
     </ProjectFrame>
