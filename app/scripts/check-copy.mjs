@@ -4,7 +4,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 
-const TARGETS = ['src/copy/ko.js', 'src/copy/ui.js', 'src/api/static.js', '../server/src'];
+const TARGETS = ['src/copy/ko.js', 'src/copy/ui.js', 'src/copy/ai.js', 'src/api/static.js', '../server/src'];
 const PATTERNS = [
   ['와 ', /와 /g],
   ['과 ', /과 /g],
@@ -15,7 +15,7 @@ const PATTERNS = [
   ['않습니다', /않습니다/g],
   // D-19 1장(UX-007 13장): 공공 깃랩 말이 아닌 이름 금지. 이슈 보드는 공공 깃랩 원문이라 허용
   ['금지 용어 관심 표시', /관심 표시/g],
-  ['금지 용어 써 봤어요', /써 봤어요/g],
+  // 2026-11-15 UX/23 3-8: '써 봤어요 예시'(F8 시연 구역 이름)는 기획안 기능 이름이라 허용(D-19 금지 해제)
   ['금지 용어 변경 제안', /변경 제안/g],
   ['금지 용어 작업 갈래', /작업 갈래/g],
   ['금지 용어 변경 기록', /변경 기록/g],

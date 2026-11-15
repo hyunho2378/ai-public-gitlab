@@ -116,6 +116,44 @@
   --rb-motion-exit-ease: cubic-bezier(0.4, 0, 1, 1);
   --rb-motion-exit-base: calc(var(--rb-motion-base) * 0.75);
   --rb-tip-delay: 400ms;
+  /* UX/22 5-1, UX/23 3-10: 업무 도우미 패널과 3차 신뢰 부품(Figma 변수 layout/ai-*와 같은 이름). 값은 이 한 곳 */
+  --layout-ai-panel-w: calc(var(--krds-number-21) * 4 + var(--krds-number-8));
+  --layout-ai-panel-gap: var(--layout-panel-gap);
+  --layout-ai-panel-radius: var(--layout-panel-radius);
+  --layout-ai-panel-pad-x: var(--krds-number-8);
+  --layout-ai-head-h: var(--krds-number-16);
+  --layout-ai-turn-gap: var(--krds-number-10);
+  --layout-ai-block-gap: var(--krds-number-7);
+  --layout-ai-empty-gap: var(--krds-number-14);
+  --layout-ai-suggest-h: var(--krds-number-14);
+  --layout-ai-composer-h: var(--krds-number-17);
+  --layout-ai-composer-max-h: calc(var(--rb-lh-15) * 4 + var(--krds-number-8) * 2);
+  --layout-ai-entry-h: var(--krds-number-16);
+  --layout-ai-composer-radius: var(--krds-radius-xlarge1);
+  --layout-ai-send: var(--krds-number-12);
+  --layout-ai-icon: var(--krds-number-8);
+  --layout-ai-icon-lg: var(--krds-number-10);
+  --layout-ai-accent: var(--krds-color-light-primary-50);
+  --layout-ai-question-bg: var(--krds-color-light-gray-5);
+  --layout-ai-shadow-1: 0 var(--krds-number-2) var(--krds-number-5) var(--krds-color-alpha-shadow2);
+  --layout-ai-shadow-3: 0 var(--krds-number-5) var(--krds-number-9) var(--krds-color-alpha-shadow3);
+  --layout-ai-rise: var(--rb-menu-rise);
+  --layout-ai-slide: var(--krds-number-10);
+  --layout-ai-sheet-top: var(--krds-number-20);
+  --layout-ai-stagger: var(--rb-motion-fast);
+  --layout-ai-z: 85;
+  --layout-ai-turn-max: 20;
+  --layout-ai-dim: rgb(0 0 0 / 0.64);
+  /* 3차 신뢰 부품: 근거 배지 높이 24, 모서리 4, 소개 항목 라벨 열 120, Notice 높이 32, 근거 줄 강조 면, 시연 패널 최대 높이 480(360은 400) */
+  --layout-basis-badge-h: var(--krds-number-10);
+  --layout-basis-badge-radius: var(--krds-radius-small2);
+  --layout-intro-label-w: calc(var(--krds-number-21) + var(--krds-number-12));
+  --layout-notice-h: var(--krds-number-12);
+  --layout-evidence-bg: var(--krds-color-light-gray-10);
+  --layout-evidence-hold: 1200ms;
+  --layout-demo-max-h: calc(var(--krds-number-21) * 5);
+  --layout-demo-radius: var(--krds-radius-medium3);
+  --layout-metric-bar-h: var(--krds-number-3);
   --rb-menu-rise: var(--krds-number-5);
   /* D-21 7장 여백: Figma 변수 모음 'layout'과 같은 이름(layout/* → --layout-*)과 값. 값은 이 한 곳에서만 */
   --layout-topbar-pad-x: var(--krds-number-8);
@@ -314,7 +352,7 @@ html.rb-font-large {
 /* D-21 7장(사용자 확정): 판 안 좌우 여백 1280 이상 48, 1024~1279 32, 768~1023 24, 768 미만 16. 1279 구간은 KRDS 공식 구간 밖이지만 사용자 결정이라 유지 */
 @media (max-width: 1279px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-md); } }
 @media (max-width: 1023px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x); } }
-@media (max-width: 767px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-sm); --rb-gutter: var(--layout-container-pad-x-sm); } }
+@media (max-width: 767px) { :root { --rb-panel-pad-x: var(--layout-container-pad-x-sm); --rb-gutter: var(--layout-container-pad-x-sm); --layout-demo-max-h: calc(var(--krds-number-21) * 4 + var(--krds-number-8)); } }
 @media (max-width: 1023px) {
   :root {
     --rb-page-pad: var(--krds-padding-5);
@@ -324,9 +362,9 @@ html.rb-font-large {
 
 /* D-22 1장: 움직임 줄이기 */
 @media (prefers-reduced-motion: reduce) {
-  :root { --rb-motion-fast: 0ms; --rb-motion-base: 0ms; --rb-motion-slow: 0ms; --rb-tip-delay: 0ms; }
+  :root { --rb-motion-fast: 0ms; --rb-motion-base: 0ms; --rb-motion-slow: 0ms; --rb-tip-delay: 0ms; --layout-ai-stagger: 0ms; }
 }
-html.rb-reduce-motion { --rb-motion-fast: 0ms; --rb-motion-base: 0ms; --rb-motion-slow: 0ms; --rb-tip-delay: 0ms; }
+html.rb-reduce-motion { --rb-motion-fast: 0ms; --rb-motion-base: 0ms; --rb-motion-slow: 0ms; --rb-tip-delay: 0ms; --layout-ai-stagger: 0ms; }
 
 html.rb-snap-on { --rb-top-extra: var(--krds-number-10); }
 
@@ -354,4 +392,7 @@ html[data-krds-mode="dark"], html[data-krds-mode="high-contrast"] {
   --layout-topic-bg: var(--krds-color-light-gray-30);
   --layout-topic-text: var(--krds-color-light-gray-95);
   --layout-text-subtle: var(--krds-color-light-gray-20);
+  --layout-ai-accent: var(--krds-color-light-primary-40);
+  --layout-ai-question-bg: var(--layout-raised-bg);
+  --layout-evidence-bg: var(--krds-color-light-gray-80);
 }
