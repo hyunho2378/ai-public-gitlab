@@ -4,7 +4,7 @@ import { loadDashboard } from './data/load';
 import { activity, calendar, fieldCounts, languages, metrics, parseDate } from './lib/compute';
 import { Heatmap } from './components/Heatmap';
 import { Activity } from './components/Activity';
-import { Fields } from './components/Fields';
+import { CardMetrics } from './components/CardMetrics';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
 import { Languages } from './components/Languages';
@@ -50,10 +50,9 @@ export function App() {
               <Heatmap cal={view.cal} />
               <Languages langs={view.langs} />
             </div>
-            <div className="dash-cols">
-              <Activity a={view.a} />
-              <Fields f={view.f} />
-            </div>
+            {/* UX/23 3-6-2(부모 결정): 기존 분야 구역 삭제, 새 '소개 정보 현황' 구역 */}
+            <CardMetrics />
+            <Activity a={view.a} />
             <RecentIssues data={state.data} now={view.now} />
             <ProjectTable data={state.data} now={view.now} fields={view.f.named} />
           </>

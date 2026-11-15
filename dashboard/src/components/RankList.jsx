@@ -6,12 +6,25 @@ export function RankList({ rows, caption, figma }) {
   return (
     <ul className="dash-rank" aria-label={caption} data-figma={figma}>
       {rows.map((r) => (
-        <li key={r.label} className={`dash-rank-row${r.muted ? ' is-muted' : ''}`} data-figma="Dashboard/Rank row" data-figma-key="rank-row">
-          <span className="dash-rank-line">
-            <span className="krds-text-body-small dash-rank-label" title={r.label}>{r.label}</span>
-            <span className="krds-text-body-small dash-num dash-rank-value">{r.display}</span>
-          </span>
-          <span className="dash-rank-track" aria-hidden="true"><span className="dash-rank-bar" style={{ width: `${Math.max(0, (r.value / max) * 100)}%` }} /></span>
+        <li key={r.label} className={`dash-rank-row${r.muted ? ' is-muted' : ''}${r.href ? ' is-link' : ''}`} data-figma="Dashboard/Rank row" data-figma-key="rank-row">
+          {/* 링크 행(F6 분야 행): 행 전체가 같은 조건 목록 이동(UX/23 3-6-4) */}
+          {r.href ? (
+            <a className="dash-rank-hit" href={r.href} aria-label={`${r.linkLabel || r.label}, ${r.display}`}>
+              <span className="dash-rank-line">
+                <span className="krds-text-body-small dash-rank-label" title={r.label}>{r.label}</span>
+                <span className="krds-text-body-small dash-num dash-rank-value">{r.display}</span>
+              </span>
+              <span className="dash-rank-track" aria-hidden="true"><span className="dash-rank-bar" style={{ width: `${Math.max(0, (r.value / max) * 100)}%` }} /></span>
+            </a>
+          ) : (
+            <>
+              <span className="dash-rank-line">
+                <span className="krds-text-body-small dash-rank-label" title={r.label}>{r.label}</span>
+                <span className="krds-text-body-small dash-num dash-rank-value">{r.display}</span>
+              </span>
+              <span className="dash-rank-track" aria-hidden="true"><span className="dash-rank-bar" style={{ width: `${Math.max(0, (r.value / max) * 100)}%` }} /></span>
+            </>
+          )}
         </li>
       ))}
     </ul>
