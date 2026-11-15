@@ -1,0 +1,166 @@
+{
+ "schemaVersion": 1,
+ "dataVersion": "2026-10-30-1c0f23bd",
+ "fetchedDate": "2026-10-30",
+ "builtAt": "2026-11-15T00:27:52.183Z",
+ "scope": {
+  "source": "공공 깃랩 공개 프로젝트",
+  "total": 728,
+  "excluded": {
+   "deletionScheduled": 0
+  },
+  "complete": true,
+  "missing": []
+ },
+ "total": {
+  "count": 728
+ },
+ "sourceField": {
+  "present": {
+   "count": 310,
+   "ratio": 0.586
+  },
+  "absent": {
+   "count": 219,
+   "ratio": 0.414
+  },
+  "unknown": {
+   "count": 199
+  },
+  "denominator": 529
+ },
+ "fieldAfter": {
+  "confirmed": [
+   {
+    "name": "문서/보고서",
+    "count": 14,
+    "ratio": 0.0192
+   },
+   {
+    "name": "기타",
+    "count": 8,
+    "ratio": 0.011
+   },
+   {
+    "name": "엑셀/사무 자동화",
+    "count": 7,
+    "ratio": 0.0096
+   },
+   {
+    "name": "영상/이미지/음성",
+    "count": 6,
+    "ratio": 0.0082
+   },
+   {
+    "name": "인사/교육",
+    "count": 5,
+    "ratio": 0.0069
+   },
+   {
+    "name": "생성형 AI/챗봇/검색",
+    "count": 5,
+    "ratio": 0.0069
+   },
+   {
+    "name": "데이터/통계/분석",
+    "count": 4,
+    "ratio": 0.0055
+   },
+   {
+    "name": "회계/예산/출장",
+    "count": 3,
+    "ratio": 0.0041
+   },
+   {
+    "name": "민원/복지/상담",
+    "count": 2,
+    "ratio": 0.0027
+   },
+   {
+    "name": "개발/보안/인프라",
+    "count": 2,
+    "ratio": 0.0027
+   },
+   {
+    "name": "시설/안전/재난",
+    "count": 1,
+    "ratio": 0.0014
+   },
+   {
+    "name": "법령/규제/감사",
+    "count": 1,
+    "ratio": 0.0014
+   }
+  ],
+  "confirmedTotal": {
+   "count": 58,
+   "ratio": 0.0797
+  },
+  "check": {
+   "count": 99,
+   "ratio": 0.136
+  },
+  "none": {
+   "count": 571,
+   "ratio": 0.7843
+  },
+  "denominator": 728
+ },
+ "basis": {
+  "readme": {
+   "count": 160,
+   "ratio": 0.2198
+  },
+  "code": {
+   "count": 0,
+   "ratio": 0
+  },
+  "none": {
+   "count": 568,
+   "ratio": 0.7802
+  },
+  "denominator": 728
+ },
+ "cardStatus": {
+  "ok": {
+   "count": 203,
+   "ratio": 0.2788
+  },
+  "thin": {
+   "count": 260,
+   "ratio": 0.3571
+  },
+  "failed": {
+   "count": 265,
+   "ratio": 0.364
+  },
+  "denominator": 728
+ },
+ "readmeState": {
+  "present": {
+   "count": 446
+  },
+  "absent": {
+   "count": 17
+  },
+  "unknown": {
+   "count": 265
+  }
+ },
+ "noReadmeCards": {
+  "withEvidence": {
+   "count": 0,
+   "ratio": 0
+  },
+  "thin": {
+   "count": 17,
+   "ratio": 1
+  },
+  "failed": {
+   "count": 0,
+   "ratio": 0
+  },
+  "denominator": 17,
+  "readmeUnknown": 265
+ }
+}
