@@ -103,8 +103,9 @@ export function validateAiResponse(resp, data, { fields = [], excludeIds = [] } 
     const bl = it.basisLines;
     if (bl != null && !(Array.isArray(bl) && bl.length === 2 && bl.every(Number.isInteger) && bl[0] >= 1 && bl[0] <= bl[1])) return { ok: false, reason: 'bad-basis-lines', id };
     if (it.level != null && !LEVELS.includes(it.level)) return { ok: false, reason: 'bad-level', id };
+    if (it.difference != null && typeof it.difference !== 'string') return { ok: false, reason: 'bad-difference', id };
     seen.add(id);
-    items.push({ id, reason: it.reason.trim(), basisLines: bl ?? null, level: it.level ?? null });
+    items.push({ id, reason: it.reason.trim(), basisLines: bl ?? null, level: it.level ?? null, difference: it.difference?.trim() || null });
   }
   return { ok: true, items };
 }
@@ -127,7 +128,7 @@ async function callAi(url, payload, fetchImpl, timeoutMs) {
  * AI 응답 형식: { dataVersion?, items: [{ id, reason, basisLines: [시작,끝]|null, level: high|medium|low|null }] }
  */
 export async function runSearch(input, deps) {
-  const { data, aiUrl, fetchImpl = globalThis.fetch, fallbackSearch, timeoutMs = 15000 } = deps;
+  const { data, aiUrl, fetchImpl = globalThis.fetch, fallbackSearch, timeoutMs = 40000 } = deps;
   const base = { dataVersion: data?.meta?.version ?? null, fetchedDate: data?.meta?.fetchedDate ?? null };
   const v = validateQuery(input?.query);
   if (!v.ok) return { ...base, status: 'invalid', items: [], fallback: false, error: v.reason, length: v.length };

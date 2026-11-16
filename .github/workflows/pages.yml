@@ -26,6 +26,8 @@ jobs:
         run: npm run audit:code
       - name: 정적 모드 빌드
         working-directory: app
+        env:
+          VITE_SEARCH_URL: ${{ vars.VITE_SEARCH_URL }}
         run: npm run build:pages
       - name: 프로젝트 현황판 의존성 설치
         working-directory: dashboard
