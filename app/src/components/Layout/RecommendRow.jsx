@@ -23,7 +23,7 @@ export function RecommendRow({ item, card, kind = 'Recommend', fallback = false,
   if (!card) return null;
   const id = card.id;
   const readme = card.readme?.v === 'present' || card.readme?.v === 'template';
-  const oneLine = card.oneLine?.v;
+  const oneLine = card.oneLine?.v?.trim();
   const desc = cleanDescription(card.desc);
   const level = kind === 'Similar' ? (fallback ? a.Q_simSkipped : LEVEL[item.level] || a.Q_simUnknown) : null;
   const strong = !fallback && (item.level === 'high' || item.level === 'medium');
@@ -47,7 +47,7 @@ export function RecommendRow({ item, card, kind = 'Recommend', fallback = false,
         </p>
         {kind === 'Similar' && !fallback ? (
           <p className="rb-rec-line krds-text-body-xsmall">
-            <b>{a.Q_diff}</b> <span className="rb-subtle">{a.Q_diffUnknown}</span> <BasisMark id={id} />
+            <b>{a.Q_diff}</b> <span className="rb-subtle">{item.difference || a.Q_diffUnknown}</span> <BasisMark id={id} />
           </p>
         ) : null}
         <p className="rb-rec-meta krds-text-body-xsmall">
