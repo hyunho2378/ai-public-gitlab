@@ -105,29 +105,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "PDF·HWPX 발간물의 표를 뽑아 엑셀로 모아 주는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "통계연보·백서 등 발간물 표 엑셀 정리",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "묶음 zip을 풀어 input 폴더에 문서를 넣고 실행하기.bat을 두 번 누르면 output 폴더에 엑셀이 나온다.",
+   "evidence": {
+    "lines": [
+     56,
+     70
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "칸이 밀리거나 합친 칸이 비는 일이 있어 사람이 확인해야 하며, 그림만 있는 쪽은 건너뛴다.",
+   "evidence": {
+    "lines": [
+     22,
+     40
+    ]
+   },
    "source": "ai"
   }
  },
@@ -167,5 +194,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.134Z",
  "rulesAt": "2026-10-30T13:35:13.134Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.264Z"
 }

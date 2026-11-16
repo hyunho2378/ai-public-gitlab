@@ -96,29 +96,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공공문서 속 개인정보를 찾아 가린 PDF 사본을 만드는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     7
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "기록물·공문서 공개 전 개인정보 비식별 처리",
+   "evidence": {
+    "lines": [
+     3,
+     7
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "설치 패키지를 옮겨 설치한 뒤 문서를 넣고 검출 결과를 검수해 마스킹 사본 PDF를 만든다",
+   "evidence": {
+    "lines": [
+     6,
+     23
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows 10/11 전용이며 검출 결과는 검수자가 최종 판단해야 한다",
+   "evidence": {
+    "lines": [
+     10,
+     50
+    ]
+   },
    "source": "ai"
   }
  },
@@ -158,5 +185,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.975Z",
  "rulesAt": "2026-10-30T13:35:12.975Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.460Z"
 }

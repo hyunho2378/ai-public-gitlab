@@ -117,25 +117,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "제주도 업무 서비스용 KRDS 기반 공통 디자인 가이드",
+   "evidence": {
+    "lines": [
+     8,
+     10
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무·대민 웹서비스 화면 설계와 개발",
+   "evidence": {
+    "lines": [
+     8,
+     12
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     8,
+     12
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "저장소를 내려받아 npm run check:all로 디자인 규칙 검사를 실행합니다.",
+   "evidence": {
+    "lines": [
+     18,
+     21
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run check:all"
   },
   "limitations": {
    "value": null,
@@ -179,5 +201,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.211Z",
  "rulesAt": "2026-10-30T13:35:13.211Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.375Z"
 }

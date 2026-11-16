@@ -105,29 +105,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "온나라 접수 문서의 담당자를 AI로 추천·배부하는 브라우저 확장",
+   "evidence": {
+    "lines": [
+     15,
+     15
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "온나라 접수대기 문서 담당자 배부",
+   "evidence": {
+    "lines": [
+     15,
+     15
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     15,
+     26
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "edge://extensions에서 개발자 모드로 확장을 로드하고 옵션에 API 키와 RAG 컬렉션을 설정한 뒤 Side Panel을 연다",
+   "evidence": {
+    "lines": [
+     31,
+     36
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "chat.ai.go.kr에 접속 가능한 기관만 쓸 수 있고, 운영 적용 전 시험계정 검증과 보안 검토가 필요하다",
+   "evidence": {
+    "lines": [
+     1,
+     39
+    ]
+   },
    "source": "ai"
   }
  },
@@ -167,5 +194,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.983Z",
  "rulesAt": "2026-10-30T13:35:12.983Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.476Z"
 }

@@ -1,0 +1,457 @@
+[
+ {
+  "id": 805,
+  "oneLine": "공문서 맞춤법·띄어쓰기를 오프라인으로 검토하는 웹 도구",
+  "targetTask": "공문서·보고서 맞춤법과 공공언어 1차 검토",
+  "fields": [
+   "문서·보고서"
+  ],
+  "runSummary": "index.html 파일을 브라우저로 열고 글을 붙여넣거나 파일을 불러와 검사하기를 누른다",
+  "rawCommands": null,
+  "limitations": "구형 .hwp 형식은 지원하지 않고, 표·글상자·머리말 등 일부 글자는 추출되지 않을 수 있다",
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    12
+   ],
+   "fields": [
+    3,
+    12
+   ],
+   "runSummary": [
+    6,
+    14
+   ],
+   "limitations": [
+    18,
+    19
+   ]
+  }
+ },
+ {
+  "id": 809,
+  "oneLine": "폐쇄망 PC에서도 쓰는 23종 올인원 PDF 도구",
+  "targetTask": "PDF 병합·분할·변환과 전자서명·관인 날인",
+  "fields": [
+   "문서·보고서"
+  ],
+  "runSummary": null,
+  "rawCommands": null,
+  "limitations": "전자서명은 문서의 효력을 보장하지 않으며 유효성 검증 효력은 서명 당시에만 유효하다",
+  "lines": {
+   "oneLine": [
+    5,
+    8
+   ],
+   "targetTask": [
+    42,
+    57
+   ],
+   "fields": [
+    5,
+    8
+   ],
+   "limitations": [
+    68,
+    69
+   ]
+  }
+ },
+ {
+  "id": 810,
+  "oneLine": "택배 송장번호 여러 건을 한 번에 조회해 엑셀로 내보내는 도구",
+  "targetTask": "택배 추가배송비 지원사업 송장 검증",
+  "fields": [
+   "엑셀·사무 자동화"
+  ],
+  "runSummary": "Releases에서 택배송장일괄조회.exe를 받아 더블클릭하면 전용 프로그램 창이 열린다",
+  "rawCommands": null,
+  "limitations": "배송조회 때는 인터넷 연결이 필요하고, 저장소를 git clone한 상태에서는 start.bat이 동작하지 않는다",
+  "lines": {
+   "oneLine": [
+    5,
+    5
+   ],
+   "targetTask": [
+    7,
+    7
+   ],
+   "fields": [
+    5,
+    7
+   ],
+   "runSummary": [
+    35,
+    52
+   ],
+   "limitations": [
+    44,
+    57
+   ]
+  }
+ },
+ {
+  "id": 811,
+  "oneLine": null,
+  "targetTask": null,
+  "fields": [],
+  "runSummary": null,
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {}
+ },
+ {
+  "id": 812,
+  "oneLine": "대상자 주소를 인근 랜드마크 주소로 바꿔 익명화하는 웹 도구",
+  "targetTask": "인사 배치 시 대상자 주소 개인정보 익명화",
+  "fields": [
+   "인사·교육"
+  ],
+  "runSummary": "웹 주소에 접속해 카카오 지도 JavaScript 키를 넣고 대상자 주소를 입력한 뒤 변환을 실행한다",
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    3
+   ],
+   "fields": [
+    3,
+    3
+   ],
+   "runSummary": [
+    23,
+    55
+   ]
+  }
+ },
+ {
+  "id": 813,
+  "oneLine": "문서 속 개인정보를 찾아 비식별 파일로 만드는 오프라인 프로그램",
+  "targetTask": "텍스트·Office·한글 문서 개인정보 비식별화",
+  "fields": [
+   "문서·보고서"
+  ],
+  "runSummary": "PowerShell에서 빌드 스크립트를 실행해 설치파일(PII-Cleaner-Setup.exe)을 만든다",
+  "rawCommands": ".\\build-windows.ps1",
+  "limitations": "구형 .doc·.xls·.hwp는 원본 형식으로 다시 저장하려면 별도 편집기나 변환기 연동이 필요하다",
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    19
+   ],
+   "fields": [
+    3,
+    19
+   ],
+   "runSummary": [
+    59,
+    65
+   ],
+   "limitations": [
+    25,
+    25
+   ]
+  }
+ },
+ {
+  "id": 814,
+  "oneLine": "AI 민주정부 실현 전략을 소개하는 한 페이지 홍보 웹사이트",
+  "targetTask": "AI 민주정부 정책 홍보",
+  "fields": [
+   "기타"
+  ],
+  "runSummary": "index.html을 브라우저에서 열거나 로컬 서버를 띄워 localhost:8000으로 접속한다",
+  "rawCommands": "python3 -m http.server 8000",
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    5
+   ],
+   "fields": [
+    3,
+    5
+   ],
+   "runSummary": [
+    9,
+    17
+   ]
+  }
+ },
+ {
+  "id": 815,
+  "oneLine": "법제처 법령 XML을 AI용 마크다운 문서로 정리하는 도구",
+  "targetTask": "법령·행정규칙 원문 수집과 AI 활용용 정리",
+  "fields": [
+   "법령·규제·감사"
+  ],
+  "runSummary": "파이썬 가상환경을 만들어 필요한 패키지를 설치하고 법제처 Open API 인증값을 설정한다",
+  "rawCommands": null,
+  "limitations": "생성 결과는 공식 법령 원문이나 해석을 대체하지 않아 최신 원문과 시행일을 따로 확인해야 한다",
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    5
+   ],
+   "fields": [
+    3,
+    5
+   ],
+   "runSummary": [
+    50,
+    70
+   ],
+   "limitations": [
+    7,
+    7
+   ]
+  }
+ },
+ {
+  "id": 820,
+  "oneLine": "의도와 자료만으로 공공기관 문서 초안을 만드는 도구의 소스",
+  "targetTask": "결재용 공공기관 문서 초안 작성",
+  "fields": [
+   "문서·보고서"
+  ],
+  "runSummary": "설치 없이 웹앱에서 바로 쓰거나 Claude Code 플러그인·MCP로 설치해 쓴다",
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    20,
+    22
+   ],
+   "targetTask": [
+    20,
+    20
+   ],
+   "fields": [
+    20,
+    20
+   ],
+   "runSummary": [
+    8,
+    34
+   ]
+  }
+ },
+ {
+  "id": 822,
+  "oneLine": "자료를 분석해 7대 항목 기획보고서를 써 주는 Claude 스킬",
+  "targetTask": "공무원 기획보고서 작성",
+  "fields": [
+   "문서·보고서"
+  ],
+  "runSummary": "저장소를 Claude 스킬 폴더에 복제하고 npm install 후 /gov-report로 호출한다",
+  "rawCommands": "git clone <이 저장소> ~/.claude/skills/gov-report",
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    1,
+    3
+   ],
+   "fields": [
+    1,
+    3
+   ],
+   "runSummary": [
+    11,
+    19
+   ]
+  }
+ },
+ {
+  "id": 824,
+  "oneLine": "현황·통계를 A4 1~2쪽 원페이퍼 보고서로 줄이는 AI 스킬",
+  "targetTask": "의사결정권자 보고용 원페이퍼 작성",
+  "fields": [
+   "문서·보고서"
+  ],
+  "runSummary": "기본은 마크다운으로 받고, 워드가 필요하면 템플릿 스크립트를 복사해 고친 뒤 node로 실행한다",
+  "rawCommands": "node build.js",
+  "limitations": "한글(HWPX) 출력은 별도 hwpx 스킬이 있는 환경에서만 된다",
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    4
+   ],
+   "fields": [
+    3,
+    4
+   ],
+   "runSummary": [
+    40,
+    55
+   ],
+   "limitations": [
+    44,
+    44
+   ]
+  }
+ },
+ {
+  "id": 825,
+  "oneLine": "빈 LLM 위키 지식베이스 골격을 폴더에 설치하는 Claude 스킬",
+  "targetTask": "LLM이 정리하는 지식베이스(위키) 초기 구성",
+  "fields": [
+   "생성형 AI·챗봇·검색"
+  ],
+  "runSummary": "스킬 폴더에 복제한 뒤 Claude Code에서 /llm-wiki-init 명령에 설치할 폴더를 지정한다",
+  "rawCommands": "/llm-wiki-init <설치할 폴더 경로> [목적 한 줄]",
+  "limitations": "예시 요약이나 개체 페이지 같은 자료는 만들지 않고 구조와 규칙만 생성한다",
+  "lines": {
+   "oneLine": [
+    3,
+    4
+   ],
+   "targetTask": [
+    3,
+    6
+   ],
+   "fields": [
+    3,
+    4
+   ],
+   "runSummary": [
+    10,
+    25
+   ],
+   "limitations": [
+    6,
+    6
+   ]
+  }
+ },
+ {
+  "id": 826,
+  "oneLine": "HTML 발표자료를 만드는 AI 스킬의 한국어 최적화판",
+  "targetTask": "발표자료·카드뉴스 제작",
+  "fields": [
+   "문서·보고서"
+  ],
+  "runSummary": "npx skills add 명령 한 줄로 설치한다",
+  "rawCommands": "npx skills add https://github.com/aiden-44/html-ppt-skill",
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    25
+   ],
+   "targetTask": [
+    8,
+    8
+   ],
+   "fields": [
+    3,
+    25
+   ],
+   "runSummary": [
+    12,
+    14
+   ]
+  }
+ },
+ {
+  "id": 827,
+  "oneLine": "교육연수원 구내식당 식단을 날짜로 조회하는 웹앱",
+  "targetTask": "구내식당 주간 식단 안내와 갱신",
+  "fields": [
+   "기타"
+  ],
+  "runSummary": "주간업무 PDF를 지정 폴더에 저장하면 감시 스크립트가 파싱·검증·배포를 자동으로 진행한다",
+  "rawCommands": "powershell -ExecutionPolicy Bypass -File scripts\\watch.ps1",
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    8
+   ],
+   "fields": [
+    3,
+    3
+   ],
+   "runSummary": [
+    8,
+    18
+   ]
+  }
+ },
+ {
+  "id": 828,
+  "oneLine": null,
+  "targetTask": null,
+  "fields": [],
+  "runSummary": "npm install 후 .env.local에 Gemini API 키를 넣고 npm run dev로 실행한다",
+  "rawCommands": "npm run dev",
+  "limitations": null,
+  "lines": {
+   "runSummary": [
+    16,
+    20
+   ]
+  }
+ },
+ {
+  "id": 829,
+  "oneLine": "웹캠 자세 분석으로 순공부시간을 재고 랭킹을 매기는 웹앱",
+  "targetTask": "학생 자기주도 학습 시간 관리",
+  "fields": [
+   "인사·교육"
+  ],
+  "runSummary": "배포 주소로 접속하거나, 저장소를 받아 npm install 후 Supabase 환경변수를 설정한다",
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    8
+   ],
+   "targetTask": [
+    5,
+    8
+   ],
+   "fields": [
+    3,
+    8
+   ],
+   "runSummary": [
+    10,
+    63
+   ]
+  }
+ }
+]

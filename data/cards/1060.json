@@ -84,18 +84,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "메일과 관련된 업무 자료를 먼저 찾아 제안하는 업무비서 AI",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "네트워크 드라이브·게시판 업무자료 검색과 추천",
+   "evidence": {
+    "lines": [
+     11,
+     19
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -105,8 +122,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "AI는 자료를 찾아 제안만 하며, 어떤 자료를 쓸지 최종 판단은 담당자가 합니다.",
+   "evidence": {
+    "lines": [
+     53,
+     54
+    ]
+   },
    "source": "ai"
   }
  },
@@ -146,5 +168,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.159Z",
  "rulesAt": "2026-10-30T13:35:13.159Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.814Z"
 }

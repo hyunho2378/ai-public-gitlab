@@ -103,25 +103,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "AI 민주정부 실현 전략을 소개하는 한 페이지 홍보 웹사이트",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "AI 민주정부 정책 홍보",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "기타"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "index.html을 브라우저에서 열거나 로컬 서버를 띄워 localhost:8000으로 접속한다",
+   "evidence": {
+    "lines": [
+     9,
+     17
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "python3 -m http.server 8000"
   },
   "limitations": {
    "value": null,
@@ -165,5 +187,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.038Z",
  "rulesAt": "2026-10-30T13:35:13.038Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.196Z"
 }

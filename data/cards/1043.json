@@ -99,29 +99,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "지역사회보장계획을 절 단위 한글 문서로 쓰는 웹 도구",
+   "evidence": {
+    "lines": [
+     5,
+     7
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "제6기 시·군·구 지역사회보장계획 작성",
+   "evidence": {
+    "lines": [
+     5,
+     7
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     18
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "크롬·엣지로 웹 주소에 접속해 절을 고르고 초안을 만든 뒤 hwpx로 내려받는다.",
+   "evidence": {
+    "lines": [
+     3,
+     16
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "합본은 만들지 않아 장·절별로 받아 한글에서 이어 붙여야 하며, 작업 폴더 기능은 크로미움 계열 브라우저 전용이다.",
+   "evidence": {
+    "lines": [
+     9,
+     20
+    ]
+   },
    "source": "ai"
   }
  },
@@ -161,5 +188,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.152Z",
  "rulesAt": "2026-10-30T13:35:13.152Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.547Z"
 }

@@ -118,29 +118,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "로컬 Ollama 모델로 웹페이지를 요약·번역하는 Chrome 확장",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "웹 문서 읽기·요약·번역 보조",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Ollama를 설치해 모델을 받은 뒤, 소스를 빌드해 Chrome 개발자 모드 확장으로 설치하고 사이드패널에서 쓴다.",
+   "evidence": {
+    "lines": [
+     3,
+     58
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "ollama pull gemma4:e2b"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "모델 답은 틀릴 수 있고 PDF 뷰어·브라우저 내부 화면·iframe·캔버스 중심 앱은 제대로 읽거나 조작하지 못할 수 있다.",
+   "evidence": {
+    "lines": [
+     34,
+     34
+    ]
+   },
    "source": "ai"
   }
  },
@@ -180,5 +207,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.139Z",
  "rulesAt": "2026-10-30T13:35:13.139Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.491Z"
 }

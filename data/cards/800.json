@@ -116,29 +116,57 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "교직원 업무용 도구 70여 가지를 모은 무설치 프로그램",
+   "evidence": {
+    "lines": [
+     4,
+     6
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "학교 교무·행정 업무 처리",
+   "evidence": {
+    "lines": [
+     4,
+     6
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "인사·교육",
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     4,
+     41
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "PenTong.exe를 내려받아 원하는 폴더에 두고 더블클릭해 실행한다",
+   "evidence": {
+    "lines": [
+     21,
+     23
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows 환경에서 동작한다",
+   "evidence": {
+    "lines": [
+     19,
+     19
+    ]
+   },
    "source": "ai"
   }
  },
@@ -178,5 +206,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.030Z",
  "rulesAt": "2026-10-30T13:35:13.030Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.961Z"
 }

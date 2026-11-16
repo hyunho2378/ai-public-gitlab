@@ -113,7 +113,7 @@
  },
  "ai": {
   "oneLine": {
-   "value": "AI가 Redmine 일감을 조회하고 댓글·상태 변경까지 하도록 연결하는 안내와 도구",
+   "value": "AI가 Redmine 일감을 조회하고 수정하도록 연결하는 도구",
    "evidence": {
     "lines": [
      23,
@@ -134,8 +134,7 @@
   },
   "fields": {
    "value": [
-    "개발·보안·인프라",
-    "생성형 AI·챗봇·검색"
+    "개발·보안·인프라"
    ],
    "evidence": {
     "lines": [
@@ -198,5 +197,6 @@
  ],
  "generatedAt": "2026-10-30T12:48:35.529Z",
  "rulesAt": "2026-10-30T13:35:12.950Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.221Z"
 }

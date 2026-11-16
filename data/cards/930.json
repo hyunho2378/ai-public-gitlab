@@ -99,23 +99,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "농식품 특허를 AI로 요약하고 사업화 가능성을 평가하는 웹 서비스",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "농식품 특허 검색·분석과 사업화 평가",
+   "evidence": {
+    "lines": [
+     3,
+     16
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     16
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "퍼블리시 URL로 접속해 사용한다",
+   "evidence": {
+    "lines": [
+     8,
+     8
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -161,5 +183,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.095Z",
  "rulesAt": "2026-10-30T13:35:13.095Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.758Z"
 }

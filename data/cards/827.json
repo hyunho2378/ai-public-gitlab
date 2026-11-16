@@ -90,25 +90,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "교육연수원 구내식당 식단을 날짜로 조회하는 웹앱",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "구내식당 주간 식단 안내와 갱신",
+   "evidence": {
+    "lines": [
+     3,
+     8
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "기타"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "주간업무 PDF를 지정 폴더에 저장하면 감시 스크립트가 파싱·검증·배포를 자동으로 진행한다",
+   "evidence": {
+    "lines": [
+     8,
+     18
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "powershell -ExecutionPolicy Bypass -File scripts\\watch.ps1"
   },
   "limitations": {
    "value": null,
@@ -152,5 +174,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.048Z",
  "rulesAt": "2026-10-30T13:35:13.048Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.222Z"
 }

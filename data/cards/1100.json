@@ -207,29 +207,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "업무문서로 인수인계서 초안을 만드는 폐쇄망 로컬 AI",
+   "evidence": {
+    "lines": [
+     36,
+     36
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 인수인계서 작성",
+   "evidence": {
+    "lines": [
+     36,
+     36
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     36,
+     36
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "사용자 PC에서 서버를 실행하고 같은 PC 브라우저로 localhost:8501에 접속합니다.",
+   "evidence": {
+    "lines": [
+     38,
+     38
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "성능 수치는 가상 합성 문서로 측정한 것이며 실제 업무문서의 정확도를 보장하지 않습니다.",
+   "evidence": {
+    "lines": [
+     44,
+     44
+    ]
+   },
    "source": "ai"
   }
  },
@@ -269,5 +296,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.180Z",
  "rulesAt": "2026-10-30T13:35:13.180Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.874Z"
 }

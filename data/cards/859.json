@@ -119,29 +119,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 메모를 저장하고 로컬 AI에 질문하는 인수인계 도구",
+   "evidence": {
+    "lines": [
+     9,
+     9
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무지식 정리와 인수인계",
+   "evidence": {
+    "lines": [
+     9,
+     9
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     9,
+     11
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "업무메모 관리에서 메모를 저장한 뒤 메인 채팅에서 프로젝트명과 질문을 입력한다",
+   "evidence": {
+    "lines": [
+     64,
+     66
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "데이터 보호 범위는 지정한 모델 서버 주소와 네트워크 구성에 따라 달라진다",
+   "evidence": {
+    "lines": [
+     16,
+     16
+    ]
+   },
    "source": "ai"
   }
  },
@@ -181,5 +208,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.064Z",
  "rulesAt": "2026-10-30T13:35:13.064Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.454Z"
 }

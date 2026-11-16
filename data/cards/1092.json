@@ -105,29 +105,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "녹음을 받아쓰고 회의록으로 정리하는 윈도우 앱",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "회의 녹음 받아쓰기와 회의록 작성",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "릴리스 페이지에서 설치 프로그램을 받아 설치한 뒤 나의 기록에서 새 녹음을 눌러 시작합니다.",
+   "evidence": {
+    "lines": [
+     26,
+     39
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows x64용이며 설치 프로그램에 코드 서명이 없고, 선행 런타임이 없는 PC는 최초 설치에 인터넷이 필요할 수 있습니다.",
+   "evidence": {
+    "lines": [
+     5,
+     32
+    ]
+   },
    "source": "ai"
   }
  },
@@ -167,5 +194,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.174Z",
  "rulesAt": "2026-10-30T13:35:13.174Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.856Z"
 }

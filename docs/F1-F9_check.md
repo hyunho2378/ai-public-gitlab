@@ -80,7 +80,7 @@
 | 복사와 복사 실패 대안 | 복사 누름 시 `복사됨`, 실패 시 글자 선택과 `직접 선택 복사, Ctrl+C` | 통과(성공 경로만 확인) | S02-2_A07_copy.png |
 | 세 기능 실제 호출 | `node server/src/mcp-stdio.js`에 search_projects, get_project(615), get_project(없는 번호) 호출, 호출 기록 3줄 | 통과(stdio 직접 호출, Claude Code 시연은 미실시) | S02_mcp_call_log.txt |
 | 없는 프로젝트와 자료 읽기 실패 구분 | not-found 응답 확인, A-07 응답 상태 구분 표 9행 | 통과 | S10-4_A07_status_open.png |
-| Claude Code 출장비 계산 도구 시연 | 외부 도구 시연 | 미통과(미실시) | 없음 |
+| Claude Code 출장비 계산 도구 시연 | `claude -p "출장비 계산 도구 만들어 줘"`, 이 서버만 등록(docs/mcp-test.md). 초기화 안내 추가 뒤 search_projects 호출과 기존 프로젝트 4개 주소 안내 | 통과(2026. 11. 16., 2회 중 2회, 장준호 확인). 안내 없을 때는 도구 호출 0회 | docs/mcp-test.md 표 |
 | 웹 같은 질문 대조 | `웹에서 같은 질문` 누름 시 업무 도우미 열림, 입력칸 채움, 모드 유사 프로젝트, 전송 뒤 유사 프로젝트 5 | 통과 | S10-1_A12_typing.png, S10-3_A12_ready_similar.png |
 
 ## F6 현황판 소개 정보 현황(D-01)

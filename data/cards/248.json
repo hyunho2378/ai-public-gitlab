@@ -89,9 +89,14 @@
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
-   "source": "ai"
+   "value": [
+    "시설·안전·재난"
+   ],
+   "evidence": {
+    "description": true
+   },
+   "source": "ai",
+   "note": "README 없이 프로젝트 설명과 이름으로 분류"
   },
   "runSummary": {
    "value": null,
@@ -141,5 +146,6 @@
  ],
  "generatedAt": "2026-10-30T12:40:54.694Z",
  "rulesAt": "2026-10-30T13:35:12.782Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "fieldsAt": "2026-11-15T08:48:48.919Z"
 }

@@ -79,23 +79,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "조달 법령의 인용 관계와 AI 검색을 보여주는 데모 서비스",
+   "evidence": {
+    "lines": [
+     1,
+     7
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "조달 법령 관리와 근거 조문 검색",
+   "evidence": {
+    "lines": [
+     5,
+     8
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     1,
+     8
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "README에 적힌 웹 주소로 접속해 사용하는 데모입니다.",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -141,5 +163,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.205Z",
  "rulesAt": "2026-10-30T13:35:13.205Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.358Z"
 }

@@ -107,7 +107,7 @@
  },
  "ai": {
   "oneLine": {
-   "value": "내 PC의 Ollama AI로 채팅, 문서·이미지 분석, 엑셀 자료 처리를 도와주는 개인 AI 비서 웹앱",
+   "value": "로컬 Ollama AI로 문서와 표 분석을 돕는 개인 AI 비서 웹앱",
    "evidence": {
     "lines": [
      3,
@@ -128,8 +128,7 @@
   },
   "fields": {
    "value": [
-    "생성형 AI·챗봇·검색",
-    "문서·보고서"
+    "생성형 AI·챗봇·검색"
    ],
    "evidence": {
     "lines": [
@@ -192,5 +191,6 @@
  ],
  "generatedAt": "2026-10-30T12:48:35.485Z",
  "rulesAt": "2026-10-30T13:35:12.893Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:25.794Z"
 }

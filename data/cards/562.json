@@ -97,7 +97,7 @@
  },
  "ai": {
   "oneLine": {
-   "value": "인터넷 연결 없이 HWPX 문서를 편집하고 내 PC의 로컬 AI 조수로 도움받는 에디터",
+   "value": "인터넷 없이 HWPX를 편집하고 로컬 AI 도움을 받는 에디터",
    "evidence": {
     "lines": [
      3,
@@ -113,8 +113,7 @@
   },
   "fields": {
    "value": [
-    "문서·보고서",
-    "생성형 AI·챗봇·검색"
+    "문서·보고서"
    ],
    "evidence": {
     "lines": [
@@ -177,5 +176,6 @@
  ],
  "generatedAt": "2026-10-30T12:48:35.495Z",
  "rulesAt": "2026-10-30T13:35:12.906Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:25.818Z"
 }

@@ -97,7 +97,7 @@
  },
  "ai": {
   "oneLine": {
-   "value": "HWPX·DOCX·PPTX 안의 이미지, 영상, 첨부파일, 글꼴 등을 찾아 분류하고 저장하는 도구",
+   "value": "한글·워드·PPT 안의 이미지와 첨부파일을 꺼내 정리하는 도구",
    "evidence": {
     "lines": [
      5,
@@ -186,5 +186,6 @@
  ],
  "generatedAt": "2026-10-30T12:40:54.694Z",
  "rulesAt": "2026-10-30T13:35:12.781Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:24.907Z"
 }

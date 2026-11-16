@@ -95,29 +95,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "클립보드 기록과 창 전환을 단축키로 다루는 Windows 도구",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "복사 기록 재사용과 프로그램 창 전환",
+   "evidence": {
+    "lines": [
+     22,
+     44
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "ClipboardManager.zip을 받아 압축을 풀고 ClipboardManager.exe를 바로 실행한다",
+   "evidence": {
+    "lines": [
+     14,
+     15
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows 10/11에서만 지원한다",
+   "evidence": {
+    "lines": [
+     16,
+     16
+    ]
+   },
    "source": "ai"
   }
  },
@@ -157,5 +184,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.985Z",
  "rulesAt": "2026-10-30T13:35:12.985Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.482Z"
 }

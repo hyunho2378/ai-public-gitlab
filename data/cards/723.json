@@ -98,23 +98,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "정책 보도자료로 카드뉴스 이미지를 자동 만드는 웹서비스",
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "정책 보도자료 카드뉴스 홍보물 제작",
+   "evidence": {
+    "lines": [
+     3,
+     8
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "영상·이미지·음성"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "보도자료를 고르면 AI 분석·기획 확정·디자인 설정을 거쳐 카드 이미지를 만들고 ZIP으로 받거나 Instagram에 올린다",
+   "evidence": {
+    "lines": [
+     34,
+     65
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -160,5 +182,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.991Z",
  "rulesAt": "2026-10-30T13:35:12.991Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.683Z"
 }

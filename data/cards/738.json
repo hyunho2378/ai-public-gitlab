@@ -92,29 +92,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공문서 속 어려운 외래어를 찾아 우리말 대안을 주는 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "공문서·보도자료·게시판 글 공공언어 점검",
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     6
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "배포 ZIP을 풀거나 설치 프로그램을 실행한 뒤 공공평가용어검사기.exe에서 대상과 기간을 넣고 검사 시작을 누른다",
+   "evidence": {
+    "lines": [
+     21,
+     25
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "PDF·HWPX·DOCX 같은 문서 파일은 한 번에 한 건만 검사한다",
+   "evidence": {
+    "lines": [
+     41,
+     41
+    ]
+   },
    "source": "ai"
   }
  },
@@ -154,5 +181,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.999Z",
  "rulesAt": "2026-10-30T13:35:12.999Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.696Z"
 }

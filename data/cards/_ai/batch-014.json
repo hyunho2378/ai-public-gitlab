@@ -1,0 +1,504 @@
+[
+ {
+  "id": 760,
+  "oneLine": null,
+  "targetTask": null,
+  "fields": [],
+  "runSummary": null,
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {}
+ },
+ {
+  "id": 761,
+  "oneLine": "Edge IE 모드 정책 배포용 실행 파일을 만드는 도구",
+  "targetTask": "기관 PC에 Edge IE 모드 사이트 목록 정책 배포",
+  "fields": [
+   "개발·보안·인프라"
+  ],
+  "runSummary": "IE Mode Site List XML 파일을 고르고 Edge 종료 옵션을 선택한 뒤 배포용 EXE를 생성한다",
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    5,
+    5
+   ],
+   "targetTask": [
+    5,
+    15
+   ],
+   "fields": [
+    5,
+    15
+   ],
+   "runSummary": [
+    7,
+    7
+   ]
+  }
+ },
+ {
+  "id": 768,
+  "oneLine": null,
+  "targetTask": null,
+  "fields": [],
+  "runSummary": null,
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {}
+ },
+ {
+  "id": 769,
+  "oneLine": "수당 지급자료로 인건비 집행현황 VBA 코드를 만드는 웹앱",
+  "targetTask": "인건비 예산과목별 집행현황 정리",
+  "fields": [
+   "회계·예산·출장"
+  ],
+  "runSummary": "npm install 후 npm run dev로 실행하고 더미 엑셀 2개를 올려 분류 규칙을 확인한 뒤 VBA를 생성한다",
+  "rawCommands": "npm run dev",
+  "limitations": "실제 개인정보가 담긴 원자료는 올리면 안 되며 더미 엑셀로 규칙을 검증하는 방식이다",
+  "lines": {
+   "oneLine": [
+    3,
+    4
+   ],
+   "targetTask": [
+    3,
+    4
+   ],
+   "fields": [
+    3,
+    4
+   ],
+   "runSummary": [
+    15,
+    33
+   ],
+   "rawCommands": [
+    16,
+    16
+   ],
+   "limitations": [
+    3,
+    10
+   ]
+  }
+ },
+ {
+  "id": 770,
+  "oneLine": "보수·수당·세금 관련 법령과 지침을 찾는 검색 위젯",
+  "targetTask": "급여·인사 담당자의 보수 법령·지침 확인",
+  "fields": [
+   "인사·교육"
+  ],
+  "runSummary": "npm install 후 .env.local에 법제처 API 키 등을 넣고 npm run dev로 실행한다",
+  "rawCommands": "npm run dev",
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    6
+   ],
+   "targetTask": [
+    3,
+    3
+   ],
+   "fields": [
+    3,
+    6
+   ],
+   "runSummary": [
+    31,
+    42
+   ],
+   "rawCommands": [
+    33,
+    33
+   ]
+  }
+ },
+ {
+  "id": 771,
+  "oneLine": "방위사업청 계약 데이터를 검색·시각화하는 대시보드",
+  "targetTask": "국방 계약 현황과 업체·기관별 분석",
+  "fields": [
+   "데이터·통계·분석"
+  ],
+  "runSummary": "pip로 패키지를 설치하고 app.py 옆에 data.csv를 둔 뒤 streamlit run app.py로 실행한다",
+  "rawCommands": "streamlit run app.py",
+  "limitations": "data.csv가 app.py와 같은 경로에 cp949 인코딩으로 있어야 한다",
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    9,
+    25
+   ],
+   "fields": [
+    3,
+    25
+   ],
+   "runSummary": [
+    33,
+    38
+   ],
+   "rawCommands": [
+    35,
+    35
+   ],
+   "limitations": [
+    38,
+    38
+   ]
+  }
+ },
+ {
+  "id": 772,
+  "oneLine": "항우연 계약 데이터를 검색·시각화하는 대시보드",
+  "targetTask": "연구원 계약 현황과 거래처별 분석",
+  "fields": [
+   "데이터·통계·분석"
+  ],
+  "runSummary": "pip로 패키지를 설치하고 app.py 옆에 data2.csv를 둔 뒤 streamlit run app.py로 실행한다",
+  "rawCommands": "streamlit run app.py",
+  "limitations": "data2.csv가 app.py와 같은 경로에 UTF-8-SIG로 있어야 한다",
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    9,
+    25
+   ],
+   "fields": [
+    3,
+    25
+   ],
+   "runSummary": [
+    33,
+    38
+   ],
+   "rawCommands": [
+    35,
+    35
+   ],
+   "limitations": [
+    38,
+    38
+   ]
+  }
+ },
+ {
+  "id": 773,
+  "oneLine": "인사랑·e-호조 화면을 다크모드와 읽기 쉬운 글꼴로 바꾸는 확장",
+  "targetTask": "인사랑·e-호조 장시간 사용 시 눈 피로 줄이기",
+  "fields": [
+   "엑셀·사무 자동화"
+  ],
+  "runSummary": "저장소를 받아 chrome://extensions에서 개발자 모드를 켜고 압축해제된 확장 프로그램으로 로드한다",
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    11
+   ],
+   "fields": [
+    3,
+    11
+   ],
+   "runSummary": [
+    61,
+    69
+   ]
+  }
+ },
+ {
+  "id": 775,
+  "oneLine": "NEIS 초과근무 자료로 특근매식비를 검토하는 확인 도구",
+  "targetTask": "초과근무 확인과 특근매식비 검토",
+  "fields": [
+   "회계·예산·출장"
+  ],
+  "runSummary": "NEIS 초과근무 최종자료를 올리고, 필요하면 BC카드 내역 엑셀도 함께 올려 날짜별로 확인한다",
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    5
+   ],
+   "fields": [
+    3,
+    5
+   ],
+   "runSummary": [
+    3,
+    5
+   ]
+  }
+ },
+ {
+  "id": 776,
+  "oneLine": "업체 제출용 계약서류를 브라우저에서 작성·인쇄하는 웹앱",
+  "targetTask": "수의계약 업체 제출서류 작성",
+  "fields": [
+   "회계·예산·출장"
+  ],
+  "runSummary": "index.html을 브라우저에서 열거나 정적 웹으로 배포해 쓴다",
+  "rawCommands": null,
+  "limitations": "서울시교육청 서식 기준이며 법령·서식 개정에 따라 실제 계약 시 최신 기준을 확인해야 한다",
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    10
+   ],
+   "fields": [
+    3,
+    10
+   ],
+   "runSummary": [
+    48,
+    48
+   ],
+   "limitations": [
+    56,
+    61
+   ]
+  }
+ },
+ {
+  "id": 778,
+  "oneLine": "수난안전시설물 위치·상태와 점검 결과를 관리하는 웹 플랫폼",
+  "targetTask": "구명환 등 수난안전시설물 정기 점검 관리",
+  "fields": [
+   "시설·안전·재난"
+  ],
+  "runSummary": null,
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    3,
+    19
+   ],
+   "fields": [
+    3,
+    19
+   ]
+  }
+ },
+ {
+  "id": 780,
+  "oneLine": "AI가 법령·판례를 실시간 조회하게 하는 법령검토 MCP 서버",
+  "targetTask": "감사 대비 법령·조문 근거 확인",
+  "fields": [
+   "법령·규제·감사"
+  ],
+  "runSummary": "Node.js 20 이상에서 저장소를 받아 npm run setup을 실행하면 법제처 OC 확인과 MCP 등록을 차례로 안내한다",
+  "rawCommands": "npm run setup",
+  "limitations": "법제처 OPEN API OC가 있어야 하며, OC가 없으면 설치가 신청 안내 단계에서 멈춘다",
+  "lines": {
+   "oneLine": [
+    5,
+    5
+   ],
+   "targetTask": [
+    9,
+    11
+   ],
+   "fields": [
+    5,
+    11
+   ],
+   "runSummary": [
+    41,
+    59
+   ],
+   "rawCommands": [
+    46,
+    46
+   ],
+   "limitations": [
+    53,
+    55
+   ]
+  }
+ },
+ {
+  "id": 781,
+  "oneLine": "의성군 AI데이터팀이 만든 공공 AI 도구를 소개하는 계정 페이지",
+  "targetTask": "의성군 공개 AI 도구 목록 확인",
+  "fields": [],
+  "runSummary": null,
+  "rawCommands": null,
+  "limitations": null,
+  "lines": {
+   "oneLine": [
+    18,
+    19
+   ],
+   "targetTask": [
+    35,
+    45
+   ]
+  }
+ },
+ {
+  "id": 782,
+  "oneLine": "공공기관 보고서·보도자료 작성과 퇴고를 돕는 AI 스킬",
+  "targetTask": "보고서·보도자료 초안 작성과 문장 다듬기",
+  "fields": [
+   "문서·보고서"
+  ],
+  "runSummary": "Claude Code 플러그인 마켓플레이스에 추가해 설치하거나 저장소를 받아 스킬 경로에 복사한다",
+  "rawCommands": "/plugin install gov-docs-core@gov-docs-kr",
+  "limitations": "말씀자료 초안 기능은 이 저장소에 없고 별도 신청해야 받을 수 있다",
+  "lines": {
+   "oneLine": [
+    16,
+    16
+   ],
+   "targetTask": [
+    29,
+    40
+   ],
+   "fields": [
+    16,
+    40
+   ],
+   "runSummary": [
+    55,
+    68
+   ],
+   "rawCommands": [
+    59,
+    59
+   ],
+   "limitations": [
+    44,
+    47
+   ]
+  }
+ },
+ {
+  "id": 785,
+  "oneLine": "회의 음성을 실시간 자막으로 바꿔 내부망에 띄우는 시스템",
+  "targetTask": "회의 실시간 자막 제공",
+  "fields": [
+   "영상·이미지·음성"
+  ],
+  "runSummary": "서버 PC의 localhost:8765/admin에서 녹음과 회의를 제어하고, 다른 PC는 서버IP:8765로 접속해 자막을 본다",
+  "rawCommands": null,
+  "limitations": "TXT 저장은 화면을 열어 둔 동안 받은 자막만 담고 서버의 과거 회의 전체는 조회하지 않는다",
+  "lines": {
+   "oneLine": [
+    5,
+    5
+   ],
+   "targetTask": [
+    5,
+    5
+   ],
+   "fields": [
+    5,
+    5
+   ],
+   "runSummary": [
+    35,
+    35
+   ],
+   "limitations": [
+    51,
+    51
+   ]
+  }
+ },
+ {
+  "id": 800,
+  "oneLine": "교직원 업무용 도구 70여 가지를 모은 무설치 프로그램",
+  "targetTask": "학교 교무·행정 업무 처리",
+  "fields": [
+   "인사·교육",
+   "엑셀·사무 자동화"
+  ],
+  "runSummary": "PenTong.exe를 내려받아 원하는 폴더에 두고 더블클릭해 실행한다",
+  "rawCommands": null,
+  "limitations": "Windows 환경에서 동작한다",
+  "lines": {
+   "oneLine": [
+    4,
+    6
+   ],
+   "targetTask": [
+    4,
+    6
+   ],
+   "fields": [
+    4,
+    41
+   ],
+   "runSummary": [
+    21,
+    23
+   ],
+   "limitations": [
+    19,
+    19
+   ]
+  }
+ },
+ {
+  "id": 803,
+  "oneLine": "자세 분류 실험용 합성 스켈레톤 이미지 공개 데이터셋",
+  "targetTask": "7·9 동작 자세 분류 모델 학습·실험",
+  "fields": [
+   "영상·이미지·음성"
+  ],
+  "runSummary": "GitHub Release나 GitLab Release에서 데이터 아카이브 3개를 내려받아 쓴다",
+  "rawCommands": null,
+  "limitations": "완성된 AI 모델이나 구조 신고 서비스가 아니며, 7·9는 공인된 조난 신호가 아니다",
+  "lines": {
+   "oneLine": [
+    3,
+    3
+   ],
+   "targetTask": [
+    9,
+    16
+   ],
+   "fields": [
+    3,
+    16
+   ],
+   "runSummary": [
+    51,
+    62
+   ],
+   "limitations": [
+    9,
+    18
+   ]
+  }
+ }
+]

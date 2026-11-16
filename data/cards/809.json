@@ -106,18 +106,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "폐쇄망 PC에서도 쓰는 23종 올인원 PDF 도구",
+   "evidence": {
+    "lines": [
+     5,
+     8
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "PDF 병합·분할·변환과 전자서명·관인 날인",
+   "evidence": {
+    "lines": [
+     42,
+     57
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     8
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -127,8 +144,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "전자서명은 문서의 효력을 보장하지 않으며 유효성 검증 효력은 서명 당시에만 유효하다",
+   "evidence": {
+    "lines": [
+     68,
+     69
+    ]
+   },
    "source": "ai"
   }
  },
@@ -168,5 +190,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.033Z",
  "rulesAt": "2026-10-30T13:35:13.033Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.176Z"
 }

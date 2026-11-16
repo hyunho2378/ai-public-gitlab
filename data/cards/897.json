@@ -96,29 +96,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "이름에 쓸 인명용 한자를 번호로 찾아 전달하는 웹 도구",
+   "evidence": {
+    "lines": [
+     3,
+     13
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "인명용 한자 자형 확인과 전달",
+   "evidence": {
+    "lines": [
+     3,
+     13
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     13
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "웹 주소로 접속해 휴대전화는 간편 조회, PC는 전체 조회 화면을 쓴다",
+   "evidence": {
+    "lines": [
+     5,
+     25
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "공식 서비스가 아니며 실제 신고 가능 여부와 정확한 자형은 담당기관에서 확인해야 한다",
+   "evidence": {
+    "lines": [
+     56,
+     57
+    ]
+   },
    "source": "ai"
   }
  },
@@ -158,5 +185,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.081Z",
  "rulesAt": "2026-10-30T13:35:13.081Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.733Z"
 }

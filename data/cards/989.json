@@ -139,23 +139,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "수산자원관리수면 엑셀을 연도별 색 구역 KML로 바꾸는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "수산자원관리수면 지정 구역 지도화",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "설치 없이 쓰는 묶음 zip을 풀어 input 폴더에 엑셀을 넣고 실행하기.bat을 두 번 누르면 output 폴더에 KML이 나온다.",
+   "evidence": {
+    "lines": [
+     41,
+     46
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -201,5 +223,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.118Z",
  "rulesAt": "2026-10-30T13:35:13.118Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.210Z"
 }

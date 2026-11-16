@@ -106,10 +106,15 @@
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "npm install 후 .env.local에 Gemini API 키를 넣고 npm run dev로 실행한다",
+   "evidence": {
+    "lines": [
+     16,
+     20
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npm run dev"
   },
   "limitations": {
    "value": null,
@@ -153,5 +158,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.048Z",
  "rulesAt": "2026-10-30T13:35:13.048Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.225Z"
 }

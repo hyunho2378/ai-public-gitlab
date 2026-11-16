@@ -107,29 +107,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 아이디어를 프로그램 제작 프롬프트로 바꾸는 웹 도구",
+   "evidence": {
+    "lines": [
+     46,
+     48
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 프로그램 기획과 제작 준비",
+   "evidence": {
+    "lines": [
+     46,
+     48
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     48,
+     68
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "체험 사이트에서 예제 기획으로 시작해 10개 질문의 답을 고친 뒤 프롬프트 작성을 누른다.",
+   "evidence": {
+    "lines": [
+     52,
+     56
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "저장소의 개별 파일만으로는 실행할 수 없어 전체 소스 ZIP을 써야 한다.",
+   "evidence": {
+    "lines": [
+     23,
+     23
+    ]
+   },
    "source": "ai"
   }
  },
@@ -169,5 +196,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.127Z",
  "rulesAt": "2026-10-30T13:35:13.127Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.233Z"
 }

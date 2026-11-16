@@ -90,29 +90,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "참석자 명단으로 회의 좌석배치도를 자동으로 만드는 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "회의 좌석배치도 작성과 출력",
+   "evidence": {
+    "lines": [
+     9,
+     11
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     11
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Releases에서 v0.80 ZIP을 받아 풀고 안의 EXE를 실행한다",
+   "evidence": {
+    "lines": [
+     30,
+     32
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows 10/11과 .NET Framework 4.8 이상에서만 지원되고 실행파일은 코드 서명 전 빌드다",
+   "evidence": {
+    "lines": [
+     34,
+     34
+    ]
+   },
    "source": "ai"
   }
  },
@@ -152,5 +179,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.059Z",
  "rulesAt": "2026-10-30T13:35:13.059Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.437Z"
 }

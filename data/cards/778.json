@@ -87,18 +87,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "수난안전시설물 위치·상태와 점검 결과를 관리하는 웹 플랫폼",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "구명환 등 수난안전시설물 정기 점검 관리",
+   "evidence": {
+    "lines": [
+     3,
+     19
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "시설·안전·재난"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     19
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -149,5 +166,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.020Z",
  "rulesAt": "2026-10-30T13:35:13.020Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.942Z"
 }

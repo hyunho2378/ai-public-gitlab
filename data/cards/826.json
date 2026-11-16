@@ -92,25 +92,47 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "HTML 발표자료를 만드는 AI 스킬의 한국어 최적화판",
+   "evidence": {
+    "lines": [
+     3,
+     25
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "발표자료·카드뉴스 제작",
+   "evidence": {
+    "lines": [
+     8,
+     8
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     25
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "npx skills add 명령 한 줄로 설치한다",
+   "evidence": {
+    "lines": [
+     12,
+     14
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "npx skills add https://github.com/aiden-44/html-ppt-skill"
   },
   "limitations": {
    "value": null,
@@ -154,5 +176,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.047Z",
  "rulesAt": "2026-10-30T13:35:13.047Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.217Z"
 }

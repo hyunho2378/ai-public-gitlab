@@ -95,29 +95,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "줌 접속 로그와 출석부로 교육생 근태를 분석하는 웹 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "원격 연수 출석·근태 확인과 이수 판정",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "인사·교육"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "EduFit_Time.html을 내려받아 브라우저로 열고 접속 로그와 출석부를 올린 뒤 분석한다",
+   "evidence": {
+    "lines": [
+     25,
+     29
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "접속 로그는 ZOOM 참가자 보고서 형식, 출석부는 성명이나 이름 컬럼이 있어야 인식된다",
+   "evidence": {
+    "lines": [
+     37,
+     43
+    ]
+   },
    "source": "ai"
   }
  },
@@ -157,5 +184,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.051Z",
  "rulesAt": "2026-10-30T13:35:13.051Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.413Z"
 }

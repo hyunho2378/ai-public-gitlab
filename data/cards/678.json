@@ -90,18 +90,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "PPTX·Figma·HTML 슬라이드와 카드뉴스를 만드는 AI 제작 스킬",
+   "evidence": {
+    "lines": [
+     3,
+     8
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "발표자료와 카드뉴스 제작·수정",
+   "evidence": {
+    "lines": [
+     3,
+     25
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     25
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -111,8 +128,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "범용 자동화 도구가 아니라 제작자 취향으로 다듬은 개인화 스킬이다",
+   "evidence": {
+    "lines": [
+     8,
+     8
+    ]
+   },
    "source": "ai"
   }
  },
@@ -152,5 +174,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.972Z",
  "rulesAt": "2026-10-30T13:35:12.972Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.456Z"
 }

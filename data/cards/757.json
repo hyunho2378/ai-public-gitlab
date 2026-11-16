@@ -104,29 +104,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "자료를 모아 AI와 보고서를 쓰고 한글로 편집·공유하는 업무공간",
+   "evidence": {
+    "lines": [
+     5,
+     7
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "보고서 작성·요약·서식 입력과 문서 공유",
+   "evidence": {
+    "lines": [
+     25,
+     32
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "체험 주소에 접속해 체험하기를 누르거나 새 업무를 만들어 자료를 등록하고 AI에게 문서 작성을 요청한다",
+   "evidence": {
+    "lines": [
+     11,
+     43
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "현재 인터넷 환경에서 시험·개선하는 단계이며 업무망 연계는 준비 중이다",
+   "evidence": {
+    "lines": [
+     9,
+     9
+    ]
+   },
    "source": "ai"
   }
  },
@@ -166,5 +193,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.006Z",
  "rulesAt": "2026-10-30T13:35:13.006Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.710Z"
 }

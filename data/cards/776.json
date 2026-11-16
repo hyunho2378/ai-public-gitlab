@@ -91,29 +91,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "업체 제출용 계약서류를 브라우저에서 작성·인쇄하는 웹앱",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "수의계약 업체 제출서류 작성",
+   "evidence": {
+    "lines": [
+     3,
+     10
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     10
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "index.html을 브라우저에서 열거나 정적 웹으로 배포해 쓴다",
+   "evidence": {
+    "lines": [
+     48,
+     48
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "서울시교육청 서식 기준이며 법령·서식 개정에 따라 실제 계약 시 최신 기준을 확인해야 한다",
+   "evidence": {
+    "lines": [
+     56,
+     61
+    ]
+   },
    "source": "ai"
   }
  },
@@ -153,5 +180,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.019Z",
  "rulesAt": "2026-10-30T13:35:13.019Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.938Z"
 }

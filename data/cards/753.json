@@ -195,18 +195,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "지침·법령 원문을 근거로 즉답하는 행정지식 관리 도구",
+   "evidence": {
+    "lines": [
+     2,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "기초생활보장 지침 확인과 개정 내용 비교",
+   "evidence": {
+    "lines": [
+     4,
+     65
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     4,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -216,8 +233,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "기초생활보장(생계·의료·주거·교육 급여)을 대상으로 만든 프로토타입이다",
+   "evidence": {
+    "lines": [
+     4,
+     4
+    ]
+   },
    "source": "ai"
   }
  },
@@ -257,5 +279,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.004Z",
  "rulesAt": "2026-10-30T13:35:13.004Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.703Z"
 }

@@ -116,29 +116,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "병역판정검사 대상자와 검사 기록을 조회하는 현황판",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "병역판정검사 진행 현황과 심리검사 대상자 확인",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "오프라인 ZIP을 풀고 start.cmd를 실행한 뒤 브라우저에서 현황판을 열어 DB에 연결합니다.",
+   "evidence": {
+    "lines": [
+     44,
+     47
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Windows x64 폐쇄망 시험용이며 실제 DB 정확도와 조회 성능은 내부망에서 확인해야 합니다.",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   }
  },
@@ -178,5 +205,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.207Z",
  "rulesAt": "2026-10-30T13:35:13.207Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.366Z"
 }

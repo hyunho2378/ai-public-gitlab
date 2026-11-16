@@ -93,7 +93,7 @@
  },
  "ai": {
   "oneLine": {
-   "value": "PDF·OCR·Excel 자료를 하나의 Excel로 취합하고 문서 변환까지 하는 Windows 포터블 도구",
+   "value": "PDF·OCR·엑셀 자료를 하나의 엑셀로 취합하는 윈도우 도구",
    "evidence": {
     "lines": [
      13,
@@ -114,8 +114,7 @@
   },
   "fields": {
    "value": [
-    "엑셀·사무 자동화",
-    "문서·보고서"
+    "엑셀·사무 자동화"
    ],
    "evidence": {
     "lines": [
@@ -178,5 +177,6 @@
  ],
  "generatedAt": "2026-10-30T12:48:35.507Z",
  "rulesAt": "2026-10-30T13:35:12.921Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:25.978Z"
 }

@@ -120,29 +120,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "택배 송장번호 여러 건을 한 번에 조회해 엑셀로 내보내는 도구",
+   "evidence": {
+    "lines": [
+     5,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "택배 추가배송비 지원사업 송장 검증",
+   "evidence": {
+    "lines": [
+     7,
+     7
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "엑셀·사무 자동화"
+   ],
+   "evidence": {
+    "lines": [
+     5,
+     7
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Releases에서 택배송장일괄조회.exe를 받아 더블클릭하면 전용 프로그램 창이 열린다",
+   "evidence": {
+    "lines": [
+     35,
+     52
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "배송조회 때는 인터넷 연결이 필요하고, 저장소를 git clone한 상태에서는 start.bat이 동작하지 않는다",
+   "evidence": {
+    "lines": [
+     44,
+     57
+    ]
+   },
    "source": "ai"
   }
  },
@@ -182,5 +209,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.034Z",
  "rulesAt": "2026-10-30T13:35:13.034Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.179Z"
 }

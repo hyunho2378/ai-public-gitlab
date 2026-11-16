@@ -90,18 +90,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "조사 자료를 위키로 쌓아 다시 꺼내 쓰는 개인 지식 저장소",
+   "evidence": {
+    "lines": [
+     3,
+     11
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "업무 조사 자료 축적과 재활용",
+   "evidence": {
+    "lines": [
+     15,
+     23
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "생성형 AI·챗봇·검색"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     11
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -152,5 +169,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.121Z",
  "rulesAt": "2026-10-30T13:35:13.121Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.217Z"
 }

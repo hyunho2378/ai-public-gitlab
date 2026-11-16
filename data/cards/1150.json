@@ -95,29 +95,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "문서의 C·S·O 보안등급과 근거를 제안하는 웹 앱",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "N2SF 문서 등급 판단",
+   "evidence": {
+    "lines": [
+     1,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     1,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "파이썬 가상환경에 패키지를 설치하고 uvicorn으로 실행한 뒤 127.0.0.1:8765에 접속합니다.",
+   "evidence": {
+    "lines": [
+     20,
+     30
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": ".\\.venv\\Scripts\\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8765 --no-access-log --limit-concurrency 8"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "예시 결정표를 쓰는 프로토타입으로 실제 LLM·벡터 검색은 연결하지 않았고 OCR·DRM 해제는 지원하지 않습니다.",
+   "evidence": {
+    "lines": [
+     5,
+     16
+    ]
+   },
    "source": "ai"
   }
  },
@@ -157,5 +184,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.203Z",
  "rulesAt": "2026-10-30T13:35:13.203Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:29.188Z"
 }

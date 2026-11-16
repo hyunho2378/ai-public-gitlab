@@ -31,6 +31,8 @@ async function searchTool(mode,args,env){
   return res.status==='invalid'||res.status==='failed'?fail(body):text(body);
 }
 const inputSchema=(extra,required)=>({type:'object',properties:{...extra,fields:{type:'array',items:{type:'string'},description:'업무 분야 이름(빗금 표기). 비우면 전체'},excludeIds:{type:'array',items:{type:'integer'}}},required});
+// 개발 도구가 서버 등록만으로는 도구를 부르지 않고 바로 만들기 시작해서(11. 16. Claude Code 시험) 초기화 응답으로 순서를 안내한다
+export const INSTRUCTIONS='새 도구, 기능, 프로그램을 만들어 달라는 요청을 받으면 만들기 전에 search_projects로 공공 깃랩에 이미 있는 공개 프로젝트를 먼저 찾는다. 맞는 프로젝트가 있으면 이름, 하는 일, 원문 주소(url)를 먼저 알려 주고 재사용할지 물은 뒤 진행한다. 결과가 일반 검색(fallback)이면 AI 판단이 아니라고 함께 밝힌다.';
 export const TOOLS=[
  {name:'search_projects',description:`업무 문장으로 공공 깃랩 공개 프로젝트 찾기(${MIN_LEN}~${MAX_LEN}자). 수집 자료 기준`,inputSchema:inputSchema({query:{type:'string'}},['query'])},
  {name:'get_project',description:'프로젝트 번호로 소개 카드 상세(항목별 근거, 분야, 생성 상태, 원문 주소) 조회. 새로 추정하지 않고 배포된 카드를 그대로 돌려줌',inputSchema:{type:'object',properties:{id:{type:'integer'}},required:['id']}},
@@ -40,7 +42,7 @@ export const TOOLS=[
 export async function handleMcp(m,{data=loadData,aiUrl=process.env.SEARCH_URL,fetchImpl=globalThis.fetch,log=()=>{}}={}){
   const id=m?.id??null;const ok=result=>({jsonrpc:'2.0',id,result});const err=(code,message)=>({jsonrpc:'2.0',id,error:{code,message}});
   if(!m||typeof m!=='object'||Array.isArray(m))return err(-32600,'Invalid Request');
-  if(m.method==='initialize')return ok({protocolVersion:'2024-11-05',capabilities:{tools:{}},serverInfo:{name:'public-repository',version:'0.3.0'}});
+  if(m.method==='initialize')return ok({protocolVersion:'2024-11-05',capabilities:{tools:{}},serverInfo:{name:'public-repository',version:'0.3.0'},instructions:INSTRUCTIONS});
   if(m.method?.startsWith('notifications/'))return null;
   if(m.method==='ping')return ok({});
   if(m.method==='tools/list')return ok({tools:TOOLS});

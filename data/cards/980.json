@@ -86,18 +86,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "울산 향토사의 주목할 인물 21인을 소개하는 자료",
+   "evidence": {
+    "lines": [
+     1,
+     1
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "울산 향토사 인물 소개",
+   "evidence": {
+    "lines": [
+     1,
+     1
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "기타"
+   ],
+   "evidence": {
+    "lines": [
+     1,
+     1
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -107,8 +124,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "인물의 지위와 행적에 따라 평가가 엇갈릴 수 있다.",
+   "evidence": {
+    "lines": [
+     2,
+     2
+    ]
+   },
    "source": "ai"
   }
  },
@@ -148,5 +170,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.116Z",
  "rulesAt": "2026-10-30T13:35:13.116Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.038Z"
 }

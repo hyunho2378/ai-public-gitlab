@@ -104,29 +104,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "AI가 소방안전 빅데이터를 자연어로 조회하게 잇는 MCP 서버",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "구급·화재·구조 등 소방 통계 조회",
+   "evidence": {
+    "lines": [
+     54,
+     65
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "시설·안전·재난"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     13
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "MCP 클라이언트에 공개 운영 주소 https://mcp.bigdata-119.kr 를 등록하고 자연어로 질문한다",
+   "evidence": {
+    "lines": [
+     6,
+     7
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "검증할 수 없는 결과나 의도가 모호한 질문에는 숫자를 만들지 않고 답변 불가 이유를 돌려준다",
+   "evidence": {
+    "lines": [
+     47,
+     52
+    ]
+   },
    "source": "ai"
   }
  },
@@ -166,5 +193,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.008Z",
  "rulesAt": "2026-10-30T13:35:13.008Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.712Z"
 }

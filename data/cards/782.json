@@ -79,29 +79,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공공기관 보고서·보도자료 작성과 퇴고를 돕는 AI 스킬",
+   "evidence": {
+    "lines": [
+     16,
+     16
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "보고서·보도자료 초안 작성과 문장 다듬기",
+   "evidence": {
+    "lines": [
+     29,
+     40
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     16,
+     40
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "Claude Code 플러그인 마켓플레이스에 추가해 설치하거나 저장소를 받아 스킬 경로에 복사한다",
+   "evidence": {
+    "lines": [
+     55,
+     68
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "/plugin install gov-docs-core@gov-docs-kr"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "말씀자료 초안 기능은 이 저장소에 없고 별도 신청해야 받을 수 있다",
+   "evidence": {
+    "lines": [
+     44,
+     47
+    ]
+   },
    "source": "ai"
   }
  },
@@ -141,5 +168,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.024Z",
  "rulesAt": "2026-10-30T13:35:13.024Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.954Z"
 }

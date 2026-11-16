@@ -232,18 +232,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "법령 근거로 문서를 검토하고 공공서식 보고서를 만드는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "계약서·조례·행정처분 등 법률 검토와 의견서 작성",
+   "evidence": {
+    "lines": [
+     27,
+     34
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "법령·규제·감사"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     34
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -253,8 +270,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "결과는 근거·시점·사실관계를 확인하는 사람의 최종 검토가 필요하다",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   }
  },
@@ -294,5 +316,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:12.967Z",
  "rulesAt": "2026-10-30T13:35:12.967Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.443Z"
 }

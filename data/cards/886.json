@@ -122,29 +122,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "실종자 수색 현장의 드론·인원·구역을 한 화면에 모은 상황판",
+   "evidence": {
+    "lines": [
+     6,
+     6
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "실종자 수색 현장 상황 관리",
+   "evidence": {
+    "lines": [
+     6,
+     6
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "시설·안전·재난"
+   ],
+   "evidence": {
+    "lines": [
+     6,
+     6
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "ZIP을 내려받아 풀고 사용설명서 순서대로 HTML 화면을 브라우저에서 연다",
+   "evidence": {
+    "lines": [
+     18,
+     47
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "현재 버전은 훈련·시연·개발 검증용이며 실출동 단독 운용 승인 전이다",
+   "evidence": {
+    "lines": [
+     40,
+     40
+    ]
+   },
    "source": "ai"
   }
  },
@@ -184,5 +211,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.076Z",
  "rulesAt": "2026-10-30T13:35:13.076Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.718Z"
 }

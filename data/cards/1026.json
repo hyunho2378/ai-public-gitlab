@@ -107,23 +107,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "인공어초 시설현황 엑셀을 종류별 아이콘 KML로 바꾸는 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "인공어초 시설 위치 지도화",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "묶음 zip을 풀어 01_excel 폴더에 엑셀을 넣고 실행하기.bat을 두 번 누르면 03_output 폴더에 KML이 나온다.",
+   "evidence": {
+    "lines": [
+     53,
+     58
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -169,5 +191,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.142Z",
  "rulesAt": "2026-10-30T13:35:13.142Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.504Z"
 }

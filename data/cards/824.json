@@ -89,29 +89,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "현황·통계를 A4 1~2쪽 원페이퍼 보고서로 줄이는 AI 스킬",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "의사결정권자 보고용 원페이퍼 작성",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "기본은 마크다운으로 받고, 워드가 필요하면 템플릿 스크립트를 복사해 고친 뒤 node로 실행한다",
+   "evidence": {
+    "lines": [
+     40,
+     55
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "node build.js"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "한글(HWPX) 출력은 별도 hwpx 스킬이 있는 환경에서만 된다",
+   "evidence": {
+    "lines": [
+     44,
+     44
+    ]
+   },
    "source": "ai"
   }
  },
@@ -151,5 +178,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.045Z",
  "rulesAt": "2026-10-30T13:35:13.045Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.210Z"
 }

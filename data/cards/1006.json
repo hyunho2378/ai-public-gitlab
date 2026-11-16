@@ -94,18 +94,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "해양수산 엑셀 대장을 지도 자료로 바꾸는 도구 모음 소개",
+   "evidence": {
+    "lines": [
+     3,
+     9
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "어장·어항·어초 등 해양수산 자료 지도화",
+   "evidence": {
+    "lines": [
+     7,
+     9
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     9
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -156,5 +173,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.132Z",
  "rulesAt": "2026-10-30T13:35:13.132Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.257Z"
 }

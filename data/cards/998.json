@@ -110,23 +110,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "화면을 녹화해 영상·자막·매뉴얼로 쓰는 Windows 도구",
+   "evidence": {
+    "lines": [
+     7,
+     13
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "교육·시연 영상 제작",
+   "evidence": {
+    "lines": [
+     7,
+     7
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "영상·이미지·음성"
+   ],
+   "evidence": {
+    "lines": [
+     7,
+     13
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "GitHub Releases에서 설치본을 내려받아 설치해 쓴다.",
+   "evidence": {
+    "lines": [
+     19,
+     19
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -172,5 +194,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.126Z",
  "rulesAt": "2026-10-30T13:35:13.126Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.230Z"
 }

@@ -93,29 +93,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "산업단지 입주업체·계약과 입주구역을 관리하는 공간 앱",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "산업단지 입주 관리와 기업혜택 사전진단",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "pip로 의존성을 설치한 뒤 run_app.bat으로 백엔드와 화면을 함께 띄운다",
+   "evidence": {
+    "lines": [
+     7,
+     12
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "pip install -r requirements.txt"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "shapely가 없는 환경에서는 실제 교차 계산 대신 bbox 후보 분석으로 동작한다",
+   "evidence": {
+    "lines": [
+     26,
+     26
+    ]
+   },
    "source": "ai"
   }
  },
@@ -155,5 +182,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.067Z",
  "rulesAt": "2026-10-30T13:35:13.067Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.463Z"
 }

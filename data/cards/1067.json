@@ -110,29 +110,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "공무직 연가 사용촉진 통보 시기를 계산하는 윈도우 프로그램",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "공무직 연가 사용촉진 통보 관리",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "인사·교육"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "릴리스 페이지에서 윈도우 설치 파일을 내려받아 실행하면 설치 후 바로 프로그램이 열립니다.",
+   "evidence": {
+    "lines": [
+     9,
+     12
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "코드 서명이 없는 프로그램이라 백신이 설치 파일을 막거나 지울 수 있습니다.",
+   "evidence": {
+    "lines": [
+     15,
+     16
+    ]
+   },
    "source": "ai"
   }
  },
@@ -172,5 +199,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.164Z",
  "rulesAt": "2026-10-30T13:35:13.164Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.830Z"
 }

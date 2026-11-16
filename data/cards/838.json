@@ -97,29 +97,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "정부 부처 AI·AX 보도자료를 모아 요약·분석하는 웹사이트",
+   "evidence": {
+    "lines": [
+     1,
+     2
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "정부 AX 정책 동향 파악과 분기 보고서 작성",
+   "evidence": {
+    "lines": [
+     2,
+     16
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "데이터·통계·분석"
+   ],
+   "evidence": {
+    "lines": [
+     1,
+     16
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "배포된 웹사이트 주소로 접속해 본다",
+   "evidence": {
+    "lines": [
+     4,
+     4
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "Claude 토큰이 없으면 후보 AI 판정과 AI 리포트 생성은 건너뛴다",
+   "evidence": {
+    "lines": [
+     62,
+     62
+    ]
+   },
    "source": "ai"
   }
  },
@@ -159,5 +186,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.054Z",
  "rulesAt": "2026-10-30T13:35:13.054Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.418Z"
 }

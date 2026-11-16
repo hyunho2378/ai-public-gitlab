@@ -91,23 +91,45 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "NEIS 초과근무 자료로 특근매식비를 검토하는 확인 도구",
+   "evidence": {
+    "lines": [
+     3,
+     3
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "초과근무 확인과 특근매식비 검토",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "회계·예산·출장"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "NEIS 초과근무 최종자료를 올리고, 필요하면 BC카드 내역 엑셀도 함께 올려 날짜별로 확인한다",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
@@ -153,5 +175,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.018Z",
  "rulesAt": "2026-10-30T13:35:13.018Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:26.936Z"
 }

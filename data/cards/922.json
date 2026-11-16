@@ -97,29 +97,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "Claude Code와 Codex를 협업시키는 방법을 담은 기술 노트",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "서로 다른 AI 코딩 에이전트 협업",
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "개발·보안·인프라"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     5
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "macOS 터미널에서 저장소를 받아 bin 스크립트로 에이전트 확인·게시판 준비·메시지 전송을 한다",
+   "evidence": {
+    "lines": [
+     42,
+     57
+    ]
+   },
    "source": "ai",
-   "rawCommands": null
+   "rawCommands": "bin/list_agents.sh"
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "macOS·Terminal.app 기준이며 속도·전달 보장·권한 강제는 서브프로세스 방식이 낫다",
+   "evidence": {
+    "lines": [
+     38,
+     42
+    ]
+   },
    "source": "ai"
   }
  },
@@ -159,5 +186,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.092Z",
  "rulesAt": "2026-10-30T13:35:13.092Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.755Z"
 }

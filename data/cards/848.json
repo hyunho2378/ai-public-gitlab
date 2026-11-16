@@ -92,29 +92,56 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "말로 책을 찾고 상호대차 신청을 안내하는 음성 AI 시연판",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "도서관 상호대차 도서 검색과 신청 안내",
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "민원·복지·상담"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     4
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
-   "value": null,
-   "evidence": null,
+   "value": "실행 화면 주소를 브라우저로 열어 쓴다",
+   "evidence": {
+    "lines": [
+     16,
+     18
+    ]
+   },
    "source": "ai",
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "운영 서비스가 아닌 시연 모델이라 신청은 실제 상호대차 접수로 이어지지 않는다",
+   "evidence": {
+    "lines": [
+     8,
+     10
+    ]
+   },
    "source": "ai"
   }
  },
@@ -154,5 +181,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.057Z",
  "rulesAt": "2026-10-30T13:35:13.057Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:27.426Z"
 }

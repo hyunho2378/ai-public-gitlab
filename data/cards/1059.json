@@ -88,18 +88,35 @@
  },
  "ai": {
   "oneLine": {
-   "value": null,
-   "evidence": null,
+   "value": "AI로 보도자료 초안 작성을 돕는 서비스",
+   "evidence": {
+    "lines": [
+     3,
+     8
+    ]
+   },
    "source": "ai"
   },
   "targetTask": {
-   "value": null,
-   "evidence": null,
+   "value": "사업부서 보도자료 초안 작성",
+   "evidence": {
+    "lines": [
+     8,
+     12
+    ]
+   },
    "source": "ai"
   },
   "fields": {
-   "value": null,
-   "evidence": null,
+   "value": [
+    "문서·보고서"
+   ],
+   "evidence": {
+    "lines": [
+     3,
+     8
+    ]
+   },
    "source": "ai"
   },
   "runSummary": {
@@ -109,8 +126,13 @@
    "rawCommands": null
   },
   "limitations": {
-   "value": null,
-   "evidence": null,
+   "value": "아직 개발 중인 서비스다.",
+   "evidence": {
+    "lines": [
+     40,
+     42
+    ]
+   },
    "source": "ai"
   }
  },
@@ -150,5 +172,6 @@
  ],
  "generatedAt": "2026-10-30T13:35:13.158Z",
  "rulesAt": "2026-10-30T13:35:13.158Z",
- "sourceDate": "2026-10-30"
+ "sourceDate": "2026-10-30",
+ "aiGeneratedAt": "2026-11-15T08:51:28.557Z"
 }
