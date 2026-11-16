@@ -39,6 +39,7 @@ export default async function handler(req, res) {
   if (!cards.length || (input.dataVersion && input.dataVersion !== dataVersion)) {
     return res.status(200).json({ dataVersion, items: [] });
   }
+  // TODO(은진): 시연 전에 배포 서버의 SEARCH_API_KEY 환경 변수에 임시 API 키 등록.
   const { SEARCH_MODEL, SEARCH_API_KEY, SEARCH_COMPLETIONS_URL } = process.env;
   if (!SEARCH_MODEL || !SEARCH_API_KEY || !SEARCH_COMPLETIONS_URL) return res.status(503).json({ error: 'search-unconfigured' });
   const comparing = input.mode === 'similar';
