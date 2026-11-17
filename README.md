@@ -20,6 +20,7 @@
 | 공개 준비 점검 | [/projects/150/publish-check](https://hyunho2378.github.io/ai-public-gitlab/projects/150/publish-check) |
 | AI 코딩 도구 연결 | [/mcp](https://hyunho2378.github.io/ai-public-gitlab/mcp) |
 | 원본 | [gitlab.aigov.go.kr](https://gitlab.aigov.go.kr) |
+| 시연주소 | [https://youtu.be/xoScBaE1ke4](https://youtu.be/xoScBaE1ke4) |
 
 ## 핵심 기능
 
